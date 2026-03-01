@@ -15,12 +15,13 @@ Output: JSON validation report to stdout, human-readable summary to stderr.
 
 import argparse
 import json
+import os
 import re
 import sys
 import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 # ---------------------------------------------------------------------------
 # Schema definitions
@@ -150,6 +151,258 @@ REQUIRED_FIELDS = {
 
 
 # ---------------------------------------------------------------------------
+# Context-aware canonical scan defaults
+# ---------------------------------------------------------------------------
+
+CONTEXT_MARKER_FILE = "SYSTEM_MAP.md"
+CONTEXT_PREFERRED_SUBDIRS = (
+    "PROJECT_KNOWLEDGE",
+    "SIM_ENGINE_OUTPUTS",
+    "FORGE__GUMAS_v3.0__2026-02-19",
+    "AGENT_CAPSULE_PROTO__v0.1.0__2026-02-16__STRUCTURED 2",
+    "DuelSim",
+    "CanonRec",
+)
+CONTEXT_EXCLUDED_SUBPATHS = (
+    "__pycache__",
+    "CanonRec/canonrec_test/out",
+    "CanonRec/canonrec_test/input",
+)
+CONTEXT_SCAN_SUFFIXES = {".md", ".txt", ".json", ".yaml", ".yml", ".py", ".html", ".jsonl"}
+CONTEXT_EXCLUDED_SUFFIXES = {
+    ".zip", ".pyc", ".pdf", ".docx", ".png", ".jpg", ".jpeg", ".bin", ".skill",
+}
+CONTEXT_WARN_THRESHOLD = 20
+CONTEXT_MAX_IDENTITY_TERMS = 3
+CONTEXT_MAX_FILES_SCANNED = 5000
+
+
+def discover_context_root(start: Optional[Path]) -> Optional[Path]:
+    """Find the nearest parent containing SYSTEM_MAP.md."""
+    cursor = (start or Path.cwd()).resolve()
+    if cursor.is_file():
+        cursor = cursor.parent
+    for candidate in (cursor, *cursor.parents):
+        if (candidate / CONTEXT_MARKER_FILE).exists():
+            return candidate
+    return None
+
+
+def resolve_context_search_roots(context_root: Path) -> list[Path]:
+    """Resolve preferred canonical roots under the discovered context root."""
+    roots: list[Path] = []
+    for rel in CONTEXT_PREFERRED_SUBDIRS:
+        p = (context_root / rel).resolve()
+        if p.exists() and p.is_dir():
+            roots.append(p)
+    if not roots:
+        roots.append(context_root)
+    return roots
+
+
+def _subpath_is_excluded(path: Path, context_root: Path, excluded_subpaths: tuple[str, ...]) -> bool:
+    try:
+        rel = path.resolve().relative_to(context_root).as_posix()
+    except ValueError:
+        return False
+    for excluded in excluded_subpaths:
+        if rel == excluded or rel.startswith(f"{excluded}/"):
+            return True
+    return False
+
+
+def _compile_identity_pattern(term: str) -> re.Pattern:
+    if re.fullmatch(r"[A-Za-z0-9_-]+", term):
+        return re.compile(rf"(?<![A-Za-z0-9_-]){re.escape(term)}(?![A-Za-z0-9_-])")
+    return re.compile(re.escape(term))
+
+
+def _extract_identity_terms(data: dict, max_terms: int) -> list[tuple[str, str]]:
+    """Pick high-signal identity fields for context collision scan."""
+    priority_fields = (
+        "protocol_name",
+        "anchor_id",
+        "schema_name",
+        "canonical_id",
+        "canonical_name",
+        "name",
+        "designation",
+    )
+    terms: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for field in priority_fields:
+        value = data.get(field)
+        if not isinstance(value, str):
+            continue
+        term = value.strip()
+        if not term or term.lower() in {"unknown", "tbd", "none", "<unnamed>"}:
+            continue
+        dedupe_key = term.lower()
+        if dedupe_key in seen:
+            continue
+        seen.add(dedupe_key)
+        terms.append((field, term))
+        if len(terms) >= max_terms:
+            break
+    return terms
+
+
+def _count_term_matches(term: str, context: dict[str, Any]) -> dict[str, int]:
+    """Count term matches across preferred canonical roots with exclusions."""
+    cache = context.setdefault("term_cache", {})
+    if term in cache:
+        return cache[term]
+
+    context_root: Path = context["context_root"]
+    source_file: Optional[Path] = context.get("source_file")
+    excluded_subpaths = tuple(context["excluded_subpaths"])
+    scan_suffixes = set(context["scan_suffixes"])
+    excluded_suffixes = set(context["excluded_suffixes"])
+    max_files = int(context["max_files_scanned"])
+    pattern = _compile_identity_pattern(term)
+
+    files_scanned = 0
+    files_with_matches = 0
+    matches = 0
+    stop_scan = False
+
+    for root in context["search_roots"]:
+        if stop_scan:
+            break
+        for dirpath, dirnames, filenames in os.walk(root):
+            current_dir = Path(dirpath).resolve()
+            dirnames[:] = [
+                d
+                for d in dirnames
+                if not _subpath_is_excluded(current_dir / d, context_root, excluded_subpaths)
+            ]
+            if _subpath_is_excluded(current_dir, context_root, excluded_subpaths):
+                continue
+
+            for filename in filenames:
+                file_path = (current_dir / filename).resolve()
+                suffix = file_path.suffix.lower()
+                if suffix in excluded_suffixes or suffix not in scan_suffixes:
+                    continue
+                if source_file and file_path == source_file:
+                    continue
+                if _subpath_is_excluded(file_path, context_root, excluded_subpaths):
+                    continue
+
+                files_scanned += 1
+                if files_scanned > max_files:
+                    stop_scan = True
+                    break
+
+                try:
+                    text = file_path.read_text(encoding="utf-8", errors="ignore")
+                except OSError:
+                    continue
+
+                file_matches = len(pattern.findall(text))
+                if file_matches > 0:
+                    files_with_matches += 1
+                    matches += file_matches
+
+            if stop_scan:
+                break
+
+    result = {
+        "matches": matches,
+        "files_with_matches": files_with_matches,
+        "files_scanned": min(files_scanned, max_files),
+    }
+    cache[term] = result
+    return result
+
+
+def build_validation_context(args: argparse.Namespace) -> dict[str, Any]:
+    """Build optional context scan configuration from workspace conventions."""
+    if args.no_context_scan:
+        return {"enabled": False, "reason": "disabled-by-flag"}
+
+    if args.context_root:
+        root = Path(args.context_root).expanduser().resolve()
+        if not root.exists() or not root.is_dir():
+            print(
+                f"Warning: --context-root '{root}' is invalid; context scan disabled.",
+                file=sys.stderr,
+            )
+            return {"enabled": False, "reason": "invalid-context-root"}
+        context_root = root
+    else:
+        if args.input_file:
+            start = Path(args.input_file).expanduser().resolve().parent
+        else:
+            start = Path.cwd().resolve()
+        context_root = discover_context_root(start)
+        if context_root is None:
+            return {"enabled": False, "reason": "no-system-map-found"}
+
+    search_roots = resolve_context_search_roots(context_root)
+    source_file = Path(args.input_file).expanduser().resolve() if args.input_file else None
+    return {
+        "enabled": True,
+        "context_root": context_root,
+        "context_label": context_root.name,
+        "search_roots": search_roots,
+        "source_file": source_file,
+        "excluded_subpaths": CONTEXT_EXCLUDED_SUBPATHS,
+        "scan_suffixes": CONTEXT_SCAN_SUFFIXES,
+        "excluded_suffixes": CONTEXT_EXCLUDED_SUFFIXES,
+        "warn_threshold": int(args.context_warn_threshold),
+        "max_identity_terms": CONTEXT_MAX_IDENTITY_TERMS,
+        "max_files_scanned": CONTEXT_MAX_FILES_SCANNED,
+        "term_cache": {},
+    }
+
+
+def apply_context_identity_scan(data: dict, report: "ValidationReport", context: dict[str, Any]):
+    """Add collision/reference findings using workspace-aware canonical scan."""
+    if not context.get("enabled"):
+        return
+
+    terms = _extract_identity_terms(data, int(context["max_identity_terms"]))
+    if not terms:
+        return
+
+    report.add(
+        "INFO",
+        "CONTEXT_SCAN_APPLIED",
+        (
+            f"Context scan enabled for '{context['context_label']}' "
+            f"across {len(context['search_roots'])} preferred canonical roots."
+        ),
+    )
+
+    for field, term in terms:
+        stats = _count_term_matches(term, context)
+        matches = stats["matches"]
+        files_with_matches = stats["files_with_matches"]
+        if matches >= int(context["warn_threshold"]):
+            report.add(
+                "WARN",
+                "IDENTITY_COLLISION_PRESSURE",
+                (
+                    f"Identity '{term}' appears {matches} time(s) across "
+                    f"{files_with_matches} file(s) in preferred canon roots. "
+                    "Review merge/update strategy before promotion."
+                ),
+                field,
+            )
+        elif matches > 0:
+            report.add(
+                "INFO",
+                "CANON_REFERENCE_MATCHES",
+                (
+                    f"Identity '{term}' appears {matches} time(s) across "
+                    f"{files_with_matches} file(s) in preferred canon roots."
+                ),
+                field,
+            )
+
+
+# ---------------------------------------------------------------------------
 # Validation engine
 # ---------------------------------------------------------------------------
 
@@ -226,7 +479,12 @@ class ValidationReport:
         return "\n".join(lines)
 
 
-def validate_entity(data: dict, layer: str, entity_type: str) -> ValidationReport:
+def validate_entity(
+    data: dict,
+    layer: str,
+    entity_type: str,
+    context: Optional[dict[str, Any]] = None,
+) -> ValidationReport:
     """Run all validation checks on a single entity."""
 
     name = (
@@ -452,6 +710,10 @@ def validate_entity(data: dict, layer: str, entity_type: str) -> ValidationRepor
     # ===================================================================
     # END v1.1 IMPROVEMENTS
     # ===================================================================
+
+    # Context-aware canonical identity scan (non-blocking).
+    if context:
+        apply_context_identity_scan(data, report, context)
 
     # --- Info-level observations ---
     if not report.blocks and not report.warnings:
@@ -871,6 +1133,21 @@ def main():
                         help="Output format (default: both)")
     parser.add_argument("--fill-template", action="store_true",
                         help="Generate fill templates for entities with missing fields")
+    parser.add_argument(
+        "--no-context-scan",
+        action="store_true",
+        help="Disable automatic context-aware canonical identity scan.",
+    )
+    parser.add_argument(
+        "--context-root",
+        help="Optional path override for context root discovery (defaults to nearest SYSTEM_MAP.md).",
+    )
+    parser.add_argument(
+        "--context-warn-threshold",
+        type=int,
+        default=CONTEXT_WARN_THRESHOLD,
+        help=f"Warn when identity matches reach this count (default: {CONTEXT_WARN_THRESHOLD}).",
+    )
 
     args = parser.parse_args()
 
@@ -882,6 +1159,8 @@ def main():
         print("Error: Specify --layer and --type, or use --auto-detect", file=sys.stderr)
         sys.exit(1)
 
+    context = build_validation_context(args)
+
     entities = load_input(args)
 
     if not entities:
@@ -890,7 +1169,7 @@ def main():
 
     all_reports = []
     for data, layer, etype in entities:
-        report = validate_entity(data, layer, etype)
+        report = validate_entity(data, layer, etype, context=context)
         all_reports.append(report)
 
         if args.fill_template and not report.passed:

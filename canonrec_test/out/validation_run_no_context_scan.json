@@ -1,0 +1,106 @@
+{
+  "validation_run": {
+    "timestamp": "2026-03-01T03:06:21.838499Z",
+    "timestamp_source": "WALL_CLOCK_UTC",
+    "hash_canon_version": "CANONREC_HASH_CANON_V1",
+    "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+    "output_hash_alg": "SHA256",
+    "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+    "output_hash": "6d05b9af4c38c72ee090a49d6a17c735249139bd90f11fcef0abcd2b1fba095d",
+    "content_hash_alg": "SHA256",
+    "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+    "content_hash_excluded_fields": [
+      "timestamp",
+      "timestamp_source"
+    ],
+    "content_hash": "95bc391b40228a9ce3e086a25a8626c0856be1868ad0f7c83ae97d90888233a3",
+    "receipt_id_policy": "receipt_id = content_hash",
+    "receipt_id": "95bc391b40228a9ce3e086a25a8626c0856be1868ad0f7c83ae97d90888233a3",
+    "entities_checked": 3,
+    "passed": 3,
+    "blocked": 0
+  },
+  "reports": [
+    {
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "timestamp": "2026-03-01T03:06:21.838288Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 6,
+      "required_fields": [
+        "protocol_name",
+        "version",
+        "change_description",
+        "affected_layers",
+        "backward_compatible",
+        "anchor_impact"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    },
+    {
+      "entity_name": "EOS_SEED_ORION",
+      "layer": "L3",
+      "entity_type": "anchor_rule",
+      "timestamp": "2026-03-01T03:06:21.838401Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "anchor_id",
+        "rule_description",
+        "affected_layers"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    },
+    {
+      "entity_name": "ThreadCore Benchmark Loom Run Schema",
+      "layer": "L3",
+      "entity_type": "schema_definition",
+      "timestamp": "2026-03-01T03:06:21.838407Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "schema_name",
+        "version",
+        "fields"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    }
+  ]
+}

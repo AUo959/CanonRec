@@ -1,0 +1,123 @@
+{
+  "validation_run": {
+    "timestamp": "2026-03-01T03:09:27.377309Z",
+    "timestamp_source": "WALL_CLOCK_UTC",
+    "hash_canon_version": "CANONREC_HASH_CANON_V1",
+    "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+    "output_hash_alg": "SHA256",
+    "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+    "output_hash": "1167d9a4c81bf8246af6ea8b085dee434b5ff8e8781325e1c2cc92b4e704f676",
+    "content_hash_alg": "SHA256",
+    "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+    "content_hash_excluded_fields": [
+      "timestamp",
+      "timestamp_source"
+    ],
+    "content_hash": "4a97c008411bfc16460b3a4872c6ed8936ae29b474a1d6d18fe12dad5916dc38",
+    "receipt_id_policy": "receipt_id = content_hash",
+    "receipt_id": "4a97c008411bfc16460b3a4872c6ed8936ae29b474a1d6d18fe12dad5916dc38",
+    "entities_checked": 3,
+    "passed": 3,
+    "blocked": 0
+  },
+  "reports": [
+    {
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "timestamp": "2026-03-01T03:09:26.498850Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 6,
+      "required_fields": [
+        "protocol_name",
+        "version",
+        "change_description",
+        "affected_layers",
+        "backward_compatible",
+        "anchor_impact"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 1,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CONTEXT_SCAN_APPLIED",
+          "message": "Context scan enabled for 'GUMAS_SIM_2.5' across 6 preferred canonical roots."
+        },
+        {
+          "severity": "WARN",
+          "code": "IDENTITY_COLLISION_PRESSURE",
+          "message": "Identity 'Picard_Delta_3' appears 51 time(s) across 26 file(s) in preferred canon roots. Review merge/update strategy before promotion.",
+          "field": "protocol_name"
+        }
+      ]
+    },
+    {
+      "entity_name": "EOS_SEED_ORION",
+      "layer": "L3",
+      "entity_type": "anchor_rule",
+      "timestamp": "2026-03-01T03:09:26.960364Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "anchor_id",
+        "rule_description",
+        "affected_layers"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 1,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CONTEXT_SCAN_APPLIED",
+          "message": "Context scan enabled for 'GUMAS_SIM_2.5' across 6 preferred canonical roots."
+        },
+        {
+          "severity": "WARN",
+          "code": "IDENTITY_COLLISION_PRESSURE",
+          "message": "Identity 'EOS_SEED_ORION' appears 35 time(s) across 22 file(s) in preferred canon roots. Review merge/update strategy before promotion.",
+          "field": "anchor_id"
+        }
+      ]
+    },
+    {
+      "entity_name": "ThreadCore Benchmark Loom Run Schema",
+      "layer": "L3",
+      "entity_type": "schema_definition",
+      "timestamp": "2026-03-01T03:09:27.330450Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "schema_name",
+        "version",
+        "fields"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 2
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CONTEXT_SCAN_APPLIED",
+          "message": "Context scan enabled for 'GUMAS_SIM_2.5' across 6 preferred canonical roots."
+        },
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    }
+  ]
+}
