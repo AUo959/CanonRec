@@ -1,0 +1,54 @@
+{
+  "validation_run": {
+    "timestamp": "2026-03-01T02:12:39.409437Z",
+    "timestamp_source": "WALL_CLOCK_UTC",
+    "hash_canon_version": "CANONREC_HASH_CANON_V1",
+    "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+    "output_hash_alg": "SHA256",
+    "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+    "output_hash": "0752b67709c9ba375b57da1854aca7d8a0c1e18340811ff0d2283bd77548f5f1",
+    "content_hash_alg": "SHA256",
+    "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+    "content_hash_excluded_fields": [
+      "timestamp",
+      "timestamp_source"
+    ],
+    "content_hash": "54957f6dce5b5b9274740aea7533b625bfb6ae728213578031e1d8d6f16b2c21",
+    "receipt_id_policy": "receipt_id = content_hash",
+    "receipt_id": "54957f6dce5b5b9274740aea7533b625bfb6ae728213578031e1d8d6f16b2c21",
+    "entities_checked": 1,
+    "passed": 1,
+    "blocked": 0
+  },
+  "reports": [
+    {
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "timestamp": "2026-03-01T02:12:39.409286Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 6,
+      "required_fields": [
+        "protocol_name",
+        "version",
+        "change_description",
+        "affected_layers",
+        "backward_compatible",
+        "anchor_impact"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    }
+  ]
+}

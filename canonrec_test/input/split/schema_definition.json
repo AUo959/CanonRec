@@ -1,0 +1,16 @@
+{
+  "schema_name": "ThreadCore Benchmark Loom Run Schema",
+  "version": "1.0",
+  "fields": [
+    "timestamp",
+    "model",
+    "scenario_id",
+    "persona",
+    "filename",
+    "latency_s",
+    "trust_score",
+    "tone_drift",
+    "symbolic_leakage"
+  ],
+  "origin_file": "echoes_benchmark_thread_meta_narrative_technical_report.md"
+}

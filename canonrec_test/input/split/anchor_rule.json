@@ -1,0 +1,9 @@
+{
+  "anchor_id": "EOS_SEED_ORION",
+  "rule_description": "All benchmark artifacts and thread capsules must remain seed-anchored for reproducibility, drift control, and auditability across replayed runs.",
+  "affected_layers": [
+    "L3",
+    "L2"
+  ],
+  "origin_file": "echoes_benchmark_thread_meta_narrative_technical_report.md"
+}

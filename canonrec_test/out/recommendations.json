@@ -1,0 +1,205 @@
+{
+  "source_document": "/Users/travisstreets/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/echoes_benchmark_thread_meta_narrative_technical_report.md",
+  "conflict_counts": {
+    "protocol_update": 76,
+    "anchor_rule": 45,
+    "schema_definition": 0
+  },
+  "results": [
+    {
+      "entity_key": "protocol_update",
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "conflict_count": 76,
+      "recommendation": {
+        "recommended_tag": "STAGING",
+        "confidence": 0.05,
+        "confidence_kind": "HEURISTIC_GAP",
+        "calibration_ref": "HDE_GAP_HEURISTIC_V1",
+        "uncertainty_band": "HIGH",
+        "explanation": "Recommending 'STAGING' for 'Picard_Delta_3' (score: 3.50). Strengths: field_completeness (1.00 \u2265 0.80), schema_compliance (1.00 \u2265 0.80). Gaps: conflict_freedom (0.00 < 0.70). Close alternative: 'PLACED' (score: 3.45, \u0394=0.05). Consider reviewing if the gap is narrow.",
+        "alternatives": [
+          {
+            "tag": "PLACED",
+            "score": 3.45
+          },
+          {
+            "tag": "APPROX",
+            "score": 3.25
+          },
+          {
+            "tag": "UNCONFIRMED",
+            "score": 2.75
+          }
+        ],
+        "constraints_applied": {
+          "require": [],
+          "forbid": []
+        },
+        "audit_entry": {
+          "timestamp": "2026-03-01T02:13:07.664270+00:00",
+          "timestamp_source": "WALL_CLOCK_UTC",
+          "entity_name": "Picard_Delta_3",
+          "recommended_tag": "STAGING",
+          "confidence": 0.05,
+          "confidence_kind": "HEURISTIC_GAP",
+          "calibration_ref": "HDE_GAP_HEURISTIC_V1",
+          "uncertainty_band": "HIGH",
+          "entity_profile": {
+            "field_completeness": 1.0,
+            "conflict_freedom": 0.0,
+            "provenance_strength": 0.5,
+            "schema_compliance": 1.0,
+            "layer_integrity": 1.0,
+            "review_status": 0.0
+          },
+          "all_scores": {
+            "CANON_PROMOTE": 0.8,
+            "STAGING": 3.5,
+            "PLACED": 3.45,
+            "LOCKED_POSITION": 2.1,
+            "UNCONFIRMED": 2.75,
+            "LEGEND_CONTESTED": 2.7,
+            "APPROX": 3.25
+          },
+          "constraints": {
+            "require": [],
+            "forbid": []
+          },
+          "context": null
+        }
+      }
+    },
+    {
+      "entity_key": "anchor_rule",
+      "entity_name": "EOS_SEED_ORION",
+      "layer": "L3",
+      "entity_type": "anchor_rule",
+      "conflict_count": 45,
+      "recommendation": {
+        "recommended_tag": "STAGING",
+        "confidence": 0.05,
+        "confidence_kind": "HEURISTIC_GAP",
+        "calibration_ref": "HDE_GAP_HEURISTIC_V1",
+        "uncertainty_band": "HIGH",
+        "explanation": "Recommending 'STAGING' for 'EOS_SEED_ORION' (score: 3.50). Strengths: field_completeness (1.00 \u2265 0.80), schema_compliance (1.00 \u2265 0.80). Gaps: conflict_freedom (0.00 < 0.70). Close alternative: 'PLACED' (score: 3.45, \u0394=0.05). Consider reviewing if the gap is narrow.",
+        "alternatives": [
+          {
+            "tag": "PLACED",
+            "score": 3.45
+          },
+          {
+            "tag": "APPROX",
+            "score": 3.25
+          },
+          {
+            "tag": "UNCONFIRMED",
+            "score": 2.75
+          }
+        ],
+        "constraints_applied": {
+          "require": [],
+          "forbid": []
+        },
+        "audit_entry": {
+          "timestamp": "2026-03-01T02:13:07.664464+00:00",
+          "timestamp_source": "WALL_CLOCK_UTC",
+          "entity_name": "EOS_SEED_ORION",
+          "recommended_tag": "STAGING",
+          "confidence": 0.05,
+          "confidence_kind": "HEURISTIC_GAP",
+          "calibration_ref": "HDE_GAP_HEURISTIC_V1",
+          "uncertainty_band": "HIGH",
+          "entity_profile": {
+            "field_completeness": 1.0,
+            "conflict_freedom": 0.0,
+            "provenance_strength": 0.5,
+            "schema_compliance": 1.0,
+            "layer_integrity": 1.0,
+            "review_status": 0.0
+          },
+          "all_scores": {
+            "CANON_PROMOTE": 0.8,
+            "STAGING": 3.5,
+            "PLACED": 3.45,
+            "LOCKED_POSITION": 2.1,
+            "UNCONFIRMED": 2.75,
+            "LEGEND_CONTESTED": 2.7,
+            "APPROX": 3.25
+          },
+          "constraints": {
+            "require": [],
+            "forbid": []
+          },
+          "context": null
+        }
+      }
+    },
+    {
+      "entity_key": "schema_definition",
+      "entity_name": "ThreadCore Benchmark Loom Run Schema",
+      "layer": "L3",
+      "entity_type": "schema_definition",
+      "conflict_count": 0,
+      "recommendation": {
+        "recommended_tag": "STAGING",
+        "confidence": 0.08,
+        "confidence_kind": "HEURISTIC_GAP",
+        "calibration_ref": "HDE_GAP_HEURISTIC_V1",
+        "uncertainty_band": "HIGH",
+        "explanation": "Recommending 'STAGING' for 'ThreadCore Benchmark Loom Run Schema' (score: 7.70). Strengths: field_completeness (1.00 \u2265 0.80), conflict_freedom (1.00 \u2265 0.70), schema_compliance (1.00 \u2265 0.80). Close alternative: 'PLACED' (score: 7.05, \u0394=0.65). Consider reviewing if the gap is narrow.",
+        "alternatives": [
+          {
+            "tag": "PLACED",
+            "score": 7.05
+          },
+          {
+            "tag": "LOCKED_POSITION",
+            "score": 6.9
+          },
+          {
+            "tag": "CANON_PROMOTE",
+            "score": 6.8
+          }
+        ],
+        "constraints_applied": {
+          "require": [],
+          "forbid": []
+        },
+        "audit_entry": {
+          "timestamp": "2026-03-01T02:13:07.664487+00:00",
+          "timestamp_source": "WALL_CLOCK_UTC",
+          "entity_name": "ThreadCore Benchmark Loom Run Schema",
+          "recommended_tag": "STAGING",
+          "confidence": 0.08,
+          "confidence_kind": "HEURISTIC_GAP",
+          "calibration_ref": "HDE_GAP_HEURISTIC_V1",
+          "uncertainty_band": "HIGH",
+          "entity_profile": {
+            "field_completeness": 1.0,
+            "conflict_freedom": 1.0,
+            "provenance_strength": 0.5,
+            "schema_compliance": 1.0,
+            "layer_integrity": 1.0,
+            "review_status": 0.0
+          },
+          "all_scores": {
+            "CANON_PROMOTE": 6.8,
+            "STAGING": 7.7,
+            "PLACED": 7.05,
+            "LOCKED_POSITION": 6.9,
+            "UNCONFIRMED": 2.75,
+            "LEGEND_CONTESTED": 2.7,
+            "APPROX": 5.05
+          },
+          "constraints": {
+            "require": [],
+            "forbid": []
+          },
+          "context": null
+        }
+      }
+    }
+  ]
+}

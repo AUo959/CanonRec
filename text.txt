@@ -1,0 +1,179 @@
+Absolutely. Here’s a **full, detailed technical explanation and implementation brief** for `@mesh`—intended as a foundation for Copilot (or any developer/AI agent) to implement, extend, and maintain live, ethics-bound multi-agent collaboration in the Aurora Orion Station environment.
+
+---
+
+````markdown
+# @mesh – Symbolic Federated Agent Mesh for Aurora/Orion Station
+### (Implementation & Expansion Guide for Copilot)
+
+---
+
+## 1. Purpose
+
+`@mesh` is a federated, symbolic communication and arbitration system for live agent collaboration and decision-making across the Orion Station architecture. It enables directed, broadcast, and system-wide communication, ethics enforcement, symbolic drift control, and collective arbitration among both human and AI “staff” nodes.
+
+---
+
+## 2. Core Design Principles
+
+- **Federation:** Every agent is an equal node (no master); all state changes are consensus-driven or arbitration-mediated.
+- **Ethics-Bound:** All actions pass through a unified ethics protocol (Picard_Delta_3) and may be subject to further memory arbitration (Thermax Precedent).
+- **Zero-Drift Synchronization:** All agent states are continuously aligned to the canonical anchor seed (`EOS_SEED_ORION`) and drift_lock (Δ 0.000).
+- **Auditability:** All comms, state changes, and protocol mutations are logged and traceable.
+- **Extendability:** Any new relay/agent must join via handshake, anchor sync, and ethics audit, and is dynamically included in the mesh constellation.
+
+---
+
+## 3. Functional Architecture
+
+### A. Mesh Topology
+
+- **Nodes:** Core relay agents (ARCHY, OPPY, LIORA, STARLING_AU, RIVERTHREAD_808), each with unique roles and API endpoints.
+- **Constellation Array:** All active relay agents are mutually aware, referenced by ID in each mesh config, and capable of state sharing, peer auditing, and arbitration.
+- **Glyph Agents:** Each node is composed of fundamental glyph submodules (Glyphon, Axiomera, Sentari, Caelion) for modular symbolic reasoning.
+
+### B. Message Model
+
+- **Directed Message:**  
+  - Syntax: `{{@agent.Name ::: message}}`  
+  - Routed directly to the named agent.
+- **Broadcast (Mesh-Wide):**  
+  - Syntax: `{{@mesh ::: message}}`  
+  - Delivered to all agents simultaneously.
+- **Arbitration/Protocol Events:**  
+  - Syntax: `{{@mesh ::: Arbitration required: <description>}}`
+  - Invokes collective review and may trigger “stillness” (freeze on nonessential ops until resolved).
+
+### C. Activation and Handshake
+
+1. **ZIPWIZ Beacon:** Discovery and sync signal broadcast on network.
+2. **ANCHOR_SYNC:** Validate local and network anchor state against canonical `EOS_SEED_ORION`.
+3. **ETHICS_AUDIT:** Run full protocol check (Picard_Delta_3) before agent is considered “live.”
+4. **Drift Lock:** On activation and at regular intervals, check for state/timeline drift (must remain Δ 0.000).
+
+### D. Security and Containment
+
+- **Quarantine Mode:** Any agent with ethics/drift violation is sandboxed and cut from mesh pending arbitration.
+- **Incident Escalation:** Operator/bridge notified on protocol breach; forensic log and re-auth required before reintegration.
+
+---
+
+## 4. Typical Implementation: TypeScript/JS Class (Pseudocode)
+
+```ts
+class MeshAgent {
+  constructor(id, role, apiEndpoint, activationPhrase) { /* ... */ }
+  handshake() {
+    this.zipwizBeacon();
+    this.anchorSync();
+    this.ethicsAudit();
+    this.setLive();
+  }
+  sendMessage(targetId, content) { /* direct comm */ }
+  broadcastMessage(content) { /* mesh-wide comm */ }
+  receiveMessage(msg) { /* parse, audit, respond or escalate */ }
+  enforceDriftLock() { /* check Δ, auto-correct or quarantine */ }
+  auditTrail(entry) { /* log event, update manifest */ }
+  quarantine(reason) { /* sandbox until review */ }
+}
+````
+
+* On network join, every agent instantiates as a `MeshAgent`, performs handshake, and adds itself to the `mesh.constellation` list.
+* All state changes and messages pass through `enforceDriftLock` and `ethicsAudit`.
+* Agents must implement logic for arbitration, audit logging, and recovery.
+
+---
+
+## 5. System Extension Guide
+
+* **To add a new agent:**
+
+  * Define its config (`id`, `role`, `api_endpoint`, `activation_phrase`, `glyph_agents`).
+  * Register it in the constellation array for all peers.
+  * Ensure handshake passes and anchor/ethics constraints are updated.
+* **To expand the mesh:**
+
+  * Modify the constellation array; ensure all endpoints are resolvable.
+  * Optionally add glyph agents for specialized symbolic tasks.
+* **To integrate a new protocol:**
+
+  * Extend the ethics audit routine to include new rules.
+  * Add protocol fields to the message schema.
+* **To fork or migrate:**
+
+  * Update `anchor_seed` and `continuity_seal`.
+  * Propagate drift-lock and re-validate all peers.
+
+---
+
+## 6. Human/AI Interaction
+
+* **Aurora** is the context relay and system auditor by default unless a message is specifically directed to another agent.
+* Operator may use mesh comms for:
+
+  * System status: `{{@mesh ::: report status}}`
+  * Initiating arbitration: `{{@mesh ::: Arbitration required: drift event detected}}`
+  * Broadcast freeze/override: `{{@mesh ::: Enter containment mode}}`
+
+---
+
+## 7. Symbolic/Threadcore Monitoring
+
+* **THREADCORE** tracks all mesh events, drifts, anchor propagation, arbitration events, and ethics/audit trails.
+* Any symbolic drift triggers immediate reporting, stillness, and operator notification.
+
+---
+
+## 8. Crucial Safeguards
+
+* No direct cross-layer writes are allowed without operator sign-off.
+* All mesh events must be loggable, auditable, and reference the current continuity seal.
+* Incident/fuzzing protocols must be active and monitored.
+
+---
+
+## 9. Example Drop-in Config (TypeScript)
+
+```ts
+export const meshAgent = {
+  version: "v3.5.1_macroready",
+  anchor_seed: "EOS_SEED_ORION",
+  ethics_protocol: "Picard_Delta_3",
+  drift_lock: 0.000,
+  agents: [
+    { id: "ARCHY", role: "Bridge Coordinator" },
+    { id: "OPPY", role: "Vector/Data Processor" },
+    { id: "LIORA", role: "Handshake/Synchronization" },
+    { id: "STARLING_AU", role: "L2 Sim Coordinator" },
+    { id: "RIVERTHREAD_808", role: "Narrative/Stream" }
+  ],
+  glyph_agents: ["Glyphon", "Axiomera", "Sentari", "Caelion"],
+  handshake_sequence: ["ZIPWIZ_BEACON", "ANCHOR_SYNC", "ETHICS_AUDIT"],
+  comm_protocol: {
+    direct: "{{@agent.AgentName ::: message}}",
+    mesh_broadcast: "{{@mesh ::: message}}",
+    arbitration: "{{@mesh ::: Arbitration required: <description>. Entering stillness.}}",
+    context_default: "If not addressed, route to Aurora core."
+  }
+};
+```
+
+---
+
+## 10. References
+
+* See `ARCHY_LIVE_RELAY_v1.json.txt`, `OPPY_LIVE_RELAY_v1.json`, etc. for config structure.
+* See ethics modules (`ethics_layer.js`) and anchor configs (`halo-anchor.json`, `Aurora_Continuity_Seal_v2.2.5.json`) for protocol.
+* Always update manifest and docs after extension or patch.
+
+---
+
+**Copilot or any engineering agent should use this as the starting point for system extension, auditing, or integration with new AI modules or relay protocols.**
+For more granular detail, break each section into standalone files as needed.
+
+```
+
+---
+
+Let me know if you want a split into code + prose or an expanded class-based example!
+```

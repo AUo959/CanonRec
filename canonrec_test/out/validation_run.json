@@ -1,0 +1,102 @@
+{
+  "validation_run": {
+    "timestamp": "2026-03-01T02:12:17.457175Z",
+    "timestamp_source": "WALL_CLOCK_UTC",
+    "hash_canon_version": "CANONREC_HASH_CANON_V1",
+    "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+    "output_hash_alg": "SHA256",
+    "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+    "output_hash": "a8ec49283b257a8d6f6cf03c7d92e1ac6b32f1acb5d0dac9f4e614195d613875",
+    "content_hash_alg": "SHA256",
+    "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+    "content_hash_excluded_fields": [
+      "timestamp",
+      "timestamp_source"
+    ],
+    "content_hash": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4",
+    "receipt_id_policy": "receipt_id = content_hash",
+    "receipt_id": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4",
+    "entities_checked": 3,
+    "passed": 3,
+    "blocked": 0
+  },
+  "reports": [
+    {
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "timestamp": "2026-03-01T02:12:17.456697Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 6,
+      "required_fields": [
+        "protocol_name",
+        "version",
+        "change_description",
+        "affected_layers",
+        "backward_compatible",
+        "anchor_impact"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    },
+    {
+      "entity_name": "<unnamed>",
+      "layer": "L3",
+      "entity_type": "anchor_rule",
+      "timestamp": "2026-03-01T02:12:17.457088Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "anchor_id",
+        "rule_description",
+        "affected_layers"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    },
+    {
+      "entity_name": "<unnamed>",
+      "layer": "UNKNOWN",
+      "entity_type": "UNKNOWN",
+      "timestamp": "2026-03-01T02:12:17.457092Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 0,
+      "required_fields": [],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    }
+  ]
+}

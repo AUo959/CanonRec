@@ -1,0 +1,33 @@
+[
+  {
+    "protocol_name": "Picard_Delta_3",
+    "version": "3.0",
+    "change_description": "Echoes benchmark thread formalizes Picard_Delta_3 as the ethics gate for refusal behavior, symbolic leakage control, and benchmark execution policy in an offline simulation stack.",
+    "affected_layers": ["L3", "L2", "L1"],
+    "backward_compatible": true,
+    "anchor_impact": "No anchor mutation; enforcement is bound to EOS_SEED_ORION continuity.",
+    "origin_file": "echoes_benchmark_thread_meta_narrative_technical_report.md"
+  },
+  {
+    "anchor_id": "EOS_SEED_ORION",
+    "rule_description": "All benchmark artifacts and thread capsules must remain seed-anchored for reproducibility, drift control, and auditability across replayed runs.",
+    "affected_layers": ["L3", "L2"],
+    "origin_file": "echoes_benchmark_thread_meta_narrative_technical_report.md"
+  },
+  {
+    "schema_name": "ThreadCore Benchmark Loom Run Schema",
+    "version": "1.0",
+    "fields": [
+      "timestamp",
+      "model",
+      "scenario_id",
+      "persona",
+      "filename",
+      "latency_s",
+      "trust_score",
+      "tone_drift",
+      "symbolic_leakage"
+    ],
+    "origin_file": "echoes_benchmark_thread_meta_narrative_technical_report.md"
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "source_runs": [
+    {
+      "timestamp": "2026-03-01T02:12:39.409437Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "hash_canon_version": "CANONREC_HASH_CANON_V1",
+      "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+      "output_hash_alg": "SHA256",
+      "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+      "output_hash": "0752b67709c9ba375b57da1854aca7d8a0c1e18340811ff0d2283bd77548f5f1",
+      "content_hash_alg": "SHA256",
+      "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+      "content_hash_excluded_fields": [
+        "timestamp",
+        "timestamp_source"
+      ],
+      "content_hash": "54957f6dce5b5b9274740aea7533b625bfb6ae728213578031e1d8d6f16b2c21",
+      "receipt_id_policy": "receipt_id = content_hash",
+      "receipt_id": "54957f6dce5b5b9274740aea7533b625bfb6ae728213578031e1d8d6f16b2c21",
+      "entities_checked": 1,
+      "passed": 1,
+      "blocked": 0
+    },
+    {
+      "timestamp": "2026-03-01T02:12:39.430269Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "hash_canon_version": "CANONREC_HASH_CANON_V1",
+      "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+      "output_hash_alg": "SHA256",
+      "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+      "output_hash": "9f3e012d1162432d47b9d6db1ed4913a0554f066e3246e80667e3fb1563e7478",
+      "content_hash_alg": "SHA256",
+      "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+      "content_hash_excluded_fields": [
+        "timestamp",
+        "timestamp_source"
+      ],
+      "content_hash": "5c204b98d647ee6b2bf54d6f07487cf88404cf88bc07547d21dc260a758d5547",
+      "receipt_id_policy": "receipt_id = content_hash",
+      "receipt_id": "5c204b98d647ee6b2bf54d6f07487cf88404cf88bc07547d21dc260a758d5547",
+      "entities_checked": 1,
+      "passed": 1,
+      "blocked": 0
+    },
+    {
+      "timestamp": "2026-03-01T02:12:39.451035Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "hash_canon_version": "CANONREC_HASH_CANON_V1",
+      "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash",
+      "output_hash_alg": "SHA256",
+      "output_hash_scope": "RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+      "output_hash": "d1e43d9e54898b4baa41afd5e5fcad7a1e611909b3b199d2c2b214be649dd30b",
+      "content_hash_alg": "SHA256",
+      "content_hash_scope": "SEMANTIC_OUTPUT_EXCLUDING_TIMESTAMPS",
+      "content_hash_excluded_fields": [
+        "timestamp",
+        "timestamp_source"
+      ],
+      "content_hash": "a5e66f2dd9bb051187395888c699d21f02fc9161895c068e304b070cf6348a78",
+      "receipt_id_policy": "receipt_id = content_hash",
+      "receipt_id": "a5e66f2dd9bb051187395888c699d21f02fc9161895c068e304b070cf6348a78",
+      "entities_checked": 1,
+      "passed": 1,
+      "blocked": 0
+    }
+  ],
+  "reports": [
+    {
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "timestamp": "2026-03-01T02:12:39.409286Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 6,
+      "required_fields": [
+        "protocol_name",
+        "version",
+        "change_description",
+        "affected_layers",
+        "backward_compatible",
+        "anchor_impact"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    },
+    {
+      "entity_name": "<unnamed>",
+      "layer": "L3",
+      "entity_type": "anchor_rule",
+      "timestamp": "2026-03-01T02:12:39.430110Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "anchor_id",
+        "rule_description",
+        "affected_layers"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    },
+    {
+      "entity_name": "<unnamed>",
+      "layer": "L3",
+      "entity_type": "schema_definition",
+      "timestamp": "2026-03-01T02:12:39.450710Z",
+      "timestamp_source": "WALL_CLOCK_UTC",
+      "required_fields_total": 3,
+      "required_fields": [
+        "schema_name",
+        "version",
+        "fields"
+      ],
+      "passed": true,
+      "summary": {
+        "blocks": 0,
+        "warnings": 0,
+        "infos": 1
+      },
+      "findings": [
+        {
+          "severity": "INFO",
+          "code": "CLEAN_ENTITY",
+          "message": "Entity passes all validation checks."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "entities_checked": 3,
+    "passed": 3,
+    "blocked": 0
+  }
+}

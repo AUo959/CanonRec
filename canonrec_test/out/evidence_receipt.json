@@ -1,0 +1,102 @@
+{
+  "gate": "EVIDENCE",
+  "kind": "EG_LITE_PROTO_RECEIPT",
+  "verdict": "PASS",
+  "timestamp": "2026-03-01T02:12:17.463377Z",
+  "timestamp_source": "WALL_CLOCK_UTC",
+  "hash_canon_version": "CANONREC_EVIDENCE_HASH_CANON_V1",
+  "hash_canon_rules_ref": "emit_evidence_receipt.py::_canonicalize_for_hash",
+  "source_validation_run": {
+    "receipt_id": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4",
+    "output_hash": "a8ec49283b257a8d6f6cf03c7d92e1ac6b32f1acb5d0dac9f4e614195d613875",
+    "content_hash": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4",
+    "hash_canon_version": "CANONREC_HASH_CANON_V1",
+    "hash_canon_rules_ref": "validate_entity.py::_canonicalize_for_hash"
+  },
+  "inputs": {
+    "validation_run_file": "canonrec_test/out/validation_run.json",
+    "canon_targets_file": null,
+    "canon_targets": []
+  },
+  "claims": [
+    {
+      "claim_id": "CLM-c8e6004c7fca",
+      "claim_kind": "ENTITY_VALIDATION_OBSERVED",
+      "entity_name": "<unnamed>",
+      "layer": "L3",
+      "entity_type": "anchor_rule",
+      "claim_text": "Validation observed entity '<unnamed>' as L3/anchor_rule with passed=True.",
+      "provenance": [
+        {
+          "ref_type": "validation_run_receipt_id",
+          "ref": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4"
+        },
+        {
+          "ref_type": "entity_report_fingerprint",
+          "ref": "27744fbf29dfa456ff1922df7326ccaa34b64338155ad92ec1692e91c2866ab9"
+        }
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "claim_id": "CLM-1acecc4745c9",
+      "claim_kind": "ENTITY_VALIDATION_OBSERVED",
+      "entity_name": "Picard_Delta_3",
+      "layer": "L3",
+      "entity_type": "protocol_update",
+      "claim_text": "Validation observed entity 'Picard_Delta_3' as L3/protocol_update with passed=True.",
+      "provenance": [
+        {
+          "ref_type": "validation_run_receipt_id",
+          "ref": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4"
+        },
+        {
+          "ref_type": "entity_report_fingerprint",
+          "ref": "5d337d101cc3c8a1b0ee2c31994bbb2015721019e33c5113930b62b6af4af7f6"
+        }
+      ],
+      "status": "SUPPORTED"
+    },
+    {
+      "claim_id": "CLM-36945be5020e",
+      "claim_kind": "ENTITY_VALIDATION_OBSERVED",
+      "entity_name": "<unnamed>",
+      "layer": "UNKNOWN",
+      "entity_type": "UNKNOWN",
+      "claim_text": "Validation observed entity '<unnamed>' as UNKNOWN/UNKNOWN with passed=True.",
+      "provenance": [
+        {
+          "ref_type": "validation_run_receipt_id",
+          "ref": "b34fb00e6742fd7ac1de8f67fce8ab4bdaeba285fc2b98b3603cbfa5fb6df1c4"
+        },
+        {
+          "ref_type": "entity_report_fingerprint",
+          "ref": "d6dce7c70d3eae5db37aeafd50796981b9ff4d58bcdfa57c5074a7c0c5377192"
+        }
+      ],
+      "status": "SUPPORTED"
+    }
+  ],
+  "summary": {
+    "total_claims": 3,
+    "supported": 3,
+    "assumptions": 0,
+    "unknown": 0
+  },
+  "output_hash_alg": "SHA256",
+  "output_hash_scope": "EVIDENCE_RECEIPT_RUN_ARTIFACT_INCLUDING_TIMESTAMPS",
+  "output_hash": "7840c92e6bc9d5c0d15437a3f6ab47aaed079a121c4404536e4de57fa4e5974c",
+  "content_hash_alg": "SHA256",
+  "content_hash_scope": "EVIDENCE_RECEIPT_SEMANTIC_OUTPUT_EXCLUDING_VOLATILE_FIELDS",
+  "content_hash_excluded_fields": [
+    "timestamp",
+    "timestamp_source",
+    "inputs.validation_run_file",
+    "inputs.canon_targets_file",
+    "output_hash",
+    "content_hash"
+  ],
+  "content_hash": "e0f31a100fe98eb2aee2fe0168384ee600064ddd7a84c6bbf91db9b6502d3006",
+  "receipt_id_policy": "receipt_id = content_hash",
+  "receipt_id": "e0f31a100fe98eb2aee2fe0168384ee600064ddd7a84c6bbf91db9b6502d3006"
+}
