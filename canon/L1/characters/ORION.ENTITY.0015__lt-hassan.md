@@ -7,7 +7,7 @@ display_name: "Lt. Hassan"
 role: "Commanding Officer, Logistics Alpha (Cargo Transport)"
 division: "Operations"
 status: "STAGING (FULL BIO; DETAILS UNCONFIRMED)"
-certainty: "CANON_PROMOTE"
+certainty: "STAGING"
 registry_authority: "reference"
 doc_sources:
   - "reports/analysis/L1_ENTITY_LEDGER__2026-03-08.json (primary, source-prioritized)"
