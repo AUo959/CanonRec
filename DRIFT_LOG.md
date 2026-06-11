@@ -12,3 +12,16 @@
 - **Resolution:** Defer to ledger (newer, source-prioritized; these exact variants were already
   recorded in the ledger's legacy-drift traces). Registry titles preserved per-entity as
   "Legacy Role Aliases". No canon change required.
+
+## Drift Entry — 2026-06-11
+- **Source:** Owner definitional ruling (user-role nomenclature)
+- **Type:** conflicting role (legacy alias)
+- **Entities affected:** Pilot (user role), Aurora (addressing), mesh runtime defaults
+- **Description:** Early conversations and the March mesh runtime used
+  "Captain" for the human user; the owner rules the canonical user-interface
+  role is **Pilot**. Thorne commands Orion Station — the user does not hold
+  a command seat.
+- **Resolution:** Canon record `canon/L1/station/PILOT_ROLE_DEFINITION.md`
+  created (CANON). Historical transcripts and channel ids keep "captain"
+  verbatim as legacy alias; runtime defaults move to Pilot with
+  back-compatible alias routing.

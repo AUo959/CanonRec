@@ -14,8 +14,8 @@ the station ran live: 47 agents registered, Aurora arbitrating.
 | `trace.jsonl` | (routing trace) | Message-routing trace events for the above. |
 
 Privacy review: no emails, keys, or personal identifiers; the only
-pattern hits were timestamp fragments (false positives). Sender identity
-is the Captain persona.
+pattern hits were timestamp fragments (false positives). Sender identity is recorded as "Captain" — the legacy alias for the **Pilot**
+(the user role; see `../PILOT_ROLE_DEFINITION.md`, owner-ruled 2026-06-11).
 
 Candidate downstream use (ADR step 6): ground-truth scenarios for the
 narrative validation engine — real persona exchanges to audit
