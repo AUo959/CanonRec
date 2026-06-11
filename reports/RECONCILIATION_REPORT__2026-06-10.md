@@ -22,3 +22,12 @@ All 41 characters: `CANON_PROMOTE` (ledger certainty was already CANON for 35, S
 1. Owner: spot-check 2–3 character files for tone/fidelity.
 2. Owner: confirm the 6 STAGING-era entities (Lt. Nakamura, Lt. Hassan, Chief Thomson, Samantha Gray, Ren Takahashi, Cadet Mira Chen) belong in Primary Canon or should remain reference-tier.
 3. Run threadcore-governor over canon/L3/THREADCORE payload (next session).
+
+## Resolution Addendum — 2026-06-11
+
+Action item 2 resolved: the owner confirmed all 6 STAGING-era entities
+(Lt. Nakamura, Lt. Hassan, Chief Thomson, Samantha Gray, Ren Takahashi,
+Cadet Mira Chen) for Primary Canon. Frontmatter updated with
+`owner_confirmed: 2026-06-11`. All 41 L1 character entities are CANON.
+Action item 3 resolved separately: THREADCORE capsule passed the governor
+clean (see THREADCORE_GOVERNANCE_RECEIPT__2026-06-10.md).
