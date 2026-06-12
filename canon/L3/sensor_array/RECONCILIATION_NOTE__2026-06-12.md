@@ -30,3 +30,13 @@ drift metrics API and autonomous drift responder (#985) cover runtime drift
 reaction. The Sensor Array is the missing third tier: continuous in-runtime
 observation with layered interpretation and fusion — and its one-way
 observation principle mirrors the control plane's detect-don't-act posture.
+
+## Addendum — Salvage Operations Doctrine (same day)
+
+`canon/L1/station/SPEC__SALVAGE_OPERATIONS__v0_1_0.md` routed at STAGING per
+its own status header. L1 doctrine expressing the control plane's recovery
+mission ("survey the debris field… answer every beacon; nothing is scuttled
+by survey; the registry decision belongs to the gatekeeper"), extending the
+Sensor Array's external family. Companion surfaces verified live:
+`tools/aurora_salvage_scan.py` (root), `src/sensors/external/salvage.py`
+(CloudBank PR #1005), salvage report JSON as the interface between them.
