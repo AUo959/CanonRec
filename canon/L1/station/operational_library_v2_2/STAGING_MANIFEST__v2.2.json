@@ -1,0 +1,257 @@
+{
+  "title": "STAGING_MANIFEST",
+  "version": "2.2.0",
+  "last_updated": "2026-02-08",
+  "storage": "chatgpt_project",
+  "anchor_seed": "EOS_SEED_ORION",
+  "ethics_protocol": "Picard_Delta_3",
+  "file_count": 49,
+  "files": [
+    {
+      "filename": "DOCUMENT_MAP__AURORA_CONSTELLATION_PROFILES__v1.0.md",
+      "sha256": "20fca107077b9be985086d4e9fcbff7620db1e721babfe98cb16a741c6c57d75",
+      "bytes": 680
+    },
+    {
+      "filename": "DOCUMENT_MAP__L1_PERSONNEL_ROSTER__v1.0.md",
+      "sha256": "eaa1075577475d5cd75cc18d6cf3d3018500037736d58cb5a776db0f7d00fa23",
+      "bytes": 559
+    },
+    {
+      "filename": "DOCUMENT_MAP__L2_GUMAS_ORIGIN_THREAD_SYNTHESIS__v1.0.md",
+      "sha256": "1b7720ca9c9f2d1cc42aa8fabf9eb632fb8b438cbc2568dd959e1078d29bad16",
+      "bytes": 1049
+    },
+    {
+      "filename": "DOCUMENT_MAP__L2_GUMAS_RUNTIME_REFERENCE_PACKET__v1.0.md",
+      "sha256": "ea96d48e1241a8a38e4d6785bdf0970c7b367aa35d960954c90a11f76deb94ba",
+      "bytes": 1012
+    },
+    {
+      "filename": "DOCUMENT_MAP__ORION_ENTITY_REGISTRY__v1.0.md",
+      "sha256": "7bbb2ebb1d719f14f76ac04750b9e6dd722f7551d76418fb90479af02bc23366",
+      "bytes": 726
+    },
+    {
+      "filename": "L1_L2_L3_PROFILES__AuroraConstellation__v0.2__2026-02-07.md",
+      "sha256": "92073a338b5bebaf8cde9f77d595bf213bdd7770baa912555e0a1f7e5629742c",
+      "bytes": 32602
+    },
+    {
+      "filename": "L1_PERSONNEL__OrionStation_HumanRosterWithBios__v1.2__2026-02-07.md",
+      "sha256": "d4326e545c54638e7c9d856805c28faff7907e925f541c03225d51dcf8abb046",
+      "bytes": 24142
+    },
+    {
+      "filename": "L2_GUMAS_ENGINE__API_REFERENCE__v1.0.md",
+      "sha256": "fb8a17d6eb976d3c37a867186051d74ced0fbf4a4cc962e1c182ca00401fc39a",
+      "bytes": 4933
+    },
+    {
+      "filename": "L2_GUMAS_ENGINE__CLEAN_PACKAGE__NOTE__v1.0.1.md",
+      "sha256": "8b8081655267f65bd701a133bb714c2f8ba4ba5a8ea91b6a5be8e084cddd2159",
+      "bytes": 1065
+    },
+    {
+      "filename": "L2_GUMAS_ENGINE__TECH_REFERENCE__v1.0.md",
+      "sha256": "92514a20a9dff2e54583a1f30acafa60cac72f5c1f5276041108703cc928246a",
+      "bytes": 3422
+    },
+    {
+      "filename": "LOG__AUDIT_TRAIL__v1.0.md",
+      "sha256": "f34df4b2afc1c6193fc857c5e090d885769f414430e98662730bc7685b927f2a",
+      "bytes": 567
+    },
+    {
+      "filename": "LOG__CONFLICT_MATRIX__v1.1.md",
+      "sha256": "772619d269dd382e5de8e5b7c20e302345e2425cb4011ea39d11f8b690b8226e",
+      "bytes": 2610
+    },
+    {
+      "filename": "LOG__DRIFT_LOG__v1.1.md",
+      "sha256": "fc0a720da1241240940bd63242da96c57188d9da9b5153a68192a839d3c21bbe",
+      "bytes": 1823
+    },
+    {
+      "filename": "LOG__EXPORT_NOTE__v2.2.md",
+      "sha256": "a1801f7cb7c6b441191f5d0c6c8eae36c07ba4786b6c986a46cf8b42745ad1cb",
+      "bytes": 767
+    },
+    {
+      "filename": "LOG__L1_RUN_LOG__v1.0.md",
+      "sha256": "7dc63f2a9e74c8e978bfcdee14249df244de240f744b62c73bd3a63e2c07896f",
+      "bytes": 404
+    },
+    {
+      "filename": "LOG__L2_RUN_LOG__v1.0.md",
+      "sha256": "024ff1335d16bb72d98d998ff428316a2540d1479ba911d85e668a40802d134e",
+      "bytes": 456
+    },
+    {
+      "filename": "LOG__PROMOTION_QUEUE__v1.1.md",
+      "sha256": "d94ac32e3a7abe542ce2044f67fa9b8cb9996ca6dfe4065f6993866b69b76343",
+      "bytes": 1329
+    },
+    {
+      "filename": "ORION__ARCHITECTURE_CONTRACT__L1_L2_L3__v1.0.md",
+      "sha256": "d0bef4be19e185f7a35ac7a2707706e073a573d00262283c4415b8f775088e7c",
+      "bytes": 1936
+    },
+    {
+      "filename": "ORION__CANON_POLICY__v1.1.md",
+      "sha256": "b63b3d4dfd220e90c33c6f675c1ffbc05fa08da205fe60e3d1c9ea0c4a24d522",
+      "bytes": 887
+    },
+    {
+      "filename": "ORION__CATEGORY_INDICES__v2.2.md",
+      "sha256": "645f9c30f85b98ef3997bca58b6a0a6105a236db13cfeed5d6a1bba13c9d6410",
+      "bytes": 2681
+    },
+    {
+      "filename": "ORION__CLASSIFICATION_SYSTEM__AD__v1.1.md",
+      "sha256": "a4131605b35cfdf081ae6ed64b6dd1ebe738618bc7e78faeac42f9afb72b58c4",
+      "bytes": 786
+    },
+    {
+      "filename": "ORION__DOC_METADATA_SCHEMA__v2.0.md",
+      "sha256": "6140097a9b70771e6c29a0aaff1120bd600fea56f07457d09e1acfd0df5a6ceb",
+      "bytes": 1172
+    },
+    {
+      "filename": "ORION__DRIFT_CONTAINMENT_PROTOCOL__v1.1.md",
+      "sha256": "35740dcdc1d188a4b7626bb394acebfc9b5e3c982aba1b21e464c3ce074998ac",
+      "bytes": 830
+    },
+    {
+      "filename": "ORION__ENTITY_REGISTRY__v1.0.md",
+      "sha256": "4ddbf40d354c45b4964a5494d28f348fbac82d1cdd13654411c4d07367c56450",
+      "bytes": 8262
+    },
+    {
+      "filename": "ORION__EXTERNAL_REFERENCE_LINKS__v1.0.md",
+      "sha256": "0c71570656782ff17c270bb8491d5f00841a8259dec457a2a0e16338dce61b38",
+      "bytes": 1089
+    },
+    {
+      "filename": "ORION__L1_COMMAND_STRUCTURE__v1.1.md",
+      "sha256": "68bbbed636cfe4902b640aca1defb7143fdc562693c0e95aad2420d2560fa369",
+      "bytes": 618
+    },
+    {
+      "filename": "ORION__L1_DISPATCH_PROTOCOL__v1.1.md",
+      "sha256": "1ef3d6076bd9b3cc8797730b7ddd072999a020bac786078f077f3ac6637dbaae",
+      "bytes": 691
+    },
+    {
+      "filename": "ORION__L1_EMERGENCY_PROTOCOLS__v1.1.md",
+      "sha256": "c07ee43995f2dc411820aafbb6d9877d14c9e585f9397d763214dea5bf50abea",
+      "bytes": 599
+    },
+    {
+      "filename": "ORION__L1_OPERATIONS_RUNBOOK__v1.1.md",
+      "sha256": "2eb995b5476dff502f29f029d6eb806cefd48b6fa5d5c17765b9dd3b26ef80d5",
+      "bytes": 710
+    },
+    {
+      "filename": "ORION__L1_STATION_CANVAS__AURORA_V2.5__v1.0.md",
+      "sha256": "4ab670920eac009351fda3b03f63f9fb8f936e462b17fed904dc303d44015424",
+      "bytes": 1116
+    },
+    {
+      "filename": "ORION__L1_STATION_OVERVIEW__v1.1.md",
+      "sha256": "e7450bafc5a4fc68b8a484f3e9e09d0c47023c6e91501123fe27dfa917c105a6",
+      "bytes": 943
+    },
+    {
+      "filename": "ORION__L1_SYSTEMS_BIBLE__v1.1.md",
+      "sha256": "b5045301b0515fb1ba28cd894ce067bb985be75b2cf68b3b66da14216f35a3f2",
+      "bytes": 741
+    },
+    {
+      "filename": "ORION__L2_GUMAS_ENGINE__SOURCE_BUNDLE__v1.0.md",
+      "sha256": "17ccd3907207324cdd3b5c5bcd6e67d47181565cdda78e3c1743a89c1bf777c5",
+      "bytes": 128966
+    },
+    {
+      "filename": "ORION__L2_GUMAS_ENGINE__SOURCE_GUIDE__v1.0.md",
+      "sha256": "1f487c1edddac1e8206ad9899e6734b37f0b407c47ba6fa3e3751b9595490f9f",
+      "bytes": 1062
+    },
+    {
+      "filename": "ORION__L2_GUMAS_ORIGIN_THREAD_SYNTHESIS__v0.5.1.md",
+      "sha256": "5fa01dd61ae07eb3609faa10784867b0a09a3d4b3178e7317c0ca4914fe415a3",
+      "bytes": 37028
+    },
+    {
+      "filename": "ORION__L2_GUMAS_RUNTIME_REFERENCE_PACKET__v0.3.2.md",
+      "sha256": "1cae059967e4cf2ed2d4fe8c2691aafaf864cdce060bfcdad634265845b33758",
+      "bytes": 37793
+    },
+    {
+      "filename": "ORION__L2_GUMAS_SCENARIO_SPEC__v1.0.md",
+      "sha256": "c5f6f04ad497a0262d8e314fb11a0200d3afd2742234253c53bfa34971d6ec83",
+      "bytes": 622
+    },
+    {
+      "filename": "ORION__L2_GUMAS_STATE_SCHEMA__v1.0.md",
+      "sha256": "fe32b2b8592bfa57d4e9609ffa3eb48b9081be43a7441dcb4a3555f499ffaea4",
+      "bytes": 866
+    },
+    {
+      "filename": "ORION__L2_PRIMACY_TIEBREAK_RULES__v0.1.md",
+      "sha256": "2580c072918c7973fd22e019da26bd335d066734cebd0ceafe4a9b6ccc1ba55b",
+      "bytes": 2014
+    },
+    {
+      "filename": "ORION__LIBRARY_AUTHORING_GUIDE__v1.0.md",
+      "sha256": "b6e35b976ef120e73c452f4cee323d0681efbbffe34a8e0029a71a1b0d5ae5f4",
+      "bytes": 1643
+    },
+    {
+      "filename": "ORION__MASTER_INDEX__v2.2.md",
+      "sha256": "6a1bd2539b152e811d4b36764c2d7ed2a129155ff57c511d2eb05f63fbe824ef",
+      "bytes": 2358
+    },
+    {
+      "filename": "ORION__NARRATIVE_OUTPUT_PROTOCOL__ANTI_FLOURISH__v1.1.md",
+      "sha256": "48577bcf9cf421565177ce42547d917b620aa4c355e84f8a1e003a9417966943",
+      "bytes": 9401
+    },
+    {
+      "filename": "ORION__PICARD_DELTA_3__ETHICS_LAYER__v1.1.md",
+      "sha256": "24eaca5eba8baf151e6a153cfb39732e2d13c70f01bbdb6ddc774da219112f4e",
+      "bytes": 870
+    },
+    {
+      "filename": "ORION__REPO_CONTEXT__AuroraCloudBankSymbolic__v2.1.0__2026-02-06.md",
+      "sha256": "587b5f4232f06e0f6bba81c311bc3359495e663e581e4dd993826a6872155506",
+      "bytes": 5052
+    },
+    {
+      "filename": "ORION__RUNBOOK__Perplexity_Space__v2.2.md",
+      "sha256": "8137dd7d4f6788eb87b8c392f14b9537b5f96af067ca23039e67bc70e86c30e9",
+      "bytes": 2390
+    },
+    {
+      "filename": "ORION__SPACE_CUSTOM_INSTRUCTIONS__v3.1.md",
+      "sha256": "6ea6ea6adda06dd3303b53f9ac532e24134fb58f8c342bd00b8b032f21b2e2e0",
+      "bytes": 3365
+    },
+    {
+      "filename": "ORION__SPACE_DESCRIPTION__v1.0.md",
+      "sha256": "4eefa83feb0107be55db794a573a1b043fff4bb46d22d9b3578f6c8d149cd384",
+      "bytes": 692
+    },
+    {
+      "filename": "ORION__TEMPLATES__v1.3.md",
+      "sha256": "0a19cb9b369ff22f267795b9733a33d1bf55a994d2ce0d94f15d7dd2d4b855a3",
+      "bytes": 2857
+    },
+    {
+      "filename": "README__ORION_SPACE_READY_LIBRARY__v2.2.md",
+      "sha256": "7790a3db4417a322bfd099cb6170cda1e54d7d206679c1fc58be009d2b4d6d67",
+      "bytes": 1411
+    }
+  ],
+  "footer_signature": "Built for consistency, clarity, and care."
+}

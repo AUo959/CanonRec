@@ -25,3 +25,21 @@
   created (CANON). Historical transcripts and channel ids keep "captain"
   verbatim as legacy alias; runtime defaults move to Pilot with
   back-compatible alias routing.
+
+## Drift Entry — 2026-06-12
+- **Source:** iCloud filesystem salvage sweep for Orion Station specs (config + L1 physical config)
+- **Type:** recovered canon (stranded outside all repos)
+- **Entities affected:** Orion Station (environment, physical configuration, operational library)
+- **Description:** The complete ORION Operational Library v2.2 (49 docs,
+  2026-02-08 space-ready set) existed only as three mutually incomplete
+  archive copies under `projects/GUMAS_SIM_2.0/`; the station physical-space
+  mapping (`DATA__OrionStationPhysicalSpace__v1.0__2026-02-15.md`) and the
+  April 2026 canon packets (STATION_ENVIRONMENT v2.0, L1_ENTITY_REGISTRY
+  v2.0) were likewise never routed into any canon home.
+- **Resolution:** Hash-verified union (49/49 byte-exact vs
+  STAGING_MANIFEST__v2.2.json) landed at
+  `canon/L1/station/operational_library_v2_2/`; physical-space set at
+  `canon/L1/station/physical_space/`; April packets at
+  `canon/L1/station/staging_2026-04/`. All STAGING pending owner promotion.
+  v1.1 NAMING_INTEGRATED engine docs included as successors to the v1.0
+  manifest entries.
