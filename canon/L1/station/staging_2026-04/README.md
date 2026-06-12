@@ -10,6 +10,9 @@ Perplexity project space.
   anywhere in the workspace (newer than the v1.1 library docs).
 - `ORION__CANON__L1_ENTITY_REGISTRY__v2.0__2026-04-08.md` — companion entity
   registry packet from the same authoring pass.
+- `ORION__NAV__PERPLEXITY_SPACE_FRONT_DOOR__v2.0__2026-04-08.md` — navigation
+  front-door spec from the same authoring pass (routing surface for the
+  packets above).
 
 These packets postdate the Operational Library v2.2 (2026-02-08) and source
 from CloudBank `simulation/` surfaces. For promotion, reconcile against
