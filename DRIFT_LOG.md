@@ -43,3 +43,19 @@
   `canon/L1/station/staging_2026-04/`. All STAGING pending owner promotion.
   v1.1 NAMING_INTEGRATED engine docs included as successors to the v1.0
   manifest entries.
+
+## Drift Entry — 2026-06-13
+- **Source:** Owner definitional ruling (station purpose and siting)
+- **Type:** purpose canon + parameter conflict (staged datum)
+- **Entities affected:** Orion Station (ORH-07), GUMAS engine (L2), station environment packet
+- **Description:** The owner rules that Orion Station exists to run
+  high-fidelity galactic simulations — the L1 station is the chassis
+  around the L2 engine — and that the facility operates at a Lagrange
+  point. The staged April 2026 environment packet records altitude
+  38,600 km, which conflicts with Lagrange-point siting if
+  Earth-referenced.
+- **Resolution:** Canon record `canon/L1/station/STATION_PURPOSE_DEFINITION.md`
+  created (CANON, owner ruling). Siting: Lagrange point per owner ruling.
+  The 38,600 km datum stays recorded as a staged parameter pending
+  reconciliation (halo-orbit local figure or superseded early datum);
+  promotion of the environment packet must resolve this field explicitly.
