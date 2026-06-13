@@ -96,3 +96,20 @@
   hour-2 risk 0.406). Engine/live atoms reconstruct from sim_raw.json (no
   side ledger). Boundary preserved: the advisory is a change request; Aurora
   disposes under Picard Delta 3.
+
+## Drift Entry — 2026-06-13 (crew-life fidelity)
+- **Source:** Owner ruling (eating/sleeping/hygiene must be simulated for high fidelity)
+- **Type:** canon addition (the human layer, simulated)
+- **Entities affected:** all L1 crew, life-support systems, watch simulation
+- **Description:** The crew's circadian and physiological life — the
+  Alpha/Bravo/Charlie/Delta shift rotation, sleep/wake, meals, showers,
+  bathroom, recreation, sleep-debt fatigue, and the station's water/galley/
+  O2-CO2 life-support load — is now simulated (tools/crew_life.py), grounded
+  in the existing life-infrastructure canon. In a crewed watch only on-shift
+  awake crew work and fatigue slows them. Surfaced a clock tension: the
+  life-infrastructure rhythm uses a 24h clock while the environment packet
+  records a 22.1h station day.
+- **Resolution:** Canon record `canon/L1/station/CREW_LIFE_FIDELITY.md`
+  created (CANON). First crewed live watch 2026-06-13 (Alpha morning, ~14 on
+  duty of 35, deficits 0). 22.1h/24h day-length datum logged for explicit
+  reconciliation at environment-packet promotion; not silently resolved.
