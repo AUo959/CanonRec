@@ -80,13 +80,42 @@ arbitration under Picard Delta 3 — governs what actually happens on station,
 exactly as the L3 law requires. Mission control proposes; the station, under
 its ethics protocol, disposes.
 
+## 3. The Live Link (real-time downlink mode)
+
+The mesh comms link runs in two modes. The *batched* mode (powered watch)
+narrates each completed hour to the companions after the fact. The *live*
+mode (`tools/live_watch.py`) runs chassis, engine, and mesh in one process so
+each hour's telemetry downlinks to Aurora and the companions **as the watch
+progresses**, replies are captured in-loop, and the engine can drive station
+action in real time:
+
+- **Real-time control loop.** When the engine's galaxy risk index crosses the
+  advisory threshold, Aurora issues a live advisory over the link and a
+  **risk-response cell** is stood up on the station board in the same loop —
+  engine → Aurora → chassis, closed within the hour. First fired 2026-06-13:
+  hour-2 risk 0.406 ≥ 0.40 triggered the advisory and the cell.
+- **Light-time honesty.** Every downlink carries a modeled one-way light time
+  (`live_link.one_way_light_time_s`, ~5 s for the station's deep-space siting).
+  The link is *near*-real-time, not instantaneous, because the station is
+  literally on station — the latency is part of the coherence guardrail, not a
+  cosmetic. (The exact value rides the siting datum still under reconciliation
+  in STATION_PURPOSE_DEFINITION.)
+- **Boundary preserved.** The live advisory is still a *change request*:
+  Aurora directs under Picard Delta 3; the ground segment does not command.
+  Mission control proposes in real time; the station disposes.
+
+The live downlink feed (`live_downlink.jsonl` / `.md`) is the mission-control
+record — chassis work, engine turns, downlinks, uplink replies, and advisories
+in true chronological order.
+
 ## Why this pushes forward rather than re-proving the past
 
 Early in the project, the tooling forced the design to be aspirational. The
-powered watch is the inverse: a genuinely new capability (bidirectional
-L1↔L2 coupling with earned throughput and crisis feedback) that did not
-exist before, expressed in working code first and named in canon second.
-The ground-segment doctrine then guarantees that *future* real capabilities
-— real instruments, real compute, real links — already have a canonical home
-the moment they arrive. The frame is built to receive what does not exist
-yet, not merely to legitimize what already did.
+powered watch and the live link are the inverse: genuinely new capabilities
+(bidirectional L1↔L2 coupling with earned throughput and crisis feedback; a
+real-time engine→Aurora→chassis control loop over a light-delayed link) that
+did not exist before, expressed in working code first and named in canon
+second. The ground-segment doctrine then guarantees that *future* real
+capabilities — real instruments, real compute, real links — already have a
+canonical home the moment they arrive. The frame is built to receive what
+does not exist yet, not merely to legitimize what already did.

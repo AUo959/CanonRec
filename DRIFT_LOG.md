@@ -77,3 +77,22 @@
   reports/simulation/powered_watch_v1__2026-06-13. Engine turns stage as
   STAGING chronicle atoms (domain `engine`), promotion-gated. No L1 facts
   overwritten by engine output.
+
+## Drift Entry — 2026-06-13 (live station link)
+- **Source:** Owner direction (proceed with the live station link)
+- **Type:** canon addition (new capability operationalizing the ground segment)
+- **Entities affected:** Orion Station mesh link, Aurora, GUMAS engine (L2)
+- **Description:** The mesh comms link now runs in a real-time mode
+  (tools/live_watch.py): chassis, engine, and mesh advance in one process so
+  each hour's telemetry downlinks to Aurora and the companions live, replies
+  are captured in-loop, and an engine risk threshold triggers a live Aurora
+  advisory that injects a risk-response cell in the same loop (engine ->
+  Aurora -> chassis). Every downlink carries a modeled one-way light time,
+  honoring the deep-space siting (the link is near-real-time, not
+  instantaneous).
+- **Resolution:** Section 3 added to
+  `canon/L1/station/POWERED_WATCH_AND_GROUND_SEGMENT.md` (CANON). First live
+  watch at reports/simulation/live_watch_v1__2026-06-13 (advisory fired,
+  hour-2 risk 0.406). Engine/live atoms reconstruct from sim_raw.json (no
+  side ledger). Boundary preserved: the advisory is a change request; Aurora
+  disposes under Picard Delta 3.
