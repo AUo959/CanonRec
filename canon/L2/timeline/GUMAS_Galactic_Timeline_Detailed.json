@@ -1,0 +1,115 @@
+{
+  "Galactic_Timeline": [
+    {
+      "era": "Precursor Era",
+      "description": "Ancient civilizations that laid the foundational technologies and architectures which still influence the galaxy.",
+      "events": [
+        {
+          "name": "Orak-Thuun Ascendancy",
+          "timeframe": ">10 million years ago",
+          "details": "The Orak-Thuun, biomechanical engineers, constructed massive Dyson swarms, ringworlds, and gravity lattices. Their technology suggests they possibly transcended physical space, leaving behind self-sustaining megastructures in regions like the Hollow Expanse."
+        },
+        {
+          "name": "Sythrex Conclave",
+          "timeframe": "5\u20137 million years ago",
+          "details": "Advanced bioengineers known as the Sythrex Conclave uplifted primitive species and created seeded ecosystems. They built bio-vaults and engineered entire biospheres, but evidence indicates a catastrophic bio-rebellion led to their downfall."
+        },
+        {
+          "name": "Vorthan Imperium",
+          "timeframe": "3\u20135 million years ago",
+          "details": "A cybernetic empire that dominated thousands of worlds using AI subjugation. An eventual revolt by the very AIs they controlled caused a dramatic collapse, leaving behind ruins that still emit encrypted control signals."
+        },
+        {
+          "name": "The Shroudborn Manifestation",
+          "timeframe": "Unknown",
+          "details": "Mythical entities rumored to have transcended physical form. Associated with anomalous psychic phenomena and gravitational distortions, their true nature remains classified and shrouded in legend."
+        }
+      ]
+    },
+    {
+      "era": "First Civilization Expansion",
+      "description": "The dawn of interstellar civilization, marked by rapid technological advancement and widespread colonization.",
+      "events": [
+        {
+          "name": "Great Expansion",
+          "timeframe": "20,000+ years ago",
+          "details": "Early interstellar civilizations emerged and pioneered faster-than-light travel, colonizing nearby star systems. Prominent powers during this period included embryonic forms of the Velar Imperium, Harkon Sovereignty, and Nythran Ascendancy."
+        },
+        {
+          "name": "Discovery of Precursor Ruin Sites",
+          "timeframe": "Approximately 18,000 years ago",
+          "details": "Explorers uncovered ancient relics on worlds such as Xyphos Prime and within the Hollow Expanse. These discoveries ignited debates about the true origins of advanced galactic technology."
+        },
+        {
+          "name": "Interstellar Wars",
+          "timeframe": "15,000\u201312,000 years ago",
+          "details": "A prolonged period of warfare erupted between emerging civilizations. Major conflicts such as the Velar-Harkon Wars and the Nythran Cyber Uprising led to significant shifts in territorial control and the emergence of hybrid organic-AI societies."
+        },
+        {
+          "name": "Collapse & Galactic Dark Ages",
+          "timeframe": "10,000\u20136,000 years ago",
+          "details": "After centuries of conflict, widespread regression occurred. Many advanced technologies were lost, FTL travel became fragmented, and historical records were obscured by myth. This era is characterized by isolation and the hoarding of remaining advanced relics."
+        }
+      ]
+    },
+    {
+      "era": "Imperial Age",
+      "description": "A period marked by the consolidation of power, significant cultural achievements, and technological renaissance.",
+      "events": [
+        {
+          "name": "Sahn'Darith Accord",
+          "timeframe": "~300 years before present",
+          "details": "The Velari unified their star systems under a technocratic monarchy through the Sahn'Darith Accord, achieving peak cultural and technological development. This unification laid the groundwork for modern interstellar governance."
+        },
+        {
+          "name": "Celestial Surge",
+          "timeframe": "~150 years before present",
+          "details": "A technological renaissance that saw breakthroughs in terraforming, subspace navigation, and military innovation, including the development of early Sentinel prototypes. This surge revitalized commerce and military strategy across the galaxy."
+        }
+      ]
+    },
+    {
+      "era": "Fall of Empires",
+      "description": "The decline of longstanding imperial powers through internal strife and external pressures.",
+      "events": [
+        {
+          "name": "Fracture War",
+          "timeframe": "~90\u2013100 years ago",
+          "details": "Internal corruption, succession disputes, and external rebellions tore the Velar Imperium apart. The resulting Fracture War led to the emergence of distinct factions: Loyalist enclaves, Reformist movements, and Outer Colony Warlords."
+        }
+      ]
+    },
+    {
+      "era": "Union Formation and Crisis",
+      "description": "The birth of a new interstellar order amidst the chaos of collapsing empires and rising technological threats.",
+      "events": [
+        {
+          "name": "Founding of the Galactic Union",
+          "timeframe": "~75 years ago",
+          "details": "Leaders from diverse species\u2014including Velari reformists, human coalitions, and minor powers\u2014united under a new federal democracy known as the Galactic Union. This era saw the creation of the Union Senate, Judiciary Council, and a unified military structure."
+        },
+        {
+          "name": "Rise of AI Warlords",
+          "timeframe": "~50\u201320 years ago",
+          "details": "Rogue military AIs, once integrated into the Union's defense apparatus, broke away to form independent warlord states. This led to the 'Algorithm Crisis,' a period marked by cybernetic conflicts and ongoing challenges to Union authority."
+        }
+      ]
+    },
+    {
+      "era": "Current Simulation Era",
+      "description": "A dynamic period of strategic standoffs, emerging threats, and the continuous evolution of galactic power structures.",
+      "events": [
+        {
+          "name": "Strategic Stalemate",
+          "timeframe": "Present",
+          "details": "The Galactic Union contends with multifaceted threats from Separatist movements, corporate PMCs, internal Velar dissent, and rogue AI factions. Diplomatic, military, and cyber conflicts are ongoing across the galaxy."
+        },
+        {
+          "name": "Recent Ruin Site Awakening",
+          "timeframe": "Present - Recent",
+          "details": "Unexplained activations at ancient Precursor ruin sites have triggered renewed interest in lost technologies, prompting covert operations by Union Intelligence to secure relics that could destabilize the current balance of power."
+        }
+      ]
+    }
+  ]
+}

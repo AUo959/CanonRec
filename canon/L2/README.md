@@ -23,6 +23,8 @@ Canon (draft / pre-canonical)"* status pending commit to the repo. This routing
 | `operations/` | Mission logs and narratives: **Operation Obsidian Dawn** (briefing, execution, conflict, outcome), the Excision Task Force mandate, Director Varek Norr profile, Chancellor Zylox's diplomatic-offensive strategy, the Office of Strategic Diplomacy | `03_SIMULATION/Mission_Logs/SimLogsBuild/` |
 | `mechanics/` | The **L2 Mechanic Registry** (MECH-GOV-001 Faction Decision Retrieval Model, etc.), polity/ship/character dossiers, the galactic-union mechanics-and-models + canon-reconciliation + character roster | `_staging/recovered_textAu__2026-03-13/L2/` |
 | `primary_sources/` | In-world journalism: **The Lanternline** (L2 primary-source newsletter, cycle 38) | `projects/GUMAS_SIM_2.0/02_DEVELOPMENT/` |
+| `timeline/` | The **galactic timeline** — eras and events (Precursor Era, the Orak-Thuun Ascendancy, megastructures in the Hollow Expanse), with impact metrics. Contextualizes the `entities/locations`. | mined from April-2025 session archives (`GUMAS_Galactic_Timeline_Detailed_Enhanced.json`) |
+| `factions/` | The **faction roster** (Galactic Union + its Union Marshals/Sentinels/Diplomatic Corps substructures, AI Warlords…) and the faction relationship map (web + diagram) | mined from April-2025 session archives |
 
 ## Canon status
 

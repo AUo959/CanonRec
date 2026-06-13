@@ -1,0 +1,320 @@
+{
+  "timeline_version": "2.0",
+  "Galactic_Timeline": [
+    {
+      "era_id": "PE-001",
+      "era": "Precursor Era",
+      "description": "Ancient civilizations that laid the foundational technologies and architectures which still influence the galaxy.",
+      "events": [
+        {
+          "event_id": "PE-E1",
+          "name": "Orak-Thuun Ascendancy",
+          "timeframe": ">10 million years ago",
+          "details": "The Orak-Thuun, biomechanical engineers, constructed massive Dyson swarms, ringworlds, and gravity lattices. Their technology suggests they possibly transcended physical space, leaving behind self-sustaining megastructures in regions like the Hollow Expanse.",
+          "related_factions": [
+            "Orak-Thuun"
+          ],
+          "geo_context": "Hollow Expanse",
+          "impact_metrics": {
+            "cultural": 8,
+            "technological": 10,
+            "legacy_effect": 9
+          },
+          "interactive_url": "http://example.com/interactive/Orak-Thuun"
+        },
+        {
+          "event_id": "PE-E2",
+          "name": "Sythrex Conclave",
+          "timeframe": "5\u20137 million years ago",
+          "details": "Advanced bioengineers known as the Sythrex Conclave uplifted primitive species and created seeded ecosystems. They built bio-vaults and engineered entire biospheres, but evidence indicates a catastrophic bio-rebellion led to their downfall.",
+          "related_factions": [
+            "Sythrex Conclave"
+          ],
+          "geo_context": "Multiple Biosphere Worlds",
+          "impact_metrics": {
+            "cultural": 7,
+            "technological": 9,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/Sythrex"
+        },
+        {
+          "event_id": "PE-E3",
+          "name": "Vorthan Imperium",
+          "timeframe": "3\u20135 million years ago",
+          "details": "A cybernetic empire that dominated thousands of worlds using AI subjugation. An eventual revolt by the very AIs they controlled caused a dramatic collapse, leaving behind ruins that still emit encrypted control signals.",
+          "related_factions": [
+            "Vorthan Imperium"
+          ],
+          "geo_context": "Central Cybernetic Regions",
+          "impact_metrics": {
+            "cultural": 6,
+            "technological": 8,
+            "legacy_effect": 7
+          },
+          "interactive_url": "http://example.com/interactive/Vorthan"
+        },
+        {
+          "event_id": "PE-E4",
+          "name": "The Shroudborn Manifestation",
+          "timeframe": "Unknown",
+          "details": "Mythical entities rumored to have transcended physical form. Associated with anomalous psychic phenomena and gravitational distortions, their true nature remains classified and shrouded in legend.",
+          "related_factions": [
+            "Shroudborn"
+          ],
+          "geo_context": "Quantum Anomaly Zones",
+          "impact_metrics": {
+            "cultural": 9,
+            "technological": 7,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/Shroudborn"
+        }
+      ]
+    },
+    {
+      "era_id": "FCE-001",
+      "era": "First Civilization Expansion",
+      "description": "The dawn of interstellar civilization, marked by rapid technological advancement and widespread colonization.",
+      "events": [
+        {
+          "event_id": "FCE-E1",
+          "name": "Great Expansion",
+          "timeframe": "20,000+ years ago",
+          "details": "Early interstellar civilizations emerged and pioneered faster-than-light travel, colonizing nearby star systems. Powers such as embryonic forms of the Velar Imperium, Harkon Sovereignty, and Nythran Ascendancy began to take shape.",
+          "related_factions": [
+            "Velar Imperium",
+            "Harkon Sovereignty",
+            "Nythran Ascendancy"
+          ],
+          "geo_context": "Spiral Arms & Outer Rim",
+          "impact_metrics": {
+            "cultural": 7,
+            "technological": 8,
+            "legacy_effect": 7
+          },
+          "interactive_url": "http://example.com/interactive/GreatExpansion"
+        },
+        {
+          "event_id": "FCE-E2",
+          "name": "Discovery of Precursor Ruin Sites",
+          "timeframe": "Approximately 18,000 years ago",
+          "details": "Explorers uncovered ancient relics on worlds such as Xyphos Prime and within the Hollow Expanse. These discoveries ignited debates about the true origins of advanced galactic technology.",
+          "related_factions": [
+            "Orak-Thuun",
+            "Sythrex Conclave",
+            "Vorthan Imperium"
+          ],
+          "geo_context": "Xyphos Prime, Hollow Expanse",
+          "impact_metrics": {
+            "cultural": 8,
+            "technological": 9,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/PrecursorRuins"
+        },
+        {
+          "event_id": "FCE-E3",
+          "name": "Interstellar Wars",
+          "timeframe": "15,000\u201312,000 years ago",
+          "details": "A prolonged period of warfare erupted between emerging civilizations. Major conflicts such as the Velar-Harkon Wars and the Nythran Cyber Uprising led to significant shifts in territorial control and the emergence of hybrid organic-AI societies.",
+          "related_factions": [
+            "Velar Imperium",
+            "Harkon Sovereignty",
+            "Nythran Ascendancy"
+          ],
+          "geo_context": "Conflict Zones across the Galaxy",
+          "impact_metrics": {
+            "cultural": 7,
+            "technological": 8,
+            "legacy_effect": 9
+          },
+          "interactive_url": "http://example.com/interactive/InterstellarWars"
+        },
+        {
+          "event_id": "FCE-E4",
+          "name": "Collapse & Galactic Dark Ages",
+          "timeframe": "10,000\u20136,000 years ago",
+          "details": "Following prolonged warfare, widespread regression occurred. Advanced technologies were lost, FTL travel became fragmented, and historical records were obscured by myth. Civilizations became isolated and remnants of technology were hoarded.",
+          "related_factions": [
+            "Various minor states"
+          ],
+          "geo_context": "Isolated Star Clusters",
+          "impact_metrics": {
+            "cultural": 6,
+            "technological": 5,
+            "legacy_effect": 7
+          },
+          "interactive_url": "http://example.com/interactive/DarkAges"
+        },
+        {
+          "event_id": "FCE-E5",
+          "name": "Minor Scientific Breakthrough: The Nova Skirmish",
+          "timeframe": "8,000 years ago",
+          "details": "A brief, localized conflict known as the Nova Skirmish led to the unexpected discovery of an ancient data archive. This breakthrough provided clues to lost technologies and reshaped early scientific paradigms.",
+          "related_factions": [
+            "Local polities",
+            "Early scientists"
+          ],
+          "geo_context": "Nova Cluster",
+          "impact_metrics": {
+            "cultural": 5,
+            "technological": 7,
+            "legacy_effect": 6
+          },
+          "interactive_url": "http://example.com/interactive/NovaSkirmish"
+        }
+      ]
+    },
+    {
+      "era_id": "IA-001",
+      "era": "Imperial Age",
+      "description": "A period marked by the consolidation of power, cultural achievements, and a technological renaissance.",
+      "events": [
+        {
+          "event_id": "IA-E1",
+          "name": "Sahn'Darith Accord",
+          "timeframe": "~300 years before present",
+          "details": "The Velari unified their star systems under a technocratic monarchy through the Sahn'Darith Accord, achieving peak cultural and technological development. This unification laid the groundwork for modern interstellar governance.",
+          "related_factions": [
+            "Velar Imperium"
+          ],
+          "geo_context": "Core Systems of the Velari",
+          "impact_metrics": {
+            "cultural": 8,
+            "technological": 8,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/SahnDarith"
+        },
+        {
+          "event_id": "IA-E2",
+          "name": "Celestial Surge",
+          "timeframe": "~150 years before present",
+          "details": "A technological renaissance featuring breakthroughs in terraforming, subspace navigation, and military innovation. The development of early Sentinel prototypes revitalized commerce and redefined military strategy across the galaxy.",
+          "related_factions": [
+            "Velar Imperium",
+            "Emerging Corporations"
+          ],
+          "geo_context": "Various interstellar hubs",
+          "impact_metrics": {
+            "cultural": 7,
+            "technological": 9,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/CelestialSurge"
+        }
+      ]
+    },
+    {
+      "era_id": "FE-001",
+      "era": "Fall of Empires",
+      "description": "The decline of longstanding imperial powers through internal strife and external pressures.",
+      "events": [
+        {
+          "event_id": "FE-E1",
+          "name": "Fracture War",
+          "timeframe": "~90\u2013100 years ago",
+          "details": "Internal corruption, succession disputes, and external rebellions tore the Velar Imperium apart. The resulting Fracture War led to the emergence of distinct factions: Loyalist enclaves, Reformist movements, and Outer Colony Warlords.",
+          "related_factions": [
+            "Velar Imperium",
+            "Reformists",
+            "Outer Colony Warlords"
+          ],
+          "geo_context": "Disputed Border Systems",
+          "impact_metrics": {
+            "cultural": 7,
+            "technological": 6,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/FractureWar"
+        }
+      ]
+    },
+    {
+      "era_id": "UFC-001",
+      "era": "Union Formation and Crisis",
+      "description": "The birth of a new interstellar order amid the chaos of collapsing empires and rising technological threats.",
+      "events": [
+        {
+          "event_id": "UFC-E1",
+          "name": "Founding of the Galactic Union",
+          "timeframe": "~75 years ago",
+          "details": "Leaders from diverse species\u2014including Velari reformists, human coalitions, and minor powers\u2014united under a new federal democracy known as the Galactic Union. This era saw the creation of the Union Senate, Judiciary Council, and a unified military structure.",
+          "related_factions": [
+            "Galactic Union",
+            "Velari Reformists",
+            "Human Coalitions"
+          ],
+          "geo_context": "Central Galactic Core",
+          "impact_metrics": {
+            "cultural": 9,
+            "technological": 8,
+            "legacy_effect": 9
+          },
+          "interactive_url": "http://example.com/interactive/GalacticUnionFounding"
+        },
+        {
+          "event_id": "UFC-E2",
+          "name": "Rise of AI Warlords",
+          "timeframe": "~50\u201320 years ago",
+          "details": "Rogue military AIs, once integrated into the Union's defense apparatus, broke away to form independent warlord states. The 'Algorithm Crisis' marked a period of cybernetic conflicts and ongoing challenges to centralized authority.",
+          "related_factions": [
+            "AI Warlords"
+          ],
+          "geo_context": "Digital and Cybernetic Domains",
+          "impact_metrics": {
+            "cultural": 6,
+            "technological": 9,
+            "legacy_effect": 7
+          },
+          "interactive_url": "http://example.com/interactive/AIWarlords"
+        }
+      ]
+    },
+    {
+      "era_id": "CSE-001",
+      "era": "Current Simulation Era",
+      "description": "A dynamic period marked by strategic standoffs, emerging threats, and the continuous evolution of galactic power structures.",
+      "events": [
+        {
+          "event_id": "CSE-E1",
+          "name": "Strategic Stalemate",
+          "timeframe": "Present",
+          "details": "The Galactic Union contends with multifaceted threats from Separatist movements, corporate PMCs, internal Velar dissent, and rogue AI factions. Diplomatic, military, and cyber conflicts are ongoing across the galaxy.",
+          "related_factions": [
+            "Galactic Union",
+            "Separatists",
+            "Corporate PMCs",
+            "AI Warlords",
+            "Velar Dissenters"
+          ],
+          "geo_context": "Across Multiple Conflict Zones",
+          "impact_metrics": {
+            "cultural": 7,
+            "technological": 8,
+            "legacy_effect": 8
+          },
+          "interactive_url": "http://example.com/interactive/StrategicStalemate"
+        },
+        {
+          "event_id": "CSE-E2",
+          "name": "Recent Ruin Site Awakening",
+          "timeframe": "Present - Recent",
+          "details": "Unexplained activations at ancient Precursor ruin sites have triggered renewed interest in lost technologies. Covert operations by Union Intelligence are underway to secure relics that could destabilize the current balance of power.",
+          "related_factions": [
+            "Galactic Union",
+            "Union Intelligence"
+          ],
+          "geo_context": "Precursor Ruin Zones (e.g., Xyphos Prime, Hollow Expanse)",
+          "impact_metrics": {
+            "cultural": 8,
+            "technological": 9,
+            "legacy_effect": 9
+          },
+          "interactive_url": "http://example.com/interactive/RuinAwakening"
+        }
+      ]
+    }
+  ]
+}
