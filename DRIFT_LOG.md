@@ -59,3 +59,21 @@
   The 38,600 km datum stays recorded as a staged parameter pending
   reconciliation (halo-orbit local figure or superseded early datum);
   promotion of the environment packet must resolve this field explicitly.
+
+## Drift Entry — 2026-06-13 (powered watch + ground segment)
+- **Source:** Owner ruling (station persists in our reality) + first L1<->L2 coupling
+- **Type:** canon addition (new capability + coherence doctrine)
+- **Entities affected:** Orion Station (ORH-07), GUMAS engine (L2), the repository itself
+- **Description:** The L2 engine is now operated by the L1 chassis (powered
+  watch): crew engine-servicing earns engine throughput, engine crises inject
+  analysis tasks back onto the station board, all as state deltas + telemetry
+  per the Architecture Contract. The owner further rules the station operates
+  as if literally on station, which makes the repository the station's GROUND
+  SEGMENT — every real-world artifact now has a literal L1 role (onboard vs
+  ground support), and no capability lacking a coherent L1 explanation is
+  built into the persistent station.
+- **Resolution:** Canon record `canon/L1/station/POWERED_WATCH_AND_GROUND_SEGMENT.md`
+  created (CANON, owner ruling). First powered watch logged at
+  reports/simulation/powered_watch_v1__2026-06-13. Engine turns stage as
+  STAGING chronicle atoms (domain `engine`), promotion-gated. No L1 facts
+  overwritten by engine output.
