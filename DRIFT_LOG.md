@@ -172,3 +172,22 @@
   risk down (-0.013, first stabilizing movement), but the seed-42 collapse is
   structurally robust (13 insurgencies either way). Coefficients not tuned to
   force a larger effect, per the emergence principle.
+
+## Drift Entry — 2026-06-13 (seed-42 stability solution: MECH-SOC-002 + MECH-SOC-003)
+- **Source:** Owner direction (solve the seed-42 collapse; the answer was already in the materials)
+- **Type:** mechanic realization (the prior non-war-progression design, finally built)
+- **Entities affected:** L2 rebellion/insurgency dynamics, faction onset, the mechanic registry
+- **Description:** The seed-42 civil-war attractor had two structural faults
+  (per LESSONS_LEARNED + code): conflict ONSET was over-weighted (no DSI gate;
+  the prescribed non-war-progression rebalance was never built) and civil war
+  had NO EXIT (InsurgencyPhase.RESOLVED never assigned; SUPPRESSED gate
+  unreachable at pinned strength). Both are now realized: MECH-SOC-003 (DSI
+  onset gate, (P+E+S)/(C+M)) reduces onset, and MECH-SOC-002 (war-weariness)
+  erodes war-weary support so the engine's own SUPPRESSED gate becomes
+  reachable.
+- **Resolution:** Registry annotated; models + 5 tests landed (11 total).
+  Two-sided A/B is generalizable across seeds 42/7/99: active civil wars
+  resolve to 0 (from 3-4), stability +0.05..+0.09, risk -0.11. Not coefficient-
+  forced — the DSI formula and resource-exhaustion are the recovered canon
+  design. The runaway attractor is broken; full above-threshold stability is
+  approached, not yet guaranteed (residual non-rebellion instability remains).

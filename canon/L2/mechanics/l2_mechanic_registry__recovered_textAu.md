@@ -196,6 +196,8 @@ in the governed control plane (tracked + tested), not the ungoverned engine dir:
 | **MECH-GOV-001** Faction Decision Retrieval Model | **IMPLEMENTED** | `tools/mech_gov_001.py` — `FactionDecisionModel` (memory retrieval → disposition → action). Realizes the canon rules "betrayal history raises odds of future betrayal" and "weakness increases odds of negotiation". |
 | **MECH-DIP-001** Diplomatic Trust Decay | **IMPLEMENTED** | same module — `T_new = T_old - lambda*B + delta*A` as the trust-update rule the decision model reads. |
 | **MECH-SOC-001** Population Grievance Memory | **IMPLEMENTED** | `tools/mech_gov_001.py` — `PopulationGrievanceModel`. Populations remember hardship/repression/broken-promises (grievance) and relief/autonomy/prosperity (easing) with slow decay; net grievance feeds rebellion onset. Grounded in `canon/L2/social_dynamics/` (DSI, social cohesion, `P_stability = E + T - C`). |
+| **MECH-SOC-002** Insurgency Resolution / War-Weariness | **IMPLEMENTED** | `tools/mech_gov_001.py` — `WarWearinessModel`. A grinding war wearies its population; eroding popular support lets the engine's own SUPPRESSED gate become reachable — the resolution the seed-42 attractor never had. |
+| **MECH-SOC-003** Diplomatic Stability Index (non-war progression gate) | **IMPLEMENTED** | `tools/mech_gov_001.py` — `DiplomaticStabilityModel`. `DSI = (P+E+S)/(C+M)`: cohesion/economy over militarization → governance legitimacy → fewer insurgency onsets. Realizes `canon/L2/social_dynamics/non_war_progression_mechanics.md`. |
 
 The episodic-memory substrate is a clean port of the recovered 2025
 `memory_system.py` (importance-weighted strength, half-life decay,
