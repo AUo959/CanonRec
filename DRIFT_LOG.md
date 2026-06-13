@@ -135,3 +135,20 @@
   corpus is promoted from Secondary Canon to CANON-routed, content preserved
   verbatim. Open items logged: MECH-GOV-001 is design-not-code; a raw 2025
   archive corpus awaits a future mining pass; no per-entity L2 ledger yet.
+
+## Drift Entry — 2026-06-13 (MECH-GOV-001 implemented)
+- **Source:** Owner direction (move directly to MECH-GOV-001)
+- **Type:** mechanic realization (design -> code)
+- **Entities affected:** L2 faction decision-making, the mechanic registry
+- **Description:** MECH-GOV-001 (Faction Decision Retrieval Model) and
+  MECH-DIP-001 (Diplomatic Trust Decay) — designed at genesis, formalized in
+  the recovered registry, never coded — are now implemented in
+  tools/mech_gov_001.py with the recovered memory_system as substrate.
+  Factions combine current state with retrieved episodic memory of betrayals/
+  alliances/negotiations: betrayal history hardens behavior, weakness favors
+  negotiation. The original wall-clock memory decay was replaced with a logical
+  turn clock for determinism.
+- **Resolution:** Registry annotated with Implementation Status; module + 6
+  tests landed in the root control plane (tracked/governed, not the untracked
+  engine dir). Remaining: wire into engine_advanced faction loop; MECH-MIL-001
+  still design-only.

@@ -183,3 +183,26 @@ intended mechanic schema without forcing a bad workaround into the canonical ent
   }
 ]
 ```
+
+---
+
+## Implementation Status (2026-06-13)
+
+The faction-decision and trust mechanics are no longer design-only. Realized
+in the governed control plane (tracked + tested), not the ungoverned engine dir:
+
+| Mechanic | Status | Implementation |
+|---|---|---|
+| **MECH-GOV-001** Faction Decision Retrieval Model | **IMPLEMENTED** | `tools/mech_gov_001.py` — `FactionDecisionModel` (memory retrieval → disposition → action). Realizes the canon rules "betrayal history raises odds of future betrayal" and "weakness increases odds of negotiation". |
+| **MECH-DIP-001** Diplomatic Trust Decay | **IMPLEMENTED** | same module — `T_new = T_old - lambda*B + delta*A` as the trust-update rule the decision model reads. |
+
+The episodic-memory substrate is a clean port of the recovered 2025
+`memory_system.py` (importance-weighted strength, half-life decay,
+reinforcement, recency+importance+relevance retrieval). One deliberate
+correction: the original used wall-clock `time.time()`, breaking determinism;
+the implementation uses a **logical turn clock**, so seed + event log → a
+reproducible decision trace. Tests: `tests/test_mech_gov_001.py` (6).
+
+Remaining: MECH-MIL-001 (weighted combat) and the recall-probability model
+are still design-only; wiring MECH-GOV-001 into the live `engine_advanced`
+faction loop is the next integration step.
