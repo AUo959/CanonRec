@@ -191,3 +191,21 @@
   forced — the DSI formula and resource-exhaustion are the recovered canon
   design. The runaway attractor is broken; full above-threshold stability is
   approached, not yet guaranteed (residual non-rebellion instability remains).
+
+## Drift Entry — 2026-06-13 (consequence layer for inert instability signals)
+- **Source:** Owner direction (work the lessons-learned to-do list)
+- **Type:** mechanic completion (inert signals -> consequential)
+- **Entities affected:** intelligence, conscription, fragmentation, rebellion onset
+- **Description:** The signals the seed-42 lessons flagged as firing-but-inert
+  (§2.1 intel compromise, §2.4 conscription, §2.2 onset, §2.3 fragmentation)
+  now have downstream effects (tools/gumas_consequence_layer.py): counter-intel
+  response surface, conscription->capacity, onset dampener, fragmentation drag.
+  Bisecting surfaced a real coupling: counter_intel_strength feeds BOTH intel
+  resistance AND rebellion onset suppression, so the intel response must be
+  gentle or it erases conflict entirely.
+- **Resolution:** Registry annotated (MECH-INT-001/MIL-002/REB-002/REB-003);
+  4 tests; A/B across seeds 42/7/99 holds the two-sided stability win (~0.40-
+  0.41, risk -0.08..-0.11) with the signals now consequential. Honest finding:
+  these are realism completions, not further stability gains — the stability
+  solution remains the two-sided MECH-SOC-002/003; consequences that touch
+  suppression levers trade against the conflict-relief metric, so kept light.

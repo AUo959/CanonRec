@@ -209,3 +209,23 @@ reproducible decision trace. Tests: `tests/test_mech_gov_001.py` (6).
 Remaining: MECH-MIL-001 (weighted combat) and the recall-probability model
 are still design-only; wiring MECH-GOV-001 into the live `engine_advanced`
 faction loop is the next integration step.
+
+### Lessons-driven consequence mechanics (2026-06-13)
+
+Giving downstream effects to the inert signals the seed-42 lessons flagged
+(`tools/gumas_consequence_layer.py`, A/B-validated, 4 tests):
+
+| Mechanic | Lessons | Effect |
+|---|---|---|
+| **MECH-INT-001** Counter-Intel Response | §2.1 | A faction under intelligence pressure invests in `counter_intel_strength`, making compromise self-limiting (resolvable, not infinite noise) + a bounded, episodic economic cost from residual vulnerability. |
+| **MECH-MIL-002** Conscription Capacity | §2.4 | A faction fighting active insurgencies mobilizes, raising military capacity (was: conscription fired and connected to nothing). |
+| **MECH-REB-002** Onset Dampener | §2.2 | An already-embattled faction resists opening new fronts (tunable; off by default — redundant with the DSI gate). |
+| **MECH-REB-003** Fragmentation Consequence | §2.3 | A faction bleeding territory to a large insurgency loses economic capacity (the split that never split). |
+
+**Coupling note (important):** `counter_intel_strength` is a *shared* lever —
+the engine feeds it into both intel-compromise resistance and the rebellion
+onset `ci_suppression` term. An aggressive counter-intel build-up therefore
+crushes rebellion onset entirely (over-suppression), which trades against both
+realism and the conflict-relief stability metric. MECH-INT-001 is deliberately
+gentle (rate 0.012, ceiling 0.50) so compromise adapts without flattening the
+galaxy's conflict dynamics.
