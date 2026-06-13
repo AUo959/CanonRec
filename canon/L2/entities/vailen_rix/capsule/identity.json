@@ -1,0 +1,19 @@
+{
+  "canonical_id": "vailen_rix",
+  "schema": "charforge-identity-v1.0",
+  "name": "Executive Commander Vailen Rix",
+  "aliases": [
+    "Vailen Rix",
+    "Rix"
+  ],
+  "role": "CEO and Military Commander of the PMC Syndicate",
+  "faction_id": "pmc_syndicate",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py",
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "CEO and Military Leader of PMC Syndicate. Documented in Roster 18.3."
+}

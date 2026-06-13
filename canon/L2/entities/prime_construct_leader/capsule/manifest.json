@@ -1,0 +1,31 @@
+{
+  "canonical_id": "prime_construct_leader",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "05ecb880fb6973b06e3161b88edc330bfa851676f5c9cc1d3166a164664e6f54"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "c45a4bd832803ebd74f2cf705063e29de6aacc0e7926f013bc21dbac95667cff"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "e89ea6ada2e712a08987c0f161872a7675983bd2f098dc7eb359a31d35ab1c62"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "0c37569a195073930dd155651226f8c411517e1be6f6ba80d325ca876ea73914"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "f4cdd47b1e1ee02f9fe70135aa31914e9595c527550142f9bb1f38bd1ca64aea"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "3f1292d29f942d26f1cf742abda230ec38e96716f0138628abde3b1507c05e91"
+    }
+  ]
+}

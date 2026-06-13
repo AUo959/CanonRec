@@ -1,0 +1,31 @@
+{
+  "canonical_id": "sivaen_the_driftcaller",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "1440bfce886827d939531892dc901044c8e538f937217c506798c751e0596a69"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "e17a8fec484f1f7d8b7f28f0e96570f96abf69ee92fcecfda1cfa09a79bf969b"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "6fe4a85d74013a25a782bcb5e5810fa06d453873380f8fcd7a3f94f14303f1e2"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "57df534689855e72a0713815a98950ab6a93965d7c929629886100ab843ac369"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "fd9d8fa4b2048173eb6ab6b31ea5e2f745b29e29da11994629e7cd7e3ee815bc"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "9a878bbf954e51984dab993184de54846909dbb430a0315f67e674bb6744db01"
+    }
+  ]
+}

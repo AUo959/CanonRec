@@ -1,0 +1,31 @@
+{
+  "canonical_id": "drenn_korvath",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "c063c23af405913c422092c712e128592fbe21da7480f521f7550c23c69e2ab4"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "f096d9cd18c57fff935915a16eb37fbeed84f45eab978017f1364f04590ca30d"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "1d442193a7c8d2d3b0c5bc9ad21dac89b2aeb2a28b2cbae54a5a8765baff3c12"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "533682551786fa0b7a2301894af21648b7244bfd6c48f078865118e2bed3fc40"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "bf7c2d9bad4b91f40b88152284417f2e1562e46f243cac56eaa7e87f7072c172"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "b878ab5360e7970cb6e169d2038c99be2fb4cc2dbd5b68a1e4e85dcaf3a48f49"
+    }
+  ]
+}

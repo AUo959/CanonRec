@@ -1,0 +1,17 @@
+{
+  "canonical_id": "drenn_korvath",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "zero_sum_thinking",
+  "bias_modifier": 0.25,
+  "traits": [
+    "Clan-Absolute Loyalty",
+    "Resonance Sculptor Philosophy",
+    "Territorial Aggression",
+    "Honor-Bound Warrior"
+  ],
+  "decision_style": "Zero-Sum Clan Calculus \u2014 Every Gain by Another is a Loss to the Vorran; Honor Demands Open Contest",
+  "allegiance": "Vorran Clans (Clan Confederation; Resonance Sculpture Cultural Tradition)",
+  "reputation": "+18 Vorran Clan Loyalty, -8 GU Diplomatic Trust, -6 Zyphari Compact Relations",
+  "relationships": "Distrustful of Zylox (views GU expansion as clan-territory encroachment); reluctant tactical awareness of Torr-Kai as territorial buffer",
+  "personality_insight": "Every scar is carved with intention. The resonance of a life well-fought echoes into the stone of the universe."
+}

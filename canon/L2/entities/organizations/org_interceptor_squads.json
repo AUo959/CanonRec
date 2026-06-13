@@ -1,0 +1,34 @@
+{
+  "entity_id": "org_interceptor_squads",
+  "entity_kind": "organization",
+  "name": "Interceptor Squads",
+  "aliases": [],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "marshals_ledger",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Entity_Profiles/Marshals_Sentinels/marshals_sentinel_ledger.md",
+      "line_start": 126,
+      "line_end": 126
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "tags": [
+    "marshal_subunit"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "law_enforcement",
+  "jurisdiction": null,
+  "parent_org_id": "org_union_marshals",
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Marshals ledger; defined sub-unit of CANON org_union_marshals. CANON.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}

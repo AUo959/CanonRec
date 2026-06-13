@@ -1,0 +1,34 @@
+{
+  "entity_id": "org_union_intelligence_bureau",
+  "entity_kind": "organization",
+  "name": "Union Intelligence Bureau",
+  "aliases": [],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "world_bible",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_SYSTEM__GUMAS_L2_World_Bible__v0.2__2026-02-08__BAY02_0809.md",
+      "line_start": 338,
+      "line_end": 346
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "tags": [
+    "world_bible"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "intelligence",
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "World Bible; core GU intelligence arm. CANON.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}

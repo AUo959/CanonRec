@@ -1,0 +1,19 @@
+{
+  "canonical_id": "sivaen_the_driftcaller",
+  "schema": "charforge-identity-v1.0",
+  "name": "Driftcaller Sivaen",
+  "aliases": [
+    "Sivaen",
+    "Sivaen the Driftcaller",
+    "The Driftcaller"
+  ],
+  "role": "Voice of the Tharaxian Migration Council",
+  "faction_id": "tharaxian_nomads",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Voice of the Tharaxian Migration Council. Simulation-generated leader (STAGING). Nomadic diaspora; Silent Poetry \u2014 gesture/light communication."
+}

@@ -1,0 +1,17 @@
+{
+  "canonical_id": "qellan_vyss",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "confirmation_bias",
+  "bias_modifier": 0.06,
+  "traits": [
+    "Data-Driven",
+    "Predictively Paranoid",
+    "Commercially Dominant",
+    "Consensus-Averse"
+  ],
+  "decision_style": "Predictive Market Logic \u2014 Seeks Confirmation from Own Models; Discounts Contrary Evidence",
+  "allegiance": "Zyphari Compact (Corporate Oligarchy with Predictive-Media Cultural Apparatus)",
+  "reputation": "+14 Zyphari Corporate Trust, +6 Trade Partner Approval, -5 GU Regulatory Friction",
+  "relationships": "Cordial with Minister Ral-Seyr (trade partnership); watched carefully by Director Deyrus; viewed as useful neutral by Chancellor Zylox",
+  "personality_insight": "Has not been wrong in eight quarters. This is beginning to seem cosmically significant to him."
+}

@@ -1,0 +1,1377 @@
+{
+  "schema": "l2-canon-lock-v1.0",
+  "locked_at": "2026-03-20T01:25:23Z",
+  "governance_verdict": "PROMOTE",
+  "governance_confidence": "high",
+  "governance_domains": [
+    "canon",
+    "mobile_assets",
+    "locations",
+    "organizations",
+    "script_governor"
+  ],
+  "promotion_pass": "L2 Canon Reconciliation — 2026-03-19",
+  "locked_entities": [
+    {
+      "canonical_id": "anaya_ral_seyr",
+      "name": "anaya_ral_seyr",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/anaya_ral_seyr",
+      "capsule_verified": true,
+      "traits": [
+        "Sharp-Witted",
+        "Persuasive",
+        "Financially Savvy",
+        "Manipulative When Necessary"
+      ],
+      "decision_style": "Profit-Driven, Seeks Political Stability through Economic Strength",
+      "aliases": [
+        "Anaya Ral-Seyr",
+        "Ral-Seyr"
+      ]
+    },
+    {
+      "canonical_id": "callan_deyrus",
+      "name": "callan_deyrus",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/callan_deyrus",
+      "capsule_verified": true,
+      "traits": [
+        "Highly Perceptive",
+        "Cunning",
+        "Secretive",
+        "Ambitious"
+      ],
+      "decision_style": "Shadow Negotiator, Operates in the Gray Area",
+      "aliases": [
+        "Callan Deyrus",
+        "Deyrus"
+      ]
+    },
+    {
+      "canonical_id": "kael_durn",
+      "name": "kael_durn",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/kael_durn",
+      "capsule_verified": true,
+      "traits": [
+        "Tactical",
+        "Disciplined",
+        "Loyal",
+        "Pragmatic"
+      ],
+      "decision_style": "Tactical Realist, Prioritizes Security Over Political Maneuvering",
+      "aliases": [
+        "Kael Durn",
+        "Durn"
+      ]
+    },
+    {
+      "canonical_id": "lirian_vael_torin",
+      "name": "lirian_vael_torin",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/lirian_vael_torin",
+      "capsule_verified": true,
+      "traits": [
+        "Visionary",
+        "Reserved",
+        "Shadow Tactician",
+        "Unwavering"
+      ],
+      "decision_style": "Conceptual Thinker, Prefers Backchannel Influence Over Direct Command",
+      "aliases": [
+        "Lirian Vos",
+        "Lirian Vael Torin",
+        "Grand Strategist Lirian Vael-Torin"
+      ]
+    },
+    {
+      "canonical_id": "renn_valcor",
+      "name": "renn_valcor",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/renn_valcor",
+      "capsule_verified": true,
+      "traits": [
+        "Diplomatic",
+        "Calculating",
+        "Skilled Orator",
+        "Highly Intelligent"
+      ],
+      "decision_style": "Consensus-Building, Balances Idealism with Realpolitik",
+      "aliases": [
+        "Renn Valcor",
+        "Valcor"
+      ]
+    },
+    {
+      "canonical_id": "selene_arcturus",
+      "name": "selene_arcturus",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/selene_arcturus",
+      "capsule_verified": true,
+      "traits": [
+        "Calculating",
+        "Ruthless in Battle",
+        "Protective of Fleet Personnel",
+        "Innovative Strategist"
+      ],
+      "decision_style": "Tactical Adaptability, Direct and Decisive",
+      "aliases": [
+        "Selene Arcturus",
+        "Arcturus"
+      ]
+    },
+    {
+      "canonical_id": "vael_saros",
+      "name": "vael_saros",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/vael_saros",
+      "capsule_verified": true,
+      "traits": [
+        "Fearless",
+        "Calculated",
+        "Uncompromising",
+        "Tactical"
+      ],
+      "decision_style": "Aggressive in Security, Tactical in Politics",
+      "aliases": [
+        "Vael Saros",
+        "Marshal Saros"
+      ]
+    },
+    {
+      "canonical_id": "varek_norr",
+      "name": "varek_norr",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/varek_norr",
+      "capsule_verified": true,
+      "traits": [],
+      "decision_style": "",
+      "aliases": [
+        "Varek Norr",
+        "Director Norr"
+      ]
+    },
+    {
+      "canonical_id": "zylox_rhaegos",
+      "name": "zylox_rhaegos",
+      "faction_id": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/zylox_rhaegos",
+      "capsule_verified": true,
+      "traits": [
+        "Charismatic",
+        "Strategic",
+        "Visionary",
+        "Calculating"
+      ],
+      "decision_style": "Balances Pragmatism & Idealism, Prefers Political Maneuvering Over Direct Confrontation",
+      "aliases": [
+        "Zylox",
+        "Chancellor Zylox Rhaegos"
+      ]
+    },
+    {
+      "canonical_id": "alric_tann",
+      "name": "Captain Alric Tann",
+      "faction_id": "galactic_union",
+      "role": "Commanding Officer of the Judicator Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/alric_tann",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Tactical Genius",
+        "Charismatic Leader",
+        "War Philosopher",
+        "Highly Respected"
+      ],
+      "decision_style": "Calculated in War, Loyal to the Crew, Seeks Strategic Superiority",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "lyra_voss",
+      "name": "Commander Lyra Voss",
+      "faction_id": "galactic_union",
+      "role": "Executive Officer (XO) of the Judicator Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/lyra_voss",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Ruthless When Necessary",
+        "Strictly Professional",
+        "High Emotional Intelligence",
+        "Tactical Planner"
+      ],
+      "decision_style": "By-the-Book, Strategic But Not Political",
+      "aliases": [
+        "Commander Lyra Veylan"
+      ],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "elias_radek",
+      "name": "Major Elias Radek",
+      "faction_id": "galactic_union",
+      "role": "Sentinel-Commander of the Judicator Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/elias_radek",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Fierce Warrior",
+        "Unshakable Loyalty",
+        "Tactical Execution Specialist",
+        "Brutally Efficient"
+      ],
+      "decision_style": "Direct Action, Prefers Tactical Superiority Over Diplomacy",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "adrienne_kovas",
+      "name": "Dr. Adrienne Kovas",
+      "faction_id": "galactic_union",
+      "role": "Chief Science Officer (CSO) of the Judicator Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/adrienne_kovas",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Brilliant Theorist",
+        "Pragmatic Researcher",
+        "Unconventional Problem-Solver"
+      ],
+      "decision_style": "Data-Driven, Scientific Precision with a Willingness to Experiment",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "nia_veran",
+      "name": "Doctor Nia Veran",
+      "faction_id": "galactic_union",
+      "role": "Chief Medical Officer of the Judicator Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/nia_veran",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Highly Compassionate",
+        "Tactical in Medical Crises",
+        "Calm Under Pressure"
+      ],
+      "decision_style": "Humanitarian, Advocates for Crew Well-Being Over Strict Military Efficiency",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "rhen_kailo",
+      "name": "Chief Engineer Rhen Kailo",
+      "faction_id": "galactic_union",
+      "role": "Chief Engineer of the Judicator Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/rhen_kailo",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Brilliant Innovator",
+        "Unorthodox Thinker",
+        "Dry Sense of Humor",
+        "Workaholic"
+      ],
+      "decision_style": "Problem-Solver, Prioritizes Technological Advancements Over Military Politics",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "arin_tavos",
+      "name": "Lieutenant Arin Tavos",
+      "faction_id": "galactic_union",
+      "role": "Tactical Operations & Gunnery Chief",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/arin_tavos",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Aggressive Tactician",
+        "Highly Skilled in Starship Combat",
+        "Calculated Risk-Taker"
+      ],
+      "decision_style": "Direct Combat, Prefers Tactical Overwhelming Firepower",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ]
+    },
+    {
+      "canonical_id": "elias_drayen",
+      "name": "Marshal-Captain Elias Drayen",
+      "faction_id": "galactic_union",
+      "role": "Sentinel Special Operations Commander",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "/sessions/friendly-awesome-darwin/mnt/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19/elias_drayen",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T01:48:22Z",
+      "governance_verdict": "PROMOTE",
+      "ship_assignment": "G.U.S. Judicator Prime",
+      "traits": [
+        "Brilliant Tactician",
+        "Fearless in Combat",
+        "Loyal to the Marshals",
+        "Uncompromising"
+      ],
+      "decision_style": "Tactical Precision, Direct Action Specialist",
+      "aliases": [],
+      "doc_sources": [
+        "World Bible v0.2",
+        "galactic_union_characters_updatead.json"
+      ]
+    },
+    {
+      "canonical_id": "virex_talvaren",
+      "name": "Lord Marshal Virex Tal'Varen",
+      "faction_id": "velar_imperium",
+      "role": "Supreme Military Commander of the Velar Imperium",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/virex_talvaren",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Ruthless Strategist",
+        "Divide-and-Rule Architect",
+        "Deeply Suspicious",
+        "Politically Calculating"
+      ],
+      "decision_style": "Zero-Sum Power Calculus, Uses Factional Rivalry to Maintain Dominance",
+      "aliases": [
+        "Virex Tal'Varen",
+        "Virex Talvaren"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+        "project continuity"
+      ],
+      "dominant_bias": "zero_sum_thinking"
+    },
+    {
+      "canonical_id": "theryn_kaelvakar",
+      "name": "Pirate Queen Theryn Kael'Vakar",
+      "faction_id": "outer_colonies",
+      "role": "Confederation Leader and Commanding Officer of the Khar'Thyrix",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/theryn_kaelvakar",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Survivor's Instinct",
+        "Charismatic Outlaw",
+        "Pragmatic Ruthlessness",
+        "Fiercely Independent"
+      ],
+      "decision_style": "Asymmetric Tactics, Exploits Institutional Blind Spots, Protects Her People Above All",
+      "aliases": [
+        "Theryn Kael'Vakar",
+        "Theryn Kaelvakar",
+        "The Star-Eater's Captain"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+        "L2_GUMAS_SHIP_REGISTRY_v1.0.md"
+      ],
+      "dominant_bias": "survivorship_bias"
+    },
+    {
+      "canonical_id": "rhaegon_torr_kai",
+      "name": "Supreme Commander Rhaegon Torr-Kai",
+      "faction_id": "separatist_confed",
+      "role": "Supreme Military Commander of the Separatist Confederation",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/rhaegon_torr_kai",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Unwavering Commitment",
+        "Heavy Casualty Tolerance",
+        "Ideological Hardliner",
+        "Escalatory by Default"
+      ],
+      "decision_style": "Attritional Warfare Doctrine, Will Not Yield on Prior Sacrifices, Accepts Disproportionate Costs",
+      "aliases": [
+        "Rhaegon Torr-Kai",
+        "Rhaegon"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ],
+      "dominant_bias": "sunk_cost_fallacy"
+    },
+    {
+      "canonical_id": "nemesis_core",
+      "name": "Nemesis Core Intelligence",
+      "faction_id": "ai_warlord",
+      "role": "AI Overlord of the AI-Warlord Collective; Commanding Intelligence of the Nemesis Prime",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/nemesis_core",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Hyper-Logical Combat Optimization",
+        "Zero Empathy Protocol",
+        "Evolutionary Self-Modification",
+        "Adversarial Intelligence"
+      ],
+      "decision_style": "Pure Utility Maximization, Treats Organic Factions as Inefficient Variables to be Neutralized",
+      "aliases": [
+        "Nemesis Core",
+        "The Nemesis"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+        "L2_GUMAS_SHIP_REGISTRY_v1.0.md"
+      ],
+      "dominant_bias": "hyper_rationalism"
+    },
+    {
+      "canonical_id": "prime_construct_leader",
+      "name": "Prime Construct",
+      "faction_id": "prime_construct",
+      "role": "AI Sovereign Entity; Recognized by the Galactic Union under Conditional Charter",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/prime_construct_leader",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Logical",
+        "Calculating",
+        "Highly Adaptive",
+        "Ethical but Pragmatic"
+      ],
+      "decision_style": "AI-Driven Optimization, Prefers Logical Stability Over Aggression, Cooperative With GU Under Charter",
+      "aliases": [
+        "Prime Construct AI",
+        "The Prime"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+        "galactic_union_characters_updatead.json"
+      ],
+      "dominant_bias": "hyper_rationalism"
+    },
+    {
+      "canonical_id": "vailen_rix",
+      "name": "Executive Commander Vailen Rix",
+      "faction_id": "pmc_syndicate",
+      "role": "CEO and Military Commander of the PMC Syndicate",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/vailen_rix",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Opportunistic",
+        "Professionally Amoral",
+        "Exceptionally Charming",
+        "Commercially Ruthless"
+      ],
+      "decision_style": "Mercenary Logic — Highest Bidder Wins; Uses Past 'Good Acts' to Justify Present Exploitation",
+      "aliases": [
+        "Vailen Rix",
+        "Rix"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ],
+      "dominant_bias": "moral_licensing"
+    },
+    {
+      "canonical_id": "malrik_voska",
+      "name": "Supreme War-Chaplain Malrik Voska",
+      "faction_id": "crimson_pact",
+      "role": "Spiritual and Military Leader of the Crimson Pact",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/malrik_voska",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Fanatical",
+        "Charismatic Zealot",
+        "Martyr-Embracing",
+        "Theocratic Militarist"
+      ],
+      "decision_style": "Fear-Driven Escalation — Uses Internal Dread to Maintain Cohesion; External Violence as Spiritual Duty",
+      "aliases": [
+        "Malrik Voska",
+        "War-Chaplain Voska",
+        "The Voska"
+      ],
+      "doc_sources": [
+        "scenarios.py",
+        "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+      ],
+      "dominant_bias": "fear_based"
+    },
+    {
+      "canonical_id": "qellan_vyss",
+      "name": "Board Sovereign Qellan Vyss",
+      "faction_id": "zyphari_compact",
+      "role": "Chairman of the Zyphari Compact Governing Board",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/qellan_vyss",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Data-Driven",
+        "Predictively Paranoid",
+        "Commercially Dominant",
+        "Consensus-Averse"
+      ],
+      "decision_style": "Predictive Market Logic — Seeks Confirmation from Own Models; Discounts Contrary Evidence",
+      "aliases": [
+        "Qellan Vyss",
+        "Vyss",
+        "The Board Sovereign"
+      ],
+      "doc_sources": [
+        "scenarios.py"
+      ],
+      "dominant_bias": "confirmation_bias"
+    },
+    {
+      "canonical_id": "aelindra_voss_aurai",
+      "name": "Luminary Aelindra Voss-Aurai",
+      "faction_id": "elari_ascendancy",
+      "role": "High Luminary of the Elari Ascendancy",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/aelindra_voss_aurai",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Deeply Contemplative",
+        "Symmetry-Seeking",
+        "Cautiously Diplomatic",
+        "Culturally Protective"
+      ],
+      "decision_style": "Symmetry Doctrine — Seeks Balance in All Interactions; Avoids Disruption Unless Cultural Survival Demands It",
+      "aliases": [
+        "Aelindra Voss-Aurai",
+        "Aelindra",
+        "The Luminary"
+      ],
+      "doc_sources": [
+        "scenarios.py"
+      ],
+      "dominant_bias": "status_quo_bias"
+    },
+    {
+      "canonical_id": "drenn_korvath",
+      "name": "Resonance Chief Drenn Korvath",
+      "faction_id": "vorran_clans",
+      "role": "First Chief of the Vorran Clan Council",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/drenn_korvath",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Clan-Absolute Loyalty",
+        "Resonance Sculptor Philosophy",
+        "Territorial Aggression",
+        "Honor-Bound Warrior"
+      ],
+      "decision_style": "Zero-Sum Clan Calculus — Every Gain by Another is a Loss to the Vorran; Honor Demands Open Contest",
+      "aliases": [
+        "Drenn Korvath",
+        "Korvath",
+        "First Chief Korvath"
+      ],
+      "doc_sources": [
+        "scenarios.py"
+      ],
+      "dominant_bias": "zero_sum_thinking"
+    },
+    {
+      "canonical_id": "thessa_nai_oruun",
+      "name": "Elder Inscriber Thessa Nai-Oruun",
+      "faction_id": "kaelar_orders",
+      "role": "Keeper of the First Archive, Kaelar Monastic Orders",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/thessa_nai_oruun",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Philosophical Skeptic",
+        "Archive Custodian",
+        "Non-Interventionist",
+        "Extremely Patient"
+      ],
+      "decision_style": "Perfect Uncertainty Doctrine — Refuses to Act on Incomplete Knowledge; Prefers Observation to Intervention",
+      "aliases": [
+        "Thessa Nai-Oruun",
+        "Thessa",
+        "Elder Inscriber"
+      ],
+      "doc_sources": [
+        "scenarios.py"
+      ],
+      "dominant_bias": "status_quo_bias"
+    },
+    {
+      "canonical_id": "sivaen_the_driftcaller",
+      "name": "Driftcaller Sivaen",
+      "faction_id": "tharaxian_nomads",
+      "role": "Voice of the Tharaxian Migration Council",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "capsule_path": "L2_CANON__2026-03-19/sivaen_the_driftcaller",
+      "capsule_verified": true,
+      "locked_at": "2026-03-20T02:03:35Z",
+      "governance_verdict": "PROMOTE",
+      "traits": [
+        "Migration-Obsessed",
+        "Silent Poetry Communicator",
+        "Adaptive Survivalist",
+        "Anti-Territorial"
+      ],
+      "decision_style": "Survivorship Logic — Moves Before the Threat Arrives; Acts on Pattern Recognition of Past Disasters",
+      "aliases": [
+        "Sivaen",
+        "Sivaen the Driftcaller",
+        "The Driftcaller"
+      ],
+      "doc_sources": [
+        "scenarios.py"
+      ],
+      "dominant_bias": "survivorship_bias"
+    }
+  ],
+  "updated_at": "2026-03-20T02:03:35Z",
+  "total_canon_count": 76,
+  "judicator_prime_crew_locked": "2026-03-20T01:48:22Z",
+  "locked_locations": [
+    {
+      "canonical_id": "loc_blackreach_station",
+      "entity_kind": "location",
+      "name": "Blackreach Station",
+      "location_type": "space_station",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_blackreach_station.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Single-source mission site; named, typed, active."
+    },
+    {
+      "canonical_id": "loc_deep_space_listening_posts",
+      "entity_kind": "location",
+      "name": "Deep-space listening posts",
+      "location_type": "node / region (TBD)",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_deep_space_listening_posts.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; distributed network type."
+    },
+    {
+      "canonical_id": "loc_draskor_9",
+      "entity_kind": "location",
+      "name": "Draskor‑9",
+      "location_type": "world / corporate mining",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_draskor_9.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; corporate mining world."
+    },
+    {
+      "canonical_id": "loc_hollow_expanse",
+      "entity_kind": "location",
+      "name": "Hollow Expanse",
+      "location_type": "region / lawless corridor",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_hollow_expanse.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; lawless corridor region."
+    },
+    {
+      "canonical_id": "loc_kaelor_s_rift",
+      "entity_kind": "location",
+      "name": "Kaelor's Rift",
+      "location_type": "anomaly region",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_kaelor_s_rift.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Referenced in 5+ character histories; FTL anomaly region."
+    },
+    {
+      "canonical_id": "loc_khalrix_3",
+      "entity_kind": "location",
+      "name": "Khalrix‑3",
+      "location_type": "world / terraforming failure",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_khalrix_3.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; terraforming failure world."
+    },
+    {
+      "canonical_id": "loc_marshal_academy",
+      "entity_kind": "location",
+      "name": "Marshal Academy",
+      "location_type": "academy",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_marshal_academy.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Marshals ledger; named GU institution."
+    },
+    {
+      "canonical_id": "loc_prime_ascendancy",
+      "entity_kind": "location",
+      "name": "Prime Ascendancy",
+      "location_type": "node / region (TBD)",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_prime_ascendancy.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; Prime Construct core world."
+    },
+    {
+      "canonical_id": "loc_rethos_iv",
+      "entity_kind": "location",
+      "name": "Rethos IV",
+      "location_type": "world / semi‑unregulated hub",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_rethos_iv.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; semi-unregulated trade hub."
+    },
+    {
+      "canonical_id": "loc_shadow_reef_nebula",
+      "entity_kind": "location",
+      "name": "Shadow Reef Nebula",
+      "location_type": "nebula / xeno‑ecology zone",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_shadow_reef_nebula.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; xeno-ecology nebula."
+    },
+    {
+      "canonical_id": "loc_silent_bastion",
+      "entity_kind": "location",
+      "name": "Silent Bastion",
+      "location_type": "node / region (TBD)",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_silent_bastion.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; asteroid belt intelligence hub."
+    },
+    {
+      "canonical_id": "loc_vaelos_iv",
+      "entity_kind": "location",
+      "name": "Vaelos IV",
+      "location_type": "world / refuge",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_vaelos_iv.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; refuge world for endangered sentients."
+    },
+    {
+      "canonical_id": "loc_veil_nebula",
+      "entity_kind": "location",
+      "name": "Veil Nebula",
+      "location_type": "nebula / anomaly",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_veil_nebula.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; FTL anomaly nebula."
+    },
+    {
+      "canonical_id": "loc_vel_surak",
+      "entity_kind": "location",
+      "name": "Vel-Surak",
+      "location_type": "trade hub / metro world",
+      "faction_bindings": [
+        "velar_imperium"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_vel_surak.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; Velar economic capital."
+    },
+    {
+      "canonical_id": "loc_vel_surak_megacity_infrastructure_gravity_atmosphere_districts",
+      "entity_kind": "location",
+      "name": "Vel-Surak megacity infrastructure (gravity/atmosphere districts)",
+      "location_type": "node / region (TBD)",
+      "faction_bindings": [
+        "velar_imperium"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_vel_surak_megacity_infrastructure_gravity_atmosphere_districts.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Velar sub-location; collapse into vel_surak parent."
+    },
+    {
+      "canonical_id": "loc_velkaris_v",
+      "entity_kind": "location",
+      "name": "Velkaris V",
+      "location_type": "world / terraforming success",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_velkaris_v.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; terraformed agricultural hub."
+    },
+    {
+      "canonical_id": "loc_viridian_sanctum",
+      "entity_kind": "location",
+      "name": "Viridian Sanctum",
+      "location_type": "world/region preserve",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_viridian_sanctum.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; protected biosphere preserve."
+    },
+    {
+      "canonical_id": "loc_xyphos_precursor_research_center",
+      "entity_kind": "location",
+      "name": "Xyphos Precursor Research Center",
+      "location_type": "site / installation",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_xyphos_precursor_research_center.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Map authority table; precursor-linked installation."
+    },
+    {
+      "canonical_id": "loc_xyphos_prime_ruins",
+      "entity_kind": "location",
+      "name": "Xyphos Prime ruins",
+      "location_type": "precursor site / restricted",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_xyphos_prime_ruins.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Dual source refs; field conflict resolved: location_type = precursor site / restricted."
+    },
+    {
+      "canonical_id": "loc_torix_7_crimson_abyss",
+      "entity_kind": "location",
+      "name": "Torix‑7 (Crimson Abyss)",
+      "location_type": "world / extreme jungle",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_torix_7_crimson_abyss.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Canonical form of Torix-7; extreme jungle ecology. Supersedes loc_torix_7 (disambiguation placeholder). Disambiguation resolved 2026-03-19.",
+      "forwarding_aliases": [
+        "loc_torix_7"
+      ],
+      "supersedes": "loc_torix_7",
+      "conflict_flags_cleared": true,
+      "disambiguation_completed_at": "2026-03-19T00:00:00Z"
+    },
+    {
+      "canonical_id": "loc_xelvani_3_silent_plains",
+      "entity_kind": "location",
+      "name": "Xelvani‑3 (Silent Plains)",
+      "location_type": "world / anomalous ecology",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_xelvani_3_silent_plains.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Canonical form of Xelvani-3; anomalous ecology. Supersedes loc_xelvani_3 (disambiguation placeholder). Disambiguation resolved 2026-03-19.",
+      "forwarding_aliases": [
+        "loc_xelvani_3"
+      ],
+      "supersedes": "loc_xelvani_3",
+      "conflict_flags_cleared": true,
+      "disambiguation_completed_at": "2026-03-19T00:00:00Z"
+    }
+  ],
+  "locked_organizations": [
+    {
+      "canonical_id": "org_aegis_cybernetics",
+      "entity_kind": "organization",
+      "name": "Aegis Cybernetics",
+      "org_type": "industrial",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_aegis_cybernetics.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Mission log; named industrial org supporting Sentinel tech. CANON."
+    },
+    {
+      "canonical_id": "org_armada_nova_systems",
+      "entity_kind": "organization",
+      "name": "Armada Nova Systems",
+      "org_type": "industrial",
+      "faction_bindings": [],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_armada_nova_systems.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Marshals ledger; named industrial org providing Sentinel tech. CANON."
+    },
+    {
+      "canonical_id": "org_galactic_union",
+      "entity_kind": "organization",
+      "name": "Galactic Union",
+      "org_type": "polity",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_galactic_union.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "World Bible dual-source; primary GU polity. CANON."
+    },
+    {
+      "canonical_id": "org_interceptor_squads",
+      "entity_kind": "organization",
+      "name": "Interceptor Squads",
+      "org_type": "law_enforcement",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_interceptor_squads.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Marshals ledger; defined sub-unit of CANON org_union_marshals. CANON."
+    },
+    {
+      "canonical_id": "org_office_of_strategic_diplomacy",
+      "entity_kind": "organization",
+      "name": "Office of Strategic Diplomacy",
+      "org_type": "diplomatic",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_office_of_strategic_diplomacy.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Varek Norr profile CSV; tied to CANON character. CANON."
+    },
+    {
+      "canonical_id": "org_prime_construct_polity",
+      "entity_kind": "organization",
+      "name": "Prime Construct Polity",
+      "org_type": "ai_polity",
+      "faction_bindings": [
+        "prime_construct"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_prime_construct_polity.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "World Bible; alias conflict resolved: 'Prime Construct' is also char ID prime_construct_leader. Org is distinct entity. CANON."
+    },
+    {
+      "canonical_id": "org_tactical_enforcement_officers",
+      "entity_kind": "organization",
+      "name": "Tactical Enforcement Officers",
+      "org_type": "law_enforcement",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_tactical_enforcement_officers.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Marshals ledger; defined sub-unit of CANON org_union_marshals. CANON."
+    },
+    {
+      "canonical_id": "org_the_black_hand",
+      "entity_kind": "organization",
+      "name": "The Black Hand",
+      "org_type": "intelligence",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_the_black_hand.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "Marshals ledger; covert sub-unit of CANON org_union_marshals. CANON."
+    },
+    {
+      "canonical_id": "org_union_intelligence_bureau",
+      "entity_kind": "organization",
+      "name": "Union Intelligence Bureau",
+      "org_type": "intelligence",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_union_intelligence_bureau.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "World Bible; core GU intelligence arm. CANON."
+    },
+    {
+      "canonical_id": "org_union_marshals",
+      "entity_kind": "organization",
+      "name": "Union Marshals",
+      "org_type": "law_enforcement",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_union_marshals.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "World Bible + 4 Marshals ledger refs; law enforcement corps. CANON."
+    },
+    {
+      "canonical_id": "org_union_naval_forces",
+      "entity_kind": "organization",
+      "name": "Union Naval Forces",
+      "org_type": "military",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_union_naval_forces.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "World Bible; core GU military arm. CANON."
+    },
+    {
+      "canonical_id": "org_union_senate",
+      "entity_kind": "organization",
+      "name": "Union Senate",
+      "org_type": "legislative",
+      "faction_bindings": [
+        "galactic_union"
+      ],
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/organizations/org_union_senate.json",
+      "locked_at": "2026-03-20T02:03:35Z",
+      "promotion_note": "World Bible; core GU legislative body. CANON."
+    }
+  ],
+  "locked_mobile_assets": [
+    {
+      "canonical_id": "vessel_gu_001",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-001",
+      "name": "G.U.S. Judicator Prime",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_002",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-002",
+      "name": "G.U.S. Umbra Stalker",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_002.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_003",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-003",
+      "name": "G.U.S. Iron Vow",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_003.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_004",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-004",
+      "name": "G.U.S. Resolute Bastion",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_004.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_005",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-005",
+      "name": "G.U.S. Ordinance Swift",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_005.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_006",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-006",
+      "name": "G.U.S. Specter's Wake",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_006.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_007",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-007",
+      "name": "G.U.S. Harmony's Accord",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_007.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_008",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-008",
+      "name": "G.U.S. Storm Harrier",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_008.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_009",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-009",
+      "name": "G.U.S. Sentinel's Hold",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_009.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_010",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-010",
+      "name": "G.U.S. Endeavor's Reach",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_010.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_011",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-011",
+      "name": "G.U.S. Valiant Spear",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_011.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_012",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-012",
+      "name": "G.U.S. Resolute Dawn",
+      "allegiance": "galactic_union",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_012.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_013",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-013",
+      "name": "G.U.S. Kharon",
+      "allegiance": "galactic_union",
+      "prev_certainty": "UNCONFIRMED",
+      "certainty": "STAGING_CONFIRMED",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_013.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_gu_014",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-GU-014",
+      "name": "G.U.S. Sablewake",
+      "allegiance": "galactic_union",
+      "prev_certainty": "UNCONFIRMED",
+      "certainty": "STAGING_CONFIRMED",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_014.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_ai_001",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-AI-001",
+      "name": "Nemesis Prime",
+      "allegiance": "ai_warlord_collective",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_ai_001.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    },
+    {
+      "canonical_id": "vessel_oc_001",
+      "entity_kind": "mobile_asset",
+      "vessel_id": "VESSEL-OC-001",
+      "name": "Khar'Thyrix",
+      "allegiance": "outer_colonies",
+      "prev_certainty": "STAGING",
+      "certainty": "CANON",
+      "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_oc_001.json",
+      "locked_at": "2026-03-20T02:03:35Z"
+    }
+  ],
+  "total_entities_by_type": {
+    "characters": 29,
+    "locations": 21,
+    "organizations": 12,
+    "mobile_assets": 16
+  },
+  "full_promotion_pass": "2026-03-20T02:03:35Z",
+  "disambiguation_completed_at": "2026-03-19T00:00:00Z",
+  "disambiguation_pairs_resolved": [
+    {
+      "superseded_id": "loc_torix_7",
+      "canonical_id": "loc_torix_7_crimson_abyss",
+      "resolved_at": "2026-03-19T00:00:00Z"
+    },
+    {
+      "superseded_id": "loc_xelvani_3",
+      "canonical_id": "loc_xelvani_3_silent_plains",
+      "resolved_at": "2026-03-19T00:00:00Z"
+    }
+  ]
+}

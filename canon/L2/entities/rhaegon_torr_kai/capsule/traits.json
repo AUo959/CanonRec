@@ -1,0 +1,17 @@
+{
+  "canonical_id": "rhaegon_torr_kai",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "sunk_cost_fallacy",
+  "bias_modifier": 0.18,
+  "traits": [
+    "Unwavering Commitment",
+    "Heavy Casualty Tolerance",
+    "Ideological Hardliner",
+    "Escalatory by Default"
+  ],
+  "decision_style": "Attritional Warfare Doctrine, Will Not Yield on Prior Sacrifices, Accepts Disproportionate Costs",
+  "allegiance": "Separatist Confederation (Revolutionary Militarist)",
+  "reputation": "+18 Separatist Loyalty, -15 GU Military Trust, +4 Fringe Faction Respect",
+  "relationships": "Tactical coordination with Theryn Kael'Vakar; hostile to Prime Construct AI neutrality; views Nemesis Core as destabilizing wild card",
+  "personality_insight": "Every retreat is a personal failure. The costs already paid demand victory at any further cost."
+}

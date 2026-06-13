@@ -113,3 +113,25 @@
   created (CANON). First crewed live watch 2026-06-13 (Alpha morning, ~14 on
   duty of 35, deficits 0). 22.1h/24h day-length datum logged for explicit
   reconciliation at environment-packet promotion; not silently resolved.
+
+## Drift Entry — 2026-06-13 (L2 galactic canon established)
+- **Source:** Owner ruling ("all L2 entities should be promoted") + deep iCloud dig
+- **Type:** canon establishment (new L2 layer home)
+- **Entities affected:** the entire GUMAS galactic simulation layer (L2)
+- **Description:** The L2 galaxy — the simulation the engine runs — had its
+  canon scattered: promoted entities in SIM_ENGINE_OUTPUTS/L2_CANON__2026-03-19,
+  the World Bible + map in projects/GUMAS_SIM_2.0/03_SIMULATION, the Marshals &
+  Sentinels corpus and mission-log operations likewise, the mechanic registry
+  in recovered_textAu staging, and the Lanternline newsletter in project files.
+  Much carried self-declared "Secondary Canon" status pending repo commit. The
+  deep dig confirmed the L2 material is among the oldest in the project
+  (early-2025 lineage) and richly detailed (Galactic Marshals, Sentinel-Class
+  Power Suit + 6 variants, 23 locations, 12 organizations, Operation Obsidian
+  Dawn, the galactic map source of truth).
+- **Resolution:** `canon/L2/` established as the L2 galactic canon home,
+  mirroring `canon/L1/`. Routed ~296 files across entities, world_bible, map,
+  marshals_sentinels, operations, mechanics, primary_sources (provenance in
+  canon/L2/README.md). Entities were promoted in the March L2 pass; the broader
+  corpus is promoted from Secondary Canon to CANON-routed, content preserved
+  verbatim. Open items logged: MECH-GOV-001 is design-not-code; a raw 2025
+  archive corpus awaits a future mining pass; no per-entity L2 ledger yet.

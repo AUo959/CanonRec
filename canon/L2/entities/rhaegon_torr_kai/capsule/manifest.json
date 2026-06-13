@@ -1,0 +1,31 @@
+{
+  "canonical_id": "rhaegon_torr_kai",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "8fbe2c7631a3d4648f56dceeed18f4aeecb78f528d02df4b3296e8db220080c0"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "39a7e057ff172757cece651a19abd17b9fc250567bb1a7e00f9520d5ddcf09e8"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "143acc684bd011b24906b20e069183aa15ea53be88c659ab3f70e8e9bc1eeb5b"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "19a62e111cb8b193704139e4ed033dc11fe9bec810535e9906ee852f1e48a06a"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "a09d75b4bd8f823d5205ab9a56c9a8a965d81607235dfa582686ed95062b0ef6"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "4db4a35e924992aebae737e173079d316864ee3c59758005e5caecda6e87e614"
+    }
+  ]
+}

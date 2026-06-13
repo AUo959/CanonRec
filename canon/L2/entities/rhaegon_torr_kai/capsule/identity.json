@@ -1,0 +1,19 @@
+{
+  "canonical_id": "rhaegon_torr_kai",
+  "schema": "charforge-identity-v1.0",
+  "name": "Supreme Commander Rhaegon Torr-Kai",
+  "aliases": [
+    "Rhaegon Torr-Kai",
+    "Rhaegon"
+  ],
+  "role": "Supreme Military Commander of the Separatist Confederation",
+  "faction_id": "separatist_confed",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py",
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Military leader of the Separatist Confederation. Documented in Roster 18.3. Highest L2 crisis escalation score at Turn 184 (sunk_cost_fallacy modifier: 0.386)."
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "loc_hollow_expanse",
+  "entity_kind": "location",
+  "name": "Hollow Expanse",
+  "aliases": [],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "location_authority_table",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+      "line_start": 39,
+      "line_end": 39
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "Placement TBD; shadow logistics + safe zone / lawless / precursor-linked",
+    "region / lawless corridor"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": "region / lawless corridor",
+  "region_id": null,
+  "canonical_position_status": "canon",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Map authority table; lawless corridor region.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}

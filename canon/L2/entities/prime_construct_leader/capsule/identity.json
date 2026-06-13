@@ -1,0 +1,20 @@
+{
+  "canonical_id": "prime_construct_leader",
+  "schema": "charforge-identity-v1.0",
+  "name": "Prime Construct",
+  "aliases": [
+    "Prime Construct AI",
+    "The Prime"
+  ],
+  "role": "AI Sovereign Entity; Recognized by the Galactic Union under Conditional Charter",
+  "faction_id": "prime_construct",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py",
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "galactic_union_characters_updatead.json"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "AI Sovereign Entity recognized by the Galactic Union. Cooperative stance with Union; monitored by GU military."
+}

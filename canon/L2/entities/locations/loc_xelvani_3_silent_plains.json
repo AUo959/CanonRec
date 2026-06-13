@@ -1,0 +1,47 @@
+{
+  "entity_id": "loc_xelvani_3_silent_plains",
+  "entity_kind": "location",
+  "name": "Xelvani\u20113 (Silent Plains)",
+  "aliases": [
+    "Xelvani 3",
+    "Xelvani-3"
+  ],
+  "forwarding_aliases": [
+    "loc_xelvani_3"
+  ],
+  "supersedes": "loc_xelvani_3",
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "location_authority_table",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+      "line_start": 52,
+      "line_end": 52
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "No animal life; organic structures still grow",
+    "world / anomalous ecology"
+  ],
+  "conflict_flags": [],
+  "disambiguation_record": {
+    "resolved_at": "2026-03-19T00:00:00Z",
+    "resolution": "CANONICAL_FORM_PROMOTED",
+    "superseded_id": "loc_xelvani_3",
+    "resolution_note": "loc_xelvani_3 was a generic system placeholder; loc_xelvani_3_silent_plains carries full ecology data (anomalous: no animal life, organic structures persist) and is the canonical form. loc_xelvani_3 retained as alias-forward stub only."
+  },
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": "world / anomalous ecology",
+  "region_id": null,
+  "canonical_position_status": "canon",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Canonical form of Xelvani-3; anomalous ecology. Supersedes loc_xelvani_3 (disambiguation placeholder). Disambiguation resolved 2026-03-19.",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "disambiguation_completed_at": "2026-03-19T00:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "canonical_id": "qellan_vyss",
+  "schema": "charforge-identity-v1.0",
+  "name": "Board Sovereign Qellan Vyss",
+  "aliases": [
+    "Qellan Vyss",
+    "Vyss",
+    "The Board Sovereign"
+  ],
+  "role": "Chairman of the Zyphari Compact Governing Board",
+  "faction_id": "zyphari_compact",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Chairman of the Zyphari Compact Governing Board. Simulation-generated leader (STAGING). Corporate oligarchy with predictive-media culture."
+}

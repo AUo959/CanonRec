@@ -1,0 +1,31 @@
+{
+  "canonical_id": "theryn_kaelvakar",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "cb2e418750d150dcea76706a863c61ba6223cb6791b1bbb07b30869f6f252a94"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "f5ffab98f430ace282775a40eea148eef0e3bd6ab12245835a05296f5bbc2644"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "e4b68a12cc18218ff18e336c66e3b7753baa607ad2421d2aeabb1133650b6fac"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "17f5224e58f0a8fd145f23850e16d7892dc6d00156eb5f088485f053773dc227"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "f18a3df73195c1870d3da0cac67b2511a3c9c7aef91741ad6929c174cc77624d"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "74cc1da774d9191a251ec6f6777544737fa8d2e7db5c7066db2a5ba8dfec9493"
+    }
+  ]
+}

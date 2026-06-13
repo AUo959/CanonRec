@@ -1,0 +1,21 @@
+{
+  "canonical_id": "vessel_gu_010",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-GU-010",
+  "name": "G.U.S. Endeavor's Reach",
+  "aliases": [],
+  "class_id": "CLASS-RELIANT-01",
+  "allegiance": "galactic_union",
+  "commanding_officer_id": null,
+  "narrative_significance": "standard",
+  "status": "active",
+  "prev_certainty": "STAGING",
+  "certainty": "CANON",
+  "doc_sources": [
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+  ],
+  "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_010.json",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Reliant-Class example vessel."
+}

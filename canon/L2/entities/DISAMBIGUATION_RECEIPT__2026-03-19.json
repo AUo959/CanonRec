@@ -1,0 +1,95 @@
+{
+  "schema": "l2-disambiguation-receipt-v1.0",
+  "receipt_id": "DISAMBIG_RECEIPT__2026-03-19",
+  "generated_at": "2026-03-19T00:00:00Z",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "scope": "L2 STAGING \u2192 CANON disambiguation pass; all ambiguous location pairs resolved",
+
+  "summary": {
+    "pairs_resolved": 2,
+    "field_conflicts_resolved": 1,
+    "alias_conflicts_cleared": 2,
+    "total_conflict_flags_cleared": 3
+  },
+
+  "disambiguation_pairs": [
+    {
+      "pair_id": "DISAMBIG_PAIR_001",
+      "ambiguous_alias": "Torix 7",
+      "superseded_id": "loc_torix_7",
+      "canonical_id": "loc_torix_7_crimson_abyss",
+      "resolution": "CANONICAL_FORM_PROMOTED",
+      "rationale": "loc_torix_7 was a generic system placeholder with no ecology data. loc_torix_7_crimson_abyss contained authoritative ecology detail (extreme jungle, rapid evolution, hazard-tagged) from location_authority_table. The detailed form is promoted to CANON; the placeholder is retained as an alias-forward stub for backward compatibility.",
+      "canonical_record": "L2_CANON__2026-03-19/locations/loc_torix_7_crimson_abyss.json",
+      "superseded_record": "L2_CANON__2026-03-19/locations/loc_torix_7.json",
+      "forwarding_aliases_added_to_canonical": ["loc_torix_7"],
+      "forwarded_to_added_to_superseded": "loc_torix_7_crimson_abyss",
+      "canon_lock_record_updated": true,
+      "resolved_at": "2026-03-19T00:00:00Z"
+    },
+    {
+      "pair_id": "DISAMBIG_PAIR_002",
+      "ambiguous_alias": "Xelvani 3",
+      "superseded_id": "loc_xelvani_3",
+      "canonical_id": "loc_xelvani_3_silent_plains",
+      "resolution": "CANONICAL_FORM_PROMOTED",
+      "rationale": "loc_xelvani_3 was a generic system placeholder. loc_xelvani_3_silent_plains carried authoritative ecology data (anomalous: no animal life; organic structures persist) from location_authority_table. The detailed form is promoted to CANON; the placeholder is retained as an alias-forward stub.",
+      "canonical_record": "L2_CANON__2026-03-19/locations/loc_xelvani_3_silent_plains.json",
+      "superseded_record": "L2_CANON__2026-03-19/locations/loc_xelvani_3.json",
+      "forwarding_aliases_added_to_canonical": ["loc_xelvani_3"],
+      "forwarded_to_added_to_superseded": "loc_xelvani_3_silent_plains",
+      "canon_lock_record_updated": true,
+      "resolved_at": "2026-03-19T00:00:00Z"
+    }
+  ],
+
+  "field_conflict_resolutions": [
+    {
+      "conflict_id": "FIELD_CONFLICT_001",
+      "entity_id": "loc_xyphos_prime_ruins",
+      "field": "location_type",
+      "conflicting_values": [
+        "precursor site / restricted",
+        "site / installation"
+      ],
+      "resolution": "FIRST_ESTABLISHED_VALUE_RETAINED",
+      "resolved_to": "precursor site / restricted",
+      "rationale": "First listed value was 'precursor site / restricted', which carries more specificity (precursor classification + access restriction) than the generic 'site / installation'. First-established value retained per disambiguation protocol.",
+      "record_path": "L2_CANON__2026-03-19/locations/loc_xyphos_prime_ruins.json",
+      "resolved_at": "2026-03-19T00:00:00Z"
+    }
+  ],
+
+  "alias_resolution_protocol": {
+    "description": "Sim engine alias resolution for superseded IDs",
+    "rule": "If a location lookup by entity_id returns a record with certainty=SUPERSEDED and forwarded_to set, the engine must re-resolve using the forwarded_to ID as the canonical lookup key.",
+    "affected_ids": ["loc_torix_7", "loc_xelvani_3"],
+    "canonical_targets": {
+      "loc_torix_7": "loc_torix_7_crimson_abyss",
+      "loc_xelvani_3": "loc_xelvani_3_silent_plains"
+    }
+  },
+
+  "files_modified": [
+    "L2_CANON__2026-03-19/locations/loc_torix_7_crimson_abyss.json",
+    "L2_CANON__2026-03-19/locations/loc_xelvani_3_silent_plains.json",
+    "L2_CANON__2026-03-19/locations/loc_torix_7.json",
+    "L2_CANON__2026-03-19/locations/loc_xelvani_3.json",
+    "L2_CANON__2026-03-19/CANON_LOCK_RECORD__2026-03-19.json"
+  ],
+
+  "open_items": [
+    {
+      "item_id": "OPEN_001",
+      "description": "VESSEL-GU-013 (G.U.S. Kharon) and VESSEL-GU-014 (G.U.S. Sablewake) remain at STAGING_CONFIRMED; class assignment unresolved. Promote to CANON once class designation is confirmed.",
+      "entity_ids": ["vessel_gu_013", "vessel_gu_014"],
+      "priority": "low"
+    }
+  ],
+
+  "governance_verdict": "DISAMBIGUATION_COMPLETE",
+  "all_conflict_flags_cleared": true,
+  "total_canon_locations": 21,
+  "total_superseded_locations": 2,
+  "total_location_records": 23
+}

@@ -1,0 +1,31 @@
+{
+  "canonical_id": "virex_talvaren",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "129a30d90e9459bc2452da58134b30dc37e890f265a345e460f80484b24ff247"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "6d1a763ce1b860f2460684ffb8a4ffd79e175341bfe7aa3eadd98fb4f71394dc"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "43216fd672a1d252e2b7d5091fdb73ae494c0b0d84126371beb9ca4258ebf6d8"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "dbca467723d9a61dc425758ee091f54962769339580736a35915fdbc7116d553"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "84e47616f0fe033228934bebf75c7f5dc354ef1038d6d60699ef393914ba2dc5"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "e4e3e2f1672686a09a1f112bdaf0d65321704ffe917e6240b6d7110fc20a3dd3"
+    }
+  ]
+}

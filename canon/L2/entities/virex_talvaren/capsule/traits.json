@@ -1,0 +1,17 @@
+{
+  "canonical_id": "virex_talvaren",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "zero_sum_thinking",
+  "bias_modifier": 0.25,
+  "traits": [
+    "Ruthless Strategist",
+    "Divide-and-Rule Architect",
+    "Deeply Suspicious",
+    "Politically Calculating"
+  ],
+  "decision_style": "Zero-Sum Power Calculus, Uses Factional Rivalry to Maintain Dominance",
+  "allegiance": "Velar Imperium (Expansionist Military Hardliner)",
+  "reputation": "+14 Military Command, -6 Diplomatic Trust, -8 Separatist Relations",
+  "relationships": "Views GU Chancellor Zylox as principal adversary; cultivates internal Imperium divisions to prevent palace coups",
+  "personality_insight": "Believes power exists only in its exercise; deception is not a tool but a worldview."
+}

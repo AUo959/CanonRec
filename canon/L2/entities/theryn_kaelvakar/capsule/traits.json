@@ -1,0 +1,17 @@
+{
+  "canonical_id": "theryn_kaelvakar",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "survivorship_bias",
+  "bias_modifier": 0.12,
+  "traits": [
+    "Survivor's Instinct",
+    "Charismatic Outlaw",
+    "Pragmatic Ruthlessness",
+    "Fiercely Independent"
+  ],
+  "decision_style": "Asymmetric Tactics, Exploits Institutional Blind Spots, Protects Her People Above All",
+  "allegiance": "Outer Colonies Confederation (Anti-Union Resistance Leader)",
+  "reputation": "+15 Outer Colony Loyalty, -12 GU Military Trust, +8 Black Market Respect",
+  "relationships": "Nominal ally of Rhaegon Torr-Kai (shared enemy: GU); deep distrust of PMC Syndicate",
+  "personality_insight": "Her ship is a city \u2014 she governs it accordingly. Empathy is her secret weapon."
+}

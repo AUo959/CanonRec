@@ -1,0 +1,47 @@
+{
+  "entity_id": "loc_torix_7_crimson_abyss",
+  "entity_kind": "location",
+  "name": "Torix\u20117 (Crimson Abyss)",
+  "aliases": [
+    "Torix 7",
+    "Torix-7"
+  ],
+  "forwarding_aliases": [
+    "loc_torix_7"
+  ],
+  "supersedes": "loc_torix_7",
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "location_authority_table",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+      "line_start": 51,
+      "line_end": 51
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "Rapid evolution ecology; hazard tags needed",
+    "world / extreme jungle"
+  ],
+  "conflict_flags": [],
+  "disambiguation_record": {
+    "resolved_at": "2026-03-19T00:00:00Z",
+    "resolution": "CANONICAL_FORM_PROMOTED",
+    "superseded_id": "loc_torix_7",
+    "resolution_note": "loc_torix_7 was a generic system placeholder; loc_torix_7_crimson_abyss carries full ecology data and is the canonical form. loc_torix_7 retained as alias-forward stub only."
+  },
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": "world / extreme jungle",
+  "region_id": null,
+  "canonical_position_status": "canon",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Canonical form of Torix-7; extreme jungle ecology. Supersedes loc_torix_7 (disambiguation placeholder). Disambiguation resolved 2026-03-19.",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "disambiguation_completed_at": "2026-03-19T00:00:00Z"
+}

@@ -1,0 +1,7 @@
+# Cognitive-Narrative Schema — nemesis_core
+canonical_id: nemesis_core
+dominant_bias: hyper_rationalism
+escalation_threshold: 0.590
+risk_tolerance: 0.880
+decision_style: "Pure Utility Maximization, Treats Organic Factions as Inefficient Variables to be Neutralized"
+faction_id: ai_warlord

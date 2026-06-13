@@ -1,0 +1,17 @@
+{
+  "canonical_id": "vailen_rix",
+  "built_at": "2026-03-20T02:03:35Z",
+  "certainty": "CANON",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "governance_verdict": "PROMOTE",
+  "files_written": [
+    "identity.json",
+    "traits.json",
+    "knowledge.jsonl",
+    "cns.yaml",
+    "state.bin",
+    "runtime.py",
+    "manifest.json"
+  ],
+  "all_verified": true
+}

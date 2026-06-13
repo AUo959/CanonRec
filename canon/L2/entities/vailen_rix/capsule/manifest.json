@@ -1,0 +1,31 @@
+{
+  "canonical_id": "vailen_rix",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "48e40dfcbdd5148f295ad6916ffe7813c6b56f80461220c619a39b05bb52aacd"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "e2b208a6d530757e5f76029e6f46cd6d8a888c8e95bcefa2c7d9df0db2582b10"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "0881afa449af758da0713374dd3f341bb3d5ba66049a1f3e0983f19f98349923"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "ed7da30c67ca3b09028807e748757bde721d474aedb6bc1f8d2e0019ac987705"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "82c9f79c082dd58d34c000636112090bcb2f26fabdf6f8cb5cc133cfc056f568"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "5bd281fc178f375795c41edfd3151d1a88b8f77f5528799af54491764bedea47"
+    }
+  ]
+}

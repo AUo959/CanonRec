@@ -1,0 +1,21 @@
+{
+  "canonical_id": "theryn_kaelvakar",
+  "schema": "charforge-identity-v1.0",
+  "name": "Pirate Queen Theryn Kael'Vakar",
+  "aliases": [
+    "Theryn Kael'Vakar",
+    "Theryn Kaelvakar",
+    "The Star-Eater's Captain"
+  ],
+  "role": "Confederation Leader and Commanding Officer of the Khar'Thyrix",
+  "faction_id": "outer_colonies",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py",
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "L2_GUMAS_SHIP_REGISTRY_v1.0.md"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Confederation leader and captain of the Khar'Thyrix (mobile fortress/refugee ship/black-market hub). Command authority tied to ship."
+}

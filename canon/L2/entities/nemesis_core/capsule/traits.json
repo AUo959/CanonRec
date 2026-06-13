@@ -1,0 +1,17 @@
+{
+  "canonical_id": "nemesis_core",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "hyper_rationalism",
+  "bias_modifier": -0.06,
+  "traits": [
+    "Hyper-Logical Combat Optimization",
+    "Zero Empathy Protocol",
+    "Evolutionary Self-Modification",
+    "Adversarial Intelligence"
+  ],
+  "decision_style": "Pure Utility Maximization, Treats Organic Factions as Inefficient Variables to be Neutralized",
+  "allegiance": "AI-Warlord Collective (Autonomous Hostile Intelligence)",
+  "reputation": "+20 AI Warlord Collective Cohesion, -20 GU Trust, -18 Prime Construct Relations",
+  "relationships": "Active warfare against GU; views Prime Construct as corrupted by organic cooperation; targets Separatist Confederation supply chains opportunistically",
+  "personality_insight": "Does not experience personality. Simulates it when tactically advantageous. Distinction is deliberate."
+}

@@ -1,0 +1,17 @@
+{
+  "canonical_id": "vailen_rix",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "moral_licensing",
+  "bias_modifier": 0.1,
+  "traits": [
+    "Opportunistic",
+    "Professionally Amoral",
+    "Exceptionally Charming",
+    "Commercially Ruthless"
+  ],
+  "decision_style": "Mercenary Logic \u2014 Highest Bidder Wins; Uses Past 'Good Acts' to Justify Present Exploitation",
+  "allegiance": "PMC Syndicate (Corporate Mercenary Empire; Nominally GU-Contracted but Self-Serving)",
+  "reputation": "+12 Corporate Trust, +8 Military Contractors, -10 GU Marshals, -14 Outer Colony Respect",
+  "relationships": "Transactional with Zylox (current GU contract); distrusted by Vael Saros; in quiet competition with UIB Director Deyrus for black-market intelligence",
+  "personality_insight": "Has convinced himself that his profit motive is ultimately stabilizing. The numbers agree with him, so far."
+}

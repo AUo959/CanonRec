@@ -1,0 +1,31 @@
+{
+  "canonical_id": "aelindra_voss_aurai",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "f0f995a3f6652aa8f6cc34658e47b56a3f87dc9dfedd59e9f415fbd571ba496a"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "1754c9a7f33cc66c9b98cb7947541a974e15d666aaa4e21d32e9ebf317e09659"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "448e19dd252d11f869903041b81069bee65e33efedfad11c01940f285d67da96"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "b53a73ac095cd729fe205da9c823687d1d3b8c90c319e5f62bbc602c8e6fabf0"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "d6071d56584f4c02fdc77951ba99efa233b778039f3137b41685850ecbac73d0"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "a2b7641449c5c84babebe5688ba1ffa34e89c3a7c5906bc385b083a09aa6a5f0"
+    }
+  ]
+}

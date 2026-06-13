@@ -1,0 +1,31 @@
+{
+  "canonical_id": "nemesis_core",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "89f7cec8f71041869a570600ddb43617e7d823cea3b0445617477a223d114a60"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "20db27efd2397408ef0a47a8f0d374e8fc426ff5db6d3f62966707032818d7b7"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "385d366d5da49d74ea411cf26cf4a4cb127d4cf12b45f542ed4e6b90abfe013a"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "0e0fedc889586ab972a81651b36d4c9a2525c53023bace90a19c5d7228685c51"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "f9bd3356b66b43bd617fe2400bbad60de63e272ed01a9df9d89afa1c3585f6e9"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "335e0d02e471fa108afbe0d6b4c5235ce1090278309aea3a53a22b4c23b5792b"
+    }
+  ]
+}

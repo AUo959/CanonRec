@@ -1,0 +1,31 @@
+{
+  "canonical_id": "malrik_voska",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "59cefb22b27e7450bff3c3f24f66dad905d691185f1c4d616e5c8161071bdddb"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "35304d19f6ca9628541404a04844c8875090606c81521ac94af646feab56c540"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "83df672b2f0a14f29bdb4eb075e10538836ccaab2053f08447a1e5d018ea5b48"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "5730e3295135b5ad557d518d5b4a3b7d933a5b3b45a032aca59a77d096926da6"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "f7c9bb0fafc64760df9331d20515349b99f4f4ea2b7ad6370a7aeeae78745957"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "8658c118cb5007bdf8a02b64bb3ff70caeb170943d1ca8044b3e9a5564ddaf7d"
+    }
+  ]
+}

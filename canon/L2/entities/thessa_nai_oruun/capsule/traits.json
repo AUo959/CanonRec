@@ -1,0 +1,17 @@
+{
+  "canonical_id": "thessa_nai_oruun",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "status_quo_bias",
+  "bias_modifier": -0.14,
+  "traits": [
+    "Philosophical Skeptic",
+    "Archive Custodian",
+    "Non-Interventionist",
+    "Extremely Patient"
+  ],
+  "decision_style": "Perfect Uncertainty Doctrine \u2014 Refuses to Act on Incomplete Knowledge; Prefers Observation to Intervention",
+  "allegiance": "Kaelar Monastic Orders (Monastic Skeptics; Perfect Uncertainty Philosophical Tradition)",
+  "reputation": "+14 Kaelar Monastic Trust, +8 Neutral Faction Respect, -3 Militarist Faction Contempt",
+  "relationships": "Cordially distant with Zylox (GU respects Kaelar neutrality); philosophical correspondence with Prime Construct; deeply suspicious of Nemesis Core's certainty",
+  "personality_insight": "Has spent four decades studying a single question. The answer has not arrived. This does not trouble her."
+}

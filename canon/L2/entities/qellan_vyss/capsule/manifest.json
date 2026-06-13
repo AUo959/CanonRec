@@ -1,0 +1,31 @@
+{
+  "canonical_id": "qellan_vyss",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-03-20T02:03:35Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "595e06ae1a986bc32a6d664d1c3706680a187528f57400427df00bd2349fa1b8"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "a44ac6bf2bdd2443b94a24f159693bfc3ac65aa755d83f6275e0ba5225eb182c"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "fddec8643026775d617901325d1b4927428cd7a1bcd736186a4e773f3339c4e1"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "80ec8fea48f8398f60a6accb2287bcb4bcc7744f6264e7644778579021fd9488"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "77d2b3efa5bc059661c471ee3d78e4035e7cf675c03222f0b54c1adfb6c4d379"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "0971d8a78ff38c69ec5c56fb771c39dbb0188aaad07cba6dfb39d28ac8a78353"
+    }
+  ]
+}

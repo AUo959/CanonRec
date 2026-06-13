@@ -1,0 +1,33 @@
+{
+  "entity_id": "loc_xyphos_precursor_research_center",
+  "entity_kind": "location",
+  "name": "Xyphos Precursor Research Center",
+  "aliases": [],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "location_authority_table",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+      "line_start": 56,
+      "line_end": 56
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "institution implies site access nearby/elsewhere",
+    "site / installation"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": "site / installation",
+  "region_id": null,
+  "canonical_position_status": "canon",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Map authority table; precursor-linked installation.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}

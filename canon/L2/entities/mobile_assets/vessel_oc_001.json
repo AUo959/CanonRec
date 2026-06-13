@@ -1,0 +1,23 @@
+{
+  "canonical_id": "vessel_oc_001",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-OC-001",
+  "name": "Khar'Thyrix",
+  "aliases": [
+    "The Star-Eater"
+  ],
+  "class_id": "CLASS-DREADRAIDER-01",
+  "allegiance": "outer_colonies",
+  "commanding_officer_id": "theryn_kaelvakar",
+  "narrative_significance": "flagship",
+  "status": "active",
+  "prev_certainty": "STAGING",
+  "certainty": "CANON",
+  "doc_sources": [
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+  ],
+  "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_oc_001.json",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Outer Colonies mobile fortress/refugee ship/black-market hub."
+}

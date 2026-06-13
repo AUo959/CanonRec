@@ -1,0 +1,17 @@
+{
+  "canonical_id": "malrik_voska",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "fear_based",
+  "bias_modifier": 0.22,
+  "traits": [
+    "Fanatical",
+    "Charismatic Zealot",
+    "Martyr-Embracing",
+    "Theocratic Militarist"
+  ],
+  "decision_style": "Fear-Driven Escalation \u2014 Uses Internal Dread to Maintain Cohesion; External Violence as Spiritual Duty",
+  "allegiance": "Crimson Pact (Theocratic Warrior Cult; Expansionist Religious Extremists)",
+  "reputation": "+18 Crimson Pact Loyalty, -16 GU Religious Tolerance, -12 Separatist Relations",
+  "relationships": "Views Torr-Kai as godless but tactically useful; sees Nemesis Core as a digital heresy; Zylox is a symbol of GU moral decay",
+  "personality_insight": "Believes suffering is sacred. His own has made him incorruptible, in his estimation. Others' suffering is policy."
+}

@@ -1,0 +1,19 @@
+{
+  "canonical_id": "drenn_korvath",
+  "schema": "charforge-identity-v1.0",
+  "name": "Resonance Chief Drenn Korvath",
+  "aliases": [
+    "Drenn Korvath",
+    "Korvath",
+    "First Chief Korvath"
+  ],
+  "role": "First Chief of the Vorran Clan Council",
+  "faction_id": "vorran_clans",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "First Chief of the Vorran Clan Council. Simulation-generated leader (STAGING). Clan confederation; Resonance Sculpture culture."
+}

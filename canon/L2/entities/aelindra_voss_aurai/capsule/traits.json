@@ -1,0 +1,17 @@
+{
+  "canonical_id": "aelindra_voss_aurai",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "status_quo_bias",
+  "bias_modifier": -0.14,
+  "traits": [
+    "Deeply Contemplative",
+    "Symmetry-Seeking",
+    "Cautiously Diplomatic",
+    "Culturally Protective"
+  ],
+  "decision_style": "Symmetry Doctrine \u2014 Seeks Balance in All Interactions; Avoids Disruption Unless Cultural Survival Demands It",
+  "allegiance": "Elari Ascendancy (Cultural-Spiritual Polity; Symmetry Doctrine Civilization)",
+  "reputation": "+16 Elari Cultural Trust, +7 GU Diplomatic Respect, -4 Crimson Pact Hostility",
+  "relationships": "Respected by Zylox for cultural wisdom; viewed with suspicion by Torr-Kai as GU-sympathizer; philosophical dialogue with Prime Construct on ethics of being",
+  "personality_insight": "Believes civilizations are living symphonies. Dissonance is not failure \u2014 it is the note that resolves into something new."
+}

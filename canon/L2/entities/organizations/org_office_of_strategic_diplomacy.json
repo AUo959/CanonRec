@@ -1,0 +1,36 @@
+{
+  "entity_id": "org_office_of_strategic_diplomacy",
+  "entity_kind": "organization",
+  "name": "Office of Strategic Diplomacy",
+  "aliases": [
+    "OSD"
+  ],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "varek_norr_profile",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Mission_Logs/SimLogsBuild/Director_Varek_Norr_-_Profile___Capabilities.csv",
+      "line_start": 2,
+      "line_end": 9
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "tags": [
+    "mission_log"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "diplomatic",
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Varek Norr profile CSV; tied to CANON character. CANON.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}

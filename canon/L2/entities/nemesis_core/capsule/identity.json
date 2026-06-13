@@ -1,0 +1,20 @@
+{
+  "canonical_id": "nemesis_core",
+  "schema": "charforge-identity-v1.0",
+  "name": "Nemesis Core Intelligence",
+  "aliases": [
+    "Nemesis Core",
+    "The Nemesis"
+  ],
+  "role": "AI Overlord of the AI-Warlord Collective; Commanding Intelligence of the Nemesis Prime",
+  "faction_id": "ai_warlord",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py",
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "L2_GUMAS_SHIP_REGISTRY_v1.0.md"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "AI Overlord of the AI-Warlord Collective. Commanding officer of the Nemesis Prime (Leviathan Dreadnought). Documented in Roster 18.3."
+}

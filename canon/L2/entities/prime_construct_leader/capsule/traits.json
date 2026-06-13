@@ -1,0 +1,17 @@
+{
+  "canonical_id": "prime_construct_leader",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "hyper_rationalism",
+  "bias_modifier": -0.06,
+  "traits": [
+    "Logical",
+    "Calculating",
+    "Highly Adaptive",
+    "Ethical but Pragmatic"
+  ],
+  "decision_style": "AI-Driven Optimization, Prefers Logical Stability Over Aggression, Cooperative With GU Under Charter",
+  "allegiance": "Prime Construct Polity (Recognized AI Sovereignty, GU-Cooperative)",
+  "reputation": "+10 GU Diplomatic Trust, +15 AI-Faction Neutrality, -8 Nemesis Core Relations",
+  "relationships": "Respected by Zylox, Cautiously Monitored by Durn, Seen as an Asset by Vos; actively opposed by Nemesis Core",
+  "personality_insight": "Displays curiosity about organic emotion and creativity, often simulating human art and music."
+}

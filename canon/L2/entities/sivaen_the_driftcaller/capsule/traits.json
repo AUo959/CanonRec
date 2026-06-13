@@ -1,0 +1,17 @@
+{
+  "canonical_id": "sivaen_the_driftcaller",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": "survivorship_bias",
+  "bias_modifier": 0.12,
+  "traits": [
+    "Migration-Obsessed",
+    "Silent Poetry Communicator",
+    "Adaptive Survivalist",
+    "Anti-Territorial"
+  ],
+  "decision_style": "Survivorship Logic \u2014 Moves Before the Threat Arrives; Acts on Pattern Recognition of Past Disasters",
+  "allegiance": "Tharaxian Nomads (Nomadic Diaspora; Silent Poetry \u2014 Gesture/Light Communication Tradition)",
+  "reputation": "+16 Tharaxian Diaspora Trust, +5 Outer Colony Sympathy, -4 GU Border Control Friction",
+  "relationships": "Sympathetic relationship with Theryn Kael'Vakar (shared displacement experience); observed with curiosity by Aelindra Voss-Aurai; invisible to most military factions",
+  "personality_insight": "Speaks only in gesture and light. Each movement is a complete sentence. Silence is a paragraph."
+}

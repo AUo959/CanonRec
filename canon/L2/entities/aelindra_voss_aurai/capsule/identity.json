@@ -1,0 +1,19 @@
+{
+  "canonical_id": "aelindra_voss_aurai",
+  "schema": "charforge-identity-v1.0",
+  "name": "Luminary Aelindra Voss-Aurai",
+  "aliases": [
+    "Aelindra Voss-Aurai",
+    "Aelindra",
+    "The Luminary"
+  ],
+  "role": "High Luminary of the Elari Ascendancy",
+  "faction_id": "elari_ascendancy",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "High Luminary of the Elari Ascendancy. Simulation-generated leader (STAGING). Cultural-spiritual polity; Symmetry Doctrine \u2014 name follows Elari convention (flowing vowels, luminous)."
+}

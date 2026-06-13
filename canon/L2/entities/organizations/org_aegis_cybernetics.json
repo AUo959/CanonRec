@@ -1,0 +1,32 @@
+{
+  "entity_id": "org_aegis_cybernetics",
+  "entity_kind": "organization",
+  "name": "Aegis Cybernetics",
+  "aliases": [],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "obsidian_dawn_briefing",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Mission_Logs/SimLogsBuild/Operation_Obsidian_Dawn_-_Mission_Briefing.csv",
+      "line_start": 5,
+      "line_end": 5
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "mission_log"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "industrial",
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Mission log; named industrial org supporting Sentinel tech. CANON.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}

@@ -1,0 +1,43 @@
+{
+  "anchor_seed": "EOS_SEED_ORION",
+  "capsule_version": "0.2.0",
+  "charforge_version": "3.0.0",
+  "generated_at": "2026-03-20T01:25:07.048072+00:00",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "424875f53276f8689488bdda0545ee47a2f8635a8abc61236f610ea5285e45f5"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "f03690501fc45de0d3136861871c6455d5aaa4ec67c0d2520145c38d0111b4b4"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "c0f68fbcee496fb05d60c2b45a078ece08c44a33d947c28c2e6654ea2435fff4"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "53a560816dcaebeb03105de0fd222c6b30ec78ece334232d4968aa964054472c"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "1571a3933d7f344c8facd70a26620283268d2cdc34f569f21b1c06cb1a6afb73"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "66d44ff50c96d61856e0d7d70a820e3c93dc74fe54788d5984a3e3d0a248839c"
+    }
+  ],
+  "sha256": {
+    "identity.json": "424875f53276f8689488bdda0545ee47a2f8635a8abc61236f610ea5285e45f5",
+    "traits.json": "f03690501fc45de0d3136861871c6455d5aaa4ec67c0d2520145c38d0111b4b4",
+    "knowledge.jsonl": "c0f68fbcee496fb05d60c2b45a078ece08c44a33d947c28c2e6654ea2435fff4",
+    "cns.yaml": "53a560816dcaebeb03105de0fd222c6b30ec78ece334232d4968aa964054472c",
+    "state.bin": "1571a3933d7f344c8facd70a26620283268d2cdc34f569f21b1c06cb1a6afb73",
+    "runtime.py": "66d44ff50c96d61856e0d7d70a820e3c93dc74fe54788d5984a3e3d0a248839c",
+    "manifest.json": "b41fd0ac078d4f48a3ccd0afd7746c24e0d03589968ca70904b9fe31c4eab8bd"
+  },
+  "rehashed_at": "2026-03-20T01:26:19Z",
+  "canon_lock": true
+}

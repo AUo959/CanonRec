@@ -1,0 +1,19 @@
+{
+  "canonical_id": "thessa_nai_oruun",
+  "schema": "charforge-identity-v1.0",
+  "name": "Elder Inscriber Thessa Nai-Oruun",
+  "aliases": [
+    "Thessa Nai-Oruun",
+    "Thessa",
+    "Elder Inscriber"
+  ],
+  "role": "Keeper of the First Archive, Kaelar Monastic Orders",
+  "faction_id": "kaelar_orders",
+  "certainty": "CANON",
+  "status": "active",
+  "doc_sources": [
+    "scenarios.py"
+  ],
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "notes": "Keeper of the First Archive, Kaelar Monastic Orders. Simulation-generated leader (STAGING). Monastic skeptics; Perfect Uncertainty philosophy."
+}

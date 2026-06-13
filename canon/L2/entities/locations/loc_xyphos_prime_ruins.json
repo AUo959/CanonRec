@@ -1,0 +1,57 @@
+{
+  "entity_id": "loc_xyphos_prime_ruins",
+  "entity_kind": "location",
+  "name": "Xyphos Prime ruins",
+  "aliases": [
+    "Xyphos Ruins",
+    "Xyphos ruins"
+  ],
+  "certainty": "CANON",
+  "source_refs": [
+    {
+      "source_id": "location_authority_table",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+      "line_start": 43,
+      "line_end": 43
+    },
+    {
+      "source_id": "location_authority_table",
+      "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+      "line_start": 55,
+      "line_end": 55
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "Confirm whether \u201cPrime\u201d is planet vs system / precursor-linked; staging claim",
+    "precursor site / restricted",
+    "protected precursor site",
+    "site / installation"
+  ],
+  "conflict_flags": [
+    {
+      "type": "field_conflict",
+      "field": "location_type",
+      "existing": "precursor site / restricted",
+      "incoming": "site / installation",
+      "source_ref": {
+        "source_id": "location_authority_table",
+        "path": "projects/GUMAS_SIM_2.0/03_SIMULATION/Location_Data/Sim_Locations/L2_MAP__LOCATION_AUTHORITY_TABLE__v0.1__2026-02-08__BAY02_0809.md",
+        "line_start": 55,
+        "line_end": 55
+      }
+    }
+  ],
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": "precursor site / restricted",
+  "region_id": null,
+  "canonical_position_status": "canon",
+  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_note": "Dual source refs; field conflict resolved: location_type = precursor site / restricted.",
+  "locked_at": "2026-03-20T02:03:35Z"
+}
