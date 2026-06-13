@@ -209,3 +209,24 @@
   these are realism completions, not further stability gains — the stability
   solution remains the two-sided MECH-SOC-002/003; consequences that touch
   suppression levers trade against the conflict-relief metric, so kept light.
+
+## Drift Entry — 2026-06-13 (post-war recovery: stability components)
+- **Source:** Owner direction (take care of the remaining stability-index components)
+- **Type:** mechanic completion (population + legitimacy recovery)
+- **Entities affected:** faction population_stability, leader legitimacy, demographic drivers
+- **Description:** The stability index is 0.35*population + 0.30*legitimacy +
+  0.25*trust + 0.10*peace. The lessons found population floored at ~0.09 (§1.5)
+  and legitimacy the weakest contributor (§1.6) because the engine only ever
+  drags these down and never restores them. MECH-SOC-005 (Post-War
+  Reconstruction) lets a faction at peace rebuild population stability and
+  legitimacy and ease its stress drivers. War-weariness (MECH-SOC-002) was
+  extended to cede insurgent territory so the lingering minor-insurgency swarm
+  clears (it chronically drags population via the engine's per-insurgency drag).
+- **Resolution:** Registry annotated MECH-SOC-005; 2 tests (16 total). A/B
+  across seeds 42/7/99: stability lifts to ~0.45-0.49 (+0.09..+0.13) and risk
+  clears its 0.540 threshold (0.465-0.505). Stability now straddles the 0.480
+  threshold (seed 7 over; 42/99 just under). Honest tension recorded: the
+  metric rewards high population = few insurgencies, but realism wants some
+  conflict — so onset is not suppressed further to force all seeds over. The
+  components are recovered; full above-threshold stability is reached on some
+  seeds, approached on others.
