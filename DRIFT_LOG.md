@@ -230,3 +230,29 @@
   conflict — so onset is not suppressed further to force all seeds over. The
   components are recovered; full above-threshold stability is reached on some
   seeds, approached on others.
+
+## Drift Entry — 2026-06-13 (living galaxy: complacency cycle, MECH-SOC-006)
+- **Source:** Owner correction — "if we have over-solved the problem to make
+  conflict impossible then we have a serious issue and we're not done."
+- **Type:** mechanic completion (break the permanent-peace fixed point)
+- **Entities affected:** faction legitimacy, demographic drivers, insurgency
+  support/grievance; the global conflict trajectory
+- **Description:** The stabilizers (MECH-SOC-002/003/005) all ratcheted up
+  monotonically, replacing the seed-42 permanent-civil-war attractor with the
+  opposite degeneracy — permanent peace (conflict happened once then flatlined,
+  e.g. seed 42 civil-wars/era [0,0,17,6,0,0]). A galaxy where conflict is
+  impossible is as unreal as one where it never ends. MECH-SOC-006 (Complacency
+  Cycle) models canon's non-war destabilizer: long peace breeds complacency
+  (creeping corruption in DSI = (P+E+S)/(C+M)) that erodes legitimacy, worsens
+  living conditions, and fuels insurgent support/grievance until conflict recurs;
+  serious war purges it. Closes the limit cycle peace→complacency→conflict→renewal.
+- **Resolution:** Registry annotated MECH-SOC-006; 1 test (17 total). A/B across
+  seeds 42/7/99 (120t): conflict now recurs every era and waxes/wanes (rises,
+  peaks mid-run ~90-100, subsides to single digits); stability moves in response
+  (~0.46-0.49 final), risk clears 0.540 on 7/99. Honest long-run finding (240t):
+  conflict keeps recurring in successive waves but stability drifts to a
+  turbulent ~0.38 plateau — never collapsing, never freezing; a realistic
+  large-galaxy steady state where localized conflict is always present somewhere.
+  Per the emergence principle the cycle is left as an emergent dynamic and its
+  full behavior documented, not coefficient-forced to a target number. Both
+  degeneracies (permanent war, permanent peace) are now gone.

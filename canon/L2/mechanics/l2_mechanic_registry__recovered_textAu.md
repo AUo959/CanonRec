@@ -199,13 +199,15 @@ in the governed control plane (tracked + tested), not the ungoverned engine dir:
 | **MECH-SOC-002** Insurgency Resolution / War-Weariness | **IMPLEMENTED** | `tools/mech_gov_001.py` — `WarWearinessModel`. A grinding war wearies its population; eroding popular support lets the engine's own SUPPRESSED gate become reachable — the resolution the seed-42 attractor never had. |
 | **MECH-SOC-005** Post-War Reconstruction | **IMPLEMENTED** | `tools/mech_gov_001.py` — `PostWarRecoveryModel`. A faction at peace rebuilds population stability and governance legitimacy and eases its demographic stress drivers; the engine only ever dragged these down (lessons §1.5/§1.6). Gated on peace. War-weariness also cedes insurgent territory so the lingering minor-insurgency swarm clears and stops dragging population. |
 | **MECH-SOC-003** Diplomatic Stability Index (non-war progression gate) | **IMPLEMENTED** | `tools/mech_gov_001.py` — `DiplomaticStabilityModel`. `DSI = (P+E+S)/(C+M)`: cohesion/economy over militarization → governance legitimacy → fewer insurgency onsets. Realizes `canon/L2/social_dynamics/non_war_progression_mechanics.md`. |
+| **MECH-SOC-006** Complacency Cycle | **IMPLEMENTED** | `tools/mech_gov_001.py` — `ComplacencyModel`. Long peace breeds complacency (creeping corruption — a DSI destabilizer): legitimacy erodes, living conditions worsen, and rebellions gain support/grievance until conflict can recur; serious war purges it. Closes the limit cycle **peace → complacency → conflict → renewal** and breaks the permanent-peace fixed point the other stabilizers created. |
 
 The episodic-memory substrate is a clean port of the recovered 2025
 `memory_system.py` (importance-weighted strength, half-life decay,
 reinforcement, recency+importance+relevance retrieval). One deliberate
 correction: the original used wall-clock `time.time()`, breaking determinism;
 the implementation uses a **logical turn clock**, so seed + event log → a
-reproducible decision trace. Tests: `tests/test_mech_gov_001.py` (6).
+reproducible decision trace. Tests: `tests/test_mech_gov_001.py` (13) +
+`tests/test_gumas_consequence_layer.py` (4).
 
 Remaining: MECH-MIL-001 (weighted combat) and the recall-probability model
 are still design-only; wiring MECH-GOV-001 into the live `engine_advanced`
