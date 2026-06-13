@@ -152,3 +152,23 @@
   tests landed in the root control plane (tracked/governed, not the untracked
   engine dir). Remaining: wire into engine_advanced faction loop; MECH-MIL-001
   still design-only.
+
+## Drift Entry — 2026-06-13 (social dynamics + MECH-SOC-001)
+- **Source:** Owner direction (include social dynamics across the galaxy)
+- **Type:** canon inclusion + mechanic realization
+- **Entities affected:** L2 populations/societies, rebellion dynamics, mechanic registry
+- **Description:** The galaxy's social layer — Diplomatic Stability Index,
+  social cohesion, public/popular sentiment, cultural movements,
+  P_stability = E + T - C, non-war progression — was promoted from the
+  recovered design drafts into canon/L2/social_dynamics/. MECH-SOC-001
+  (Population Grievance Memory) applies the MECH-GOV-001 memory substrate to
+  populations: hardship/repression remembered with slow decay raise insurgency
+  pressure, relief/autonomy lower it, making instability path-dependent. Wired
+  into the live engine (tools/gumas_memory_run.py) via the persistent
+  housing-pressure driver that feeds demographic_stress -> rebellion onset.
+- **Resolution:** canon/L2/social_dynamics/ established (4 design docs + README);
+  registry annotated MECH-SOC-001 IMPLEMENTED; model + 2 tests landed.
+  Honest A/B (seed 42, 120t): grievance memory is heavily exercised and nudges
+  risk down (-0.013, first stabilizing movement), but the seed-42 collapse is
+  structurally robust (13 insurgencies either way). Coefficients not tuned to
+  force a larger effect, per the emergence principle.
