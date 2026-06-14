@@ -338,3 +338,28 @@
   own formula; only BACKSLIDE_WEIGHT is calibrated, to the measured backslide
   range. Pillar B (off-ramps) substantially complete: war, exhaustion-settlement,
   brokered diplomacy, binding/breakable treaties all live.
+
+## Drift Entry — 2026-06-14 (authentic decisions: culture-weighted, MECH-GOV-002)
+- **Source:** Owner direction — "civilizations make authentic decisions based on
+  culture, tradition, internal politics." Pillar C, dynamic-galaxy action plan.
+- **Type:** mechanic completion (express culture in behaviour)
+- **Entities affected:** the settle-or-grind decision on every faction's civil
+  wars; reads each leader's dominant_bias (from charforge traits.json)
+- **Description:** Leaders carried distinct dominant_bias labels (zero-sum,
+  hyper-rational, fear-based, sunk-cost, survivorship, status-quo, ...) but the
+  engine's behavioural knobs were uniform (~0.5), so culture was cosmetic —
+  identical conditions yielded identical choices. MECH-GOV-002 (CultureModel)
+  translates dominant_bias into a settlement lean applied to de-escalation: a
+  zero-sum clan or sunk-cost attritionist grinds on, a hyper-rational or
+  survivalist order takes the off-ramp. Accepts both the engine's BiasType.X form
+  and the traits.json text form; unknown bias is neutral.
+- **Resolution:** Registry annotated MECH-GOV-002; tests 32 (mech 17 +
+  consequence 4 + observatory 11). A/B (seeds 42/7/99, culture off vs on):
+  settlement rate by bias is uniform (~12-19%) with culture off and tracks the
+  cultural lean monotonically with it on — a ~3x spread (zero-sum ~7% vs
+  rational ~20%) on the same kind of civil war (n~350+ for major biases). The
+  Observatory now reports settlement_rate_by_culture and gates a cultures_diverge
+  verdict (spread >=5%; observed 11-13%); 240-cycle stays DYNAMIC GALAXY —
+  CERTIFIED. First of Pillar C; escalation_lean exposed but not yet wired. Bias
+  labels are the engine's own — authentic decisions from canon culture, not
+  invented coefficients.
