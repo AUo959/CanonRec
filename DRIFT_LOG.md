@@ -314,3 +314,27 @@
   uses the engine's own formula — mediation only flips its mediation_available
   input. Follow-up: MECH-DIP-003 treaty-enforcement consequences on broken
   settlements (calc_treaty_breach_score already exists).
+
+## Drift Entry — 2026-06-14 (treaty enforcement: peace binds, MECH-DIP-003)
+- **Source:** Pillar B finish, dynamic-galaxy action plan.
+- **Type:** mechanic completion (give the diplomacy off-ramp stakes)
+- **Entities affected:** peace accords (new), host stress + legitimacy, the
+  host↔mediator trust edge
+- **Description:** A settled peace (MECH-REB-004/DIP-002) was a free, permanent
+  win. MECH-DIP-003 makes it bind and break, reusing the engine's own treaty
+  machinery (calc_treaty_breach_score/is_treaty_breach). Each settlement registers
+  an accord against the stress floor it set; as the complacency cycle rebuilds
+  stress above that floor, a heavy backslide breaks the accord — grievance
+  resurges (renewed conflict) and a broken brokered peace collapses host↔mediator
+  trust, burning the broker's credibility. Repeated breaches compound.
+- **Resolution:** Registry annotated MECH-DIP-003; tests 30 (mech 16 +
+  consequence 4 + observatory 10). Observatory 240-cycle stays DYNAMIC GALAXY —
+  CERTIFIED on seeds 42/7/99: ~5-7 of ~60-70 accords break per run (~10%); living/
+  dynamic invariants hold. Honest finding recorded: mediation buys *speed*, not
+  guaranteed *durability* — mediated accords break at a similar/higher rate than
+  exhaustion ones because the hosts that get brokers are the contested core powers
+  whose conditions churn more; this was NOT forced to a durability advantage with
+  a resistance coefficient (emergence principle). Breach scoring is the engine's
+  own formula; only BACKSLIDE_WEIGHT is calibrated, to the measured backslide
+  range. Pillar B (off-ramps) substantially complete: war, exhaustion-settlement,
+  brokered diplomacy, binding/breakable treaties all live.
