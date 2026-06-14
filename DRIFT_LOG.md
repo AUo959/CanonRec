@@ -286,3 +286,31 @@
   coefficient set — reuse over reinvention, per the emergence principle. Open
   follow-ups logged: re-derive COLLAPSE_FLOOR against the honest metric (D9),
   minor-insurgency swarm, engine-side RESOLVED removal path (owner clearance).
+
+## Drift Entry — 2026-06-14 (diplomacy off-ramp: mediated settlement, MECH-DIP-002)
+- **Source:** Owner direction — "diplomacy and cultural exchange exist as
+  meaningful systems"; Phase 1 of the dynamic-galaxy action plan.
+- **Type:** mechanic completion (diplomacy as a distinct conflict off-ramp)
+- **Entities affected:** insurgencies (mediation_available/mediator_id), host
+  legitimacy + demographic drivers (mediated-settlement bonus)
+- **Description:** MECH-REB-004 gave civil wars a single generic off-ramp
+  (grind to exhaustion). MECH-DIP-002 makes diplomacy a distinct, faster path
+  tied to the galaxy's relationships: an insurgency becomes mediation-available
+  when its host has a credible third-party broker — a peaceful neighbour it
+  mutually trusts (read from the live trust_scores network MECH-GOV-001/DIP-001
+  maintain; a faction in its own serious war can't broker). Brokering feeds the
+  de-escalation mediation bonus so a well-connected regime gets a faster, more
+  durable peace, while an isolated/distrusted one must bleed to exhaustion.
+  Emergent, not scripted. Also adds D9: collapse is now gated on sustained
+  civil-war load, not a stability scalar (calibration showed the honest scalar
+  can't tell health from collapse — both ~0.30 — because conflict is 10% of the
+  index).
+- **Resolution:** Registry annotated MECH-DIP-002; tests 29 (mech 15 +
+  consequence 4 + observatory 10). Observatory 240-cycle stays DYNAMIC GALAXY —
+  CERTIFIED on seeds 42/7/99: ~40-56% of settlements now brokered by a trusted
+  neighbour (the rest grind), share varying by each seed's trust network;
+  living/dynamic invariants all hold (load < 3.0 reference). TRUST_FLOOR=0.58
+  calibrated for meaning (both paths present), not a target. De-escalation still
+  uses the engine's own formula — mediation only flips its mediation_available
+  input. Follow-up: MECH-DIP-003 treaty-enforcement consequences on broken
+  settlements (calc_treaty_breach_score already exists).
