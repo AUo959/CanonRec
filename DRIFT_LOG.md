@@ -256,3 +256,33 @@
   Per the emergence principle the cycle is left as an emergent dynamic and its
   full behavior documented, not coefficient-forced to a target number. Both
   degeneracies (permanent war, permanent peace) are now gone.
+
+## Drift Entry — 2026-06-14 (dynamic galaxy: insurgency resolution, MECH-REB-004)
+- **Source:** Owner direction — "a galaxy with control dynamics but not yet a
+  dynamic galaxy ... war is not the only off-ramp to conflict." Grounded in the
+  prebuilt-systems inventory + conflict-machine deep read (reports/analysis).
+- **Type:** mechanic completion (give civil wars a resolution off-ramp)
+- **Entities affected:** insurgencies (lifecycle/removal), host demographic
+  drivers, leader legitimacy, the conflict trajectory
+- **Description:** The galaxy ran two parallel conflict systems. Inter-faction
+  ConflictState always had a full de-escalation ladder ending in RESOLUTION
+  (calc_deescalation_probability, mediation, treaty collapse); the intra-faction
+  insurgency layer (rebellion.py) had only military suppression —
+  InsurgencyPhase.RESOLVED was declared but never assigned, suppressed movements
+  lingered with grievance intact, and the same ~13 wounds reopened forever
+  (Observatory roundtable, 2026-06-14). MECH-REB-004 grafts the engine's own
+  de-escalation rule onto insurgencies: a grinding, costly, stalemated civil war
+  under domestic pressure reaches a negotiated settlement that retires the
+  movement and spends its grievance (eased stress + restored legitimacy — a
+  peaceful renewal path). Self-limiting; mediation bonus reserved for MECH-DIP-002.
+  Also adds D1, an honest internal-conflict-aware stability metric in the
+  Observatory (the engine's conflict-relief term is blind to civil war).
+- **Resolution:** Registry annotated MECH-REB-004; tests 28 total (mech 14 +
+  consequence 4 + observatory 10). Observatory 240-cycle now **DYNAMIC GALAXY —
+  CERTIFIED** on seeds 42/7/99: 60-68 negotiated settlements per run, conflict
+  cast rotates (distinct insurgencies 13 → 71/74/76), civil wars no longer pile
+  up (per-era ~0.5-3.75, 3 waves), honest stability plateau ~0.29-0.33 (below the
+  engine's masked ~0.38). De-escalation uses the engine's own formula, not a new
+  coefficient set — reuse over reinvention, per the emergence principle. Open
+  follow-ups logged: re-derive COLLAPSE_FLOOR against the honest metric (D9),
+  minor-insurgency swarm, engine-side RESOLVED removal path (owner clearance).
