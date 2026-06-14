@@ -413,3 +413,28 @@
   readiness / deterrence (§10) not yet modelled. **Pillar C (authentic decisions)
   complete: GOV-002 culture + GOV-003 succession + POW-001 power, all driven by
   the same canon dominant_bias.**
+
+## Drift Entry — 2026-06-14 (territorial consequence, MECH-TER-001 — Pillar A begins)
+- **Source:** dynamic-galaxy action plan, Pillar A (emergent consequence);
+  preceded by an engine-version audit confirming GUMASAdvancedEngine (Forge v3.0)
+  is current and exposes the economy this builds on.
+- **Type:** mechanic completion (a war's outcome reshapes the world)
+- **Entities affected:** faction territory (new), economic_potential ceiling,
+  and — downstream — galactic power
+- **Description:** Conflict was a self-contained scalar — a war ended and the
+  world was unchanged. MECH-TER-001 makes a faction's mature civil wars
+  permanently scar its territory (half seceded for good, half reclaimable at
+  peace; a ~45% core always held), and the territory still held caps its
+  economic_potential (the engine's economic ceiling, which it never lowered).
+  Because MECH-POW-001 reads economy, the loss propagates: war-torn factions are
+  permanently poorer and weaker, shifting the balance of power. Built on the
+  engine's own economy, not invented scalars.
+- **Resolution:** Registry annotated MECH-TER-001; tests 38 (mech 20 +
+  consequence 4 + observatory 14). A/B (seeds 42/7/99): without it every economic
+  ceiling stays 1.0; with it ceilings diverge by war history (spread 0.12-0.37),
+  ~4 factions permanently shrink per run, and the war-torn end +0.08-0.16 weaker
+  in power than the spared — map -> economy -> power, causal depth > 1. Observatory
+  gates consequences_propagate; 240-cycle stays DYNAMIC GALAXY — CERTIFIED.
+  Magnitude moderate by design (12-37% loss, core preserved). Pillar A begun;
+  ECO-001 (war economy / tech_economic_multipliers) and CUL-002 (assimilation vs
+  tradition) remain; l2_state spatial deepening + DIP-005 reintegration noted.
