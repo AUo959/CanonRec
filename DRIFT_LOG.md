@@ -363,3 +363,29 @@
   CERTIFIED. First of Pillar C; escalation_lean exposed but not yet wired. Bias
   labels are the engine's own — authentic decisions from canon culture, not
   invented coefficients.
+
+## Drift Entry — 2026-06-14 (internal politics & succession, MECH-GOV-003)
+- **Source:** Owner direction ("internal politics") + look-first sweep of iCloud
+  project docs. Canon §13 (Senate_Elections vs Military_Coups), Public_Opinion
+  form from text_early_sim_logic.txt, org_union_senate.
+- **Type:** mechanic completion (leadership turnover + political consequence)
+- **Entities affected:** leader dominant_bias / public_legitimacy / scandals;
+  host demographic stress (coup shock)
+- **Description:** Leaders could not lose power — no turnover, political
+  stagnation. MECH-GOV-003 (SuccessionModel) computes a leader's grip
+  (legitimacy minus scandal + war-pressure drag; built on the live signals since
+  elite_support/institutional_control are inert ~0.5). When grip collapses past a
+  honeymoon, the regime falls — by coup in a militarized polity (hard-line
+  successor, shaky legitimacy, a destabilizing stress bump) or election in an
+  economic one (pragmatic successor, fresh mandate). Founding character is locked
+  at first sight so war-economy drift doesn't make everyone a coup. The successor
+  clears scandals and takes a new dominant_bias (a real engine BiasType), which
+  flows into MECH-GOV-002 — so a regime change visibly shifts the faction's
+  trajectory.
+- **Resolution:** Registry annotated MECH-GOV-003; tests 34 (mech 18 +
+  consequence 4 + observatory 12). Observatory 240-cycle stays DYNAMIC GALAXY —
+  CERTIFIED on seeds 42/7/99: ~8-9 successions/run (coup/election split holds:
+  5/3, 7/1, 6/3), 5-7 factions change ruling culture; living/dynamic invariants
+  hold. Gates leadership_turns_over. Engine-side leader replacement remains an
+  owner-clearance follow-up; Legacy_System / Fame_and_Notoriety from §13 not yet
+  modelled. Pillar C: GOV-002 + GOV-003 done; POW-001 remains.
