@@ -389,3 +389,27 @@
   hold. Gates leadership_turns_over. Engine-side leader replacement remains an
   owner-clearance follow-up; Legacy_System / Fame_and_Notoriety from §13 not yet
   modelled. Pillar C: GOV-002 + GOV-003 done; POW-001 remains.
+
+## Drift Entry — 2026-06-14 (galactic power dynamics, MECH-POW-001 — Pillar C complete)
+- **Source:** dynamic-galaxy action plan, Pillar C; canon §10 (Alliance_System =
+  shifting trust; threat-based response).
+- **Type:** mechanic completion (power politics; completes authentic decisions)
+- **Entities affected:** the inter-faction trust network (realignment toward/away
+  from the hegemon)
+- **Description:** Factions ignored the galactic balance of power. MECH-POW-001
+  (PowerDynamicsModel) reads the balance each turn (power = 0.45*mil + 0.40*eco +
+  0.15*tech), finds the hegemon, and has every other faction realign its trust by
+  how threatened it is and by its culture: balancers (zero-sum/fear/sunk-cost/
+  confirmation) pull trust away from the hegemon and toward each other,
+  bandwagoners (survivorship/status-quo/moral-licensing/rational) pull toward it.
+  Operates on the live trust network, so it feeds mediation and disposition.
+- **Resolution:** Registry annotated MECH-POW-001; tests 36 (mech 19 +
+  consequence 4 + observatory 13). A/B (seeds 42/7/99): bandwagoners end ~0.25-
+  0.31 more trusting of the hegemon than balancers, vs ~0 without the mechanic —
+  power politics decided by culture. Run-averaged against the current hegemon
+  (robust to hegemon shifting); trust bounded. Observatory gates
+  power_politics_active; 240-cycle stays DYNAMIC GALAXY — CERTIFIED. REALIGN_RATE=
+  0.10 the only knob; stance is the culture's own (GOV-002). Threat-based military
+  readiness / deterrence (§10) not yet modelled. **Pillar C (authentic decisions)
+  complete: GOV-002 culture + GOV-003 succession + POW-001 power, all driven by
+  the same canon dominant_bias.**
