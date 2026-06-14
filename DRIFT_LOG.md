@@ -438,3 +438,24 @@
   Magnitude moderate by design (12-37% loss, core preserved). Pillar A begun;
   ECO-001 (war economy / tech_economic_multipliers) and CUL-002 (assimilation vs
   tradition) remain; l2_state spatial deepening + DIP-005 reintegration noted.
+
+## Drift Entry — 2026-06-14 (war economy & market flux, MECH-ECO-001 — Pillar A)
+- **Source:** dynamic-galaxy action plan, Pillar A; canon Public_Opinion =
+  Policy_Success - Scandals + Economic_Stability (text_early_sim_logic.txt).
+- **Type:** mechanic completion (transient war economy + economy->unrest loop)
+- **Entities affected:** faction economic_strength (war scarcity / peace boom);
+  population demographic_stress (the feedback)
+- **Description:** TER-001 made war's economic damage permanent (the ceiling);
+  ECO-001 adds the transient cycle and a feedback loop. War scarcity suppresses a
+  faction's output while it fights; peace drives a reconstruction boom back toward
+  the territory-capped ceiling; and a depressed economy deepens demographic stress
+  -> unrest while a booming one eases it, closing the loop war -> economic
+  depression -> grievance -> war.
+- **Resolution:** Registry annotated MECH-ECO-001; tests 40 (mech 21 +
+  consequence 4 + observatory 15). A/B (seeds 42/7/99): the economy busts in war
+  and booms in peace (at-war health ~0.18-0.37 of potential vs at-peace
+  ~0.70-0.81, gap +0.44-0.54; peacetime health lifts from ~0.58 without ECO-001 to
+  ~0.70-0.81 with it). The feedback loop turns without runaway (mean civil-war load
+  unchanged). Observatory gates war_economy_active; 240-cycle stays DYNAMIC GALAXY
+  — CERTIFIED. Gentle magnitudes by design. Pillar A: TER-001 + ECO-001 done;
+  CUL-002 remains.
