@@ -483,3 +483,28 @@
   impact of the three Pillar-A mechanics, stated plainly. **Pillar A complete:
   TER-001 (map->economy->power) + ECO-001 (war/peace economy + feedback) + CUL-002
   (cultural cost of conquest). All three of the dynamic-galaxy clauses now live.**
+
+## Drift Entry — 2026-06-15 (Phase 4: dynamic-galaxy integration certified)
+- **Source:** dynamic-galaxy action plan, Phase 4 (integration + roundtable).
+- **Type:** program milestone (integration certification) + honest weakness
+- **Entities affected:** the whole L2 galactic simulation (11 mechanics, Pillars A/B/C)
+- **Description:** Ran the complete dynamic-galaxy loop as one integrated system and
+  convened the senior-staff roundtable. All twelve pillar gates pass simultaneously
+  on seeds 42/7/99 in one run, determinism confirmed, and the causal loop closes
+  end-to-end: culture (GOV-002/POW-001/CUL-002) -> decisions -> conflict ->
+  consequence (TER-001 map/economy/power, ECO-001 war economy) -> new conditions
+  (weaker factions, shifted hegemon, economic grievance) -> GOV-003 installs a new
+  culture -> loop. The galaxy's turn-240 state is the product of its own history,
+  not its initial conditions — it acts rather than merely settling.
+- **Resolution:** DYNAMIC GALAXY — CERTIFIED at the canonical 240-turn horizon.
+  Honest integration finding logged (not buried): a 360-turn stress run shows the
+  coupled feedback loops (complacency + economic hardship + territorial decline)
+  **compound into a slow conflict-amplifying drift** — cw_load rises from ~1.3-2.1
+  at 240t to ~1.9-2.9 at 360t, approaching (not reaching) the 3.0 pinned-conflict
+  reference on the most volatile seed; honest stability still plateaus ~0.30 (no
+  collapse). Diagnosis: a missing **homeostatic damper** (no counter-force that
+  strengthens as conflict rises). Routed as the priority follow-up, to be
+  re-certified at the 360-turn horizon; not coefficient-patched under the
+  integration banner. The Observatory 240-cycle remains the standing regression
+  gate; the 360-turn run is the new long-horizon check. Roundtable receipt:
+  reports/simulation/observatory_240_cycle__2026-06-15/integration_roundtable.md.
