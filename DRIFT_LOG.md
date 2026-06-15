@@ -459,3 +459,27 @@
   unchanged). Observatory gates war_economy_active; 240-cycle stays DYNAMIC GALAXY
   — CERTIFIED. Gentle magnitudes by design. Pillar A: TER-001 + ECO-001 done;
   CUL-002 remains.
+
+## Drift Entry — 2026-06-14 (assimilation vs tradition, MECH-CUL-002 — Pillar A complete)
+- **Source:** dynamic-galaxy action plan, Pillar A; canon §12 (Cultural_Identity =
+  Assimilation vs Local_Traditions).
+- **Type:** mechanic completion (culture-dependent cost of holding conquered ground)
+- **Entities affected:** population demographic_stress (identity grievance under
+  assimilation); leader legitimacy (accommodation under tolerance)
+- **Description:** Holding restive, recently-reconquered ground (TER-001's
+  contested territory) is a cultural choice keyed to dominant_bias: assimilationist
+  cultures impose identity (control now, identity grievance -> separatist unrest
+  later); tolerant cultures preserve local tradition (civic peace, a little
+  legitimacy). So conquest costs differently depending on who holds it.
+- **Resolution:** Registry annotated MECH-CUL-002; tests 42 (mech 22 + consequence
+  4 + observatory 16). A/B (seeds 42/7/99): the cost is real and culture-split
+  (both policies exercised every run; ~115-238 assimilations vs ~52-190
+  tolerations); civil-war load stays under the 3.0 collapse reference (2.08/1.32/
+  1.90). Observatory gates cultural_cost_active; 240-cycle stays DYNAMIC GALAXY —
+  CERTIFIED. Honest finding recorded: gentle by design (IDENTITY_GRIEVANCE 0.06) —
+  an A/B isolating the mechanic showed its galaxy-level outcome is small/noisy and
+  a stronger setting mildly amplified conflict, so it is certified at the
+  mechanism level (the policy split), not forced to a measurable outcome. Weakest-
+  impact of the three Pillar-A mechanics, stated plainly. **Pillar A complete:
+  TER-001 (map->economy->power) + ECO-001 (war/peace economy + feedback) + CUL-002
+  (cultural cost of conquest). All three of the dynamic-galaxy clauses now live.**
