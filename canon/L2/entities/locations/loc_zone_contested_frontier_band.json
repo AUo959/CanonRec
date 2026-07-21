@@ -1,0 +1,33 @@
+{
+  "entity_id": "loc_zone_contested_frontier_band",
+  "entity_kind": "location",
+  "name": "Contested Frontier Band",
+  "aliases": [],
+  "certainty": "STAGING",
+  "source_refs": [
+    {
+      "source_id": "gumas_l2_map_source_of_truth",
+      "path": "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md",
+      "line_start": 64,
+      "line_end": 64
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [],
+  "tags": [
+    "macro_zone",
+    "velar_fabric_pass_2026_07_21"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "jurisdiction": null,
+  "parent_org_id": null,
+  "location_type": "macro_zone",
+  "region_id": null,
+  "canonical_position_status": "canon",
+  "promotion_pass": "Velar Fabric Pass — Placement Ruling — 2026-07-21",
+  "promotion_note": "RULING-VELAR-PLACEMENT (owner, 2026-07-21): macro-zone entity created at STAGING from map source-of-truth §2 so region_id adjacency anchors resolve (P3). Map remains geometry authority. Secondary corridors only, high hazard density, no durable enforcement. Separatist chokepoints, Zyphari high-risk trade nodes, pirate kingdoms.",
+  "locked_at": "2026-07-21T00:00:00Z"
+}

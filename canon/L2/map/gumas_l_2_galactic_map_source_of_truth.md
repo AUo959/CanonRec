@@ -22,6 +22,7 @@ Narrative records what the universe reveals under constraint. Physical placement
 **Occupants:**
 - Galactic Union Administrative Core
 - Union Industrial / Fleet Hub
+- Union Economic Capital (Vel‑Surak) *(placed by owner ruling 2026‑07‑21)*
 - Prime Construct Primary Enclave (embedded)
 
 **Function:** Bureaucratic and logistical gravity well. Enables Union coherence but creates institutional inertia.
@@ -469,3 +470,23 @@ If a proposed element violates these constraints, it does not exist.
 **Status:** Canonical Source of Truth for L2 Physical Space
 **Version:** v1.6 (VEL-CORE-01 Placed)
 
+
+### 8.7 GU-ECON-01 — Union Economic Capital System (Vel‑Surak)
+
+**Status:** 🔓 Placed (Owner Ruling 2026‑07‑21)
+
+**Designation:** GU-ECON-01 (provisional system ID)
+**System Name:** Vel‑Surak (primary world name; system name pending ratification)
+
+**Zone:** Inner Mid‑Disk Core Zone — dense hyperlane mesh adjacency to GU-CORE-01 and GU-LOG-01
+
+**Constrained Profile:**
+- Metro world: planet‑wide commerce districts and stock exchange centers *(CANON — Physical Galaxy Packet §3.2)*
+- "Engine of the Union" — wealthiest, most economically powerful world; hosts Trade Coalition HQ *(CANON — primary-source knowledge bundle)*
+- Megacity infrastructure with gravity/atmosphere districts accommodating mixed-species population (absorbed sub-record, 2026‑07‑21 collapse)
+- Core/Integrated world alongside Prime Ascendancy
+
+**Heritage note (drift correction):** the "Vel‑" prefix reflects **Velari cultural heritage**
+(settlement lineage), not Velar Imperium jurisdiction. The 2026‑03‑19 "Velar economic
+capital" promotion note is superseded by this ruling — entity faction binding corrected to
+galactic_union. Receipt: canon/L2/velar/VELAR_FABRIC_PASS__2026-07-21.md.

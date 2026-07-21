@@ -82,3 +82,27 @@ RULING-ENGINE-P4 (details in root report §4).
 **Remaining open in Velar domain:** placement ruling for Vel-Surak (map row promotion),
 region anchoring after placement, capsule location_binding rebuild, reconciler P2/P4/C1
 check implementation, cloudbank wiring implementation.
+
+## RULING-VELAR-PLACEMENT — owner, 2026-07-21
+
+**Evidence surfaced during placement review:** primary sources (Physical Galaxy Packet
+§3.2 CANON; knowledge-bundle excerpts) describe Vel-Surak as the **Union** economic
+capital — "Engine of the Union", Trade Coalition HQ, core world alongside Prime
+Ascendancy. The 2026-03-19 `velar_imperium` binding and "Velar economic capital" note
+were **name-prefix drift** ("Vel-" = Velari cultural heritage, not Imperium jurisdiction).
+
+**Ruling (executed):**
+1. Vel-Surak placed in the **Inner Mid-Disk Core Zone**; map source-of-truth §2.1
+   occupants updated; placed-system entry **§8.7 GU-ECON-01** added with heritage note.
+2. `loc_vel_surak` faction binding corrected `velar_imperium → galactic_union`
+   (prev preserved); `region_id = loc_zone_inner_mid_disk_core`;
+   `canonical_position_status` restored to `canon` (map now actually places it).
+3. Authority-table row 44 promoted **STAGING → CANON** (both file copies);
+   row 54 (megacity) marked SUPERSEDED/collapsed.
+4. **Seven macro-zone entities** created at STAGING from map §2.1–2.7
+   (`loc_zone_*`) so region_id anchors resolve (P3); map remains geometry authority.
+
+**Domain consequence:** Vel-Surak leaves the Velar Imperium domain. The Velar Crescent's
+map anchors (VEL-CORE-01, VEL-BORDER-01 placed systems; Ruin World and Outer Colony Node
+requirements) still lack entity records — queued as follow-up.
+Closes: LEDGER-VELAR-0001 residual (placement), LEDGER-VELAR-0002 residual (region anchoring).

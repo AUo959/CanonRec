@@ -16,11 +16,12 @@
   ],
   "status": "active",
   "faction_bindings": [
-    "velar_imperium"
+    "galactic_union"
   ],
   "tags": [
     "trade hub / metro world",
-    "“Economic capital” claim; placement TBD / economic capital",
+    "economic capital (Union)",
+    "velari_heritage_name",
     "velar_fabric_pass_2026_07_21"
   ],
   "conflict_flags": [],
@@ -30,11 +31,14 @@
   "jurisdiction": null,
   "parent_org_id": null,
   "location_type": "trade hub / metro world",
-  "region_id": null,
-  "canonical_position_status": "staging",
+  "region_id": "loc_zone_inner_mid_disk_core",
+  "canonical_position_status": "canon",
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
-  "promotion_note": "Map authority table; Velar economic capital. RULING-VELAR-P1 (2026-07-21): position status downgraded canon->staging to match map authority table (P1 map primacy; row remains STAGING/placement TBD). RULING-VELAR-P3: absorbed loc_vel_surak_megacity_infrastructure_gravity_atmosphere_districts (SUPERSEDED, alias-forward); region_id deferred until placement ruling.",
+  "promotion_note": "Map authority table; Velar economic capital. RULING-VELAR-P1 (2026-07-21): position status downgraded canon->staging to match map authority table (P1 map primacy; row remains STAGING/placement TBD). RULING-VELAR-P3: absorbed loc_vel_surak_megacity_infrastructure_gravity_atmosphere_districts (SUPERSEDED, alias-forward); region_id deferred until placement ruling. RULING-VELAR-PLACEMENT (owner, 2026-07-21): placed in Inner Mid-Disk Core Zone as the UNION economic capital (\"Engine of the Union\", Trade Coalition HQ, core world with Prime Ascendancy — GUMAS_Physical_Galaxy_Packet_v0.1 §3.2 CANON + knowledge-bundle primary sources). faction_bindings corrected velar_imperium->galactic_union: the 2026-03-19 \"Velar economic capital\" note was name-prefix drift; \"Vel-\" reflects Velari cultural heritage, not Imperium jurisdiction. Map authority row promoted STAGING->CANON.",
   "locked_at": "2026-03-20T02:03:35Z",
-  "prev_canonical_position_status": "canon",
-  "updated_at": "2026-07-21"
+  "prev_canonical_position_status": "staging",
+  "updated_at": "2026-07-21",
+  "prev_faction_bindings": [
+    "velar_imperium"
+  ]
 }

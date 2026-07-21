@@ -41,7 +41,7 @@ This table is the **reconciliation layer**: it does *not* decide final coordinat
 | Veil Nebula | The Veil | nebula / anomaly | STAGING | Dossier v0.5; map inputs §3.3; GUMAS_Physical_Galaxy_Packet_v0.1.md | Placement TBD / FTL disruption |
 | Shadow Reef Nebula | Shadow Reef | nebula / xeno‑ecology zone | STAGING | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md | Energy‑based lifeforms interfere with ship systems / energy-lifeforms interfere with ships |
 | Xyphos Prime ruins | Xyphos ruins | precursor site / restricted | STAGING | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md | Confirm whether “Prime” is planet vs system / precursor-linked; staging claim |
-| Vel‑Surak | Vel Surak | trade hub / metro world | STAGING | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md | “Economic capital” claim; placement TBD / economic capital |
+| Vel‑Surak | Vel Surak | trade hub / metro world | CANON | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md; map §8.7 GU-ECON-01 | Union economic capital (“Engine of the Union”); placed Inner Mid‑Disk Core Zone by owner ruling 2026‑07‑21; Velari-heritage name (binding corrected velar_imperium→galactic_union) |
 | Rethos IV | Rethos 4 | world / semi‑unregulated hub | STAGING | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md | Black district; clarify jurisdiction / semi-independent trade hub; black district |
 | Draskor‑9 | Draskor 9 | world / corporate mining | STAGING | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md | Underbelly + pollution; verify corporate tie / corporate mining world; pollution; underbelly |
 | Velkaris V | Velkaris 5 | world / terraforming success | STAGING | Dossier v0.5; GUMAS_Physical_Galaxy_Packet_v0.1.md | Ice → agriculture; native species protests / terraformed agricultural hub; protests |
@@ -51,7 +51,7 @@ This table is the **reconciliation layer**: it does *not* decide final coordinat
 | Torix‑7 (Crimson Abyss) | Torix 7 | world / extreme jungle | STAGING | Dossier v0.5 | Rapid evolution ecology; hazard tags needed |
 | Xelvani‑3 (Silent Plains) | Xelvani 3 | world / anomalous ecology | STAGING | Dossier v0.5 | No animal life; organic structures still grow |
 | Prime Ascendancy | — | node / region (TBD) | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | core world referenced in integration context |
-| Vel-Surak megacity infrastructure (gravity/atmosphere districts) | — | node / region (TBD) | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | — |
+| Vel-Surak megacity infrastructure (gravity/atmosphere districts) | — | node / region | SUPERSEDED | GUMAS_Physical_Galaxy_Packet_v0.1.md | Collapsed into Vel‑Surak parent record 2026‑07‑21 (alias-forward); detail absorbed into map §8.7 |
 | Xyphos Ruins | — | site / installation | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | protected precursor site |
 | Xyphos Precursor Research Center | — | site / installation | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | institution implies site access nearby/elsewhere |
 | Torix-7 | Crimson Abyss | world / system (needs disambiguation) | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | — |
