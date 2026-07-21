@@ -64,13 +64,8 @@
     "chief_marshal_appointment": "Chancellor, with Senate approval",
     "chancellor_direct_orders_in_investigations": false,
     "chain_of_command": "Independent of military and planetary police",
-    "certainty": "CANON_PROMOTE",
+    "certainty": "CANON",
     "doc_source": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
-  },
-  "charter_pending": {
-    "charter_status": "DRAFT v0.1 at STAGING (sim-derived 2026-07-20): three-tier override regime + purpose-bound official-acts immunity. See canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md",
-    "local_police_override_trigger": "DRAFT (STAGING): standard=Judicial Council warrant; exigent=Chief Marshal cross-sector certification, 1 cycle max, retroactive review; emergency=Senate declaration. Corruption findings = warrant grounds only (Charter Art. I)",
-    "diplomatic_immunity_scope": "DRAFT (STAGING): official-acts immunity attached to registered pursuit order; Council waiver on host petition; Tribunal liability channel (Charter Art. II)"
   },
   "parent_org_id": null,
   "location_type": null,
@@ -79,5 +74,13 @@
   "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
   "promotion_note": "World Bible + 4 Marshals ledger refs; law enforcement corps. CANON. Enriched 2026-07-20 (jurisdiction + oversight) from April-2025 archive mining, owner-approved; see ARCHIVE_MINING_ADDENDUM__2026-07-20.md.",
   "locked_at": "2026-03-20T02:03:35Z",
-  "updated_at": "2026-07-20"
+  "updated_at": "2026-07-21",
+  "charter": {
+    "charter_status": "Marshal Charter v0.1 CANON (Articles I-III, V; Art. IV APPROX). See canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md",
+    "local_police_override_trigger": "standard=Judicial Council warrant; exigent=Chief Marshal cross-sector certification, 1 cycle max, retroactive review; emergency=Senate declaration. Corruption findings = warrant grounds only (Charter Art. I)",
+    "diplomatic_immunity_scope": "official-acts immunity attached to registered pursuit order; Council waiver on host petition; Tribunal liability channel (Charter Art. II)",
+    "certainty": "CANON",
+    "promotion_pass": "Marshals Charter Promotion Pass \u2014 2026-07-20",
+    "locked_at": "2026-07-21T03:05:00Z"
+  }
 }

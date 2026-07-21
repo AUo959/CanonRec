@@ -562,3 +562,10 @@
 - **Entities affected:** Sentinel variant taxonomy (LEDGER-SENTINEL-0003)
 - **Description:** Diplomatic-Class Sentinel adopted in 2025-03-15 thread conflicts with canonical six-variant list.
 - **Resolution:** RESOLVED (owner, 2026-07-20) — admitted as seventh variant "Sentinel-Diplomat" at STAGING (explicit 2025 adoption memo = documented intent); six-variant CANON list unchanged; active-service count unknown, not invented. LEDGER-SENTINEL-0005.
+
+## Drift Entry — 2026-07-20 (Marshals Charter Promotion Pass)
+- **Source:** Owner-approved promotion of sim-derived Marshal Charter v0.1
+- **Type:** promotion receipt
+- **Entities affected:** org_union_marshals (charter fields CANON), org_judicial_council (STAGING→CANON), org_sentinel_high_command (STAGING→CANON; Grand Marshal Aric Thal CANON)
+- **Description:** Charter Articles I (three-tier override), II (official-acts immunity), III (9-jurist Judicial Council), V (Grand Marshal incumbent) promoted to CANON. Article IV chronology remains APPROX by design. Derivation grounded in GUMASAdvancedEngine runs, seeds 42/7/99 × 40 turns, findings F1–F8 with receipts.
+- **Resolution:** LOCKED at commit. Charter open-question queue LEDGER-CHARTER-0001..0004 closed (0004 as APPROX). Remaining STAGING: Sentinel-Diplomat variant. Remaining UNCONFIRMED: Judicator Prime "supercarrier" gloss.

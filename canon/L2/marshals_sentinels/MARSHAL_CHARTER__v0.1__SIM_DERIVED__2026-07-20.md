@@ -2,7 +2,7 @@
 doc_type: L2_SIM_DERIVATION
 doc_id: L2.SIM.MARSHAL.CHARTER.0001
 version: 0.1.0
-status: STAGING
+status: CANON (Articles I-III, V) / APPROX (Article IV) — owner-approved promotion 2026-07-20
 layer: L2
 controller: ORION
 engine: GUMASAdvancedEngine (GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS)
@@ -130,8 +130,20 @@ direct advisory uplink to the Chancellor & Military High Command.
 
 ## Certainty & routing
 
-- Articles I–III, V: **STAGING** (simulation-derived; promotable on owner approval).
-- Article IV: **APPROX** (relative chronology only).
+- Articles I–III, V: **CANON** — owner-approved "Marshals Charter Promotion Pass —
+  2026-07-20"; locked at commit.
+- Article IV: **APPROX** by design (relative chronology only; calendar anchoring deferred
+  until a canonical GU calendar exists).
+- Out of this pass's scope, still STAGING: Sentinel-Diplomat variant (LEDGER-SENTINEL-0005),
+  Judicator Prime "supercarrier" gloss (CL-04c UNCONFIRMED).
 - This document extends, and does not modify, the CANON addendum Parts I–III.
 - Claim ledger: CL-14 (charter articles), CL-15 (Grand Marshal Aric Thal),
   CL-16 (relative chronology).
+
+## Promotion Receipt
+
+Owner approval: 2026-07-20 session ("perform the promotion pass"). Entities locked in the
+same commit: org_judicial_council (STAGING→CANON, charter design fields), 
+org_sentinel_high_command (STAGING→CANON, incumbent Grand Marshal Aric Thal CANON),
+org_union_marshals (charter fields CANON; oversight block CANON). Engine receipts:
+SIM_ENGINE_OUTPUTS/MARSHAL_CHARTER_RUN__seed42__2026-07-20.json (root repo, commit 751218a).
