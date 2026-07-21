@@ -14,8 +14,20 @@
   "marshal_integration": {
     "role": "Command ship for Marshal-led strike forces; hosts a full Sentinel-class strike unit",
     "embarked_marshal_officer_id": "elias_drayen",
-    "certainty": "CANON_PROMOTE",
-    "doc_source": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+    "certainty": "CANON",
+    "doc_sources": [
+      "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md",
+      "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_HOSTED_ASSET_COMMAND__v1.0__2026-07-21.md"
+    ]
+  },
+  "hosted_asset_command_doctrine": {
+    "doctrine_id": "JUDICATOR-HOST-001",
+    "certainty": "CANON",
+    "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_HOSTED_ASSET_COMMAND__v1.0__2026-07-21.md",
+    "core_rule": "The Judicator Prime may host, transport, sustain, deploy, and recover independent Union assets without absorbing them into its naval chain of command; all normal institutional chain-of-command rules continue unless a lawful mission order establishes temporary coordination authority.",
+    "captain_scope": "Captain Alric Tann commands the vessel, including navigation, defense, launch and recovery, internal security, damage control, access control, shipboard weapons posture, and immediate safety emergencies.",
+    "hosted_asset_scope": "Hosted Marshal, Ranger, Sentinel, diplomatic, intelligence, scientific, medical, and other specialist assets retain their parent-chain mission, personnel, discipline, and doctrine authority.",
+    "joint_operation_rule": "Independent assets are normally tasked separately; joint employment requires a mission-specific coordinating lead, defined authority scope, or an immediate emergency."
   },
   "crew_approx": 12000,
   "crew_approx_certainty": "APPROX",
@@ -23,12 +35,14 @@
   "prev_certainty": "STAGING",
   "certainty": "CANON",
   "doc_sources": [
-    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md",
+    "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_HOSTED_ASSET_COMMAND__v1.0__2026-07-21.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
-  "notes": "Primary narrative vessel; full crew roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename) — owner closeout pass.",
+  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling, preserving independent institutional chains aboard the flagship.",
   "class_hull_type": "supercarrier",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
   "updated_at": "2026-07-21"
