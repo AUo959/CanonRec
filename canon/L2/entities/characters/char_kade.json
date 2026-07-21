@@ -1,0 +1,36 @@
+{
+  "entity_kind": "character",
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_sentinel_high_command"
+  ],
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "Spatha Promotion Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+    "archives (root repo): ZIP_Archives/9c9ce296…22da4e485f0b487cae0716c77b02b379/conversations.json (2026-02-01..03 design thread + forensic sweep)",
+    "reports/analysis/union_marshals_dossier__2026-07-20.md (promotion table)",
+    "reports/analysis/spatha_context_report__2026-07-21.md"
+  ],
+  "entity_id": "char_kade",
+  "name": "Kade",
+  "aliases": [],
+  "role": "Sentinel task force member",
+  "jurisdiction": null,
+  "tags": [
+    "sentinel",
+    "sim_capture_v1",
+    "spatha_promotion_2026_07_21"
+  ],
+  "notes": "Established: member of the four-suit Sentinel task force that entered the system in the late simulation phase (space-capable suits; arrival triggered immediate hostile withdrawal — absolute escalation dominance). Suit variant, full name, and history NOT established. Sentinel scarcity constraint: four suits total in-system, severely number-limited force."
+}

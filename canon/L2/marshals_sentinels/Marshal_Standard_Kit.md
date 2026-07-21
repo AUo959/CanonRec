@@ -1,31 +1,15 @@
-# Marshal Standard Kit (Running List)
+# Marshal Standard Kit — SUPERSEDED POINTER
 
-## Personal Weapons
-- **Spatha Moderna** (formal) — commonly called *spade*
-- **Marshal Heavy Service Revolver (MR-6)** — commonly *iron*, *hand cannon*, *blunderbuss*
-- **MFR-9 Modular Energy Rifle** — long gun / rifle
+**Status:** SUPERSEDED (alias-forward) — 2026-07-21, Spatha Promotion Pass (dedupe ruling G4).
 
-## Defensive Equipment
-- Deployable wrist-mounted energy shield (standard issue)
+The canonical Marshal Standard Kit lives at:
 
-## Armor & Wear
-- Marshal field armor (modular, medium-profile)
-- Environmental undersuit
-- Integrated comms and sensor package
+> **`canon/L2/operations/Marshal_Standard_Kit.md`**
 
-## Mobility & Tools
-- Grapple / ascender system
-- Breach tools (cutting, prying, micro-charges)
-- Multi-spectrum scanner
+That copy carries the 2026-07-21 Ranger Field-Drone Complement ruling; this location held a
+stale pre-drone duplicate and is retained as a pointer only (Xelvani-3 alias-forward
+precedent). Kit detail records: `canon/L2/operations/SPATHA_MODERNA__KIT_DETAIL__2026-07-21.md`.
 
-## Medical & Survival
-- Trauma kit (self + partner)
-- Field rations (extended duration)
-- Emergency shelter module
-
-## Command & Logistics
-- Secure Marshal ident-key
-- Encrypted comms node
-- Drone beacon for resupply / extraction
-
-*(This list is live and intended to be expanded as the simulation develops.)*
+A third historical copy exists outside CanonRec at
+`projects/GUMAS_SIM_2.0/03_SIMULATION/Mission_Logs/SimLogsBuild/Marshal_Standard_Kit.md`
+(pre-drone; archival, non-canonical).
