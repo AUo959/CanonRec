@@ -39,5 +39,10 @@
   "promotion_pass": null,
   "promotion_note": "Created 2026-07-20 at STAGING per owner ruling CL-13a: SHC is a distinct office from the Chief Marshal. This ruling renders the GUMAS_Factions.json anomaly coherent ('Sentinels' listed as GU substructure parallel to Union Marshals).",
   "locked_at": null,
-  "updated_at": "2026-07-20"
+  "updated_at": "2026-07-20",
+  "leadership_incumbent": {
+    "name": "Grand Marshal Aric Thal",
+    "source": "Silent Dagger mission lead, Sentinel-Praetor (LEDGER-MISSIONS-0001); deterministic selection rule Charter Art. V",
+    "certainty": "STAGING"
+  }
 }

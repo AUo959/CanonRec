@@ -68,9 +68,9 @@
     "doc_source": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
   },
   "charter_pending": {
-    "charter_status": "Marshal Charter unwritten; legal scopes below open until drafted (see ARCHIVE_MINING_ADDENDUM Part II)",
-    "local_police_override_trigger": "UNSPECIFIED — candidate mechanisms: Union warrant, Judicial Council order, cross-sector nexus, local-corruption finding, emergency declaration (LEDGER-CHARTER-0001)",
-    "diplomatic_immunity_scope": "Purpose-bound to authorized cross-border pursuit per archive (STAGING); local-arrest immunity, Judicial Council waiver process, and liability for unlawful operations UNSPECIFIED (LEDGER-CHARTER-0002)"
+    "charter_status": "DRAFT v0.1 at STAGING (sim-derived 2026-07-20): three-tier override regime + purpose-bound official-acts immunity. See canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md",
+    "local_police_override_trigger": "DRAFT (STAGING): standard=Judicial Council warrant; exigent=Chief Marshal cross-sector certification, 1 cycle max, retroactive review; emergency=Senate declaration. Corruption findings = warrant grounds only (Charter Art. I)",
+    "diplomatic_immunity_scope": "DRAFT (STAGING): official-acts immunity attached to registered pursuit order; Council waiver on host petition; Tribunal liability channel (Charter Art. II)"
   },
   "parent_org_id": null,
   "location_type": null,
