@@ -583,3 +583,9 @@
 - **Entities affected:** vessel_gu_013, vessel_gu_014 (invalid tag STAGING_CONFIRMED → STAGING), org_union_intelligence_bureau + org_sentinel_high_command (aliases), org_diplomatic_corps, org_hardliner_warlords, org_imperial_loyalists, org_republican_reformists, org_outer_colony_warlords (new, STAGING)
 - **Description:** Raw-archive corpus verified fully mined (323_326 = duplicates; 62_619 = false positive). 7 faction substructures in canonical GUMAS_Factions.json lacked entity records. Xelvani-3/Torix-7 SUPERSEDED tag flagged (outside approved vocabulary) — content untouched, owner ruling queued. No canon-vs-source contradictions found corpus-wide.
 - **Resolution:** Hygiene fixes applied; 5 orgs staged; go-forward queue in audit report (Velar + AI-Warlord domain passes, SUPERSEDED ruling, alias enrichment, cloudbank skim).
+
+## Drift Entry — 2026-07-21 (L2 Audit Ruling Batch)
+- **Type:** promotion receipt / vocabulary ratification
+- **Entities affected:** org_diplomatic_corps, org_hardliner_warlords, org_imperial_loyalists, org_republican_reformists, org_outer_colony_warlords (STAGING→CANON); Xelvani-3/Torix-7 (tag ratified)
+- **Description:** Owner rulings: (1) all five audit-staged substructure orgs promoted (names pre-canon in GUMAS_Factions.json; enrichment deferred to domain passes). (2) SUPERSEDED admitted to the certainty vocabulary as a terminal retired-record state — CERTAINTY_TAGS.md created as authoritative vocabulary. (3) Fabric-invariants spec v0.1 ratified in scope (T1-T4/P1-P4/C1-C4) at STAGING; Velar domain pass designated the verification test case, including the aurora-cloudbank-symbolic enforcement trace.
+- **Resolution:** LOCKED at commit. Next: Velar pass per FABRIC_INVARIANTS spec §Velar test-case plan.

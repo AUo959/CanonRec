@@ -3,7 +3,7 @@
   "entity_kind": "organization",
   "name": "Republican Reformists",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "source_refs": [
     {
       "source_id": "gumas_factions",
@@ -26,8 +26,9 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": null,
+  "promotion_pass": "L2 Audit Ruling Batch \u2014 2026-07-21",
   "promotion_note": "Created at STAGING by L2 Corpus Audit 2026-07-21: named substructure/internal faction in canonical GUMAS_Factions.json lacked an entity record.",
-  "locked_at": null,
-  "updated_at": "2026-07-21"
+  "locked_at": "2026-07-21T04:10:00Z",
+  "updated_at": "2026-07-21",
+  "prev_certainty": "STAGING"
 }
