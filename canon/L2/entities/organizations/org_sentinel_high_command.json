@@ -1,0 +1,43 @@
+{
+  "entity_id": "org_sentinel_high_command",
+  "entity_kind": "organization",
+  "name": "Sentinel High Command",
+  "aliases": [
+    "SHC"
+  ],
+  "certainty": "STAGING",
+  "source_refs": [
+    {
+      "source_id": "archive_mining_2026_07_20",
+      "path": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "tags": [
+    "marshals",
+    "sentinels",
+    "military_command",
+    "archive_mining"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "military_command",
+  "jurisdiction": "Operational command of the Sentinel program: division commanders per suit class, tactical unit leaders (5-10 squads), autonomous strike teams; mission-critical override authority when bureaucratic delay risks mission failure.",
+  "parent_org_id": null,
+  "leadership_title": "Grand Marshal",
+  "relationships": {
+    "org_union_marshals": "Coordinate offices, distinct chains: Grand Marshal (SHC) holds operational command of Sentinels; Chief Marshal heads the Union Marshals service (owner ruling CL-13a, 2026-07-20)",
+    "advises": "Chancellor & Military High Command (direct uplink)"
+  },
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": null,
+  "promotion_note": "Created 2026-07-20 at STAGING per owner ruling CL-13a: SHC is a distinct office from the Chief Marshal. This ruling renders the GUMAS_Factions.json anomaly coherent ('Sentinels' listed as GU substructure parallel to Union Marshals).",
+  "locked_at": null,
+  "updated_at": "2026-07-20"
+}

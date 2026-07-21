@@ -549,3 +549,16 @@
 - **Entities affected:** org_union_marshals
 - **Description:** The "Marshalls" double-L misspelling, previously recorded as appearing only in two 2026 prose files, is now traced to the Mar-2025 source conversations (45 instances, incl. "Marshalls Division"). The misspelling is source-era, carried forward into later prose.
 - **Resolution:** RESOLVED — canonical spelling remains "Union Marshals"; l2_state.py normalization unaffected; dossier corrected.
+
+## Drift Entry — 2026-07-20 (CL-13 rulings)
+- **Source:** CL-13 owner rulings over second-sweep finds (April-2025 archives)
+- **Type:** conflicting role → resolved as distinct offices
+- **Entities affected:** org_sentinel_high_command (new), org_union_marshals
+- **Description:** Archive "Grand Marshal" (Sentinel High Command) vs canon "Chief Marshal" (Union Marshals) office ambiguity.
+- **Resolution:** RESOLVED (owner, 2026-07-20) — distinct offices: Grand Marshal commands the Sentinel program (SHC, STAGING entity created); Chief Marshal heads the Marshals service. Side effect: GUMAS_Factions.json "Sentinels as parallel substructure" anomaly now coherent. ARCHIVE_MINING_ADDENDUM Part III, LEDGER-MARSHALS-0006.
+
+## Drift Entry — 2026-07-20 (CL-13 rulings)
+- **Type:** schema drift / variant-list extension
+- **Entities affected:** Sentinel variant taxonomy (LEDGER-SENTINEL-0003)
+- **Description:** Diplomatic-Class Sentinel adopted in 2025-03-15 thread conflicts with canonical six-variant list.
+- **Resolution:** RESOLVED (owner, 2026-07-20) — admitted as seventh variant "Sentinel-Diplomat" at STAGING (explicit 2025 adoption memo = documented intent); six-variant CANON list unchanged; active-service count unknown, not invented. LEDGER-SENTINEL-0005.

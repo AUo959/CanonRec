@@ -144,15 +144,57 @@ a common misreading of the Chancellor's appointment-and-budget influence as dire
 Same passage shows the "**Marshalls**" double-L spelling — establishing the misspelling
 originates in the Mar-2025 source conversations (45 instances), not in 2026 prose.
 
-## LEDGER-SENTINEL-0004 — Second-sweep finds (UNCONFIRMED, not yet routed)
+## LEDGER-SENTINEL-0004 — Second-sweep finds (RULED 2026-07-20 — see Part III)
 
 1. **Sentinel High Command (SHC)** led by a **Grand Marshal**, directly advising the
    Chancellor & Military High Command; division commanders per sub-class; tactical unit
    leaders (5–10 squads); autonomous strike teams; mission-critical override authority when
-   bureaucratic delay risks mission failure. Tension to resolve: Grand Marshal (SHC) vs
-   Chief Marshal (Union Marshals) — distinct offices or drift?
+   bureaucratic delay risks mission failure. ~~Tension to resolve~~ → ruled distinct office
+   (Part III).
 2. **Diplomatic-Class Sentinel** — a seventh suit class adopted in-thread (2025-03-15):
    elite pairs for high-value diplomatic/planet-side missions; concealed weaponry and
    shielding; counter-surveillance suite; modular low-profile armor; authoritative
-   aesthetic. Conflicts with the canonical six-variant list (ledger LEDGER-SENTINEL-0003);
-   needs owner ruling before promotion.
+   aesthetic. ~~Needs owner ruling~~ → admitted as seventh variant (Part III).
+
+---
+
+# Part III — CL-13 Rulings (owner, 2026-07-20)
+
+## LEDGER-MARSHALS-0006 — Sentinel High Command (STAGING)
+
+**Ruling (CL-13a):** the **Grand Marshal is a distinct office from the Chief Marshal.**
+The SHC is the Sentinel program's dedicated command organ: the Grand Marshal holds
+operational command of Sentinel forces and advises the Chancellor & Military High Command
+directly; the Chief Marshal heads the Union Marshals service as a whole. Structure per
+sources: division commanders per suit class → tactical unit leaders (5–10 squads) →
+autonomous strike teams; Sentinels may issue mission-critical overrides when bureaucratic
+delay risks mission failure, and operate outside the traditional chain in time-sensitive
+or classified operations.
+
+**Continuity dividend:** this ruling resolves the long-standing `GUMAS_Factions.json`
+anomaly — "Sentinels" listed as a GU substructure **parallel to** Union Marshals is now
+coherent: the personnel are Marshals; their command organ (SHC) is a distinct structure.
+
+Entity: `canon/L2/entities/organizations/org_sentinel_high_command.json` (STAGING).
+Open: Grand Marshal incumbent unnamed in sources; SHC↔Chief Marshal boundary detail
+(deployment authorization, discipline) joins the Marshal Charter queue (LEDGER-CHARTER-0001…0004).
+
+## LEDGER-SENTINEL-0005 — Sentinel-Diplomat, seventh variant (STAGING)
+
+**Ruling (CL-13b):** admitted as the **seventh Sentinel variant** on the strength of the
+explicit adoption memo in the 2025-03-15 thread (documented owner intent).
+
+7. **Sentinel-Diplomat** — *Protective & Diplomatic Operations*
+   - **Role:** high-value diplomatic and sensitive planet-side missions where full combat
+     armor is impractical.
+   - **Doctrine:** always deployed in **pairs**; drawn from the most elite Sentinel recruits.
+   - **Features:** adaptive protective suit with formal, authoritative aesthetic; concealed
+     energy shielding (emergency-deploy); integrated counter-surveillance (threat-detection
+     optics, encrypted comms, AI situational awareness); concealed weaponry (wrist-mounted
+     retractable plasma blade, integrated sidearm); micro-exo mobility support; official
+     GU emblem.
+   - **Active service:** unknown (no source figure — do not invent).
+
+The Part I / LEDGER-SENTINEL-0003 six-variant list remains CANON as promoted; this seventh
+variant sits at **STAGING** until a future promotion pass. Per-variant totals (~830 + Phantom
++ Diplomat unknown) remain within the ~850–1,000 band flag raised in the original ledger.
