@@ -226,11 +226,14 @@ In many civilian settings, Rangers and other Marshal field personnel are among t
 
 ### Escalation meaning
 
-- **Carried openly:** normal Marshal presence; authority visible but not yet escalated.
-- **Hand on hilt or scabbard unlock:** deliberate warning and readiness signal.
-- **Drawn but unpowered:** immediate close-threat response or strong command signal.
-- **Powered edge engaged:** weapons-level escalation requiring the same legal justification and reporting discipline as firearm employment.
-- **Breach overdrive:** extraordinary utility/combat mode; logged automatically and subject to after-action review.
+The Spatha is **worn, not brandished**. Marshal doctrine is diplomacy-first and lethal-when-drawn: in a confrontation, drawing the blade is a commitment to immediate force rather than an intermediate display or theatrical warning.
+
+- **Carried openly:** normal Marshal presence; authority is visible without escalation.
+- **Hand on hilt or scabbard release:** final warning and readiness signal. The blade remains sheathed while a peaceful resolution is still being offered.
+- **Drawn in confrontation:** committed-force threshold. The Marshal has concluded that immediate force is legally justified and tactically required; the blade may remain unpowered or be energized according to the threat, target, and proportionality requirements.
+- **Powered edge engaged:** effect selection within an already committed use of force, not a separate first threshold for seriousness.
+- **Utility draw:** permitted for rescue, cutting, or breaching when the noncombat purpose is unmistakable from context and conduct.
+- **Breach overdrive:** extraordinary utility or combat mode; logged automatically and subject to after-action review.
 
 ## 7. Sword–drone interaction in Ranger identity
 
