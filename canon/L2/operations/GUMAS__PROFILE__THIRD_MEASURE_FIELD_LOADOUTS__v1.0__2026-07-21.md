@@ -29,15 +29,15 @@ Drone allocations are preferred starting packages, not rigid personal ownership.
 
 - 2 × RFD-1 Kite
 - 2 × RFD-2 Mote
-- 1 × RFD-6 Echo
+- 1 × RFD-6 Mirage
 - 1 × RFD-5 Porter at gunboat readiness
-- 2 × RFM-7 Lance held in reserve
+- 2 × RFM-7 Javelin held in reserve
 
 ### Character of use
 
 Tessa uses drones to make the field legible quickly and to create decisive openings. She prefers clear overwatch, exposed routes, and immediate response options. Her sword is both practical and declarative: she wants suspects, civilians, and allied personnel to know who is physically taking responsibility for the operation.
 
-Her recurring risk is early escalation. She is more willing than the others to move a Lance from reserve to ready status before the evidence picture is complete.
+Her recurring risk is early escalation. She is more willing than the others to move a Javelin from reserve to ready status before the evidence picture is complete.
 
 ## Iven Raal — pursuit / reconstruction loadout
 
@@ -53,9 +53,9 @@ Her recurring risk is early escalation. She is more willing than the others to m
 
 - 1 × RFD-1 Kite
 - 4 × RFD-2 Mote
-- 2 × RFD-3 Thread
-- 1 × RFD-4 Wisp
-- 1 × RFM-7 Lance as contingency
+- 2 × RFD-3 Span
+- 1 × RFD-4 Trace
+- 1 × RFM-7 Javelin as contingency
 
 ### Character of use
 
@@ -77,11 +77,11 @@ He is the least likely to energize the blade or authorize a munition until he be
 
 - 2 × RFD-1 Kite
 - 2 × RFD-2 Mote
-- 3 × RFD-3 Thread
-- 1 × RFD-4 Wisp
-- 2 × RFD-6 Echo
+- 3 × RFD-3 Span
+- 1 × RFD-4 Trace
+- 2 × RFD-6 Mirage
 - 2 × RFD-5 Porter at variable readiness
-- 2 × RFM-7 Lance under dual-confirmation workflow
+- 2 × RFM-7 Javelin under dual-confirmation workflow
 
 ### Character of use
 
