@@ -569,3 +569,10 @@
 - **Entities affected:** org_union_marshals (charter fields CANON), org_judicial_council (STAGING→CANON), org_sentinel_high_command (STAGING→CANON; Grand Marshal Aric Thal CANON)
 - **Description:** Charter Articles I (three-tier override), II (official-acts immunity), III (9-jurist Judicial Council), V (Grand Marshal incumbent) promoted to CANON. Article IV chronology remains APPROX by design. Derivation grounded in GUMASAdvancedEngine runs, seeds 42/7/99 × 40 turns, findings F1–F8 with receipts.
 - **Resolution:** LOCKED at commit. Charter open-question queue LEDGER-CHARTER-0001..0004 closed (0004 as APPROX). Remaining STAGING: Sentinel-Diplomat variant. Remaining UNCONFIRMED: Judicator Prime "supercarrier" gloss.
+
+## Drift Entry — 2026-07-21 (Marshals Closeout Pass)
+- **Source:** Owner-approved closeout of the three remaining Marshals-domain holds
+- **Type:** promotion receipt
+- **Entities affected:** timeline (UFC-E3..E5 added), addendum LEDGER-SENTINEL-0005, vessel_gu_001
+- **Description:** (1) Charter Art. IV chronology anchored to the canonical timeline's "~N years ago" convention by deterministic rule (minimal constraint-satisfying timeline; 1 cycle = 1 standard year): pact ~8 ya, first cohort ~4 ya, leadership transition ~2 ya — consistency-checked against Union founding (~75 ya), Rise of AI Warlords (~50–20 ya), and World Bible "recent actions". (2) Sentinel-Diplomat seventh variant promoted STAGING→CANON; service count remains unknown by precedent. (3) "Supercarrier" resolved as CANON hull-type descriptor of CLASS-JUDICATOR-01 — class ID unchanged, no rename.
+- **Resolution:** LOCKED at commit. Marshals domain: zero open holds. Claim ledger CL-04c, CL-16 closed.

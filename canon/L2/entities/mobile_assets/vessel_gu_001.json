@@ -28,5 +28,6 @@
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "notes": "Primary narrative vessel; full crew roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 'Supercarrier-Class' held UNCONFIRMED as gloss of CLASS-JUDICATOR-01, not a rename."
+  "notes": "Primary narrative vessel; full crew roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename) \u2014 owner closeout pass.",
+  "class_hull_type": "supercarrier"
 }

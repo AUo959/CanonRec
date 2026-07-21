@@ -109,7 +109,23 @@ T1–T3, recurring AI-Warlord pressure by T13).
 | +6 | **Saros confirmed Chief Marshal — immediate succession, no interim** | Parsimony rule: no interim leader exists in any canonical roster (F6 closed set) |
 | ≥ +8 | World Bible v0.2 snapshot era (Saros "Expanded Sentinel Deployments") | CANON ordering constraint |
 
-Calendar anchoring deferred until a canonical GU calendar exists; do not invent dates.
+**Anchoring (Closeout Pass — 2026-07-21):** the canonical timeline's own convention is
+relative dating ("~N years ago" against the Current Simulation Era "Present" — e.g. Union
+founding "~75 years ago"). Article IV is anchored in that same convention by deterministic
+rule — **minimal timeline satisfying all CANON ordering constraints, 1 cycle = 1 standard
+year** (matching canon's "Galactic Cycles" age usage):
+
+| Event | Anchored timeframe |
+|---|---|
+| Zylox–Durn Pact; Academy chartered | **~8 years ago** (timeline UFC-E3) |
+| First Sentinel cohort fielded | **~4 years ago** (UFC-E4) |
+| Durn → Supreme Military Command; Saros confirmed Chief Marshal | **~2 years ago** (UFC-E5) |
+| World Bible v0.2 snapshot | ≈ Present |
+
+Consistency checks: post-Union-founding (~75 ya) ✓; after Rise of AI Warlords (~50–20 ya)
+with pressure ongoing ✓; both leaders' World Bible "recent actions" read correctly at ~2 ya ✓.
+Events registered in `canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json`
+(UFC-E3..E5, tilde-approximate per timeline convention).
 
 ## Article V — Grand Marshal Incumbent (closes LEDGER-MARSHALS-0006 open item)
 
@@ -132,10 +148,10 @@ direct advisory uplink to the Chancellor & Military High Command.
 
 - Articles I–III, V: **CANON** — owner-approved "Marshals Charter Promotion Pass —
   2026-07-20"; locked at commit.
-- Article IV: **APPROX** by design (relative chronology only; calendar anchoring deferred
-  until a canonical GU calendar exists).
-- Out of this pass's scope, still STAGING: Sentinel-Diplomat variant (LEDGER-SENTINEL-0005),
-  Judicator Prime "supercarrier" gloss (CL-04c UNCONFIRMED).
+- Article IV: **CANON, tilde-approximate** — anchored to the canonical timeline convention
+  ("~N years ago") in the Closeout Pass 2026-07-21; timeline events UFC-E3..E5.
+- Closeout Pass 2026-07-21 also promoted: Sentinel-Diplomat variant (LEDGER-SENTINEL-0005,
+  CANON) and the Judicator "supercarrier" hull-type descriptor (vessel_gu_001, CANON).
 - This document extends, and does not modify, the CANON addendum Parts I–III.
 - Claim ledger: CL-14 (charter articles), CL-15 (Grand Marshal Aric Thal),
   CL-16 (relative chronology).

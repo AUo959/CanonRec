@@ -179,10 +179,12 @@ Entity: `canon/L2/entities/organizations/org_sentinel_high_command.json` (STAGIN
 Open: Grand Marshal incumbent unnamed in sources; SHC↔Chief Marshal boundary detail
 (deployment authorization, discipline) joins the Marshal Charter queue (LEDGER-CHARTER-0001…0004).
 
-## LEDGER-SENTINEL-0005 — Sentinel-Diplomat, seventh variant (STAGING)
+## LEDGER-SENTINEL-0005 — Sentinel-Diplomat, seventh variant (CANON — Closeout Pass 2026-07-21)
 
 **Ruling (CL-13b):** admitted as the **seventh Sentinel variant** on the strength of the
 explicit adoption memo in the 2025-03-15 thread (documented owner intent).
+**Promoted STAGING → CANON in the Marshals Closeout Pass — 2026-07-21 (owner-approved).**
+Active-service count remains **unknown** (classified precedent: Phantom) — not invented.
 
 7. **Sentinel-Diplomat** — *Protective & Diplomatic Operations*
    - **Role:** high-value diplomatic and sensitive planet-side missions where full combat
