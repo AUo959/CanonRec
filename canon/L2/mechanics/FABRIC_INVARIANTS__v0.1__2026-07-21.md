@@ -56,3 +56,25 @@ fabric, identify where each invariant is (or should be) enforced in code, and ve
 4. Findings → claim ledger; violations → drift log; fixes → owner rulings.
 
 **Certainty: STAGING** (spec ratified in scope by owner; verification pending Velar pass).
+
+## Velar test-case results & ruling batch (2026-07-21)
+
+Velar pass executed (receipts: `canon/L2/velar/VELAR_FABRIC_PASS__2026-07-21.md`; root
+`reports/analysis/velar_fabric_pass__2026-07-21.md`; linter `tools/fabric_invariants_check.py`).
+
+| Invariant | Velar verification | Enforcement decision (owner rulings) |
+|---|---|---|
+| T1, T2 | PASS (static; both timeline files) | Linter enforces |
+| T3 | INFO — undated recent_actions unverifiable | Assumed Present-window; linter flags |
+| T4 | PASS (engine seed-42×40; turn-indexed only) | Turn-1 tech backfill = initialization; mapping rule required at promotion |
+| P1 | 2 violations found → RESOLVED by downgrade | Map primacy confirmed; entity position status must not exceed map row status (linter enforces) |
+| P2 | Schema gap → `placement_rule` added to all 16 mobile assets | Reconciler check implementation queued |
+| P3 | Gaps documented; megacity collapse executed (SUPERSEDED alias-forward) | region_id anchoring deferred until placement ruling |
+| P4 | Engine migration events carry no route | **Promotion gate:** engine flows acceptable; route/drive citation required at canon promotion (reconciler checklist queued) |
+| C1 | Gap confirmed (capsules + engine) | `location_binding` approved; requires capsule rebuild (queued — capsules are sha256-manifested) |
+| C2, C3, C4 | PASS (incl. engine C4: no invented actors) | Linter enforces; `alias_forward_only` admitted to status vocabulary |
+| Symbolic layer | Zero semantic fabric enforcement (4-module trace) | Checker→DriftAlert→DriftResponder wiring approved, implementation queued |
+
+**Certainty: STAGING → verified-in-scope for the Velar domain.** Spec v0.1 text unchanged;
+promotion of the spec itself remains an owner gate after a second domain pass (AI Warlords
+queued as next candidate).

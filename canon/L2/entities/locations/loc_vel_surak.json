@@ -2,7 +2,9 @@
   "entity_id": "loc_vel_surak",
   "entity_kind": "location",
   "name": "Vel-Surak",
-  "aliases": [],
+  "aliases": [
+    "Vel Surak"
+  ],
   "certainty": "CANON",
   "source_refs": [
     {
@@ -18,7 +20,8 @@
   ],
   "tags": [
     "trade hub / metro world",
-    "\u201cEconomic capital\u201d claim; placement TBD / economic capital"
+    "“Economic capital” claim; placement TBD / economic capital",
+    "velar_fabric_pass_2026_07_21"
   ],
   "conflict_flags": [],
   "role": null,
@@ -28,8 +31,10 @@
   "parent_org_id": null,
   "location_type": "trade hub / metro world",
   "region_id": null,
-  "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "promotion_note": "Map authority table; Velar economic capital.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "canonical_position_status": "staging",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
+  "promotion_note": "Map authority table; Velar economic capital. RULING-VELAR-P1 (2026-07-21): position status downgraded canon->staging to match map authority table (P1 map primacy; row remains STAGING/placement TBD). RULING-VELAR-P3: absorbed loc_vel_surak_megacity_infrastructure_gravity_atmosphere_districts (SUPERSEDED, alias-forward); region_id deferred until placement ruling.",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "prev_canonical_position_status": "canon",
+  "updated_at": "2026-07-21"
 }

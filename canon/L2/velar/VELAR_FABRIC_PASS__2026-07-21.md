@@ -55,3 +55,30 @@ review of the queued rulings.
 
 RULING-VELAR-P1, RULING-VELAR-P3, RULING-FABRIC-SCHEMA, RULING-FABRIC-WIRING,
 RULING-ENGINE-P4 (details in root report §4).
+
+## Ruling resolutions — owner, 2026-07-21
+
+- **RULING-VELAR-P1 — RESOLVED (downgrade):** both Vel-Surak location records set
+  `canonical_position_status: staging` (prev preserved) to match the map authority table.
+  Map remains source of truth; placement stays genuinely open until a placement ruling.
+  Closes the two P1 violations (LEDGER-VELAR-0001).
+- **RULING-VELAR-P3 — RESOLVED (collapse + defer):** megacity record collapsed into
+  `loc_vel_surak` per the original 2026-03-19 plan — `certainty: SUPERSEDED`,
+  `forwarded_to: loc_vel_surak`, `status: alias_forward_only` (Xelvani-3 precedent).
+  `region_id` population deferred until P1 placement is settled (LEDGER-VELAR-0002 partially
+  closed; region anchoring remains open by design).
+- **RULING-FABRIC-SCHEMA — RESOLVED (approve both):** `placement_rule` added to all 16
+  mobile-asset records (no-fixed-coordinates rule with per-event route citation).
+  Character-capsule `location_binding` approved but NOT hand-edited: capsules are
+  sha256-manifested (charforge-capsule-v1.0); rollout requires a capsule rebuild —
+  implementation queued (LEDGER-VELAR-0003 → implementation tasks).
+- **RULING-ENGINE-P4 — RESOLVED (promotion gate):** reason-tagged faction-level flows
+  satisfy P4 at engine layer; canonical route/drive citation is required at
+  canon-promotion time (reconciler checklist addition queued). No engine change.
+- **RULING-FABRIC-WIRING — RESOLVED (approve):** fabric checker → DriftAlert →
+  DriftResponder integration approved; implementation queued
+  (aurora-cloudbank-symbolic, severity map: VIOLATION→alert/escalate, GAP→log/notify).
+
+**Remaining open in Velar domain:** placement ruling for Vel-Surak (map row promotion),
+region anchoring after placement, capsule location_binding rebuild, reconciler P2/P4/C1
+check implementation, cloudbank wiring implementation.

@@ -3,7 +3,7 @@
   "entity_kind": "location",
   "name": "Vel-Surak megacity infrastructure (gravity/atmosphere districts)",
   "aliases": [],
-  "certainty": "CANON",
+  "certainty": "SUPERSEDED",
   "source_refs": [
     {
       "source_id": "location_authority_table",
@@ -12,13 +12,14 @@
       "line_end": 54
     }
   ],
-  "status": "active",
+  "status": "alias_forward_only",
   "faction_bindings": [
     "velar_imperium"
   ],
   "tags": [
+    "alias-forward",
     "node / region (TBD)",
-    "\u2014"
+    "velar_fabric_pass_2026_07_21"
   ],
   "conflict_flags": [],
   "role": null,
@@ -26,10 +27,20 @@
   "org_type": null,
   "jurisdiction": null,
   "parent_org_id": null,
-  "location_type": "node / region (TBD)",
+  "location_type": "alias-forward / superseded sub-location",
   "region_id": null,
-  "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "promotion_note": "Velar sub-location; collapse into vel_surak parent.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "canonical_position_status": "superseded",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
+  "promotion_note": "Velar sub-location; collapse into vel_surak parent. RULING-VELAR-P1/P3 (2026-07-21): collapsed into loc_vel_surak per original plan; SUPERSEDED alias-forward per CERTAINTY_TAGS.md.",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "prev_certainty": "CANON",
+  "forwarded_to": "loc_vel_surak",
+  "prev_canonical_position_status": "canon",
+  "disambiguation_record": {
+    "resolved_at": "2026-07-21T00:00:00Z",
+    "resolution": "SUPERSEDED_BY_PARENT_COLLAPSE",
+    "canonical_id": "loc_vel_surak",
+    "resolution_note": "RULING-VELAR-P3 (owner, 2026-07-21): executed the documented \"collapse into vel_surak parent\" plan from the 2026-03-19 promotion pass. Megacity infrastructure detail folds into loc_vel_surak; ID retained for alias resolution only."
+  },
+  "updated_at": "2026-07-21"
 }

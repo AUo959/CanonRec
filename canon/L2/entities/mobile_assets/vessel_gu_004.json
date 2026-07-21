@@ -16,6 +16,8 @@
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_004.json",
   "locked_at": "2026-03-20T02:03:35Z",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "notes": "Palisade-Class example vessel."
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
+  "notes": "Palisade-Class example vessel.",
+  "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
+  "updated_at": "2026-07-21"
 }
