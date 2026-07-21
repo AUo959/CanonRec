@@ -2,7 +2,9 @@
   "entity_id": "org_union_intelligence_bureau",
   "entity_kind": "organization",
   "name": "Union Intelligence Bureau",
-  "aliases": [],
+  "aliases": [
+    "Union Intelligence"
+  ],
   "certainty": "CANON",
   "source_refs": [
     {
@@ -30,5 +32,6 @@
   "canonical_position_status": null,
   "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
   "promotion_note": "World Bible; core GU intelligence arm. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "notes": null
 }

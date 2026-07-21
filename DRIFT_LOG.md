@@ -576,3 +576,10 @@
 - **Entities affected:** timeline (UFC-E3..E5 added), addendum LEDGER-SENTINEL-0005, vessel_gu_001
 - **Description:** (1) Charter Art. IV chronology anchored to the canonical timeline's "~N years ago" convention by deterministic rule (minimal constraint-satisfying timeline; 1 cycle = 1 standard year): pact ~8 ya, first cohort ~4 ya, leadership transition ~2 ya — consistency-checked against Union founding (~75 ya), Rise of AI Warlords (~50–20 ya), and World Bible "recent actions". (2) Sentinel-Diplomat seventh variant promoted STAGING→CANON; service count remains unknown by precedent. (3) "Supercarrier" resolved as CANON hull-type descriptor of CLASS-JUDICATOR-01 — class ID unchanged, no rename.
 - **Resolution:** LOCKED at commit. Marshals domain: zero open holds. Claim ledger CL-04c, CL-16 closed.
+
+## Drift Entry — 2026-07-21 (L2 Corpus Audit)
+- **Source:** Full audit of canon/L2 vs local corpus (550 source files), all 12 session archives, and registered repos. Report: reports/analysis/l2_corpus_audit__2026-07-21.md (root repo).
+- **Type:** audit receipt / schema drift / ghost entities
+- **Entities affected:** vessel_gu_013, vessel_gu_014 (invalid tag STAGING_CONFIRMED → STAGING), org_union_intelligence_bureau + org_sentinel_high_command (aliases), org_diplomatic_corps, org_hardliner_warlords, org_imperial_loyalists, org_republican_reformists, org_outer_colony_warlords (new, STAGING)
+- **Description:** Raw-archive corpus verified fully mined (323_326 = duplicates; 62_619 = false positive). 7 faction substructures in canonical GUMAS_Factions.json lacked entity records. Xelvani-3/Torix-7 SUPERSEDED tag flagged (outside approved vocabulary) — content untouched, owner ruling queued. No canon-vs-source contradictions found corpus-wide.
+- **Resolution:** Hygiene fixes applied; 5 orgs staged; go-forward queue in audit report (Velar + AI-Warlord domain passes, SUPERSEDED ruling, alias enrichment, cloudbank skim).

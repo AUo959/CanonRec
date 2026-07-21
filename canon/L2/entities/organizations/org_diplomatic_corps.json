@@ -1,0 +1,33 @@
+{
+  "entity_id": "org_diplomatic_corps",
+  "entity_kind": "organization",
+  "name": "Diplomatic Corps",
+  "aliases": [],
+  "certainty": "STAGING",
+  "source_refs": [
+    {
+      "source_id": "gumas_factions",
+      "path": "canon/L2/factions/GUMAS_Factions.json"
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "tags": [
+    "l2_audit_2026_07_21"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "diplomacy",
+  "jurisdiction": "GU external-relations service (faction substructure)",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": null,
+  "promotion_note": "Created at STAGING by L2 Corpus Audit 2026-07-21: named substructure/internal faction in canonical GUMAS_Factions.json lacked an entity record.",
+  "locked_at": null,
+  "updated_at": "2026-07-21"
+}

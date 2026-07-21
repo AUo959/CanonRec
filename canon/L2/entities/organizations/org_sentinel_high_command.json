@@ -3,7 +3,8 @@
   "entity_kind": "organization",
   "name": "Sentinel High Command",
   "aliases": [
-    "SHC"
+    "SHC",
+    "Sentinels"
   ],
   "certainty": "CANON",
   "source_refs": [
