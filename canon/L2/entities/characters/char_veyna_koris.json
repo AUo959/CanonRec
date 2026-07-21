@@ -1,0 +1,35 @@
+{
+  "entity_kind": "character",
+  "certainty": "CANON",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_sentinel_high_command"
+  ],
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "Roster Closure Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (LEDGER-MISSIONS-0001, SRC-0005 primary excerpt)",
+    "reports (root): roster_closure_audit__2026-07-21.md"
+  ],
+  "entity_id": "char_veyna_koris",
+  "name": "Veyna Koris",
+  "aliases": [],
+  "role": "Sentinel operative — breach and close-quarters",
+  "sentinel_variant": "Sentinel-Striker",
+  "status": "active",
+  "tags": [
+    "sentinel",
+    "sentinel_striker",
+    "silent_dagger",
+    "roster_closure_2026_07_21"
+  ],
+  "notes": "Operation Silent Dagger: breach and close-quarters eliminations. No further detail established."
+}

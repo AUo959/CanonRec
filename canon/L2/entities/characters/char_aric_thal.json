@@ -1,0 +1,40 @@
+{
+  "entity_kind": "character",
+  "certainty": "CANON",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_sentinel_high_command"
+  ],
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "Roster Closure Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (LEDGER-MISSIONS-0001, SRC-0005)",
+    "canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md (Article V, CANON)",
+    "canon/L2/entities/organizations/org_sentinel_high_command.json",
+    "reports (root): roster_closure_audit__2026-07-21.md"
+  ],
+  "entity_id": "char_aric_thal",
+  "name": "Aric Thal",
+  "aliases": [
+    "Commander Aric Thal",
+    "Grand Marshal Aric Thal"
+  ],
+  "role": "Grand Marshal, Sentinel High Command",
+  "sentinel_variant": "Sentinel-Praetor",
+  "status": "active",
+  "tags": [
+    "sentinel",
+    "sentinel_praetor",
+    "shc_incumbent",
+    "roster_closure_2026_07_21"
+  ],
+  "notes": "Dual-role career, both canon-established: (1) Commander / Sentinel-Praetor — mission author and lead of Operation Silent Dagger (LEDGER-MISSIONS-0001); (2) Grand Marshal of Sentinel High Command — incumbent per Marshal Charter Article V (CANON, owner-approved 2026-07-20), selected by deterministic rule as the highest-seniority named Praetor commander free of engine-roster collision. SHC seat coheres with Praetor doctrine (battlefield command / \"Field Marshal\" variant) and the SHC direct advisory uplink to the Chancellor & Military High Command. Distinct office from Chief Marshal (owner ruling CL-13a). Engine note: aric_thal absent from all leader rosters across all seeds — no collision. Full history, age, and origin NOT established."
+}
