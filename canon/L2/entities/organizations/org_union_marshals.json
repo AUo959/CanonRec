@@ -57,12 +57,27 @@
   "role": null,
   "organization_ids": [],
   "org_type": "law_enforcement",
-  "jurisdiction": null,
+  "jurisdiction": "Crimes crossing planetary or sector boundaries: organized crime, political crimes, interplanetary fugitives. Authority to override local planetary police; diplomatic immunity across borders. Weak presence in Outer Colonies.",
+  "oversight": {
+    "budget_and_confirmation": "Union Senate",
+    "reports_to": "org_judicial_council",
+    "chief_marshal_appointment": "Chancellor, with Senate approval",
+    "chancellor_direct_orders_in_investigations": false,
+    "chain_of_command": "Independent of military and planetary police",
+    "certainty": "CANON_PROMOTE",
+    "doc_source": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+  },
+  "charter_pending": {
+    "charter_status": "Marshal Charter unwritten; legal scopes below open until drafted (see ARCHIVE_MINING_ADDENDUM Part II)",
+    "local_police_override_trigger": "UNSPECIFIED — candidate mechanisms: Union warrant, Judicial Council order, cross-sector nexus, local-corruption finding, emergency declaration (LEDGER-CHARTER-0001)",
+    "diplomatic_immunity_scope": "Purpose-bound to authorized cross-border pursuit per archive (STAGING); local-arrest immunity, Judicial Council waiver process, and liability for unlawful operations UNSPECIFIED (LEDGER-CHARTER-0002)"
+  },
   "parent_org_id": null,
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
   "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "promotion_note": "World Bible + 4 Marshals ledger refs; law enforcement corps. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "promotion_note": "World Bible + 4 Marshals ledger refs; law enforcement corps. CANON. Enriched 2026-07-20 (jurisdiction + oversight) from April-2025 archive mining, owner-approved; see ARCHIVE_MINING_ADDENDUM__2026-07-20.md.",
+  "locked_at": "2026-03-20T02:03:35Z",
+  "updated_at": "2026-07-20"
 }

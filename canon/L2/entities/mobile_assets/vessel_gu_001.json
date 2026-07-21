@@ -11,6 +11,14 @@
   "allegiance": "galactic_union",
   "commanding_officer_id": "alric_tann",
   "narrative_significance": "flagship",
+  "marshal_integration": {
+    "role": "Command ship for Marshal-led strike forces; hosts a full Sentinel-class strike unit",
+    "embarked_marshal_officer_id": "elias_drayen",
+    "certainty": "CANON_PROMOTE",
+    "doc_source": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+  },
+  "crew_approx": 12000,
+  "crew_approx_certainty": "APPROX",
   "status": "active",
   "prev_certainty": "STAGING",
   "certainty": "CANON",
@@ -20,5 +28,5 @@
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "notes": "Primary narrative vessel; full crew roster CANON-locked."
+  "notes": "Primary narrative vessel; full crew roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 'Supercarrier-Class' held UNCONFIRMED as gloss of CLASS-JUDICATOR-01, not a rename."
 }

@@ -1,0 +1,48 @@
+{
+  "entity_id": "org_judicial_council",
+  "entity_kind": "organization",
+  "name": "Judicial Council",
+  "aliases": [],
+  "certainty": "STAGING",
+  "source_refs": [
+    {
+      "source_id": "archive_mining_2026_07_20",
+      "path": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+    }
+  ],
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "tags": [
+    "governance",
+    "judiciary",
+    "archive_mining"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": "judiciary",
+  "jurisdiction": "Union-wide legal oversight: appoints judges, arbitrates disputes, receives reports from the Chief Marshal of the Union Marshals.",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": null,
+  "promotion_note": "Created 2026-07-20 at STAGING per owner ruling (reconciliation C5) to resolve ghost reference in the Marshals oversight model. Sourced from April-2025 'MAS - Glactic Union' thread.",
+  "design_open_questions": {
+    "status": "UNCONFIRMED — all pending Marshal Charter (LEDGER-CHARTER-0003)",
+    "items": [
+      "membership",
+      "appointment process",
+      "court vs administrative-body status",
+      "warrant authority",
+      "appeals",
+      "investigative review",
+      "power to suspend a Marshal operation"
+    ],
+    "related_body": "High Judiciary & Galactic Tribunal (archive; interstellar law, war crimes, AI rights, authority over planetary courts) — relationship to this Council undefined"
+  },
+  "locked_at": null,
+  "updated_at": "2026-07-20"
+}

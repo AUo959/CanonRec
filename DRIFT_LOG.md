@@ -508,3 +508,44 @@
   integration banner. The Observatory 240-cycle remains the standing regression
   gate; the 360-turn run is the new long-horizon check. Roundtable receipt:
   reports/simulation/observatory_240_cycle__2026-06-15/integration_roundtable.md.
+
+## Drift Entry — 2026-07-20
+- **Source:** April-2025 raw-archive mining, Marshals domain (`archives/session_archives/Au_Archive_323_41/`, "MAS - Glactic Union" + "Team Dev_GUMAS" threads); reconciliation: `_staging/marshals_archive_mining__2026-07-20/RECONCILIATION_REPORT.md`
+- **Type:** conflicting role
+- **Entities affected:** kael_durn, vael_saros, org_union_marshals
+- **Description:** Mar-2025 draft has Kael Durn as "Director of the Galactic Marshals" ("The Iron Sentinel"); locked canon has Vael Saros as Chief Marshal, Durn as Supreme Military Commander.
+- **Resolution:** RESOLVED (owner, 2026-07-20) — retconned as prior era: Durn led the Marshals as Director before rising to Supreme Military Commander; office retitled Chief Marshal, succeeded by Saros. Recorded in ARCHIVE_MINING_ADDENDUM__2026-07-20.md (LEDGER-MARSHALS-0005).
+
+## Drift Entry — 2026-07-20
+- **Source:** Same
+- **Type:** duplicate name / superseded surname
+- **Entities affected:** zylox_rhaegos
+- **Description:** Early-draft surname "Zylox Verrin" vs canonical "Zylox Rhaegos"; early "Galactic Security Bureau" vs canonical Union Intelligence Bureau.
+- **Resolution:** RESOLVED — deferred to canon; superseded names recorded as draft-era artifacts in the addendum.
+
+## Drift Entry — 2026-07-20
+- **Source:** Same
+- **Type:** ghost entity
+- **Entities affected:** org_judicial_council (new), org_union_senate
+- **Description:** Marshals oversight model references a "Judicial Council" absent from promoted orgs; "Galactic Senate" used for Union Senate.
+- **Resolution:** RESOLVED (owner, 2026-07-20) — org_judicial_council created at STAGING; "Galactic Senate" treated as Union Senate alias.
+
+## Drift Entry — 2026-07-20
+- **Source:** Same
+- **Type:** schema drift / taxonomy collision
+- **Entities affected:** Phantom-Class Stealth Frigate (Marshal fleet classes)
+- **Description:** Draft "Sentinel-Class Hunter Vessel" absent from the canonical 6-class fleet table; extended the Sentinel-Class suit-vs-ship naming collision.
+- **Resolution:** RESOLVED (owner, 2026-07-20) — ruled an early alias of the Phantom-Class Stealth Frigate; fleet remains six classes; alias registered in Marshal_Starship_Classes.csv.
+
+## Drift Entry — 2026-07-20 (second sweep)
+- **Source:** Charter-detail review of April-2025 archives (same mining corpus)
+- **Type:** conflicting role / intra-source contradiction
+- **Entities affected:** org_union_marshals, zylox_rhaegos
+- **Description:** A governance-overview passage states the Chancellor "has direct oversight over the Marshalls Division," contradicting the owner-approved oversight model (reports to Judicial Council; no chancellor direct orders in investigations).
+- **Resolution:** RESOLVED — approved model prevails; contradicting line held as LEGEND_CONTESTED (in-world misreading of appointment/budget influence as direct control). ARCHIVE_MINING_ADDENDUM Part II, LEDGER-DRIFT-NOTE.
+
+## Drift Entry — 2026-07-20 (second sweep)
+- **Type:** naming inconsistency (origin correction)
+- **Entities affected:** org_union_marshals
+- **Description:** The "Marshalls" double-L misspelling, previously recorded as appearing only in two 2026 prose files, is now traced to the Mar-2025 source conversations (45 instances, incl. "Marshalls Division"). The misspelling is source-era, carried forward into later prose.
+- **Resolution:** RESOLVED — canonical spelling remains "Union Marshals"; l2_state.py normalization unaffected; dossier corrected.
