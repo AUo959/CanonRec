@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_darek_voss",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Heavy Weapons",
+    "Rear-Guard Discipline",
+    "Shockwave Employment"
+  ],
+  "decision_style": "Rear-guard heavy weapons employment covering team withdrawal",
+  "allegiance": "Galactic Union (Sentinel High Command)",
+  "reputation": "Not individually quantified in canon",
+  "relationships": "Member of the Silent Dagger team under Commander Aric Thal. Shares a surname with Kael Voss; relationship NOT established — do not infer kinship.",
+  "personality_insight": "Established only: employed shockwave weapons in the rear-guard role and was killed in action — the mission's single recorded fatality. No further detail."
+}

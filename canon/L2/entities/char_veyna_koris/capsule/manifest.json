@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_veyna_koris",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "b2893268796b31028854700e4ab64bfbdefd3a314ac1f13edea7a158d6e933fe"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "3fa9d66cf94e4cb93199736a7a526b7f312865694f42a596e38e5d6cdc44acf7"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "24384626e4dbedc38ff3a2f10afc8aa28ccccbebe17f8b0d4f19faf9e340ac55"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "ec57cbb3240f90efb58a580b5856a8f651a64616aaa33ddd38a6ea342610623a"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "334d7c9321f48d87eabd292eae39f1321b06bd22eaa18d770f30daaba4b73eec"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "aaa29a5c7ffa3a563e599349c099f7d8b0c3e9ff20ee077e827774ae05da4919"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_aric_thal",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "a236358385dc5be99d094900d36f2b8e90e2b13f6c49379ea870813659531954"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "7ede8e35dc6c6fb8dceb03a69d1e0c7633da452a972af156bd9670d6162f6bdc"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "4526bc3744ee24c34a00ea461cc7852740ff7cbc1f8e914507c049d68f608af9"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "0950030a11b5ffd553dd57b7d073209ccffe6211fb1eec01cc2a73bad9ef7889"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "b1a4ec6bd3816e1c09cdcb580b1077d8d83d3e3b6f521fe49f9c9c9c69f61be2"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "c8d09355ba865c7327bbd831170c28a6f834dfa78afa5d411369a967fd5ba805"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "canonical_id": "char_lior_serath",
+  "schema": "charforge-identity-v1.0",
+  "name": "Lior Serath",
+  "aliases": [],
+  "role": "Sentinel operative — infiltration",
+  "faction_id": "galactic_union",
+  "certainty": "CANON",
+  "status": "active",
+  "sentinel_variant": "Sentinel-Phantom",
+  "location_binding": {
+    "type": "organization",
+    "target_id": "org_sentinel_high_command",
+    "basis": "Sentinel High Command assignment; no present-day physical placement established (Operation Silent Dagger insertion platform was a Phantom-Class Stealth Frigate, no named hull in canon — not invented)"
+  },
+  "doc_sources": [
+    "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (LEDGER-MISSIONS-0001, SRC-0005)",
+    "canon/L2/entities/characters/char_lior_serath.json",
+    "reports (root): roster_closure_audit__2026-07-21.md"
+  ],
+  "promotion_pass": "Sentinel Team Capsule Build — 2026-07-21",
+  "notes": "Built from ledger/Charter facts only; unestablished detail (full history, age, origin, rank beyond those stated) deliberately absent."
+}

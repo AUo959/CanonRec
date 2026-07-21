@@ -1,0 +1,7 @@
+# Cognitive-Narrative Schema — char_lior_serath
+canonical_id: char_lior_serath
+dominant_bias: null
+escalation_threshold: 0.500
+risk_tolerance: 0.600
+decision_style: "Covert entry and security-grid compromise ahead of team ingress"
+faction_id: galactic_union

@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_darek_voss",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "166609d1c97068d597034991c568e09a9c55aadcd5d96b678f1f0f86b1c06e86"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "3b0e21a23f3917084316f9c9cd01e557a600c74a9cfa819cf72f2c62bc3ec95b"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "6be3e2d53c5c3f76793329fed739905bfc7c03b2e2431870fd372e02bacc9b4e"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "477a5cb4563ddb1ea323c5e41c93ffda20f3292bd46e210c7f54cac0969eb156"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "1cae1f9fe2a3f64c7b6bf48a6ac32c80e300fcb0545bf3738392259fcc796d37"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "0b17a89bb70dd190b37b8a0d31495216211359106f1369b870aca405e7845577"
+    }
+  ]
+}

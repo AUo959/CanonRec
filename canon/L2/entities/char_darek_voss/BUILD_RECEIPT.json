@@ -1,0 +1,19 @@
+{
+  "canonical_id": "char_darek_voss",
+  "built_at": "2026-07-21T00:00:00Z",
+  "certainty": "CANON",
+  "promotion_pass": "Sentinel Team Capsule Build \u2014 2026-07-21",
+  "governance_verdict": "PROMOTE",
+  "files_written": [
+    "identity.json",
+    "traits.json",
+    "knowledge.jsonl",
+    "cns.yaml",
+    "state.bin",
+    "runtime.py",
+    "manifest.json"
+  ],
+  "all_verified": true,
+  "lifecycle": "TERMINAL (deceased \u2014 historical record)",
+  "state_vector_derivation": "Deterministic rule: baseline 0.5 all 21 slots; evidence-based deltas only, |delta|<=0.2, big-endian float32. Basis: heavy-weapons rear-guard role (military 0.65, war_pressure 0.55, risk 0.6); TERMINAL snapshot at time of death"
+}

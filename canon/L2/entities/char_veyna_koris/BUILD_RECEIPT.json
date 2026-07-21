@@ -1,0 +1,19 @@
+{
+  "canonical_id": "char_veyna_koris",
+  "built_at": "2026-07-21T00:00:00Z",
+  "certainty": "CANON",
+  "promotion_pass": "Sentinel Team Capsule Build \u2014 2026-07-21",
+  "governance_verdict": "PROMOTE",
+  "files_written": [
+    "identity.json",
+    "traits.json",
+    "knowledge.jsonl",
+    "cns.yaml",
+    "state.bin",
+    "runtime.py",
+    "manifest.json"
+  ],
+  "all_verified": true,
+  "lifecycle": "active",
+  "state_vector_derivation": "Deterministic rule: baseline 0.5 all 21 slots; evidence-based deltas only, |delta|<=0.2, big-endian float32. Basis: breach/CQC role (military 0.65, risk 0.65, escalation_threshold 0.4)"
+}

@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_aric_thal",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Battlefield Command",
+    "Mission Authorship",
+    "Institutional Seniority"
+  ],
+  "decision_style": "Praetor battlefield command; deliberate mission planning with documented after-action reporting",
+  "allegiance": "Galactic Union (Sentinel High Command)",
+  "reputation": "Not individually quantified in canon",
+  "relationships": "Commands the SHC; advises the Chancellor and Military High Command via direct uplink. Led Serath, Koris, Kael Voss and Darek Voss on Silent Dagger.",
+  "personality_insight": "Established only: authored and led Operation Silent Dagger as Sentinel-Praetor; later holds the Grand Marshal seat at SHC per Charter Article V. Command temperament beyond these facts NOT established."
+}

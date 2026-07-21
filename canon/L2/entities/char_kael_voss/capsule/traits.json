@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_kael_voss",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Comms Monitoring",
+    "Systems Intrusion",
+    "Technical Support"
+  ],
+  "decision_style": "Signals monitoring and technical intrusion supporting team objectives",
+  "allegiance": "Galactic Union (Sentinel High Command)",
+  "reputation": "Not individually quantified in canon",
+  "relationships": "Member of the Silent Dagger team under Commander Aric Thal. Shares a surname with Darek Voss; relationship NOT established — do not infer kinship.",
+  "personality_insight": "Established only: comms monitoring, hacking/entry, and AI core shutdown support during Silent Dagger. No further detail."
+}

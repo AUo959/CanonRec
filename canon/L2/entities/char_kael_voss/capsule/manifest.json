@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_kael_voss",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "27a5f024c2c319961abb76d7fcda3bdf84caf63bbfebabdfb3e3edb28e29e122"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "50c6851d1817541ac41cbdddc17036e344d24d7760305ff6d91d309d5901f87a"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "2504d259c044d5bf0bbc486fe472cede23ac5424a450168a2a3ed1f2eb9d70b4"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "7188a57e65a981a3a647d76226f409893041ac6b1b3b6afd46082ccbbfb78fe6"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "56eddcc1f6966c14f678cbd45c7cf74221bb36d67acf57977547f4a7654f94c2"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "50f69baef5e421924fc41f131be30bf80e0fc1c53f45748446160342f99abf61"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_veyna_koris",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Breach Assault",
+    "Close-Quarters Elimination",
+    "Forward Entry"
+  ],
+  "decision_style": "Direct breach and close-quarters engagement",
+  "allegiance": "Galactic Union (Sentinel High Command)",
+  "reputation": "Not individually quantified in canon",
+  "relationships": "Member of the Silent Dagger team under Commander Aric Thal.",
+  "personality_insight": "Established only: conducted breach and close-quarters eliminations during Silent Dagger. No further detail."
+}

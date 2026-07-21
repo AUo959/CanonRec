@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_lior_serath",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Infiltration",
+    "Systems Compromise",
+    "Covert Approach"
+  ],
+  "decision_style": "Covert entry and security-grid compromise ahead of team ingress",
+  "allegiance": "Galactic Union (Sentinel High Command)",
+  "reputation": "Not individually quantified in canon",
+  "relationships": "Member of the Silent Dagger team under Commander Aric Thal.",
+  "personality_insight": "Established only: infiltrator who compromised the Blackreach Station security grid. No further detail."
+}

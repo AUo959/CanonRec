@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_lior_serath",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "7bf8bf41b0ef1770f1f39c24db7e62478b150dda99bc40d9297af41da061e397"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "b5e01ccfa7a17b9ece056c61c7d9b0b7186ef789c3c57dc53af4a389680b303d"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "e6f795d6726234bb06c77366558b3e1366976309a934c82d6e75e11a4c1dabf6"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "8d72af809da280582a713e52e991e4b0ef952f7f707c62f607c6d460bd29160f"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "5d0a3a95298038bb80b2d064225c627f2bebe934c80db1b6710673d5806af28d"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "d576ab5fe990ee6c805225d8ef5cd463cb426b5b9e8a57d25e48aeaa825cbdb1"
+    }
+  ]
+}
