@@ -21,5 +21,6 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "notes": "Outer Colonies mobile fortress/refugee ship/black-market hub.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "class_entity_id": "cls_dreadraider"
 }

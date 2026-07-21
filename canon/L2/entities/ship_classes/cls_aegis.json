@@ -1,0 +1,42 @@
+{
+  "entity_id": "cls_aegis",
+  "entity_kind": "ship_class",
+  "class_id": "CLASS-AEGIS-01",
+  "name": "Aegis-Class",
+  "aliases": [],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "division": "battlecruiser",
+  "role": "Frontline combat, planetary defense, fleet support",
+  "key_features": [
+    "Long-range rail cannons",
+    "Modular armor plating",
+    "Adaptive energy shielding"
+  ],
+  "typical_complement": 1200,
+  "typical_complement_certainty": "APPROX",
+  "conflict_flags": [],
+  "organization_ids": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "source_refs": [
+    {
+      "source_id": "l2_gumas_ship_registry_v1",
+      "path": "canon/L2/fleet/L2_GUMAS_SHIP_REGISTRY__v1.0.md"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/fleet/L2_GUMAS_SHIP_REGISTRY__v1.0.md",
+    "canon/L2/fleet/ (registry landed 2026-07-21)",
+    "reports (root): judicator_prime_context_report__2026-07-21.md"
+  ],
+  "promotion_pass": "Judicator Prime Promotion Pass — Fleet Class Records — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21)."
+}

@@ -23,13 +23,52 @@
   "prev_certainty": "STAGING",
   "certainty": "CANON",
   "doc_sources": [
-    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+    "GUMAS_L2_World_Bible.md §4.2 (projects/GUMAS_SIM_2.0/04_DOCUMENTATION/GUMAS_Legacy/Original_Materials/GUMAS_OG/)",
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "canon/L2/fleet/L2_GUMAS_SHIP_REGISTRY__v1.0.md",
+    "reports (root): judicator_prime_context_report__2026-07-21.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
-  "notes": "Primary narrative vessel; full crew roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename) — owner closeout pass.",
+  "notes": "Primary narrative vessel; full crew roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename) — owner closeout pass. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling.",
   "class_hull_type": "supercarrier",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "specifications": {
+    "primary_weapons": [
+      "Long-range plasma lances",
+      "AI-coordinated point defense"
+    ],
+    "defensive_systems": [
+      "Multi-layered energy shields",
+      "Ablative armor plating"
+    ],
+    "propulsion": "Dual FTL cores with emergency jump capability",
+    "support_craft": [
+      "Full Sentinel deployment wing",
+      "Tactical interceptors"
+    ],
+    "special_systems": [
+      "AI-Vanguard countermeasures",
+      "Encrypted battle network"
+    ]
+  },
+  "specifications_certainty": "CANON",
+  "class_entity_id": "cls_judicator",
+  "location_type": "moving",
+  "home_port": null,
+  "crew_ids": [
+    "alric_tann",
+    "lyra_voss",
+    "elias_radek",
+    "adrienne_kovas",
+    "nia_veran",
+    "rhen_kailo",
+    "arin_tavos",
+    "elias_drayen"
+  ],
+  "crew_roster_note": "Senior staff per World Bible §4.2: Tann (CO), Voss (XO), Radek (Sentinel-Commander), Kovas (CSO), Veran (CMO), Kailo (Chief Engineer), Tavos (Tactical Ops & Gunnery). Elias Drayen (Marshal-Captain, Sentinel SpecOps) is EMBARKED rather than ship's company — see marshal_integration.",
+  "crew_approx_note": "RULING-JUDICATOR-CREW-COUNT (owner, 2026-07-21): ~12,000 GOVERNS. The Ship Registry v1.0 class baseline of 2,500 is superseded draft data for this vessel and is retained only on cls_judicator for lineage.",
+  "promotion_pass_2": "Judicator Prime Promotion Pass — 2026-07-21"
 }

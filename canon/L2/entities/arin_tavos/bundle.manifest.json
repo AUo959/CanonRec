@@ -8,5 +8,7 @@
   "schema_ref": "CAPSULE_BUNDLE_STANDARD__v0.2.0.md",
   "members": [],
   "rehashed_at": "2026-03-20T01:48:22Z",
-  "canon_lock": true
+  "canon_lock": true,
+  "capsule_manifest_hash": "4df4ebbb3e5d2b865cff62aff74ea8bb1c6eb03922496b4eab7c43f49918c75f",
+  "rebuilt_at": "2026-07-21T00:00:00Z"
 }

@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "29f391d901b2d0a2bd06a8a1266d10356c747118fb3dd9c515f6efcec3c08b8a"
+      "sha256": "61378dcbb8c75687daac3058ea18e55c5a645c2ef1a4833f24851233673e6738"
     },
     {
       "path": "traits.json",
@@ -39,5 +39,7 @@
     "manifest.json": "c0ad63a792d28f887d987cc790ed43721912d86349c4bc435ea341e89eea0054"
   },
   "rehashed_at": "2026-03-20T01:48:22Z",
-  "canon_lock": true
+  "canon_lock": true,
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-JUDICATOR-CREW); hashes re-derived"
 }

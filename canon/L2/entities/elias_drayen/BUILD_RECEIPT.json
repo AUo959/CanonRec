@@ -39,5 +39,7 @@
   ],
   "certainty": "CANON",
   "governance_verdict": "PROMOTE",
-  "locked_at": "2026-03-20T01:48:22Z"
+  "locked_at": "2026-03-20T01:48:22Z",
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_note": "Judicator Prime Promotion Pass: location_binding -> vessel_gu_001 (embarked); manifest hashes re-derived. No behavioral/state changes."
 }
