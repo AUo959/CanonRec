@@ -22,7 +22,8 @@
     "trade hub / metro world",
     "economic capital (Union)",
     "velari_heritage_name",
-    "velar_fabric_pass_2026_07_21"
+    "velar_fabric_pass_2026_07_21",
+    "heritage_lineage_inference_staged"
   ],
   "conflict_flags": [],
   "role": null,
@@ -40,5 +41,11 @@
   "updated_at": "2026-07-21",
   "prev_faction_bindings": [
     "velar_imperium"
-  ]
+  ],
+  "heritage_lineage_note": {
+    "certainty": "STAGING",
+    "basis": "INFERENCE_PENDING_SOURCE",
+    "recorded_at": "2026-07-21",
+    "text": "Interpretive lineage (owner-directed, 2026-07-21): Vel-Surak plausibly entered Union jurisdiction via the Velari reformist founding arc — timeline: Fracture War tears the Imperium apart ~90-100 ya (FE era); Velari reformists are among Union founders ~75 ya (UF-E1). The wealthiest pre-Fracture Velari world ending on the Union side of the post-imperial fault line coheres with map §2.1/§8.7 placement and the Velari-heritage name. NOT a sourced claim: no primary source states the transfer mechanism. Do not cite as canon until a source or owner ratification upgrades it."
+  }
 }

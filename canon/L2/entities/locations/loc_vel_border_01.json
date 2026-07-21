@@ -1,0 +1,38 @@
+{
+  "entity_kind": "location",
+  "certainty": "STAGING",
+  "status": "active",
+  "conflict_flags": [],
+  "role": null,
+  "organization_ids": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "promotion_pass": "Velar Crescent Anchor Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "entity_id": "loc_vel_border_01",
+  "name": "Velar Border World System",
+  "aliases": [
+    "VEL-BORDER-01"
+  ],
+  "source_refs": [
+    {
+      "source_id": "gumas_l2_map_source_of_truth",
+      "path": "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md",
+      "line_start": 364,
+      "line_end": 415
+    }
+  ],
+  "faction_bindings": [
+    "velar_imperium"
+  ],
+  "tags": [
+    "placed_system",
+    "union_velar_flashpoint",
+    "velar_crescent_anchor_pass_2026_07_21"
+  ],
+  "jurisdiction": "Suspended legitimacy: claimed by multiple Velar factions; control fragmented among local elites, military governors, off-world interests (map §8.5)",
+  "location_type": "border world system",
+  "region_id": "loc_zone_velar_crescent",
+  "canonical_position_status": "canon",
+  "promotion_note": "Created at STAGING from map §8.5 (VEL-BORDER-01, Placed/Historically Layered). System name pending ratification. Forced adjacency (map §5, non-negotiable): direct adjacency to GU-FRONT-01 (Union Frontier ↔ Velar Border Worlds) — cannot be ignored by GU-FRONT-01; cannot be politically stable; cannot fully align with the Union without triggering Velar retaliation. Buffer and flashpoint; recruitment ground for Loyalists, Reformists, and warlords alike. Anchors map §4 requirement \"Border World\"."
+}

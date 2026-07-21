@@ -106,3 +106,26 @@ were **name-prefix drift** ("Vel-" = Velari cultural heritage, not Imperium juri
 map anchors (VEL-CORE-01, VEL-BORDER-01 placed systems; Ruin World and Outer Colony Node
 requirements) still lack entity records — queued as follow-up.
 Closes: LEDGER-VELAR-0001 residual (placement), LEDGER-VELAR-0002 residual (region anchoring).
+
+## Velar Crescent Anchor Pass — 2026-07-21 (closes queue item velar-crescent-anchor-entities)
+
+Four entity records created at **STAGING**, derived strictly from the map source of truth
+(epistemic rule: detail discovered, not invented):
+
+1. **loc_vel_core_01** — Velar Core World System (VEL-CORE-01, map §8.6, Placed). Former
+   Imperial Heartland; Throne World; contested continuity claims. Position: canon (map-placed).
+2. **loc_vel_border_01** — Velar Border World System (VEL-BORDER-01, map §8.5, Placed).
+   Forced adjacency to GU-FRONT-01; non-negotiable instability constraints. Position: canon.
+3. **loc_velar_ruin_worlds** — anchor-class record (§2.3/§4); NO placed system; position
+   staging until a map §8 entry places one.
+4. **loc_velar_outer_colony_nodes** — anchor-class record (§2.3/§4); forced adjacency to
+   Contested Frontier (§5); coheres with virex recent_actions (Outer Colony trade-route
+   destabilization). Position staging.
+
+All four anchored to `loc_zone_velar_crescent` (P3 resolved for the Velar domain).
+Authority-table rows added (both copies). The Velar Imperium's §4 anchor requirements now
+all have records: Core ✓ Border ✓ Ruin (class) ✓ Outer Colony (class) ✓.
+
+**Vel-Surak lineage note:** `heritage_lineage_note` added to loc_vel_surak at STAGING with
+basis INFERENCE_PENDING_SOURCE — reformist-founding transfer hypothesis recorded, explicitly
+non-citable until sourced or owner-ratified.

@@ -52,6 +52,10 @@ This table is the **reconciliation layer**: it does *not* decide final coordinat
 | Xelvani‑3 (Silent Plains) | Xelvani 3 | world / anomalous ecology | STAGING | Dossier v0.5 | No animal life; organic structures still grow |
 | Prime Ascendancy | — | node / region (TBD) | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | core world referenced in integration context |
 | Vel-Surak megacity infrastructure (gravity/atmosphere districts) | — | node / region | SUPERSEDED | GUMAS_Physical_Galaxy_Packet_v0.1.md | Collapsed into Vel‑Surak parent record 2026‑07‑21 (alias-forward); detail absorbed into map §8.7 |
+| Velar Core World System | VEL-CORE-01 | core world system (multi-world) | CANON | gumas_l_2_galactic_map_source_of_truth.md §8.6 | Placed (map v1.6); former Imperial Heartland / Throne World; entity record created 2026-07-21 (Velar Crescent Anchor Pass) |
+| Velar Border World System | VEL-BORDER-01 | border world system | CANON | gumas_l_2_galactic_map_source_of_truth.md §8.5 | Placed; forced adjacency to GU-FRONT-01 (map §5); entity record created 2026-07-21 |
+| Velar Ruin Worlds | — | anchor class — ruin worlds | STAGING | gumas_l_2_galactic_map_source_of_truth.md §2.3/§4 | Anchor-class record; no placed system yet; placement TBD via future map §8 entry |
+| Velar Outer Colony Nodes | — | anchor class — outer colony nodes | STAGING | gumas_l_2_galactic_map_source_of_truth.md §2.3/§4/§5 | Anchor-class record; forced adjacency to Contested Frontier; no placed system yet; placement TBD |
 | Xyphos Ruins | — | site / installation | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | protected precursor site |
 | Xyphos Precursor Research Center | — | site / installation | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | institution implies site access nearby/elsewhere |
 | Torix-7 | Crimson Abyss | world / system (needs disambiguation) | STAGING | GUMAS_Physical_Galaxy_Packet_v0.1.md | — |
