@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_vorn",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "e4b246852160b358db13e79361003aa685fa7267b77c6286202d3cda50f6e75f"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "a6965acf86d162e55bffcc068d2a8fb25535eb76a27f3433a9530be623ca5516"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "70a836410a17e5d47ffaf1531669d98015f64dfde7ef134db70fb974a4da1489"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "e83ba46d3b140a694b7d67f748cf58c9c508a6ae9363e8e86e46070588df6504"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "4c9fbab33bace32209b9b5a8ed0f189fa58afe23eac11e76a7f26a519403cd00"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "d92a706956b7438a7ef4e70536c91838e376281a1eca9b5bc33f996c13f4ffc1"
+    }
+  ]
+}

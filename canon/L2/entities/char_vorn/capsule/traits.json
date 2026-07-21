@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_vorn",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Aggressive Forward Momentum",
+    "Active Pursuit",
+    "Close-Quarters Initiative"
+  ],
+  "decision_style": "Forward-pressure close engagement within pair doctrine",
+  "allegiance": "Galactic Union (Union Marshals)",
+  "reputation": "Frontier reputation effects established at crew level (Ranger visibility), not individually quantified",
+  "relationships": "Operates in doctrinal pair with Cross as a single tactical unit.",
+  "personality_insight": "Observed pattern only: aggressive forward momentum, pursued retreating hostiles when opportunity presented; redirected a thrown munition with her bracer repulsion device."
+}

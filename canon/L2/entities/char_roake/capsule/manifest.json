@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_roake",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "cd704158af577557c170f38556c9470069bdbb55ec352015d7a21ca9c64478dd"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "8292cf26fd9bb6d92b32147ecf7e3f85b4b71994be0d9c93e73c65cfc46ef4a4"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "8b0916497629c92b3049e05149bd009dbdbcb8e3ffc798ad37c1d4ba8d3ab2f7"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "f90bf451b1c3756f59209987d20c7d1200b88d3be1ec23fd6a84b9ae884c94c0"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "582a257ec76ee54ec166a54107d40fcf21610bde5a6b41f4d99811cf0811108c"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "6db6dff1c290d3d115f4d38289b024c85c2c1ed67b21dfbcf63a490d5d73e923"
+    }
+  ]
+}

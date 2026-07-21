@@ -1,0 +1,7 @@
+# Cognitive-Narrative Schema — char_vorn
+canonical_id: char_vorn
+dominant_bias: null
+escalation_threshold: 0.400
+risk_tolerance: 0.650
+decision_style: "Forward-pressure close engagement within pair doctrine"
+faction_id: galactic_union

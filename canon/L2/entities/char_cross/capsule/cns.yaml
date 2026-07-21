@@ -1,0 +1,7 @@
+# Cognitive-Narrative Schema — char_cross
+canonical_id: char_cross
+dominant_bias: null
+escalation_threshold: 0.500
+risk_tolerance: 0.550
+decision_style: "Diplomacy-first assessment; decisive adaptive engagement once committed"
+faction_id: galactic_union

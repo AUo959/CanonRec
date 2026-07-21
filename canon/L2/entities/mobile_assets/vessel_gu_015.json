@@ -1,0 +1,27 @@
+{
+  "canonical_id": "vessel_gu_015",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-GU-015",
+  "name": "Pending ratification",
+  "aliases": [
+    "Cross-crew Ranger"
+  ],
+  "class_id": "CLASS-RANGER-01",
+  "allegiance": "galactic_union",
+  "commanding_officer_id": null,
+  "crew_ids": [
+    "char_cross",
+    "char_vorn",
+    "char_roake"
+  ],
+  "narrative_significance": "Ranger-class gunboat of the Cross/Vorn/Roake crew — sim-capture platform",
+  "status": "active",
+  "certainty": "CANON",
+  "doc_sources": [
+    "canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md"
+  ],
+  "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "promotion_pass": "Spatha Promotion Pass — G5 — 2026-07-21",
+  "notes": "Sim-capture-established: 3-person long-range high-endurance gunboat (2 field agents + logistics officer); orbit/ground-hover capable; sophisticated autopilot; two wing-embedded 360° manual quad turrets with human–AI cooperative targeting (\"combat bubbles\"); not cloaked — rapid concealment via signature reduction; command hub / resupply origin / habitation / extraction asset; publicly visible with crew reputation effects; drone launch/recovery platform. Ship name NOT established — pending ratification (map naming precedent)."
+}

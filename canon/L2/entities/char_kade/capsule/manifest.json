@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_kade",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "9201577b3a4e979be9f2aba968e589d9597a6fd8bda6998dbadf976691f269d8"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "fc0e15ee2992845947cc2ae64b642c197062eafcf8e6a51a06ee7853f251db44"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "0b7160bdedb67fd2f744252f05b562b294f85392020a630dcc444935cdce69c7"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "9ec15f9a22788e37f01d8c9d865e568a9be34b8b0aeed685203ca5236f6a383c"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "40a72d8a2983819fcd291938c10d939701f6ad867231cac3d8855a33b628561f"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "50786311b0f8d1ab8e3ebf159ee0eebb486df48e74a4ed56f7d5d74e0083091f"
+    }
+  ]
+}

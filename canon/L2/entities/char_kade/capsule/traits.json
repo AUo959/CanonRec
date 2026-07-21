@@ -1,0 +1,15 @@
+{
+  "canonical_id": "char_kade",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Escalation Dominance",
+    "Space-Capable Suit Operations"
+  ],
+  "decision_style": "Absolute-escalation intervention posture",
+  "allegiance": "Galactic Union (Sentinel High Command)",
+  "reputation": "Frontier reputation effects established at crew level (Ranger visibility), not individually quantified",
+  "relationships": "One of four Sentinel suits in-system (severely number-limited force) with support craft and logistical elements.",
+  "personality_insight": "Observed pattern only: member of the four-suit task force whose in-system arrival triggered immediate hostile withdrawal across all theaters."
+}

@@ -59,3 +59,23 @@ root `reports/analysis/spatha_context_report__2026-07-21.md`.
 **Certainty: CANON** (locked at commit, Spatha Promotion Pass 2026-07-21).
 Not established (do not invent): blade length/mass figures, power-cell mechanism,
 manufacturer, issue date, training curriculum.
+
+---
+
+## G5 addendum — equipment records & crew capsules (2026-07-21)
+
+Equipment-class entity records created (CANON, `canon/L2/entities/equipment/`):
+`eq_spatha_moderna`, `eq_mr6_service_revolver`, `eq_mfr9_viper_rifle`,
+`eq_marshal_energy_shield`. Ranger gunboat recorded as `vessel_gu_015`
+(CLASS-RANGER-01; crew Cross/Vorn/Roake; ship name pending ratification; carries the
+P2 `placement_rule`).
+
+CharForge capsules built for all four capture actors (`charforge-capsule-v1.0`,
+7 files + BUILD_RECEIPT + bundle manifest each). **First rollout of `location_binding`**
+(C1, RULING-FABRIC-SCHEMA): Cross/Vorn/Roake bind to `vessel_gu_015`; Kade binds to
+`org_sentinel_high_command`.
+
+State-vector derivation rule (deterministic, auditable): baseline 0.500 on all 21 slots;
+evidence-based deltas only, |Δ| ≤ 0.2, big-endian float32 per existing capsule precedent.
+Each BUILD_RECEIPT records its own basis. No invented psychology — deltas trace to
+capture-observed behavior only.

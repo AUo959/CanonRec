@@ -1,0 +1,7 @@
+# Cognitive-Narrative Schema — char_kade
+canonical_id: char_kade
+dominant_bias: null
+escalation_threshold: 0.600
+risk_tolerance: 0.500
+decision_style: "Absolute-escalation intervention posture"
+faction_id: galactic_union

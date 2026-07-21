@@ -1,0 +1,29 @@
+{
+  "entity_kind": "equipment",
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
+  "conflict_flags": [],
+  "region_id": null,
+  "promotion_pass": "Spatha Promotion Pass — G5 Equipment Records — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "canon/L2/operations/Marshal_Standard_Kit.md",
+    "canon/L2/operations/SPATHA_MODERNA__KIT_DETAIL__2026-07-21.md",
+    "canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md"
+  ],
+  "entity_id": "eq_mr6_service_revolver",
+  "name": "Marshal Heavy Service Revolver (MR-6)",
+  "aliases": [
+    "iron",
+    "hand cannon",
+    "blunderbuss"
+  ],
+  "category": "heavy one-handed energy sidearm",
+  "notes": "Dual power cells, alternating discharge with audible metallic clank on cell switch-over; deliberate cadence; close-range concussive knockdown, surprising medium-range accuracy; defeats light armor, stresses heavier plating. Worn opposite the spade. Slang is unofficial by design (\"no sentimental nickname baked into doctrine\")."
+}

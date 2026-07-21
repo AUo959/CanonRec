@@ -1,0 +1,22 @@
+{
+  "canonical_id": "char_kade",
+  "schema": "charforge-identity-v1.0",
+  "name": "Kade",
+  "aliases": [],
+  "role": "Sentinel task force member",
+  "faction_id": "galactic_union",
+  "certainty": "CANON",
+  "status": "active",
+  "location_binding": {
+    "type": "organization",
+    "target_id": "org_sentinel_high_command",
+    "basis": "sim-capture task force deployment; no vessel binding established"
+  },
+  "doc_sources": [
+    "canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+    "canon/L2/entities/characters/char_kade.json",
+    "reports (root): spatha_context_report__2026-07-21.md"
+  ],
+  "promotion_pass": "Spatha Promotion Pass — Capsule Build — 2026-07-21",
+  "notes": "Capsule built from sim-capture-established facts only; unestablished details (full name, rank grade, history) deliberately absent. First rollout of location_binding per RULING-FABRIC-SCHEMA (C1)."
+}

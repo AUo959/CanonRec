@@ -1,0 +1,28 @@
+{
+  "entity_kind": "equipment",
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
+  "conflict_flags": [],
+  "region_id": null,
+  "promotion_pass": "Spatha Promotion Pass — G5 Equipment Records — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "canon/L2/operations/Marshal_Standard_Kit.md",
+    "canon/L2/operations/SPATHA_MODERNA__KIT_DETAIL__2026-07-21.md",
+    "canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md"
+  ],
+  "entity_id": "eq_mfr9_viper_rifle",
+  "name": "MFR-9 Modular Energy Rifle",
+  "aliases": [
+    "Viper",
+    "long gun"
+  ],
+  "category": "modular energy rifle platform",
+  "notes": "Multiple configurations incl. anti-armor (sim-observed); configuration-specific slang expected, no universal nickname beyond Viper; most common porter-drone \"call-in\" delivery item; hip-fire observed once (Cross, situational not doctrinal)."
+}

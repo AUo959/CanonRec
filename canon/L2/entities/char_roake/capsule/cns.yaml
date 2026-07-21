@@ -1,0 +1,7 @@
+# Cognitive-Narrative Schema — char_roake
+canonical_id: char_roake
+dominant_bias: null
+escalation_threshold: 0.500
+risk_tolerance: 0.400
+decision_style: "Central logistics control: timing, routing, and prioritization under active threat"
+faction_id: galactic_union

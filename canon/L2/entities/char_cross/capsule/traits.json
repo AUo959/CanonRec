@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_cross",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Situational Oversight",
+    "Battlefield Documentation Discipline",
+    "Adaptive Under Surprise Contact"
+  ],
+  "decision_style": "Diplomacy-first assessment; decisive adaptive engagement once committed",
+  "allegiance": "Galactic Union (Union Marshals)",
+  "reputation": "Frontier reputation effects established at crew level (Ranger visibility), not individually quantified",
+  "relationships": "Operates in doctrinal pair with Vorn as a single tactical unit; crew logistics and resupply run through Roake aboard the Ranger gunboat.",
+  "personality_insight": "Observed pattern only: maintains oversight and evidence discipline (helmet 3D imaging to Roake) while retaining capacity for atypical decisive action (hip-fired Viper)."
+}

@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_cross",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "303b74efe7a07e4b4e2b22d3dc9d8592bc1ae8a0e8aa253c03c2e22f4fb529af"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "ea5a1361ddc9c06e4a5f49c3bb6f4c14b4c808feef6c29a1ce22510e82ca6d29"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "9408fbd7dbf07f010674b93ff3f72a635a34e6a5fd2309ae67f163b925357468"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "19830b13bb5201f0c7bcb1c1919a6e69614501218df397a040d912148d2a7d28"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "72ff766187d0f1da7720462028e3d92b4f76a76ca17298c392c28c41d49f2d22"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "8e7e38fe67cdcd28ab4d6d46b7b24b04dfce6bf08c6482d396ebbf45ff2e02db"
+    }
+  ]
+}

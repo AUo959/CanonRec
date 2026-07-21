@@ -1,0 +1,16 @@
+{
+  "canonical_id": "char_roake",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [
+    "Logistics Control Under Fire",
+    "Resupply Prioritization",
+    "Operational Security"
+  ],
+  "decision_style": "Central logistics control: timing, routing, and prioritization under active threat",
+  "allegiance": "Galactic Union (Union Marshals)",
+  "reputation": "Frontier reputation effects established at crew level (Ranger visibility), not individually quantified",
+  "relationships": "Third crew member supporting the Cross/Vorn field pair; operates the Ranger gunboat as command hub and resupply origin.",
+  "personality_insight": "Observed pattern only: retained control of resupply timing/routing/prioritization during live engagements; received battlefield imagery for analysis; per drone doctrine manages the crew drone picture."
+}

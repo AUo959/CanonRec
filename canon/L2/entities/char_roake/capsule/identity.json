@@ -1,0 +1,22 @@
+{
+  "canonical_id": "char_roake",
+  "schema": "charforge-identity-v1.0",
+  "name": "Roake",
+  "aliases": [],
+  "role": "Ranger logistics officer and primary pilot",
+  "faction_id": "galactic_union",
+  "certainty": "CANON",
+  "status": "active",
+  "location_binding": {
+    "type": "vessel",
+    "target_id": "vessel_gu_015",
+    "basis": "sim-capture crew assignment; 2-in/1-out doctrine outside position"
+  },
+  "doc_sources": [
+    "canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+    "canon/L2/entities/characters/char_roake.json",
+    "reports (root): spatha_context_report__2026-07-21.md"
+  ],
+  "promotion_pass": "Spatha Promotion Pass — Capsule Build — 2026-07-21",
+  "notes": "Capsule built from sim-capture-established facts only; unestablished details (full name, rank grade, history) deliberately absent. First rollout of location_binding per RULING-FABRIC-SCHEMA (C1)."
+}
