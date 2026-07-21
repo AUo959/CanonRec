@@ -32,12 +32,13 @@
     "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md",
     "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_HOSTED_ASSET_COMMAND__v1.0__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_FUNCTIONAL_ARCHITECTURE__v1.1__2026-07-21.md",
+    "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_PROPULSION_POWER__v1.0__2026-07-21.md",
     "reports (root): judicator_prime_context_report__2026-07-21.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
-  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional architecture JUDICATOR-ARCH-001 v1.1 remains STAGING and has been revised to treat promoted weapons, defenses, propulsion, support-craft, and cyberwarfare systems as binding design anchors.",
+  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional architecture JUDICATOR-ARCH-001 v1.1 remains STAGING and has been revised to treat promoted weapons, defenses, propulsion, support-craft, and cyberwarfare systems as binding design anchors. Propulsion and power architecture JUDICATOR-POWER-001 v1.0 is STAGING and defines a paired-but-isolatable dual-core model, distributed generation, finite strategic-power tradeoffs, and emergency-jump consequences for owner review.",
   "class_hull_type": "supercarrier",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
   "updated_at": "2026-07-21",
@@ -125,5 +126,20 @@
     "carrier_model": "Dual independent flight spines plus ventral heavy mission bays; tactical interceptors and a full Sentinel deployment wing are CANON, while exact capacities remain STAGING.",
     "command_model": "Bridge, Combat Information Center, Flag Operations Center, Joint Operations Coordination Center, Marshal Operations Center, Sentinel Mission Control, cyberwarfare/network-defense command, and emergency battle bridge remain functionally distinct.",
     "promotion_gate": "Owner review and CanonRec conflict scan required before dimensions, capacities, topology, weapon implementation, drive implementation, shield performance, armor performance, or network architecture become CANON."
+  },
+  "propulsion_power_architecture": {
+    "architecture_id": "JUDICATOR-POWER-001",
+    "certainty": "STAGING",
+    "version": "v1.0",
+    "document_path": "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_PROPULSION_POWER__v1.0__2026-07-21.md",
+    "canonical_anchors": [
+      "Dual FTL cores",
+      "Emergency jump capability"
+    ],
+    "staged_core_model": "Paired synchronized normal operation; either isolated core may perform a degraded single-core emergency extraction, subject to navigation, structural, thermal, and post-jump inspection limits.",
+    "staged_generation_model": "Four separated primary generation plants, eight distributed auxiliary generator islands, and strategic, combat, sustaining, and local emergency distribution domains.",
+    "staged_tradeoff_model": "Plasma-lance fire, shield regeneration, emergency-jump charging, heavy maneuver, and maximum carrier tempo compete for finite generation, storage, cooling, and distribution capacity.",
+    "command_invariant": "No autonomous system may unilaterally jump the vessel or fire a plasma lance; strategic movement and weapons release remain under accountable human command.",
+    "promotion_gate": "Owner review and CanonRec conflict scan required before the paired-core model, single-core capability, generation counts, power priorities, heat-debt model, or emergency-jump modes become CANON."
   }
 }
