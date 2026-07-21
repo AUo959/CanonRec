@@ -56,7 +56,7 @@ Model designations describe standard capability envelopes. Ranger crews may carr
 | Signature | Very low when perched; vulnerable while moving |
 | Limits | Fragile, low payload, easily lost in heavy interference or physical obstruction |
 
-### RFD-3 **Thread** — Relay and mapping node
+### RFD-3 **Span** — Relay and mapping node
 
 | Field | Specification |
 |---|---|
@@ -70,7 +70,7 @@ Model designations describe standard capability envelopes. Ranger crews may carr
 | Signature | Detectable when transmitting at high power |
 | Limits | Electronic warfare, terrain masking, compromised node risk |
 
-### RFD-4 **Wisp** — Evidence and hazardous-scene drone
+### RFD-4 **Trace** — Evidence and hazardous-scene drone
 
 | Field | Specification |
 |---|---|
@@ -97,7 +97,7 @@ Model designations describe standard capability envelopes. Ranger crews may carr
 | Defensive behavior | Evasive routing, decoy release, return/ditch logic; no independent weapons authority |
 | Limits | Visible, noisy, vulnerable under direct fire, maintenance intensive |
 
-### RFD-6 **Echo** — Decoy and countermeasure drone
+### RFD-6 **Mirage** — Decoy and countermeasure drone
 
 | Field | Specification |
 |---|---|
@@ -109,7 +109,7 @@ Model designations describe standard capability envelopes. Ranger crews may carr
 | Counter-drone role | Detection cueing, link disruption, expendable interception screens |
 | Limits | Effects are temporary and legally constrained; strong use may reveal Ranger presence |
 
-### RFM-7 **Lance** — FPV precision munition
+### RFM-7 **Javelin** — FPV precision munition
 
 | Field | Specification |
 |---|---|
@@ -145,11 +145,11 @@ These are preferred starting allocations, not rigid personal ownership. Maelin m
 
 - 2 × Kite overwatch drones
 - 2 × Mote interior scouts
-- 1 × Echo decoy/countermeasure drone
+- 1 × Mirage decoy/countermeasure drone
 - 1 × Porter held at gunboat readiness
-- 2 × Lance FPV munitions held in reserve
+- 2 × Javelin FPV munitions held in reserve
 
-Tessa prefers a simple, legible field picture and drones that can rapidly expose threats, close escape routes, or create a decisive opening. She is most likely to request a Lance into ready status early, which can create friction when Iven believes the evidence picture is incomplete.
+Tessa prefers a simple, legible field picture and drones that can rapidly expose threats, close escape routes, or create a decisive opening. She is most likely to request a Javelin into ready status early, which can create friction when Iven believes the evidence picture is incomplete.
 
 ### Iven Raal — Pursuit and reconstruction package
 
@@ -157,9 +157,9 @@ Tessa prefers a simple, legible field picture and drones that can rapidly expose
 
 - 1 × Kite overwatch drone
 - 4 × Mote scouts/perch sensors
-- 2 × Thread relay/mapping nodes
-- 1 × Wisp evidence drone
-- 1 × Lance FPV munition as contingency
+- 2 × Span relay/mapping nodes
+- 1 × Trace evidence drone
+- 1 × Javelin FPV munition as contingency
 
 Iven favors depth over spectacle. His preferred network watches exits, reconstructs movement, and preserves evidence across time. He often leaves drones in place after the apparent conclusion of an operation because he expects the most revealing behavior to occur when a target believes surveillance has ended.
 
@@ -169,11 +169,11 @@ Iven favors depth over spectacle. His preferred network watches exits, reconstru
 
 - 2 × Kite overwatch drones
 - 2 × Mote scouts
-- 3 × Thread relay/mapping nodes
-- 1 × Wisp evidence drone
-- 2 × Echo decoy/countermeasure drones
+- 3 × Span relay/mapping nodes
+- 1 × Trace evidence drone
+- 2 × Mirage decoy/countermeasure drones
 - 2 × Porter drones at variable readiness
-- 2 × Lance FPV munitions held under dual-confirmation workflow
+- 2 × Javelin FPV munitions held under dual-confirmation workflow
 
 Maelin’s loadout is a system rather than a collection of airframes. They use relay placement, decoys, supply timing, and sensor coverage to change the geometry of the operation before the field agents perceive the full effect. They may autonomously launch, position, retask, and recover nonlethal drones within mission orders. Lethal employment remains human-authorized.
 
@@ -184,7 +184,7 @@ Maelin’s loadout is a system rather than a collection of airframes. They use r
 - **Formal name:** Spatha Moderna
 - **Common name:** *spade*
 - **Category:** Powered field sword / Marshal badge-of-office weapon
-- **Issue:** Standard to sworn Marshal field personnel; carried openly when local law and mission posture permit
+- **Issue:** Standard to sworn Ranger personnel and other qualified Marshal field personnel; carried openly when local law and mission posture permit
 
 ### Physical specification
 
@@ -245,8 +245,7 @@ This contrast is operationally useful and culturally intentional. A Ranger may c
 
 - Whether exact drone counts should be standardized by Ranger mission category.
 - Formal manufacture/vendor names and maintenance intervals.
-- Exact effect-package taxonomy for Lance munitions.
-- Whether logistics officers receive the Spatha Moderna universally or by sworn-field qualification.
+- Exact effect-package taxonomy for Javelin munitions.
 - Historical origin of the open-sword tradition.
 - Local-jurisdiction rules governing visible carry during covert or diplomatic operations.
 
