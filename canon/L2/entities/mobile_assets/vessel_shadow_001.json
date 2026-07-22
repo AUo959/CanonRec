@@ -1,0 +1,35 @@
+{
+  "canonical_id": "vessel_shadow_001",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-SHADOW-001",
+  "name": "Crown Dark",
+  "designation_status": "Union operational designation; self-name unknown",
+  "class_id": null,
+  "allegiance": "fleet_shadow_fleet",
+  "certainty": "CANON",
+  "status": "destroyed_or_collapsed",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "narrative_significance": "Distributed command flagship of the Shadow Fleet during the Dark Star incident.",
+  "canon_observations": [
+    "Used layered cloaking and signature displacement supported by nearby vessels.",
+    "Coordinated major Shadow Fleet maneuvers through short-range transmissions and distributed living operators.",
+    "Possessed three parallel primary hull spines around a central void.",
+    "Contained living command operators connected through a distributed control architecture.",
+    "Was boarded by Harrier, Anvil, Cinder, and Talon Sentinel detachments.",
+    "Collapsed after the command network was disrupted and Eira / Valkyrie was captured.",
+    "No intact vessel remained after the collapse, though debris, biological survivors, and sections of living architecture were recovered."
+  ],
+  "staging_mechanisms": [
+    "Exact cloak physics",
+    "Nature of the central void and collapse mechanism",
+    "Degree of vessel consciousness or material autonomy",
+    "Origin and class lineage",
+    "Relationship between living operators and ship systems"
+  ],
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json",
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}
