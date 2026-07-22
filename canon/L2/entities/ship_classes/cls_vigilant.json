@@ -1,0 +1,70 @@
+{
+  "entity_id": "cls_vigilant",
+  "entity_kind": "ship_class",
+  "class_id": "CLASS-VIGILANT-01",
+  "name": "Vigilant-Class",
+  "aliases": [
+    "Vigilant escort destroyer",
+    "Vigilant-Class destroyer"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "division": "escort_destroyer",
+  "hull_type": "medium escort destroyer",
+  "role": "General-purpose fleet escort, screening, interception, anti-piracy, picket duty, convoy protection, independent patrol, and rescue support.",
+  "design_doctrine": "A Vigilant is built to move ahead of, beside, or behind a high-value formation, detect and intercept threats before they reach the protected asset, and remain capable of independent patrol without becoming a stealth-specialist or capital combatant.",
+  "canonical_capabilities": [
+    "Long-range fleet-picket sensors",
+    "Encrypted battle-network integration",
+    "AI-Vanguard defensive countermeasures",
+    "Layered energy shielding",
+    "Ablative armor protection",
+    "AI-coordinated point defense",
+    "Medium anti-ship and interception armament",
+    "Modular guided-interceptor and anti-missile cells",
+    "High-acceleration sublight maneuvering",
+    "FTL performance sufficient to screen and reposition around a Judicator task group",
+    "Boarding, rescue, and personnel-recovery support",
+    "Extensive reconnaissance, counter-drone, and repair-drone capacity"
+  ],
+  "task_group_assignment": {
+    "formation_entity_id": "org_judicator_prime_task_group",
+    "assigned_slots": [
+      "JPTG-ESCORT-01",
+      "JPTG-ESCORT-02"
+    ],
+    "certainty": "CANON",
+    "note": "Both standing destroyer slots use the Vigilant-Class unless a later owner-authorized replacement event changes the assignment. Individual vessels remain unminted."
+  },
+  "class_boundaries": {
+    "obsidian_comparison": "Unlike the Obsidian-Class stealth destroyer, the Vigilant is a visible, general-purpose fleet escort optimized for sustained screening, interception, convoy protection, and independent patrol rather than black operations or deep-cover reconnaissance.",
+    "aegis_comparison": "Unlike the larger Aegis-Class battlecruiser, the Vigilant is not intended to trade capital-ship fire at the center of a fleet engagement.",
+    "vanguard_comparison": "The Vigilant is heavier, more enduring, and more formation-oriented than the Vanguard-Class frontier frigate."
+  },
+  "staged_specifications": {
+    "certainty": "STAGING",
+    "length_m_nominal": 520,
+    "length_m_range": [470, 580],
+    "typical_complement_approx": 420,
+    "surge_personnel_approx": 90,
+    "primary_armament_model": "Distributed medium plasma-cannon batteries, hybrid kinetic batteries, and modular guided-interceptor cells; exact counts, yields, arcs, and ammunition remain STAGING.",
+    "defense_model": "Segmented shields, ablative armor districts, distributed point defense, decoys, and counter-drone systems.",
+    "propulsion_model": "Redundant FTL and high-output sublight systems optimized for rapid formation repositioning; exact drive topology remains STAGING.",
+    "embarked_craft_model": "A small complement of boarding or rescue cutters, utility shuttles, and mission-configurable drones; exact quantities remain STAGING.",
+    "endurance_model": "Capable of extended independent patrol but designed to replenish from fleet logistics during sustained campaigns."
+  },
+  "conflict_flags": [],
+  "source_refs": [
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_new_escort_class",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.1__2026-07-21.md"
+    }
+  ],
+  "promotion_pass": "Judicator Escort and Bulker Class Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Class identity, role, canonical capability families, and assignment to both Judicator escort slots are owner-authorized CANON. Exact dimensions, complement, weapon counts, drive implementation, and embarked-craft quantities remain STAGING."
+}
