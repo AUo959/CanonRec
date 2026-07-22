@@ -1,0 +1,56 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_mara_venn",
+  "name": "Mara Venn",
+  "aliases": [
+    "Captain Venn"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_judicator_prime_task_group"
+  ],
+  "role": "Commanding officer of the G.U.S. Watchfire",
+  "rank": "Captain",
+  "pronouns": "she/her",
+  "vessel_binding": "vessel_gu_016",
+  "task_group_slot": "JPTG-ESCORT-01",
+  "stable_identity_anchors": [
+    "Treats escort duty as the prevention of avoidable crises rather than a lesser form of combat command.",
+    "Maintains formation integrity until Captain Tann or immediate survival requires separation.",
+    "Reports degraded readiness without softening the truth for appearances or operational convenience.",
+    "Prefers layered interception, controlled geometry, and preserved options over dramatic pursuit.",
+    "Will challenge a task-group plan when she believes it exposes the protected asset, the Sustainer, or civilian traffic without sufficient purpose."
+  ],
+  "decision_style": "Deliberate, geometry-driven, and conservative with irreversible commitments; once committed, she acts rapidly and expects exact execution.",
+  "working_relationships": {
+    "alric_tann": "Professional trust built on precise orders and truthful readiness reporting. Venn does not confuse respect with silence.",
+    "char_corin_hale": "Competitive counterpart. She considers Hale exceptionally capable but too willing to convert an interception opportunity into a pursuit.",
+    "char_sera_thalen": "Strong mutual respect. Venn treats the Sustainer's survival and transfer limits as strategic facts rather than logistical inconvenience."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior commands",
+    "personal relationships outside established task-group roles"
+  ],
+  "conflict_flags": [],
+  "tags": [
+    "galactic_union_navy",
+    "vigilant_class",
+    "escort_command",
+    "judicator_task_group"
+  ],
+  "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "doc_sources": [
+    "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+  ],
+  "notes": "Name collision scan returned no exact match in CanonRec or AUo959/aurora-cloudbank-symbolic before admission. Open biographical fields must not be silently invented."
+}
