@@ -1,0 +1,95 @@
+{
+  "entity_id": "event_dark_star_incident_4718_224",
+  "entity_kind": "event",
+  "name": "Dark Star Incident",
+  "aliases": [
+    "Battle of Lethan",
+    "Crown Dark Boarding Action",
+    "Valkyrie Raid"
+  ],
+  "certainty": "CANON",
+  "status": "ongoing_at_record_end",
+  "layer": "L2",
+  "date": "4718.224",
+  "location_refs": [
+    "place_kharis_sector",
+    "place_lethan_system",
+    "place_kallis_foundry"
+  ],
+  "primary_union_formation_id": "org_judicator_prime_task_group",
+  "participant_refs": [
+    "vessel_gu_001",
+    "vessel_gu_016",
+    "vessel_gu_017",
+    "vessel_gu_018",
+    "vessel_gu_019",
+    "org_union_marshals",
+    "org_sentinel_high_command",
+    "fleet_shadow_fleet"
+  ],
+  "operational_summary": "The Judicator Prime Task Group responded to an apparent mining-vessel distress event in the Lethan system, encountered cloaked hostile ships and an approaching unidentified fleet, launched a forward naval attack, deployed a Ranger-Sentinel boarding team into the concealed vessel, and conducted a separate Sentinel raid against the hostile command flagship operationally designated Crown Dark.",
+  "canonical_sequence": [
+    "Lifeline Six came under fire while approaching the vessel presented as M.V. Carpathia.",
+    "Cloaked hostile craft defended the concealed vessel and a larger force converged on the location.",
+    "Captain Alric Tann ordered Forward Hammer, committing Judicator Prime, Watchfire, Shieldwake, and the naval aerospace wing to a forward attack while Continuance preserved the task group's endurance reserve.",
+    "G.U.S. Third Measure rendezvoused with Kestrel Detachment under a mission-specific Marshal-Sentinel coordination order and boarded the concealed vessel.",
+    "The boarding party encountered Shadow Fleet boarders, active vessel material, an older captive Marshal, and an artifact translated as the Third Silence.",
+    "Sentinel High Command authorized four twelve-person detachments for direct vacuum insertion against Crown Dark; Tann controlled launch geometry, fleet support, and recovery while Sentinel leads controlled internal assault doctrine.",
+    "Harrier, Anvil, Cinder, and Talon entered Crown Dark, disrupted its distributed command architecture, extracted living operators, and captured Eira / Valkyrie.",
+    "Crown Dark collapsed during the operation and the Shadow Fleet lost centralized coordination.",
+    "All 48 deployed Sentinels were recovered alive.",
+    "Ranger and Kestrel personnel remained engaged inside the concealed vessel at the end of the current record."
+  ],
+  "sentinel_action": {
+    "detachments": {
+      "Harrier": 12,
+      "Anvil": 12,
+      "Cinder": 12,
+      "Talon": 12
+    },
+    "deployed": 48,
+    "recovered_alive": 48,
+    "kia": 0,
+    "major_injuries": 6,
+    "minor_injuries": "multiple",
+    "survivability_note": "Sentinel survivability derived from layered shielding, sacrificial armor, autonomous stabilization, independent life support, recovery beacons, adaptive tactics, and concentrated task-group rescue support."
+  },
+  "recovered_persons": {
+    "anvil_shadow_operators": 18,
+    "cinder_shadow_operators_recovered": 6,
+    "cinder_shadow_operators_surviving_initial_stabilization": 3,
+    "eira_valkyrie": 1,
+    "total_physically_recovered": 25,
+    "alive_after_initial_stabilization": 22
+  },
+  "command_authority": {
+    "naval": "Captain Alric Tann commanded task-group maneuver, combat support, launch geometry, recovery conditions, and emergency safety.",
+    "sentinel": "Sentinel Mission Control and Sentinel High Command authorized the Crown Dark detachments and retained authority over suit doctrine, detachment tactics, personnel decisions, and classified methods.",
+    "marshal": "Marshal-Captain Elias Drayen authorized Third Measure's investigative mission; Tessa Korr retained investigative authority while Major Elias Radek coordinated immediate assault action inside the concealed vessel.",
+    "judicial": "Commander Lyra Voss imposed an emergency evidence-preservation hold on Eira's compartment; Field Judge Aveline Soryn issued the binding judicial sealing and preservation order."
+  },
+  "canon_observations": [
+    "Shadow Fleet vessels possessed operational cloaking or concealment systems.",
+    "Crown Dark functioned as a distributed fleet-command platform.",
+    "The concealed vessel used segmented internal signal and material domains of approximately thirty-seven meters in observed areas.",
+    "The Third Silence artifact altered or interrupted active material behavior within the concealed vessel.",
+    "Kallis Foundry evidence displayed engineering similarities to the isolation artifact.",
+    "An older Marshal prisoner and erased or missing Union records are connected to the concealed vessel."
+  ],
+  "staging_hypotheses": [
+    "The concealed vessel is definitively a prison.",
+    "Captive bodies are definitively containment locks.",
+    "The Shadow Fleet's complete strategic purpose was to restore containment.",
+    "Union personnel intentionally opened the dark star eleven years earlier.",
+    "Calder Vey was constructing a replacement isolation command.",
+    "The dark star's origin, creators, age, nature, and degree of consciousness.",
+    "Eira's claims concerning prior Union responsibility."
+  ],
+  "source_refs": [
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md",
+    "owner-authored narrative chapters The Dark Star and Valkyrie, 2026-07-22"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "notes": "Observable events and corrected continuity are CANON. Historical interpretation and the true nature of the dark star remain STAGING."
+}
