@@ -1,0 +1,39 @@
+{
+  "entity_id": "report_dark_star_aar_chancellor",
+  "entity_kind": "report",
+  "name": "Dark Star Incident Executive After-Action Report",
+  "aliases": [
+    "JPTG-AAR-4718.224-DARKSTAR",
+    "Battle of Lethan Report to the Chancellor"
+  ],
+  "certainty": "CANON",
+  "status": "submitted",
+  "layer": "L2",
+  "classification": "CHANCELLOR'S EYES ONLY",
+  "date": "4718.225",
+  "author_entity_id": "alric_tann",
+  "recipient_entity_id": "zylox_rhaegos",
+  "event_ref": "event_dark_star_incident_4718_224",
+  "formation_ref": "org_judicator_prime_task_group",
+  "document_path": "canon/L2/reports/GUMAS_L2__AAR__DARK_STAR_INCIDENT_TO_CHANCELLOR__v1.0__2026-07-22.md",
+  "role": "Canonical executive after-action report submitted by Captain Alric Tann to Supreme Chancellor Zylox Rhaegos after the Dark Star Incident / Battle of Lethan.",
+  "epistemic_boundary": "Observable events, command decisions, casualty accounting, current custody, quarantine state, and recommendations are canonical report content. Selene Ark testimony, Eira testimony, First Silence history, Kellan Durn, institutional complicity, the meaning of the seventeen vectors, and the nature of the central phenomenon remain testimony, intelligence leads, or unresolved hypotheses as marked in the report and event record.",
+  "recommendation_groups": [
+    "preserve_judicator_mission",
+    "establish_compartmented_dark_star_inquiry",
+    "freeze_and_mirror_relevant_records",
+    "investigate_seventeen_vectors_with_uncrewed_isolated_probes",
+    "audit_intelligence_integration",
+    "prepare_public_information_boundary",
+    "authorize_controlled_diplomatic_contact"
+  ],
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json",
+    "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_CHAPTER_03_THIRD_SILENCE__v1.0__2026-07-22.md",
+    "canon/L2/reports/GUMAS_L2__AAR__DARK_STAR_INCIDENT_TO_CHANCELLOR__v1.0__2026-07-22.md"
+  ],
+  "promotion_pass": "Dark Star Executive Reporting Pass — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "updated_at": "2026-07-22",
+  "notes": "This record registers the report as an in-world canonical document. It does not promote unresolved testimony or hypotheses beyond the epistemic boundaries of the governing Dark Star event record."
+}
