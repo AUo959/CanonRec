@@ -1,0 +1,85 @@
+{
+  "entity_id": "org_judicator_prime_task_group",
+  "entity_kind": "organization",
+  "name": "Judicator Prime Task Group",
+  "aliases": [
+    "Judicator Task Group",
+    "the Judicator group"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "org_type": "naval_task_group",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "flagship_id": "vessel_gu_001",
+  "commanding_officer_id": "alric_tann",
+  "command_location": "G.U.S. Judicator Prime flag-command structure",
+  "role": "Standing Galactic Union task group centered on the Judicator Prime, combining flagship command, two medium destroyer-class escorts, and one fuel/supply bulker.",
+  "composition": {
+    "flagship": {
+      "vessel_id": "vessel_gu_001",
+      "status": "assigned",
+      "certainty": "CANON"
+    },
+    "escort_slots": [
+      {
+        "slot_id": "JPTG-ESCORT-01",
+        "category": "medium_destroyer",
+        "vessel_entity_id": null,
+        "class_entity_id": null,
+        "roster_status": "OPEN — vessel, class, and commanding officer require separate admission",
+        "certainty": "CANON slot; OPEN identity"
+      },
+      {
+        "slot_id": "JPTG-ESCORT-02",
+        "category": "medium_destroyer",
+        "vessel_entity_id": null,
+        "class_entity_id": null,
+        "roster_status": "OPEN — vessel, class, and commanding officer require separate admission",
+        "certainty": "CANON slot; OPEN identity"
+      }
+    ],
+    "replenishment_slot": {
+      "slot_id": "JPTG-LOGISTICS-01",
+      "category": "fuel_supply_bulker",
+      "vessel_entity_id": null,
+      "class_entity_id": null,
+      "roster_status": "OPEN — vessel, class, and commanding officer require separate admission",
+      "certainty": "CANON slot; OPEN identity"
+    }
+  },
+  "command_model": {
+    "task_group_authority": "Captain Alric Tann directs formation movement, coordinated defense, task-group priorities, and naval operations through the Judicator's flag-command role.",
+    "ship_command_boundary": "Each accompanying captain retains internal command, discipline, readiness, safety, and damage-control authority aboard their own vessel.",
+    "hosted_asset_boundary": "Rangers, Marshals, Sentinels, the Field Court, and other institutionally distinct hosted assets remain governed by JUDICATOR-HOST-001 and are not converted into ordinary task-group ship's companies.",
+    "logistics_boundary": "The bulker's professional logistics chain controls cargo safety, transfer feasibility, contamination control, and honest readiness reporting."
+  },
+  "normal_roles": [
+    "flagship and sector campaign command",
+    "close and extended defensive screening",
+    "long-range picket and interception",
+    "anti-piracy and convoy protection",
+    "independent patrol and support",
+    "fuel, stores, parts, ordnance, and fabrication-feedstock replenishment",
+    "sustained support for Marshal, judicial, diplomatic, humanitarian, and naval operations"
+  ],
+  "formation_rule": "Standing composition defines normal assignment, not mandatory co-location at every moment. Escorts and bulker may be detached, replaced, delayed, or separated by combat, replenishment, rescue, or emergency movement, with positions recorded per event.",
+  "existing_class_nonassignment": {
+    "cls_obsidian": "Not assigned by implication; canonical stealth-destroyer role is narrower than the current generic medium-destroyer slots.",
+    "cls_reliant": "Plausible logistics lineage but not assigned by implication to the fuel/supply bulker slot."
+  },
+  "doctrine_id": "JUDICATOR-ESCORT-001",
+  "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.0__2026-07-21.md",
+  "source_refs": [
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_escort_group",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.0__2026-07-21.md"
+    }
+  ],
+  "conflict_flags": [],
+  "promotion_pass": "Judicator Standing Escort Group Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Composition is owner-locked CANON. No ghost vessel IDs were created: the three external-vessel identities, exact classes, captains, and technical specifications remain open for a coordinated minting pass."
+}
