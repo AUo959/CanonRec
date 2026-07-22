@@ -1,0 +1,56 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_corin_hale",
+  "name": "Corin Hale",
+  "aliases": [
+    "Captain Hale"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_judicator_prime_task_group"
+  ],
+  "role": "Commanding officer of the G.U.S. Shieldwake",
+  "rank": "Captain",
+  "pronouns": "he/him",
+  "vessel_binding": "vessel_gu_017",
+  "task_group_slot": "JPTG-ESCORT-02",
+  "stable_identity_anchors": [
+    "Believes an escort protects the formation best by forcing threats to react before they can choose the engagement.",
+    "Seeks initiative through aggressive interception, deception, and independent maneuver rather than passive proximity to the flagship.",
+    "Does not abandon a protected vessel or assigned recovery obligation without explicit authority or immediate necessity.",
+    "Accepts personal and professional risk more readily than he accepts preventable danger to subordinate crews.",
+    "Returns from independent action with a complete operational account, including errors that damage his own case."
+  ],
+  "decision_style": "Fast, opportunistic, and pressure-oriented; he prefers to disrupt a threat's plan early and then exploit the resulting disorder.",
+  "working_relationships": {
+    "alric_tann": "Respects Tann's strategic restraint but regularly tests how much initiative a task-group order actually permits.",
+    "char_mara_venn": "Competitive counterpart. Hale believes Venn sometimes protects the formation so carefully that she leaves the enemy free to choose the next move.",
+    "char_sera_thalen": "Initially impatient with logistical constraints, but deeply respectful of Thalen's refusal to promise capacity the Sustainer cannot safely deliver."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior commands",
+    "personal relationships outside established task-group roles"
+  ],
+  "conflict_flags": [],
+  "tags": [
+    "galactic_union_navy",
+    "vigilant_class",
+    "interception_command",
+    "judicator_task_group"
+  ],
+  "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "doc_sources": [
+    "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+  ],
+  "notes": "Name collision scan returned no exact match in CanonRec or AUo959/aurora-cloudbank-symbolic before admission. Open biographical fields must not be silently invented."
+}
