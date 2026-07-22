@@ -1,0 +1,39 @@
+{
+  "entity_id": "char_eira_valkyrie",
+  "entity_kind": "character",
+  "name": "Eira",
+  "aliases": [
+    "Valkyrie",
+    "Eira / Valkyrie"
+  ],
+  "certainty": "CANON",
+  "status": "alive_in_union_custody",
+  "layer": "L2",
+  "faction_bindings": [
+    "fleet_shadow_fleet"
+  ],
+  "role": "Captured Shadow Fleet command operator bearing the functional title Valkyrie",
+  "pronouns": "she/her",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "custody_location": "vessel_gu_001",
+  "custody_status": "Medical isolation and emergency evidence-preservation hold followed by Field Court judicial sealing and preservation order.",
+  "stable_identity_anchors": [
+    "Understands command as responsibility for returning people who cannot return themselves.",
+    "Served as a central but not necessarily singular operator within Crown Dark's distributed command architecture.",
+    "Attempted to prevent capture of Crown Dark and its command network through catastrophic collapse.",
+    "Was captured alive by Talon Detachment.",
+    "States that she has no family name; no fleet-wide naming rule is inferred from this statement."
+  ],
+  "testimony_claims_staging": [
+    "The Union boarded the wrong vessel by attacking Crown Dark rather than the concealed containment vessel.",
+    "Actors inside the Union opened the dark star during an earlier incident.",
+    "The Judicator Prime Field Court was under attack from the moment the Union entered the system.",
+    "Valkyrie is a command function associated with deciding which linked minds can return from the fleet."
+  ],
+  "epistemic_boundary": "Eira's statements are testimony and intelligence leads, not independently proven history unless corroborated by later evidence.",
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}
