@@ -1,0 +1,67 @@
+{
+  "entity_id": "cls_sustainer",
+  "entity_kind": "ship_class",
+  "class_id": "CLASS-SUSTAINER-01",
+  "name": "Sustainer-Class",
+  "aliases": [
+    "Sustainer fleet bulker",
+    "Sustainer-Class replenishment vessel"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "division": "fleet_bulker",
+  "hull_type": "fuel and supply bulker",
+  "role": "High-capacity fleet replenishment, fuel and drive-consumable transport, bulk stores carriage, fabrication-feedstock delivery, ordnance support, and sustained campaign logistics.",
+  "design_doctrine": "A Sustainer is built to keep a major task group present after the first deployment wave. It carries the mass, reserves, replacement material, and transfer infrastructure that permit a flagship, escorts, aerospace wing, hosted craft, Sentinels, courts, medical systems, and field institutions to remain operational over a long campaign.",
+  "canonical_capabilities": [
+    "Segregated fuel or drive-consumable storage",
+    "Modular dry-cargo and controlled-ordnance holds",
+    "Fabrication feedstock and structural replacement-material storage",
+    "Food, water, atmosphere-processing, and medical-reserve carriage",
+    "Spare parts and replacement systems for capital ships, escorts, hosted vessels, drones, and Sentinel equipment",
+    "Simultaneous replenishment of multiple receiving vessels",
+    "Docked, tethered, stand-off, shuttle, and drone-assisted transfer support",
+    "Cargo quarantine, contamination control, and hazardous-material isolation",
+    "Reinforced hull, layered shielding, and AI-coordinated point defense",
+    "Heavy cargo handling, tug, and repair-drone capacity",
+    "Campaign salvage, recoverable cargo, and outbound transfer handling"
+  ],
+  "task_group_assignment": {
+    "formation_entity_id": "org_judicator_prime_task_group",
+    "assigned_slot": "JPTG-LOGISTICS-01",
+    "certainty": "CANON",
+    "note": "The standing Judicator fuel/supply bulker slot uses the Sustainer-Class unless a later owner-authorized replacement event changes the assignment. The individual vessel remains unminted."
+  },
+  "class_boundaries": {
+    "reliant_comparison": "The Reliant-Class is a balanced logistics, mobile-command, and battlefield-medical vessel. The Sustainer-Class is a larger and more specialized bulk replenishment hull optimized for fuel, stores, feedstock, ordnance, and sustained high-volume transfer.",
+    "combat_boundary": "A Sustainer is hardened and defensible but is not a frontline combatant. Its survival and cargo integrity take precedence over offensive engagement.",
+    "resource_boundary": "The class carries, conditions, secures, and transfers resources; it does not imply unlimited self-generation of fuel, ammunition, food, or replacement material."
+  },
+  "staged_specifications": {
+    "certainty": "STAGING",
+    "length_m_nominal": 1250,
+    "length_m_range": [1100, 1400],
+    "typical_complement_approx": 680,
+    "surge_personnel_approx": 220,
+    "transfer_station_model": "Four major replenishment stations plus distributed shuttle, drone, and utility interfaces; exact count and transfer physics remain STAGING.",
+    "cargo_architecture_model": "Armored central transfer spine with physically separated fuel, ordnance, life-support, medical, fabrication-feedstock, spare-parts, hazardous, and general-cargo districts.",
+    "defense_model": "Layered shields, distributed point defense, decoys, hardened cargo isolation, self-sealing transfer sections, and escort-integrated defensive networking.",
+    "propulsion_model": "FTL-capable fleet logistics drive optimized for reliability and loaded-mass handling rather than tactical acceleration; exact drive topology remains STAGING.",
+    "embarked_craft_model": "Heavy cargo shuttles, utility cutters, transfer tugs, tank-management drones, cargo drones, and repair drones; exact quantities remain STAGING.",
+    "operational_limit": "Major replenishment operations constrain maneuver, defensive geometry, and emergency departure readiness and therefore require deliberate escort coverage."
+  },
+  "conflict_flags": [],
+  "source_refs": [
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_new_bulker_class",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.1__2026-07-21.md"
+    }
+  ],
+  "promotion_pass": "Judicator Escort and Bulker Class Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Class identity, role, canonical capability families, and assignment to the Judicator logistics slot are owner-authorized CANON. Exact dimensions, complement, transfer-station count, drive implementation, cargo capacities, and embarked-craft quantities remain STAGING."
+}
