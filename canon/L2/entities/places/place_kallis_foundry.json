@@ -1,0 +1,27 @@
+{
+  "entity_id": "place_kallis_foundry",
+  "entity_kind": "place",
+  "name": "Kallis Foundry",
+  "certainty": "CANON",
+  "status": "active_but_covertly_reoccupied",
+  "layer": "L2",
+  "place_type": "orbital_or_deep_space_industrial_facility",
+  "parent_place_id": "place_kharis_sector",
+  "narrative_role": "Officially abandoned industrial site investigated by the Third Measure crew immediately before the Dark Star incident.",
+  "canon_observations": [
+    "The facility had been officially abandoned for approximately nine years.",
+    "At least three production floors had been restored covertly.",
+    "Restricted reactor material and specialized fabrication activity were present.",
+    "Calder Vey was present during the Ranger operation and escaped immediate custody.",
+    "Recovered engineering evidence resembled the isolation artifact later encountered aboard the concealed vessel."
+  ],
+  "staging_hypotheses": [
+    "Calder Vey was manufacturing a complete replacement Silence artifact.",
+    "The foundry's restored systems were built specifically for the dark star containment architecture."
+  ],
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}
