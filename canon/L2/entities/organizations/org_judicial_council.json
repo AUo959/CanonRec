@@ -8,6 +8,10 @@
     {
       "source_id": "archive_mining_2026_07_20",
       "path": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+    },
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_field_court",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.0__2026-07-21.md"
     }
   ],
   "status": "active",
@@ -28,8 +32,8 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "Marshals Charter Promotion Pass \u2014 2026-07-20",
-  "promotion_note": "Created 2026-07-20 at STAGING per owner ruling (reconciliation C5) to resolve ghost reference in the Marshals oversight model. Sourced from April-2025 'MAS - Glactic Union' thread.",
+  "promotion_pass": "Marshals Charter Promotion Pass — 2026-07-20",
+  "promotion_note": "Created 2026-07-20 at STAGING per owner ruling (reconciliation C5) to resolve ghost reference in the Marshals oversight model. Sourced from April-2025 'MAS - Glactic Union' thread. Promoted to CANON by the Marshal Charter pass. 2026-07-21: Judicator Prime Field Court registered under Council administration by direct owner ruling.",
   "design_open_questions": {
     "status": "RESOLVED by Marshal Charter v0.1 Art. III (owner-approved promotion 2026-07-20)",
     "items": [
@@ -41,10 +45,10 @@
       "investigative review",
       "power to suspend a Marshal operation"
     ],
-    "related_body": "High Judiciary & Galactic Tribunal (archive; interstellar law, war crimes, AI rights, authority over planetary courts) \u2014 relationship to this Council undefined"
+    "related_body": "High Judiciary & Galactic Tribunal (archive; interstellar law, war crimes, AI rights, authority over planetary courts) — relationship to this Council defined functionally but not yet represented by a separate entity record"
   },
   "locked_at": "2026-07-21T03:05:00Z",
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-07-21",
   "prev_certainty": "STAGING",
   "charter": {
     "composition": "9 jurists, fixed staggered terms (mirrors canonical GU leadership bench, engine F6)",
@@ -53,5 +57,18 @@
     "warrant_authority": "duty magistrates issue Union warrants for Marshal overrides (Charter Art. I)",
     "suspension_power": "6-of-9 supermajority suspends a Marshal operation; Sentinel suspensions notify Senate",
     "certainty": "CANON"
-  }
+  },
+  "deployed_courts": [
+    {
+      "court_entity_id": "org_judicator_prime_field_court",
+      "name": "Judicator Prime Field Court",
+      "vessel_binding": "vessel_gu_001",
+      "court_level": "trial",
+      "presiding_office_id": "office_judicator_field_judge",
+      "presiding_judge_entity_id": null,
+      "authority": "Full trial-level authority within assigned Union jurisdiction",
+      "administrative_relationship": "Judicial Council provides appointment and administrative support; judicial decisions remain independent",
+      "certainty": "CANON"
+    }
+  ]
 }
