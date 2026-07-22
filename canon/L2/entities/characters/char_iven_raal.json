@@ -1,0 +1,48 @@
+{
+  "entity_id": "char_iven_raal",
+  "entity_kind": "character",
+  "name": "Iven Raal",
+  "aliases": [
+    "Ranger Raal"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
+  "role": "Ranger investigative and pursuit field agent aboard G.U.S. Third Measure",
+  "pronouns": "he/him",
+  "vessel_binding": "vessel_gu_019",
+  "crew_role": "investigation / pursuit / reconstruction",
+  "promotion_status": "gifted Ranger queued for promotion",
+  "stable_identity_anchors": [
+    "Builds conclusions from persistent observation, pattern reconstruction, and evidence continuity.",
+    "States uncertainty precisely, even when the distinction frustrates faster-moving colleagues.",
+    "Carries the Spatha Moderna as a reliable close-range instrument resistant to spoofing, jamming, and remote falsification.",
+    "Is reluctant to authorize lethal force until identity and legal basis are established.",
+    "Recognizes structural explanations early but must guard against letting elegant models outrun the evidence."
+  ],
+  "decision_style": "Analytical, patient, qualification-conscious, and strongest when reconstructing behavior across incomplete records.",
+  "working_relationships": {
+    "char_tessa_korr": "Competitive investigative partner. Iven respects Tessa's willingness to commit but resists being pressured into certainty he does not possess.",
+    "char_maelin_saye": "Trusts Maelin's sensor and mesh work but challenges the difference between a technically coherent pattern and a legally proven claim.",
+    "elias_radek": "Respects Sentinel adaptability while insisting that captured technology, bodies, and testimony remain evidence rather than battlefield conclusions."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior postings",
+    "personal relationships outside the crew"
+  ],
+  "source_refs": [
+    "canon/L2/operations/GUMAS__PROFILE__THIRD_MEASURE_FIELD_LOADOUTS__v1.0__2026-07-21.md",
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}
