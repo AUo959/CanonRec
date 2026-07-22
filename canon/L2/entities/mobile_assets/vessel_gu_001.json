@@ -35,18 +35,19 @@
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_PROPULSION_POWER__v1.0__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_COMBAT_DEFENSE__v1.0__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_CARRIER_EMBARKED_CRAFT__v1.0__2026-07-21.md",
-    "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.0__2026-07-21.md",
+    "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.1__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_MOBILE_JUSTICE__v1.0__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_CREW_DAILY_LIFE__v1.0__2026-07-21.md",
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md",
     "reports (root): judicator_prime_context_report__2026-07-21.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
-  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional architecture JUDICATOR-ARCH-001 v1.1 remains STAGING and treats promoted weapons, defenses, propulsion, support-craft, and cyberwarfare systems as binding design anchors. Propulsion and power architecture JUDICATOR-POWER-001 v1.0 is STAGING and defines a paired-but-isolatable dual-core model, distributed generation, finite strategic-power tradeoffs, and emergency-jump consequences for owner review. Combat and defense architecture JUDICATOR-COMBAT-001 v1.0 is STAGING and defines provisional plasma-lance geometry, segmented shields, regional armor, distributed point defense, and AI-Vanguard defensive boundaries for owner review. Carrier and embarked-craft architecture JUDICATOR-CARRIER-001 v1.0 is STAGING and defines provisional naval aerospace organization, support craft, hosted-berth interfaces, Sentinel deployment methods, and launch/recovery doctrine for owner review. Field Court doctrine JUDICATOR-COURT-001 is CANON by direct owner ruling: the ship hosts an independent trial court with Field Judge Aveline Soryn holding full trial-level authority and seniority comparable to a U.S. federal district judge. Mobile Justice doctrine JUDICATOR-JUSTICE-001 is CANON: the Judicator projects Union justice beyond institutional distance under the limiting invariant 'unbounded reach; bounded authority.' Crew and daily-life architecture JUDICATOR-LIFE-001 v1.0 remains STAGING.",
+  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional, power, combat, carrier, and daily-life architecture retain STAGING fields except where selected details were promoted by the Dark Star Narrative Reconciliation Pass on 2026-07-22. Field Court pointer corrected to governing doctrine v1.1.",
   "class_hull_type": "supercarrier",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-07-22",
   "specifications": {
     "primary_weapons": [
       "Long-range plasma lances",
@@ -63,7 +64,8 @@
     ],
     "special_systems": [
       "AI-Vanguard countermeasures",
-      "Encrypted battle network"
+      "Encrypted battle network",
+      "Short-range personnel recovery lattice"
     ]
   },
   "specifications_certainty": "CANON",
@@ -83,6 +85,7 @@
   "crew_roster_note": "Senior staff per World Bible §4.2: Tann (CO), Voss (XO), Radek (Sentinel-Commander), Kovas (CSO), Veran (CMO), Kailo (Chief Engineer), Tavos (Tactical Ops & Gunnery). Elias Drayen (Marshal-Captain, Sentinel SpecOps) is EMBARKED rather than ship's company — see marshal_integration. Field Judge Aveline Soryn is a permanently assigned independent judicial officer and is represented under field_court rather than crew_ids.",
   "crew_approx_note": "RULING-JUDICATOR-CREW-COUNT (owner, 2026-07-21): ~12,000 GOVERNS. The Ship Registry v1.0 class baseline of 2,500 is superseded draft data for this vessel and is retained only on cls_judicator for lineage.",
   "promotion_pass_2": "Judicator Prime Promotion Pass — 2026-07-21",
+  "promotion_pass_3": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
   "hosted_asset_command_doctrine": {
     "doctrine_id": "JUDICATOR-HOST-001",
     "certainty": "CANON",
@@ -94,7 +97,7 @@
   },
   "functional_architecture": {
     "architecture_id": "JUDICATOR-ARCH-001",
-    "certainty": "STAGING",
+    "certainty": "MIXED",
     "version": "v1.1",
     "document_path": "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_FUNCTIONAL_ARCHITECTURE__v1.1__2026-07-21.md",
     "supersedes_document_path": "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_FUNCTIONAL_ARCHITECTURE__v1.0__2026-07-21.md",
@@ -103,6 +106,12 @@
       "maximum_beam_m": 760,
       "maximum_hull_depth_m": 340,
       "principal_pressurized_decks_approx": 84
+    },
+    "scale_certainty": {
+      "principal_pressurized_decks_approx": "CANON",
+      "length_km": "STAGING",
+      "maximum_beam_m": "STAGING",
+      "maximum_hull_depth_m": "STAGING"
     },
     "primary_zone_ids": [
       "JP-Z01",
@@ -126,11 +135,14 @@
       "Tactical interceptors",
       "AI-resistant command systems",
       "AI-Vanguard countermeasures",
-      "Encrypted battle network"
+      "Encrypted battle network",
+      "Dual independent flight spines",
+      "Ventral heavy mission bays",
+      "Approximately 84 principal pressurized decks"
     ],
-    "carrier_model": "Dual independent flight spines plus ventral heavy mission bays; tactical interceptors and a full Sentinel deployment wing are CANON, while exact capacities remain STAGING.",
+    "carrier_model": "Dual independent flight spines plus ventral heavy mission bays are CANON; tactical interceptors and a full Sentinel deployment wing are CANON; exact capacities remain STAGING.",
     "command_model": "Bridge, Combat Information Center, Flag Operations Center, Joint Operations Coordination Center, Marshal Operations Center, Sentinel Mission Control, cyberwarfare/network-defense command, and emergency battle bridge remain functionally distinct.",
-    "promotion_gate": "Owner review and CanonRec conflict scan required before dimensions, capacities, topology, weapon implementation, drive implementation, shield performance, armor performance, or network architecture become CANON."
+    "promotion_gate": "Owner review and CanonRec conflict scan remain required before unpromoted dimensions, capacities, detailed topology, drive implementation, shield performance, armor performance, or network architecture become CANON."
   },
   "propulsion_power_architecture": {
     "architecture_id": "JUDICATOR-POWER-001",
@@ -149,7 +161,7 @@
   },
   "combat_defense_architecture": {
     "architecture_id": "JUDICATOR-COMBAT-001",
-    "certainty": "STAGING",
+    "certainty": "MIXED",
     "version": "v1.0",
     "document_path": "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_COMBAT_DEFENSE__v1.0__2026-07-21.md",
     "canonical_anchors": [
@@ -159,30 +171,37 @@
       "Ablative armor plating",
       "AI-Vanguard countermeasures",
       "Encrypted battle network",
-      "AI-resistant command systems"
+      "AI-resistant command systems",
+      "Six primary plasma-lance installations: two forward axial and four arc lances"
     ],
-    "staged_weapons_model": "Six primary plasma-lance installations: two high-output forward axial lances and four lower-output arc lances; exact count, mounting, range, and performance remain STAGING.",
+    "promoted_weapons_model": "Six primary plasma-lance installations: two high-output forward axial lances and four lower-output arc lances. Exact range, yield, recharge, firing arcs, and performance remain STAGING.",
     "staged_shield_model": "Three functional shield layers with twelve independently managed combat sectors, regional reinforcement, local isolation, and controlled flight or firing corridors.",
     "staged_armor_model": "Twenty-four mapped armor districts using sacrificial exterior plating, thermal and fragmentation protection, and structural citadel armor with combat, campaign, and dock-level repair tiers.",
     "staged_point_defense_model": "Twenty-four independently controlled defense sectors capable of battle-networked, adjacent-cooperative, isolated, and manual degraded operation.",
     "staged_ai_boundary": "AI may coordinate immediate defense within approved rules but may not independently authorize strategic attack, redefine hostile categories, conceal engagements, or fire a plasma lance.",
     "combat_invariant": "Strategic fire, shield sacrifice, populated-world employment, and other consequential combat decisions remain attributable human command actions with immutable audit records.",
-    "promotion_gate": "Owner review and CanonRec conflict scan required before lance count and geometry, shield-sector count, armor districts, point-defense sectors, repair doctrine, fire profiles, AI permissions, or damage-state vocabulary become CANON."
+    "promotion_gate": "Owner review and CanonRec conflict scan remain required before shield-sector count, armor districts, point-defense sectors, detailed repair doctrine, fire profiles, AI permissions, damage-state vocabulary, or lance performance become CANON."
   },
   "carrier_embarked_craft_architecture": {
     "architecture_id": "JUDICATOR-CARRIER-001",
-    "certainty": "STAGING",
+    "certainty": "MIXED",
     "version": "v1.0",
     "document_path": "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_CARRIER_EMBARKED_CRAFT__v1.0__2026-07-21.md",
     "canonical_anchors": [
       "Supercarrier hull",
       "Tactical interceptors",
       "Full Sentinel deployment wing",
-      "Hosted-asset institutional independence"
+      "Hosted-asset institutional independence",
+      "Dual independent flight spines",
+      "Ventral heavy mission bays",
+      "Twelve hardened rapid-deployment cells",
+      "Short-range personnel recovery lattice"
     ],
     "staged_combat_air_group": "144 naval combat craft organized as six 16-craft tactical-interceptor squadrons and three 16-craft multirole or strike squadrons; exact quantities and organization remain STAGING.",
     "staged_support_craft": "36 shuttle, medevac, or utility craft; 12 boarding or rescue cutters; 8 heavy transports; 4 command or diplomatic shuttles.",
     "staged_hosted_berths": "Twelve independent berths provisionally allocated as eight long-duration Ranger or Marshal gunboat berths, two intelligence or special-operations berths, and two flexible specialist berths.",
+    "promoted_sentinel_deployment_model": "Twelve hardened rapid-deployment cells may launch Sentinel vacuum-insertion teams, rescue craft, interceptors, or other mission-loaded rapid-response assets; exact simultaneous throughput and internal arrangement remain STAGING.",
+    "promoted_recovery_lattice": "Short-range personnel recovery lattice using tractor emitters, tether projectors, recovery drones, and suit-beacon locks. It is line-of-sight and range limited, optimized for personnel and light objects, and degraded by shields, jamming, high relative velocity, and major spatial distortion.",
     "staged_recurring_locations": [
       "JP-HMB-R07",
       "JP-ENC-R03",
@@ -190,13 +209,13 @@
       "JP-ENC-DIP02"
     ],
     "command_invariant": "Mission authorization remains with each craft's parent chain; Judicator flight control governs safe launch, recovery, shield corridors, point-defense deconfliction, and emergency diversion.",
-    "promotion_gate": "Owner review and CanonRec conflict scan required before craft counts, squadron structure, support-craft quantities, berth allocations, Sentinel deployment methods, recurring location IDs, readiness states, or recovery priorities become CANON."
+    "promotion_gate": "Owner review and CanonRec conflict scan remain required before craft counts, squadron structure, support-craft quantities, berth allocations, detailed deployment-cell arrangement, readiness states, recovery-lattice range, or recovery priorities become CANON."
   },
   "field_court": {
     "court_entity_id": "org_judicator_prime_field_court",
     "doctrine_id": "JUDICATOR-COURT-001",
     "certainty": "CANON",
-    "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.0__2026-07-21.md",
+    "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.1__2026-07-21.md",
     "presiding_office_id": "office_judicator_field_judge",
     "presiding_judge_entity_id": "char_aveline_soryn",
     "roster_status": "CLOSED — Aveline Soryn appointed and canon-locked",
@@ -251,5 +270,16 @@
       "JP-ENC-RQ03"
     ],
     "promotion_gate": "Owner review and CanonRec conflict scan required before population allocations, watch schedule, departmental organization, security model, quarters, messes, cultural norms, or recurring location IDs become CANON."
+  },
+  "selected_architecture_promotions": {
+    "certainty": "CANON",
+    "source": "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md",
+    "fields": [
+      "Approximately 84 principal pressurized decks",
+      "Dual independent flight spines and ventral heavy mission bays",
+      "Six primary plasma-lance installations: two axial and four arc lances",
+      "Twelve hardened rapid-deployment cells",
+      "Short-range personnel recovery lattice"
+    ]
   }
 }
