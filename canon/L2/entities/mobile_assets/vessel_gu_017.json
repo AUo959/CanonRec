@@ -1,0 +1,51 @@
+{
+  "canonical_id": "vessel_gu_017",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-GU-017",
+  "name": "G.U.S. Shieldwake",
+  "aliases": [
+    "Shieldwake",
+    "the Shieldwake"
+  ],
+  "class_id": "CLASS-VIGILANT-01",
+  "class_entity_id": "cls_vigilant",
+  "class_hull_type": "medium escort destroyer",
+  "allegiance": "galactic_union",
+  "commanding_officer_id": "char_corin_hale",
+  "status": "active",
+  "certainty": "CANON",
+  "narrative_significance": "notable",
+  "location_type": "moving",
+  "home_port": null,
+  "task_group_assignment": {
+    "formation_entity_id": "org_judicator_prime_task_group",
+    "slot_id": "JPTG-ESCORT-02",
+    "status": "standing_assignment",
+    "certainty": "CANON"
+  },
+  "operational_identity": {
+    "role_emphasis": "Aggressive interception, independent patrol, pursuit disruption, exposed-craft escort, and rapid response beyond the flagship's immediate screen.",
+    "ship_character": "The Shieldwake is associated with forward pressure, fast repositioning, and a willingness to operate at the edge of the task group's support envelope while preserving a defined route back to the protected formation.",
+    "formation_preference": "Often used where an early intercept, independent investigation support, or distant recovery action can prevent a threat from reaching the Judicator group.",
+    "certainty": "CANON"
+  },
+  "command_relationship": {
+    "task_group_commander_id": "alric_tann",
+    "task_group_rule": "Captain Alric Tann directs task-group operations; Captain Corin Hale retains internal command, discipline, readiness, safety, and damage-control authority aboard the Shieldwake.",
+    "hosted_asset_boundary": "The Shieldwake may support Rangers, Marshals, Sentinels, diplomatic craft, and court-related movements without assuming their institutional mission authority."
+  },
+  "placement_rule": "No fixed coordinates. Position must be asserted per event with valid movement, formation, patrol, detachment, pursuit, recovery, or emergency-separation continuity.",
+  "crew_approx": null,
+  "specifications": null,
+  "specifications_note": "Class-level canonical capabilities and staged technical envelope are defined by cls_vigilant. No vessel-specific dimensions, complement, armament, or performance have been promoted.",
+  "source_refs": [
+    {
+      "source_id": "owner_authorized_task_group_identity_pass_2026_07_21",
+      "path": "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+    }
+  ],
+  "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Name and vessel ID are collision-free against CanonRec and AUo959/aurora-cloudbank-symbolic at admission."
+}
