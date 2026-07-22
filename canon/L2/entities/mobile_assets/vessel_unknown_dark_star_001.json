@@ -1,0 +1,43 @@
+{
+  "canonical_id": "vessel_unknown_dark_star_001",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-UNKNOWN-DARKSTAR-001",
+  "name": "Dark Star Vessel",
+  "aliases": [
+    "the concealed vessel",
+    "the prison ship",
+    "the vessel inside Carpathia"
+  ],
+  "designation_status": "Union operational designation; true identity and classification unknown.",
+  "class_id": null,
+  "allegiance": "unknown",
+  "certainty": "CANON",
+  "status": "active_and_contested_at_record_end",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "narrative_significance": "Concealed vessel or containment architecture at the center of the Dark Star incident.",
+  "canon_observations": [
+    "Was concealed within or behind the mining-vessel profile presented as M.V. Carpathia.",
+    "Used external mining structure and sensor shaping to produce a false internal profile.",
+    "Displayed segmented internal signal and material domains of approximately thirty-seven meters in observed areas.",
+    "Contained suspended captives from multiple populations and eras, including an older Marshal prisoner.",
+    "Its hull or internal material could reshape passages, isolate signals, animate armor and bodies, and imitate observed systems.",
+    "Contained a central phenomenon operationally designated the dark star.",
+    "Reacted to the Third Silence artifact and alternating Sentinel/Ranger field frequencies.",
+    "Was boarded by the Third Measure crew, Kestrel Detachment, and Shadow Fleet personnel."
+  ],
+  "staging_interpretations": [
+    "The vessel is definitively a prison.",
+    "The captives function as intentional containment locks.",
+    "The vessel possesses a unified consciousness.",
+    "The dark star is a living entity.",
+    "The vessel was created by the Shadow Fleet.",
+    "The apparent thirty-seven-meter segmentation is globally uniform."
+  ],
+  "carpathia_boundary": "M.V. Carpathia is the observed mining-vessel identity and external presentation. It is not yet established whether Carpathia was an independent ship, a constructed shell, a captured vessel, or a false registry attached to the concealed architecture.",
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json",
+    "canon/L2/entities/equipment/artifact_third_silence.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}
