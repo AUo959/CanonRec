@@ -1,0 +1,45 @@
+{
+  "entity_id": "fleet_shadow_fleet",
+  "entity_kind": "organization",
+  "name": "Shadow Fleet",
+  "aliases": [
+    "the Shadow Fleet",
+    "Lethan hostile fleet"
+  ],
+  "certainty": "CANON",
+  "status": "active_withdrawal_at_record_end",
+  "layer": "L2",
+  "org_type": "fleet",
+  "faction_bindings": [],
+  "designation_status": "Union operational designation; not confirmed as the fleet's self-name.",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "canon_observations": [
+    "Operated multiple vessels with cloaking, signature displacement, or related concealment capability.",
+    "Used hit-and-run fire, coordinated approach geometry, boarding forces, and distributed command networking.",
+    "Fielded a command flagship operationally designated Crown Dark.",
+    "Deployed personnel carrying an isolation artifact translated as the Third Silence.",
+    "Continued operations near the concealed vessel after Crown Dark's collapse, though centralized coordination degraded.",
+    "At least some personnel identified themselves through a translated phrase rendered as Those Who Remained After the First Dark."
+  ],
+  "unknowns": [
+    "true polity or faction name",
+    "origin",
+    "territorial base",
+    "fleet size",
+    "species composition",
+    "political structure",
+    "relationship to the dark star",
+    "whether all ships and crews share one allegiance",
+    "whether Those Who Remained After the First Dark is a polity, oath, survivor category, or translation artifact"
+  ],
+  "command_model": {
+    "observed": "Crown Dark coordinated fleet movement through distributed living operators and short-range command transmissions.",
+    "boundary": "The existence of distributed command does not establish that every person or vessel participates in a single collective consciousness."
+  },
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json",
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}
