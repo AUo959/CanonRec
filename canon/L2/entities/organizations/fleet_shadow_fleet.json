@@ -7,7 +7,7 @@
     "Lethan hostile fleet"
   ],
   "certainty": "CANON",
-  "status": "active_withdrawal_at_record_end",
+  "status": "withdrawn_from_lethan_active_strength_unknown",
   "layer": "L2",
   "org_type": "fleet",
   "faction_bindings": [],
@@ -15,31 +15,49 @@
   "first_confirmed_event_id": "event_dark_star_incident_4718_224",
   "canon_observations": [
     "Operated multiple vessels with cloaking, signature displacement, or related concealment capability.",
-    "Used hit-and-run fire, coordinated approach geometry, boarding forces, and distributed command networking.",
+    "Used hit-and-run fire, coordinated approach geometry, boarding forces, distributed command networking, decoys, and sensor charges.",
     "Fielded a command flagship operationally designated Crown Dark.",
     "Deployed personnel carrying an isolation artifact translated as the Third Silence.",
     "Continued operations near the concealed vessel after Crown Dark's collapse, though centralized coordination degraded.",
-    "At least some personnel identified themselves through a translated phrase rendered as Those Who Remained After the First Dark."
+    "At least some personnel identified themselves through a translated phrase rendered as Those Who Remained After the First Dark.",
+    "Withdrew from the Lethan system after the sensor flare exposed concealment and Crown Dark was lost.",
+    "Detached six vessels toward Continuance during the withdrawal; Watchfire and the bulker's defensive assets repelled the attack.",
+    "Used multiple transition vectors, false wakes, and sensor charges to cover its retreat.",
+    "Surviving fleet strength, destination, and regrouping posture remain unknown."
+  ],
+  "motive_leads_staging": [
+    "Shadow personnel state that the fleet entered Lethan to return what had been removed from the concealed vessel.",
+    "Eira states that the fleet also intended to recover minds carrying an open pattern.",
+    "Shadow personnel describe the Third Silence as one of three commands or isolation artifacts.",
+    "The fleet appears to regard observation and memory as possible transmission or exposure routes.",
+    "The fleet feared the sensor flare or recognition event and treated its occurrence as a reason for rapid withdrawal.",
+    "The fleet may possess prior experience with multiple related Dark Star phenomena or structures."
   ],
   "unknowns": [
     "true polity or faction name",
     "origin",
     "territorial base",
-    "fleet size",
+    "surviving fleet size",
+    "retreat destination",
     "species composition",
     "political structure",
     "relationship to the dark star",
     "whether all ships and crews share one allegiance",
-    "whether Those Who Remained After the First Dark is a polity, oath, survivor category, or translation artifact"
+    "whether Those Who Remained After the First Dark is a polity, oath, survivor category, or translation artifact",
+    "whether the fleet's stated containment purpose is complete, accurate, or shared by all vessels",
+    "whether the fleet will return to Lethan or target the seventeen exposed vectors"
   ],
   "command_model": {
     "observed": "Crown Dark coordinated fleet movement through distributed living operators and short-range command transmissions.",
+    "post_crown_dark": "Central coordination degraded after Crown Dark's collapse; surviving vessels retained enough local autonomy to cover withdrawal, attack Continuance, deploy decoys, and escape through multiple transition vectors.",
     "boundary": "The existence of distributed command does not establish that every person or vessel participates in a single collective consciousness."
   },
   "source_refs": [
     "canon/L2/events/event_dark_star_incident_4718_224.json",
-    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md"
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md",
+    "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_CHAPTER_03_THIRD_SILENCE__v1.0__2026-07-22.md"
   ],
-  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
-  "locked_at": "2026-07-22"
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22; Third Silence Narrative Audit — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "updated_at": "2026-07-22"
 }
