@@ -1,0 +1,48 @@
+{
+  "entity_id": "org_high_judiciary_galactic_tribunal",
+  "entity_kind": "organization",
+  "name": "High Judiciary & Galactic Tribunal",
+  "aliases": [
+    "Galactic Tribunal",
+    "High Tribunal",
+    "the Tribunal"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "org_type": "supreme_judiciary",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "role": "Highest adjudicative authority of the Galactic Union and superior court for Union constitutional, interstellar, appellate, and extraordinary matters.",
+  "jurisdiction": "Final or superior Union jurisdiction over constitutional disputes, interstellar law, war crimes, AI rights, appeals from deployed and planetary Union courts, and review of matters lawfully reaching the Union judiciary.",
+  "authority_model": {
+    "trial_relationship": "Trial-level proceedings are ordinarily conducted by planetary, sector, specialist, or deployed Union courts, including the Judicator Prime Field Court.",
+    "appellate_relationship": "Receives appeals and extraordinary review from the Judicator Prime Field Court and other lawfully subordinate Union courts.",
+    "planetary_relationship": "May bind planetary courts in matters within Union jurisdiction; enforcement can be resisted by breakaway factions or authorities outside effective Union reach.",
+    "judicial_council_relationship": "The Judicial Council administers appointments, warrants, oversight, and judiciary operations; the High Judiciary & Galactic Tribunal is the superior adjudicative body and does not take case outcomes from the Council.",
+    "independence": "Judicial outcomes are not subordinate to the Chancellor, Union Senate, Fleet Command, Union Marshals, Sentinel High Command, or task-force command."
+  },
+  "subordinate_or_reviewed_courts": [
+    {
+      "court_entity_id": "org_judicator_prime_field_court",
+      "relationship": "appellate and extraordinary review",
+      "certainty": "CANON"
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "owner_recovered_judiciary_context_2026_01_27",
+      "note": "Owner-established scope: highest legal authority for interstellar law, constitutional disputes, war crimes, and AI rights."
+    },
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_field_court",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.0__2026-07-21.md"
+    }
+  ],
+  "composition": null,
+  "leadership": null,
+  "location_type": null,
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Entity closes the previously documented structural gap. Exact bench composition, appointment rules for Tribunal members, seat location, internal chambers, and named incumbents remain open until separately admitted."
+}
