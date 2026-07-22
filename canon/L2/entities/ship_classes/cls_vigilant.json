@@ -36,8 +36,24 @@
       "JPTG-ESCORT-01",
       "JPTG-ESCORT-02"
     ],
+    "assigned_vessels": [
+      {
+        "vessel_entity_id": "vessel_gu_016",
+        "name": "G.U.S. Watchfire",
+        "commanding_officer_id": "char_mara_venn",
+        "slot_id": "JPTG-ESCORT-01",
+        "certainty": "CANON"
+      },
+      {
+        "vessel_entity_id": "vessel_gu_017",
+        "name": "G.U.S. Shieldwake",
+        "commanding_officer_id": "char_corin_hale",
+        "slot_id": "JPTG-ESCORT-02",
+        "certainty": "CANON"
+      }
+    ],
     "certainty": "CANON",
-    "note": "Both standing destroyer slots use the Vigilant-Class unless a later owner-authorized replacement event changes the assignment. Individual vessels remain unminted."
+    "note": "Both standing Judicator escort slots use the Vigilant-Class. Replacement requires a later owner-authorized event."
   },
   "class_boundaries": {
     "obsidian_comparison": "Unlike the Obsidian-Class stealth destroyer, the Vigilant is a visible, general-purpose fleet escort optimized for sustained screening, interception, convoy protection, and independent patrol rather than black operations or deep-cover reconnaissance.",
@@ -60,11 +76,15 @@
   "source_refs": [
     {
       "source_id": "owner_ruling_2026_07_21_judicator_new_escort_class",
-      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.1__2026-07-21.md"
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.2__2026-07-21.md"
+    },
+    {
+      "source_id": "task_group_vessel_roster",
+      "path": "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
     }
   ],
-  "promotion_pass": "Judicator Escort and Bulker Class Pass — 2026-07-21",
+  "promotion_pass": "Judicator Escort and Bulker Class Pass — 2026-07-21; Judicator Task Group Vessel Identity Pass — 2026-07-21",
   "locked_at": "2026-07-21",
   "updated_at": "2026-07-21",
-  "notes": "Class identity, role, canonical capability families, and assignment to both Judicator escort slots are owner-authorized CANON. Exact dimensions, complement, weapon counts, drive implementation, and embarked-craft quantities remain STAGING."
+  "notes": "Class identity, role, canonical capability families, and the Watchfire/Shieldwake assignments are owner-authorized CANON. Exact dimensions, complement, weapon counts, drive implementation, and embarked-craft quantities remain STAGING."
 }
