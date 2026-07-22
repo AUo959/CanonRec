@@ -34,12 +34,13 @@
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_FUNCTIONAL_ARCHITECTURE__v1.1__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_PROPULSION_POWER__v1.0__2026-07-21.md",
     "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_COMBAT_DEFENSE__v1.0__2026-07-21.md",
+    "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_CARRIER_EMBARKED_CRAFT__v1.0__2026-07-21.md",
     "reports (root): judicator_prime_context_report__2026-07-21.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
-  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional architecture JUDICATOR-ARCH-001 v1.1 remains STAGING and treats promoted weapons, defenses, propulsion, support-craft, and cyberwarfare systems as binding design anchors. Propulsion and power architecture JUDICATOR-POWER-001 v1.0 is STAGING and defines a paired-but-isolatable dual-core model, distributed generation, finite strategic-power tradeoffs, and emergency-jump consequences for owner review. Combat and defense architecture JUDICATOR-COMBAT-001 v1.0 is STAGING and defines provisional plasma-lance geometry, segmented shields, regional armor, distributed point defense, and AI-Vanguard defensive boundaries for owner review.",
+  "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional architecture JUDICATOR-ARCH-001 v1.1 remains STAGING and treats promoted weapons, defenses, propulsion, support-craft, and cyberwarfare systems as binding design anchors. Propulsion and power architecture JUDICATOR-POWER-001 v1.0 is STAGING and defines a paired-but-isolatable dual-core model, distributed generation, finite strategic-power tradeoffs, and emergency-jump consequences for owner review. Combat and defense architecture JUDICATOR-COMBAT-001 v1.0 is STAGING and defines provisional plasma-lance geometry, segmented shields, regional armor, distributed point defense, and AI-Vanguard defensive boundaries for owner review. Carrier and embarked-craft architecture JUDICATOR-CARRIER-001 v1.0 is STAGING and defines provisional naval aerospace organization, support craft, hosted-berth interfaces, Sentinel deployment methods, and launch/recovery doctrine for owner review.",
   "class_hull_type": "supercarrier",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
   "updated_at": "2026-07-21",
@@ -164,5 +165,28 @@
     "staged_ai_boundary": "AI may coordinate immediate defense within approved rules but may not independently authorize strategic attack, redefine hostile categories, conceal engagements, or fire a plasma lance.",
     "combat_invariant": "Strategic fire, shield sacrifice, populated-world employment, and other consequential combat decisions remain attributable human command actions with immutable audit records.",
     "promotion_gate": "Owner review and CanonRec conflict scan required before lance count and geometry, shield-sector count, armor districts, point-defense sectors, repair doctrine, fire profiles, AI permissions, or damage-state vocabulary become CANON."
+  },
+  "carrier_embarked_craft_architecture": {
+    "architecture_id": "JUDICATOR-CARRIER-001",
+    "certainty": "STAGING",
+    "version": "v1.0",
+    "document_path": "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_CARRIER_EMBARKED_CRAFT__v1.0__2026-07-21.md",
+    "canonical_anchors": [
+      "Supercarrier hull",
+      "Tactical interceptors",
+      "Full Sentinel deployment wing",
+      "Hosted-asset institutional independence"
+    ],
+    "staged_combat_air_group": "144 naval combat craft organized as six 16-craft tactical-interceptor squadrons and three 16-craft multirole or strike squadrons; exact quantities and organization remain STAGING.",
+    "staged_support_craft": "36 shuttle, medevac, or utility craft; 12 boarding or rescue cutters; 8 heavy transports; 4 command or diplomatic shuttles.",
+    "staged_hosted_berths": "Twelve independent berths provisionally allocated as eight long-duration Ranger or Marshal gunboat berths, two intelligence or special-operations berths, and two flexible specialist berths.",
+    "staged_recurring_locations": [
+      "JP-HMB-R07",
+      "JP-ENC-R03",
+      "JP-ENC-EV04",
+      "JP-ENC-DIP02"
+    ],
+    "command_invariant": "Mission authorization remains with each craft's parent chain; Judicator flight control governs safe launch, recovery, shield corridors, point-defense deconfliction, and emergency diversion.",
+    "promotion_gate": "Owner review and CanonRec conflict scan required before craft counts, squadron structure, support-craft quantities, berth allocations, Sentinel deployment methods, recurring location IDs, readiness states, or recovery priorities become CANON."
   }
 }
