@@ -23,9 +23,19 @@
     "vessel_gu_017",
     "vessel_gu_018",
     "vessel_gu_019",
+    "vessel_unknown_dark_star_001",
+    "vessel_shadow_001",
     "org_union_marshals",
     "org_sentinel_high_command",
-    "fleet_shadow_fleet"
+    "fleet_shadow_fleet",
+    "char_tessa_korr",
+    "char_iven_raal",
+    "char_maelin_saye",
+    "char_eira_valkyrie",
+    "char_calder_vey"
+  ],
+  "artifact_refs": [
+    "artifact_third_silence"
   ],
   "operational_summary": "The Judicator Prime Task Group responded to an apparent mining-vessel distress event in the Lethan system, encountered cloaked hostile ships and an approaching unidentified fleet, launched a forward naval attack, deployed a Ranger-Sentinel boarding team into the concealed vessel, and conducted a separate Sentinel raid against the hostile command flagship operationally designated Crown Dark.",
   "canonical_sequence": [
