@@ -4,16 +4,20 @@ on:
   pull_request:
     paths:
       - "canon/L2/entities/**/*.json"
+      - "canon/L2/registries/L2_NAMING_ADMISSION_POLICY__v1.0__2026-07-22.md"
       - "aurora-canon-reconciler/scripts/export_name_registry.py"
       - "aurora-canon-reconciler/scripts/validate_naming_receipts.py"
+      - "aurora-canon-reconciler/tests/test_naming_gate.py"
       - "aurora-canon-reconciler/references/l2_naming_receipt_schema.json"
       - ".github/workflows/l2-name-admission-gate.yml"
   push:
     branches: [main]
     paths:
       - "canon/L2/entities/**/*.json"
+      - "canon/L2/registries/L2_NAMING_ADMISSION_POLICY__v1.0__2026-07-22.md"
       - "aurora-canon-reconciler/scripts/export_name_registry.py"
       - "aurora-canon-reconciler/scripts/validate_naming_receipts.py"
+      - "aurora-canon-reconciler/tests/test_naming_gate.py"
       - "aurora-canon-reconciler/references/l2_naming_receipt_schema.json"
       - ".github/workflows/l2-name-admission-gate.yml"
 
@@ -35,7 +39,9 @@ jobs:
       - name: Run naming gate unit tests
         run: |
           PYTHONPATH=aurora-canon-reconciler/scripts \
-            python -m unittest aurora-canon-reconciler/tests/test_naming_gate.py
+            python -m unittest discover \
+              -s aurora-canon-reconciler/tests \
+              -p 'test_naming_gate.py'
 
       - name: Export current L2 name registry
         run: |
@@ -61,7 +67,7 @@ jobs:
           fi
           mapfile -t files < <(
             git diff --diff-filter=A --name-only "$BASE_SHA" "$HEAD_SHA" \
-              -- 'canon/L2/entities/**/*.json'
+              -- ':(glob)canon/L2/entities/**/*.json'
           )
           printf '%s\n' "${files[@]}" > /tmp/added_l2_entities.txt
           echo "count=${#files[@]}" >> "$GITHUB_OUTPUT"
