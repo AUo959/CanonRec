@@ -1,0 +1,42 @@
+{
+  "entity_id": "polity_sythrex_conclave",
+  "entity_kind": "polity",
+  "subtype": "precursor_civilization",
+  "name": "Sythrex Conclave",
+  "aliases": [
+    "The Bio-Ascendants"
+  ],
+  "certainty": "STAGING",
+  "status": "extinct",
+  "faction_bindings": [],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "era": "precursor (predates the current galactic era)",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_precursor_codex",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)"
+  ],
+  "promotion_pass": "Precursor / Dyson Sphere Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Genetic Perfectionists. Mastered genetic engineering — created entire ecosystems and possibly uplifted lesser species; left behind massive seed vaults holding organisms extinct everywhere else. May have been wiped out by their own creations (hostile specialized bioforms found in their abandoned habitats). Status extinct.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Sythrex Conclave\" preserved verbatim from cited precursor-codex / map source.",
+    "authority": "Precursor / Dyson Sphere Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)",
+      "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md §2.5 Dyson Sphere Frontier"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "loc_dyson_twin_spheres",
+  "entity_kind": "location",
+  "name": "The Dyson Sphere Twin Systems",
+  "aliases": [
+    "The Twin Dyson Spheres",
+    "Dyson Frontier megastructures"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": "precursor_site",
+  "region_id": "loc_zone_dyson_sphere_frontier",
+  "canonical_position_status": "staging",
+  "builder_polity_id": "polity_orak_thuun",
+  "source_refs": [
+    {
+      "source_id": "gumas_l2_map",
+      "path": "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md §2.5 Dyson Sphere Frontier"
+    },
+    {
+      "source_id": "v2_2_6b_precursor_codex",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md §2.5 Dyson Sphere Frontier",
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)"
+  ],
+  "promotion_pass": "Precursor / Dyson Sphere Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "map_primacy_note": "Zone-attested by the map (§2.5: \"Two abandoned Dyson spheres, twin systems\") and anchored to loc_zone_dyson_sphere_frontier, but not yet a §8 placed-system entry — canonical_position_status=staging pending map §8 placement.",
+  "notes": "The two abandoned Dyson spheres (twin systems) of the Dyson Sphere Frontier — the galaxy's foremost precursor megastructures, built by the Orak-Thuun (Celestial Engineers, polity_orak_thuun). Lethal approach conditions; derelict-choked orbital volumes; no sovereign state — contested by scavenger fleets and pirate confederations. The map names it the \"Forbidden prize\" and cites it as the reason no hegemon dominates the galaxy. Forced adjacency (map §5): Contested Frontier ↔ Dyson Sphere Frontier.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"The Dyson Sphere Twin Systems\" preserved verbatim from cited precursor-codex / map source.",
+    "authority": "Precursor / Dyson Sphere Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)",
+      "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md §2.5 Dyson Sphere Frontier"
+    ]
+  }
+}

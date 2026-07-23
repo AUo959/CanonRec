@@ -24,7 +24,7 @@
   "status": "active",
   "faction_bindings": [],
   "tags": [
-    "Confirm whether \u201cPrime\u201d is planet vs system / precursor-linked; staging claim",
+    "Confirm whether “Prime” is planet vs system / precursor-linked; staging claim",
     "precursor site / restricted",
     "protected precursor site",
     "site / installation"
@@ -51,7 +51,10 @@
   "location_type": "precursor site / restricted",
   "region_id": null,
   "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Dual source refs; field conflict resolved: location_type = precursor site / restricted.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "builder_polity_id": "polity_orak_thuun",
+  "notes": " Builder attribution (2026-07-21): Orak-Thuun (Celestial Engineers, polity_orak_thuun) precursor site — their technology still functions here.",
+  "updated_at": "2026-07-21"
 }
