@@ -46,5 +46,7 @@
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)",
       "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
     ]
-  }
+  },
+  "primary_species_id": "species_nythran",
+  "updated_at": "2026-07-21"
 }

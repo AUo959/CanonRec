@@ -1,0 +1,38 @@
+{
+  "entity_id": "species_zyphari",
+  "entity_kind": "species",
+  "name": "Zyphari",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "extant",
+  "faction_bindings": [],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "primary_polity_id": "zyphari_compact",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_species_codex",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (species/civilization codex)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (species/civilization codex)"
+  ],
+  "promotion_pass": "Species Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Insectoid, highly communal beings emphasizing long-term investment and economic dominance; the dominant species of the Zyphari corporate confederation (which is itself multispecies). Primary polity: Zyphari Compact.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Species name \"Zyphari\" preserved verbatim from the cited species/civilization codex.",
+    "authority": "Species Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (species/civilization codex)"
+    ]
+  }
+}
