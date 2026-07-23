@@ -1,0 +1,50 @@
+{
+  "entity_id": "polity_harkon_sovereignty",
+  "entity_kind": "polity",
+  "subtype": "major_civilization",
+  "name": "Harkon Sovereignty",
+  "aliases": [
+    "Martial State & Isolationist Power"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "harkon_sovereignty"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_polity",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "species": "Harkoni — reptilian bipeds with dense muscle structure and hardened physiology suited to extreme environments",
+  "government": "Authoritarian yet stable; led by a High Strategos who must prove worth through tactical brilliance rather than bloodline or wealth. Factional split: Loyalists (stability through strength) vs isolationists.",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_major_civ_codex",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)"
+    },
+    {
+      "source_id": "gumas_timeline",
+      "path": "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)",
+    "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
+  ],
+  "promotion_pass": "Major Polity Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "One of the seven major galactic civilizations; militaristic society valuing strategic planning, discipline, and honor, internally divided on Union engagement. Timeline-attested: the Velar-Harkon Wars (First Civilization Expansion era).",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Civilization name \"Harkon Sovereignty\" preserved verbatim from the cited Major Civilizations codex and the canonical timeline.",
+    "authority": "Major Polity Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)",
+      "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
+    ]
+  }
+}

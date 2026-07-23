@@ -1,0 +1,44 @@
+{
+  "entity_id": "polity_zyphari_compact",
+  "entity_kind": "polity",
+  "subtype": "major_civilization",
+  "name": "Zyphari Compact",
+  "aliases": [
+    "Corporate Oligarchy & Economic Superpower"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "zyphari_compact"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_polity",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "species": "Zyphari — insectoid, highly communal beings emphasizing long-term investment and economic dominance (multispecies membership)",
+  "government": "Corporate oligarchy: a loose confederation of megacorporations. Hierarchy: Trade Lords (CEOs more influential than some Union senators), Guild Alliances (mid-level corps), Corporate Resistance (labor/activist/separatist entrepreneurs).",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_major_civ_codex",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)"
+  ],
+  "promotion_pass": "Major Polity Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "One of the seven major galactic civilizations; immense economic influence within the Galactic Union. Faction id zyphari_compact (engine-linked). Map: holds the Primary Trade Nexus (Union Core ↔ Zyphari Primary Trade Nexus forced adjacency, map §5).",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Civilization name \"Zyphari Compact\" preserved verbatim from the cited Major Civilizations codex.",
+    "authority": "Major Polity Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)"
+    ]
+  }
+}
