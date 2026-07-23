@@ -3,8 +3,9 @@
   "schema": "charforge-identity-v1.0",
   "name": "Supreme Commander Rhaegon Torr-Kai",
   "aliases": [
+    "Rhaegon",
     "Rhaegon Torr-Kai",
-    "Rhaegon"
+    "Rhaegon Voss"
   ],
   "role": "Supreme Military Commander of the Separatist Confederation",
   "faction_id": "separatist_confed",
@@ -14,6 +15,8 @@
     "scenarios.py",
     "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
   ],
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "notes": "Military leader of the Separatist Confederation. Documented in Roster 18.3. Highest L2 crisis escalation score at Turn 184 (sunk_cost_fallacy modifier: 0.386)."
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
+  "notes": "Military leader of the Separatist Confederation. Documented in Roster 18.3. Highest L2 crisis escalation score at Turn 184 (sunk_cost_fallacy modifier: 0.386).",
+  "alias_drift_note": "Draft surname \"Voss\" (sim-log \"Separatist Diplomatic Summit\") = canonical \"Torr-Kai\", same Separatist Supreme-Commander office. Registered by L2 Character Salvage Pass 2026-07-21.",
+  "updated_at": "2026-07-21"
 }

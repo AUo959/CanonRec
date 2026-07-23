@@ -5,7 +5,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "8fbe2c7631a3d4648f56dceeed18f4aeecb78f528d02df4b3296e8db220080c0"
+      "sha256": "e63673a5eff815c689b5e2379e4c8ac9bbb0de66395bc4817db77a9dd138de00"
     },
     {
       "path": "traits.json",
@@ -27,5 +27,7 @@
       "path": "runtime.py",
       "sha256": "4db4a35e924992aebae737e173079d316864ee3c59758005e5caecda6e87e614"
     }
-  ]
+  ],
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "alias drift enrichment (L2 Character Salvage Pass); hashes re-derived"
 }

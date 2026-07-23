@@ -1,0 +1,47 @@
+{
+  "entity_kind": "character",
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Character Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "archives (root): Complete Archive 4_19/…/Aurora_GUMAS_Knowledge_Bundle.md (GUMAS character-profile block)",
+    "archives (root): ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt (sim logs)",
+    "reports (root): l2_character_salvage_audit__2026-07-21.md"
+  ],
+  "entity_id": "char_haden_korr",
+  "name": "Haden Korr",
+  "aliases": [
+    "Admiral Haden Korr"
+  ],
+  "certainty": "UNCONFIRMED",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_naval_forces"
+  ],
+  "role": "Fleet Admiral, Union Navy",
+  "allegiance": "Union Loyalist, but skeptical of Zylox’s leadership",
+  "traits": [
+    "Pragmatic",
+    "Militarist",
+    "Anti-Corporate"
+  ],
+  "reputation": "+5 Military Trust, -7 Senate Approval, +2 Separatist Relations",
+  "relationships": "Rivalry with General Kael Durn; close friend of Vael (Saros); mutual respect for Captain Alric Tann",
+  "recent_actions": "Advocated for military expansion; opposed the AI alliance",
+  "decision_style": "Pragmatic militarist; anti-corporate posture",
+  "tags": [
+    "galactic_union",
+    "union_navy",
+    "example_derived",
+    "l2_char_salvage_2026_07_21"
+  ],
+  "notes": "Recorded at UNCONFIRMED (owner ruling 2026-07-21). His profile block appears in the archive under a header explicitly labeled \"AI-Generated Character\" and is framed as a demonstration of on-demand character generation (\"Characters are generated when needed, rather than stored permanently\"), NOT an established standing actor. Retained as a record because the profile is coherent and fills the Union Navy fleet-admiral slot, but not promotable above UNCONFIRMED until owner affirms him as canon. No capsule built. Relationship names resolve: Durn=kael_durn, Vael=vael_saros, Tann=alric_tann."
+}

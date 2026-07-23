@@ -1,0 +1,21 @@
+{
+  "canonical_id": "char_eriana_vos",
+  "schema": "charforge-identity-v1.0",
+  "name": "Eriana Vos",
+  "aliases": [],
+  "role": "Intelligence Chief of the PMC Syndicate",
+  "faction_id": "pmc_syndicate",
+  "certainty": "STAGING",
+  "status": "active",
+  "doc_sources": [
+    "canon/L2/entities/characters/char_eriana_vos.json",
+    "reports (root): l2_character_salvage_audit__2026-07-21.md"
+  ],
+  "promotion_pass": "L2 Character Salvage Pass — Capsule Build — 2026-07-21",
+  "notes": "Capsule built from the recovered GUMAS character profile (STAGING). Unestablished detail deliberately absent.",
+  "location_binding": {
+    "type": "organization",
+    "target_id": "org_the_black_hand",
+    "basis": "PMC Syndicate intelligence apparatus; bound to the nearest recorded PMC covert organization (org_the_black_hand) — no dedicated PMC intelligence-division record exists"
+  }
+}

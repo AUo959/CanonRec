@@ -1,0 +1,18 @@
+{
+  "canonical_id": "char_eriana_vos",
+  "built_at": "2026-07-21T00:00:00Z",
+  "certainty": "STAGING",
+  "promotion_pass": "L2 Character Salvage Pass \u2014 Capsule Build \u2014 2026-07-21",
+  "governance_verdict": "PROMOTE",
+  "files_written": [
+    "identity.json",
+    "traits.json",
+    "knowledge.jsonl",
+    "cns.yaml",
+    "state.bin",
+    "runtime.py",
+    "manifest.json"
+  ],
+  "all_verified": true,
+  "state_vector_derivation": "Deterministic: baseline 0.5 all 21 slots; evidence deltas |d|<=0.2, big-endian float32. Basis: covert/information-warfare posture (oversight_resistance 0.7, evidence_gain 0.65, public_legitimacy 0.3, diplomacy 0.35, risk 0.6)"
+}

@@ -1,0 +1,46 @@
+{
+  "entity_kind": "character",
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Character Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "archives (root): Complete Archive 4_19/…/Aurora_GUMAS_Knowledge_Bundle.md (GUMAS character-profile block)",
+    "archives (root): ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt (sim logs)",
+    "reports (root): l2_character_salvage_audit__2026-07-21.md"
+  ],
+  "entity_id": "char_eriana_vos",
+  "name": "Eriana Vos",
+  "aliases": [
+    "Director Eriana Vos"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "pmc_syndicate"
+  ],
+  "organization_ids": [],
+  "role": "Intelligence Chief of the PMC Syndicate",
+  "allegiance": "PMC Intelligence Division (Corporate Spy Network)",
+  "traits": [
+    "Highly Cunning",
+    "Manipulative",
+    "Ruthless",
+    "Brilliant Strategist"
+  ],
+  "reputation": "-15 Union Relations, +12 Corporate Influence, -8 Separatist Trust",
+  "relationships": "Secretly deals with the Shadow Syndicate; suspected of sabotage operations",
+  "recent_actions": "Orchestrated covert operations to destabilize Union holdings; conducted hostile takeovers",
+  "decision_style": "Information Warfare Specialist, Prefers Subtle Manipulation Over Direct Conflict",
+  "tags": [
+    "pmc_syndicate",
+    "intelligence",
+    "vos_voss_cluster",
+    "l2_char_salvage_2026_07_21"
+  ],
+  "notes": "Recovered L2 character (STAGING). Fills the PMC Syndicate intelligence-chief slot (distinct from CEO/Military Commander Vailen Rix). Corroborated beyond the profile block by the \"Separatist Diplomatic Summit\" sim log. DISAMBIGUATION: distinct from Lyra Voss (Judicator XO), Lirian Vael-Torin (alias \"Lirian Vos\"), and Rhaegon Torr-Kai (alias \"Rhaegon Voss\"). Unestablished detail (full history, origin) not invented."
+}

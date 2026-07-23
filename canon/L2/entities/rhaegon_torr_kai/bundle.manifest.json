@@ -2,6 +2,7 @@
   "canonical_id": "rhaegon_torr_kai",
   "schema": "charforge-bundle-v0.2.0",
   "built_at": "2026-03-20T02:03:35Z",
-  "capsule_manifest_hash": "b807256fb6bfe8a3703d57a17c1724173a14024c42cd35f174ce16b407d3c317",
-  "file_count": 7
+  "capsule_manifest_hash": "a94a428dca4d16c70c260d81431f6faa468250f9fbbdb9cb7b7decb7c08db5da",
+  "file_count": 7,
+  "rebuilt_at": "2026-07-21T00:00:00Z"
 }

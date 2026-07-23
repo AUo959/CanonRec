@@ -1,0 +1,12 @@
+{
+  "canonical_id": "char_selia_trask",
+  "schema": "charforge-traits-v1.0",
+  "dominant_bias": null,
+  "bias_modifier": 0.0,
+  "traits": [],
+  "decision_style": "Political Realist, Avoids Military Action Unless Necessary",
+  "allegiance": "separatist_confed",
+  "reputation": "per entity record",
+  "relationships": "Supported by the Separatist civilian populace; opposed by Crimson Pact extremists. Distinct office from Supreme Military Commander Rhaegon Torr-Kai (who declined the summit).",
+  "personality_insight": "Profile-established: idealistic, visionary, diplomatic political realist; former Union senator turned Separatist political leader; prefers negotiation over force."
+}

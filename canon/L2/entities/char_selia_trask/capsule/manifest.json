@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_selia_trask",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "9a3f929ecf3468d832bd405ccde21022c3fc1371f45cdeede15b602959509bf3"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "4c48e2d3fb43045a78cbaa6132302f1de859bd8b77aefab24168315b221d344d"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "a6da737c231b660972c5ba68e1d93c180e92ee8f878a1a24b7fd56d0dec18755"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "32a051a17230e3c9b9fd854bc8344963820131fd8c89991af487a87ddb7f7b03"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "36356bb44af439dc285235425233ef3aa927374a2fec88fbe6cabf041101567e"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "6f89cd194d6737a7d10fce6d92ef36504a728a99e0176d2e6239d39bc41747be"
+    }
+  ]
+}

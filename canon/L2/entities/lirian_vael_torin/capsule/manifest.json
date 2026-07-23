@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "77bd0b79c3b0d3852f2d094f23efe38cd5c341a8b6d64c4d086de5807729f531"
+      "sha256": "7f3c31d01f5875aea4b638a5c038d5f4733216191ed5ad743b21da038beef3fa"
     },
     {
       "path": "traits.json",
@@ -39,5 +39,7 @@
     "manifest.json": "be48d7bd226b3c7217a8d3500f77cef9815ccedf3bd5c63902171ca7767174cc"
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
-  "canon_lock": true
+  "canon_lock": true,
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "alias drift enrichment (L2 Character Salvage Pass); hashes re-derived"
 }

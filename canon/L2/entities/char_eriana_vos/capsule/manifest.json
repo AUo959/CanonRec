@@ -1,0 +1,31 @@
+{
+  "canonical_id": "char_eriana_vos",
+  "schema": "charforge-capsule-v1.0",
+  "built_at": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "path": "identity.json",
+      "sha256": "b9b005f444396059b3d343c374e5026935ce45d2f07b7d2e8f721441c69bbf30"
+    },
+    {
+      "path": "traits.json",
+      "sha256": "d04076f8037e8fab57e92f4a1d1c83cab3d7ae96ed2a93f5befaee3e28aebe54"
+    },
+    {
+      "path": "knowledge.jsonl",
+      "sha256": "244b5f56dc90932db750cc428cd408d31c0cfa40c59c21029e4fa8c59c516abe"
+    },
+    {
+      "path": "cns.yaml",
+      "sha256": "afe80cf749da242b8622d233257bc0efc27f06fc6f71ab6353a044f3e4c2bc0d"
+    },
+    {
+      "path": "state.bin",
+      "sha256": "bdea365283309824721504d32ba3e34b24f526ff3801b774fdf02615c621c72a"
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "55e1cf0d878e8cf43077c7c38e48220556bd69d63ef6d4df8ac8ff8011de4920"
+    }
+  ]
+}
