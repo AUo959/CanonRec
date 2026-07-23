@@ -14,6 +14,9 @@ on:
       - tools/dark_star_payload_05.b64
       - tools/dark_star_payload_06.b64
       - .github/workflows/materialize-dark-star.yml
+  pull_request:
+    branches:
+      - main
 
 permissions:
   contents: write
