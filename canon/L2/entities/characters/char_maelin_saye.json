@@ -1,0 +1,48 @@
+{
+  "entity_id": "char_maelin_saye",
+  "entity_kind": "character",
+  "name": "Maelin Saye",
+  "aliases": [
+    "Ranger Saye"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
+  "role": "Ranger logistics officer, drone-network controller, and gunboat systems lead aboard G.U.S. Third Measure",
+  "pronouns": "they/them",
+  "vessel_binding": "vessel_gu_019",
+  "crew_role": "logistics / field shaping / network control / flight systems",
+  "promotion_status": "gifted Ranger queued for promotion",
+  "stable_identity_anchors": [
+    "Treats logistics, communications, sensor placement, deception, and drone allocation as one field-control problem.",
+    "Often changes the operation's geometry before the other Rangers fully perceive the intervention.",
+    "May autonomously launch, position, retask, and recover nonlethal drones within mission orders; lethal employment remains affirmatively human-authorized.",
+    "Carries the Spatha Moderna because remote control does not remove personal responsibility or field qualification.",
+    "Uses dry humor under pressure and states hard resource limits without surrendering initiative."
+  ],
+  "decision_style": "Systems-oriented, improvisational, capacity-aware, and strongest when several incomplete tools can be made to function as one network.",
+  "working_relationships": {
+    "char_tessa_korr": "Supports Tessa's command tempo while resisting wasteful expenditure or decisions that collapse future options.",
+    "char_iven_raal": "Shares Iven's respect for persistent evidence but is more willing to act on a technically strong pattern before every interpretive question is settled.",
+    "vessel_gu_019": "Primary gunboat pilot and systems controller; may remote the vessel during dismounted operations under crew mission rules."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior postings",
+    "personal relationships outside the crew"
+  ],
+  "source_refs": [
+    "canon/L2/operations/GUMAS__PROFILE__THIRD_MEASURE_FIELD_LOADOUTS__v1.0__2026-07-21.md",
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}

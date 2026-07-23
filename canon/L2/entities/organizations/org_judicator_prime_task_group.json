@@ -1,0 +1,126 @@
+{
+  "entity_id": "org_judicator_prime_task_group",
+  "entity_kind": "organization",
+  "name": "Judicator Prime Task Group",
+  "aliases": [
+    "Judicator Task Group",
+    "the Judicator group"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "org_type": "naval_task_group",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "flagship_id": "vessel_gu_001",
+  "commanding_officer_id": "alric_tann",
+  "command_location": "G.U.S. Judicator Prime flag-command structure",
+  "role": "Standing Galactic Union task group centered on the Judicator Prime, combining flagship command, two Vigilant-Class medium escort destroyers, and one Sustainer-Class fuel/supply bulker.",
+  "composition": {
+    "flagship": {
+      "vessel_id": "vessel_gu_001",
+      "name": "G.U.S. Judicator Prime",
+      "commanding_officer_id": "alric_tann",
+      "status": "assigned",
+      "certainty": "CANON"
+    },
+    "escort_slots": [
+      {
+        "slot_id": "JPTG-ESCORT-01",
+        "category": "medium_destroyer",
+        "vessel_entity_id": "vessel_gu_016",
+        "vessel_name": "G.U.S. Watchfire",
+        "commanding_officer_id": "char_mara_venn",
+        "class_entity_id": "cls_vigilant",
+        "class_id": "CLASS-VIGILANT-01",
+        "roster_status": "CLOSED — vessel, class, and commanding officer canon-locked",
+        "certainty": "CANON"
+      },
+      {
+        "slot_id": "JPTG-ESCORT-02",
+        "category": "medium_destroyer",
+        "vessel_entity_id": "vessel_gu_017",
+        "vessel_name": "G.U.S. Shieldwake",
+        "commanding_officer_id": "char_corin_hale",
+        "class_entity_id": "cls_vigilant",
+        "class_id": "CLASS-VIGILANT-01",
+        "roster_status": "CLOSED — vessel, class, and commanding officer canon-locked",
+        "certainty": "CANON"
+      }
+    ],
+    "replenishment_slot": {
+      "slot_id": "JPTG-LOGISTICS-01",
+      "category": "fuel_supply_bulker",
+      "vessel_entity_id": "vessel_gu_018",
+      "vessel_name": "G.U.S. Continuance",
+      "commanding_officer_id": "char_sera_thalen",
+      "class_entity_id": "cls_sustainer",
+      "class_id": "CLASS-SUSTAINER-01",
+      "roster_status": "CLOSED — vessel, class, and commanding officer canon-locked",
+      "certainty": "CANON"
+    }
+  },
+  "command_model": {
+    "task_group_authority": "Captain Alric Tann directs formation movement, coordinated defense, task-group priorities, and naval operations through the Judicator's flag-command role.",
+    "ship_command_boundary": "Captains Mara Venn, Corin Hale, and Sera Thalen retain internal command, discipline, readiness, safety, and damage-control authority aboard their own vessels.",
+    "escort_peer_rule": "Watchfire and Shieldwake are peer escorts. Neither captain is permanently senior to the other; mission-specific coordination may be assigned by Tann.",
+    "hosted_asset_boundary": "Rangers, Marshals, Sentinels, the Field Court, and other institutionally distinct hosted assets remain governed by JUDICATOR-HOST-001 and are not converted into ordinary task-group ship's companies.",
+    "logistics_boundary": "Captain Sera Thalen and the Continuance logistics chain control cargo safety, transfer feasibility, contamination control, and honest readiness reporting."
+  },
+  "relational_identity": {
+    "watchfire": "Disciplined formation continuity, route security, and controlled interception under Captain Mara Venn.",
+    "shieldwake": "Forward pressure, early interception, independent patrol, and exposed-craft response under Captain Corin Hale.",
+    "continuance": "Campaign endurance, replenishment truth, protected reserves, and long-horizon logistics under Captain Sera Thalen.",
+    "captain_dynamic": "Venn and Hale maintain a productive rivalry over preservation versus initiative; Thalen constrains both through physical logistics truth and long-campaign requirements.",
+    "certainty": "CANON"
+  },
+  "normal_roles": [
+    "flagship and sector campaign command",
+    "close and extended defensive screening",
+    "long-range picket and interception",
+    "anti-piracy and convoy protection",
+    "independent patrol and support",
+    "fuel, stores, parts, ordnance, and fabrication-feedstock replenishment",
+    "sustained support for Marshal, judicial, diplomatic, humanitarian, and naval operations"
+  ],
+  "formation_rule": "Standing composition defines normal assignment, not mandatory co-location at every moment. Watchfire, Shieldwake, and Continuance may be detached, delayed, or separated by combat, replenishment, rescue, patrol, or emergency movement, with positions recorded per event.",
+  "class_bindings": {
+    "escort_class_entity_id": "cls_vigilant",
+    "escort_class_id": "CLASS-VIGILANT-01",
+    "replenishment_class_entity_id": "cls_sustainer",
+    "replenishment_class_id": "CLASS-SUSTAINER-01",
+    "certainty": "CANON"
+  },
+  "class_distinctions": {
+    "cls_obsidian": "Not assigned; the Obsidian is a stealth-specialist destroyer, while the Vigilant is the general-purpose escort class.",
+    "cls_reliant": "Not assigned; the Reliant is a balanced logistics, medical, and mobile-command class, while the Sustainer is a dedicated bulk replenishment class."
+  },
+  "doctrine_id": "JUDICATOR-ESCORT-001",
+  "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.2__2026-07-21.md",
+  "supersedes_document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.1__2026-07-21.md",
+  "roster_id": "JUDICATOR-TASKGROUP-ROSTER-001",
+  "roster_document_path": "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md",
+  "source_refs": [
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_escort_group",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_STANDING_ESCORT_GROUP__v1.2__2026-07-21.md"
+    },
+    {
+      "source_id": "task_group_vessel_roster",
+      "path": "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+    },
+    {
+      "source_id": "vigilant_class_record",
+      "path": "canon/L2/entities/ship_classes/cls_vigilant.json"
+    },
+    {
+      "source_id": "sustainer_class_record",
+      "path": "canon/L2/entities/ship_classes/cls_sustainer.json"
+    }
+  ],
+  "conflict_flags": [],
+  "promotion_pass": "Judicator Standing Escort Group Pass — 2026-07-21; Judicator Escort and Bulker Class Pass — 2026-07-21; Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Standing formation, classes, named vessels, slot assignments, commanding officers, and relational command anchors are owner-authorized CANON. Exact vessel-specific technical specifications and unnamed senior crews remain open or class-level STAGING."
+}

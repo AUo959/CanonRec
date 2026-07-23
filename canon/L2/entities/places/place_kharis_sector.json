@@ -1,0 +1,29 @@
+{
+  "entity_id": "place_kharis_sector",
+  "entity_kind": "place",
+  "name": "Kharis Sector",
+  "certainty": "CANON",
+  "status": "active",
+  "layer": "L2",
+  "place_type": "sector",
+  "faction_context": "galactic_union",
+  "narrative_role": "Formerly prosperous Union sector affected by approximately a decade of organized-criminal entrenchment, fragmented enforcement, and declining practical access to central institutions.",
+  "known_subplaces": [
+    "place_lethan_system",
+    "place_kallis_foundry"
+  ],
+  "open_fields": [
+    "sector capital",
+    "planetary roster",
+    "population",
+    "exact boundaries",
+    "local government names",
+    "criminal faction roster"
+  ],
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json",
+    "owner-authored Dark Star narrative, 2026-07-22"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}

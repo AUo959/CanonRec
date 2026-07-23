@@ -1,0 +1,43 @@
+{
+  "entity_id": "char_calder_vey",
+  "entity_kind": "character",
+  "name": "Calder Vey",
+  "aliases": [
+    "Calder"
+  ],
+  "certainty": "CANON",
+  "status": "at_large",
+  "layer": "L2",
+  "faction_bindings": [],
+  "role": "Primary suspect connected to the covert reactivation of Kallis Foundry",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "canon_observations": [
+    "Present at Kallis Foundry during the Third Measure operation.",
+    "Used or permitted use of a tracked transponder pattern that complicated positive identification.",
+    "Demonstrated awareness of the Ranger drone net and looked directly into a concealed Mote sensor.",
+    "Escaped immediate Ranger custody during the emergency recall.",
+    "Was associated with restricted reactor material and specialized fabrication activity at the foundry.",
+    "Appears to have known that the Dark Star incident or related fleet arrival was imminent."
+  ],
+  "staging_hypotheses": [
+    "Calder Vey was manufacturing a replacement Silence artifact.",
+    "Calder Vey possesses direct knowledge of the earlier Marshal investigation.",
+    "Calder Vey is aligned with the Shadow Fleet.",
+    "Calder Vey caused or intended the dark star containment failure."
+  ],
+  "open_traits": [
+    "pronouns",
+    "species",
+    "age",
+    "homeworld",
+    "organization",
+    "motive",
+    "legal identity history"
+  ],
+  "source_refs": [
+    "canon/L2/entities/places/place_kallis_foundry.json",
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}

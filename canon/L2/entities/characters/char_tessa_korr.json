@@ -1,0 +1,49 @@
+{
+  "entity_id": "char_tessa_korr",
+  "entity_kind": "character",
+  "name": "Tessa Korr",
+  "aliases": [
+    "Ranger Korr"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
+  "role": "Ranger field agent and crew lead of G.U.S. Third Measure",
+  "pronouns": "she/her",
+  "vessel_binding": "vessel_gu_019",
+  "crew_role": "crew lead / command and forced-tempo field agent",
+  "promotion_status": "gifted Ranger queued for promotion",
+  "stable_identity_anchors": [
+    "Accepts personal responsibility for decisive field action and prefers a clear, rapidly legible operational picture.",
+    "Uses pressure, visible authority, and early positioning to prevent a threat from controlling tempo.",
+    "Carries the Spatha Moderna openly and treats drawing it as committed force rather than display.",
+    "May push lethal or high-risk tools toward readiness before Iven believes the evidence picture is complete.",
+    "Protects the crew's mission authority even when operating from the Judicator's support structure."
+  ],
+  "decision_style": "Direct, fast, responsibility-centered, and willing to commit once necessity is established.",
+  "working_relationships": {
+    "char_iven_raal": "Competitive investigative partner. Tessa values Iven's reconstruction ability but becomes frustrated when his caution allows a fleeting target to escape.",
+    "char_maelin_saye": "Relies on Maelin to reshape the field and expects concise constraints rather than hidden intervention. Their disagreements often concern resource expenditure and tempo.",
+    "elias_drayen": "Receives Marshal mission tasking through Drayen while retaining crew-level field command within assigned scope.",
+    "elias_radek": "Mission-specific peer boundary: Radek controls immediate Sentinel assault action; Tessa controls Ranger evidence, identification, custody, and investigative disposition."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior postings",
+    "personal relationships outside the crew"
+  ],
+  "source_refs": [
+    "canon/L2/operations/GUMAS__PROFILE__THIRD_MEASURE_FIELD_LOADOUTS__v1.0__2026-07-21.md",
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}

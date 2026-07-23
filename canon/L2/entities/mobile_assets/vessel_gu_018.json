@@ -1,0 +1,51 @@
+{
+  "canonical_id": "vessel_gu_018",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-GU-018",
+  "name": "G.U.S. Continuance",
+  "aliases": [
+    "Continuance",
+    "the Continuance"
+  ],
+  "class_id": "CLASS-SUSTAINER-01",
+  "class_entity_id": "cls_sustainer",
+  "class_hull_type": "fuel and supply bulker",
+  "allegiance": "galactic_union",
+  "commanding_officer_id": "char_sera_thalen",
+  "status": "active",
+  "certainty": "CANON",
+  "narrative_significance": "notable",
+  "location_type": "moving",
+  "home_port": null,
+  "task_group_assignment": {
+    "formation_entity_id": "org_judicator_prime_task_group",
+    "slot_id": "JPTG-LOGISTICS-01",
+    "status": "standing_assignment",
+    "certainty": "CANON"
+  },
+  "operational_identity": {
+    "role_emphasis": "Deep campaign endurance, multi-vessel replenishment, bulk fuel and stores carriage, fabrication feedstock, replacement systems, and protected logistics continuity.",
+    "ship_character": "The Continuance is treated as a strategic reserve made mobile: less visible than the flagship's weapons, but essential to every promise that the task group can remain, repair, protect, investigate, adjudicate, and rebuild.",
+    "formation_preference": "Normally positioned outside the highest-risk engagement geometry with deliberate escort coverage and preplanned protected rendezvous options.",
+    "certainty": "CANON"
+  },
+  "command_relationship": {
+    "task_group_commander_id": "alric_tann",
+    "task_group_rule": "Captain Alric Tann sets task-group priorities and movement; Captain Sera Thalen retains internal command and professional authority over cargo safety, transfer readiness, contamination control, and replenishment feasibility aboard the Continuance.",
+    "support_boundary": "The Continuance sustains naval and hosted assets without absorbing their command chains or promising resources not physically present and safely transferable."
+  },
+  "placement_rule": "No fixed coordinates. Position must be asserted per event with valid movement, protected rendezvous, replenishment, detachment, escort, or emergency-separation continuity.",
+  "crew_approx": null,
+  "specifications": null,
+  "specifications_note": "Class-level canonical capabilities and staged technical envelope are defined by cls_sustainer. No vessel-specific dimensions, complement, cargo capacity, transfer-station count, or performance have been promoted.",
+  "source_refs": [
+    {
+      "source_id": "owner_authorized_task_group_identity_pass_2026_07_21",
+      "path": "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+    }
+  ],
+  "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Name and vessel ID are collision-free against CanonRec and AUo959/aurora-cloudbank-symbolic at admission."
+}

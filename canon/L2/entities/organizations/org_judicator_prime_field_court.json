@@ -1,0 +1,59 @@
+{
+  "entity_id": "org_judicator_prime_field_court",
+  "entity_kind": "organization",
+  "name": "Judicator Prime Field Court",
+  "aliases": [
+    "Judicator Field Court",
+    "The Field Court"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "org_type": "judiciary",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "vessel_binding": "vessel_gu_001",
+  "administrative_oversight_org_id": "org_judicial_council",
+  "judicial_parent_body_id": "org_high_judiciary_galactic_tribunal",
+  "judicial_parent_body": "High Judiciary & Galactic Tribunal",
+  "role": "Official deployed Union trial court aboard the G.U.S. Judicator Prime.",
+  "jurisdiction": "Full trial-level authority over cases properly within Union jurisdiction and assigned to the Judicator Prime Field Court.",
+  "presiding_office": {
+    "office_id": "office_judicator_field_judge",
+    "title": "Field Judge",
+    "incumbent_entity_id": "char_aveline_soryn",
+    "roster_status": "CLOSED — Aveline Soryn appointed and canon-locked",
+    "authority": "Full authority to try cases, issue binding rulings and orders, and impose lawful trial-level remedies and sentences within jurisdiction.",
+    "seniority_equivalence": "Comparable in institutional seniority and trial-level authority to a United States federal district court judge; equivalence does not import U.S. law into GUMAS.",
+    "command_independence": "Not subordinate to Captain Alric Tann, Union Marshal command, Sentinel High Command, or the Judicator task-force chain when exercising judicial authority."
+  },
+  "appeal_path": "org_high_judiciary_galactic_tribunal",
+  "captain_boundary": "Captain Tann governs vessel safety, movement, access, security, and emergency interruption; he does not direct findings, rulings, sentences, or case outcomes.",
+  "marshal_boundary": "Marshals may investigate, arrest, preserve evidence, seek warrants, and present cases but do not control the court and remain subject to its orders.",
+  "mobile_justice_doctrine": {
+    "doctrine_id": "JUDICATOR-JUSTICE-001",
+    "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_MOBILE_JUSTICE__v1.0__2026-07-21.md",
+    "core_expression": "Union justice unbounded.",
+    "limiting_invariant": "Unbounded reach; bounded authority.",
+    "meaning": "The court and supporting institutions overcome distance, isolation, corruption, and fragmented jurisdiction without exceeding law, rights, sovereignty, due process, or appellate review."
+  },
+  "document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.1__2026-07-21.md",
+  "supersedes_document_path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.0__2026-07-21.md",
+  "source_refs": [
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_field_court",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.1__2026-07-21.md"
+    },
+    {
+      "source_id": "owner_ruling_2026_07_21_mobile_justice",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_MOBILE_JUSTICE__v1.0__2026-07-21.md"
+    },
+    {
+      "source_id": "field_judge_identity",
+      "path": "canon/L2/entities/characters/char_aveline_soryn.json"
+    }
+  ],
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Court existence, Field Judge authority, trial-level independence, district-judge seniority equivalence, Aveline Soryn's incumbency, superior-court relationship, and mobile-justice doctrine are owner-locked CANON. Staffing, facility dimensions, and detailed procedural code remain STAGING or open."
+}

@@ -1,0 +1,43 @@
+{
+  "canonical_id": "vessel_gu_019",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-GU-019",
+  "name": "G.U.S. Third Measure",
+  "aliases": [
+    "Third Measure"
+  ],
+  "class_id": "CLASS-RANGER-01",
+  "allegiance": "galactic_union",
+  "certainty": "CANON",
+  "status": "active",
+  "commanding_officer_id": "char_tessa_korr",
+  "crew_ids": [
+    "char_tessa_korr",
+    "char_iven_raal",
+    "char_maelin_saye"
+  ],
+  "crew_model": "Three-person Ranger crew: two field agents and one logistics / gunboat systems officer.",
+  "narrative_significance": "Special-service Ranger-class gunboat hosted aboard the G.U.S. Judicator Prime and assigned to the Kharis sector campaign.",
+  "organization_binding": "org_union_marshals",
+  "host_vessel_id": "vessel_gu_001",
+  "hosted_asset_status": "Independent Union Marshals asset hosted, sustained, launched, and recovered by Judicator Prime under JUDICATOR-HOST-001.",
+  "task_group_relationship": "Supported by the Judicator Prime Task Group but not absorbed into its naval chain of command.",
+  "canonical_capabilities": [
+    "Long-range high-endurance Ranger operations",
+    "Orbit and ground-hover operation",
+    "Sophisticated human-AI cooperative autopilot",
+    "Drone launch, recovery, recharge, repair, control, and evidence ingestion",
+    "Rapid concealment through signature reduction rather than true cloaking",
+    "Command, habitation, resupply, evidence, and extraction support for its crew",
+    "Remote or autonomous hold under qualified Ranger control"
+  ],
+  "equipment_profile": "canon/L2/operations/GUMAS__PROFILE__THIRD_MEASURE_FIELD_LOADOUTS__v1.0__2026-07-21.md",
+  "placement_rule": "no_fixed_coordinates: mobile asset holds no fixed map placement; position is asserted per-event with route and drive continuity.",
+  "source_refs": [
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md",
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "notes": "The vessel name, crew binding, hosted status, and mission role are owner-authorized CANON. Exact dimensions, drive implementation, armament, endurance, and internal layout remain governed by Ranger-class records or future specifications."
+}

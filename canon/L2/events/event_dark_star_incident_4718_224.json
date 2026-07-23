@@ -1,0 +1,149 @@
+{
+  "entity_id": "event_dark_star_incident_4718_224",
+  "entity_kind": "event",
+  "name": "Dark Star Incident",
+  "aliases": [
+    "Battle of Lethan",
+    "Crown Dark Boarding Action",
+    "Valkyrie Raid",
+    "Third Silence Incident"
+  ],
+  "certainty": "CANON",
+  "status": "immediate_battle_concluded_quarantine_active",
+  "layer": "L2",
+  "date": "4718.224",
+  "location_refs": [
+    "place_kharis_sector",
+    "place_lethan_system",
+    "place_kallis_foundry"
+  ],
+  "primary_union_formation_id": "org_judicator_prime_task_group",
+  "participant_refs": [
+    "vessel_gu_001",
+    "vessel_gu_016",
+    "vessel_gu_017",
+    "vessel_gu_018",
+    "vessel_gu_019",
+    "vessel_unknown_dark_star_001",
+    "vessel_shadow_001",
+    "org_union_marshals",
+    "org_sentinel_high_command",
+    "fleet_shadow_fleet",
+    "char_tessa_korr",
+    "char_iven_raal",
+    "char_maelin_saye",
+    "char_eira_valkyrie",
+    "char_selene_ark",
+    "char_calder_vey"
+  ],
+  "artifact_refs": [
+    "artifact_third_silence"
+  ],
+  "operational_summary": "The Judicator Prime Task Group responded to an apparent mining-vessel distress event in the Lethan system, fought an unidentified cloaked fleet, boarded both the concealed Dark Star vessel and the hostile command flagship Crown Dark, recovered Marshal Selene Ark and Eira / Valkyrie, partially activated and recovered the Third Silence artifact, repelled a final attack on Continuance, and held the field after the Shadow Fleet withdrew. The concealed vessel remains under quarantine and the strategic meaning of the sensor flare remains unresolved.",
+  "canonical_sequence": [
+    "Lifeline Six came under fire while approaching the vessel presented as M.V. Carpathia.",
+    "Cloaked hostile craft defended the concealed vessel and a larger force converged on the location.",
+    "Captain Alric Tann ordered Forward Hammer, committing Judicator Prime, Watchfire, Shieldwake, and the naval aerospace wing to a forward attack while Continuance preserved the task group's endurance reserve.",
+    "G.U.S. Third Measure rendezvoused with Kestrel Detachment under a mission-specific Marshal-Sentinel coordination order and boarded the concealed vessel.",
+    "The boarding party encountered Shadow Fleet boarders, active vessel material, Marshal Selene Ark, suspended captives, and an artifact translated as the Third Silence.",
+    "Sentinel High Command authorized four twelve-person detachments for direct vacuum insertion against Crown Dark; Tann controlled launch geometry, fleet support, and recovery while Sentinel leads controlled internal assault doctrine.",
+    "Harrier, Anvil, Cinder, and Talon entered Crown Dark, disrupted its distributed command architecture, extracted living operators, and captured Eira / Valkyrie.",
+    "Crown Dark collapsed during the operation and the Shadow Fleet lost centralized coordination.",
+    "All 48 deployed Sentinels were recovered alive.",
+    "Inside the concealed vessel, Tessa Korr and Major Elias Radek disagreed over withdrawal as the boarding party approached the central phenomenon under rapidly failing conditions.",
+    "Maelin Saye partially engaged the Third Silence with a compatible internal interface; Tessa Korr cut it free before full seating.",
+    "The partial engagement restored observed material segmentation in mapped areas and generated a system-wide sensor flare that exposed cloaked vessels and additional anomalous returns.",
+    "Seventeen outbound vectors were recovered from the flare or from synchronized captive speech; several point beyond mapped Union space and one has no recognized destination.",
+    "The Shadow Fleet abandoned the concealed vessel and withdrew from the Lethan system while using decoys and sensor charges to cover its retreat.",
+    "Watchfire detached to defend Continuance from six Shadow vessels and prevented the bulker's loss; the attackers withdrew after suffering damage and losses.",
+    "Third Measure and Kestrel personnel exited the concealed vessel with Selene Ark, the surviving Shadow boarders, active-material evidence, and the damaged Third Silence.",
+    "The Third Silence entered joint Marshal-Sentinel hazardous-evidence custody aboard Judicator Prime under Field Court preservation authority.",
+    "The Judicator Prime Task Group held the field and established a quarantine perimeter around the concealed vessel.",
+    "The immediate Battle of Lethan concluded; the Dark Star investigation and Kharis campaign remain active."
+  ],
+  "sentinel_action": {
+    "detachments": {
+      "Harrier": 12,
+      "Anvil": 12,
+      "Cinder": 12,
+      "Talon": 12
+    },
+    "deployed": 48,
+    "recovered_alive": 48,
+    "kia": 0,
+    "major_injuries": 6,
+    "minor_injuries": "multiple",
+    "survivability_note": "Sentinel survivability derived from layered shielding, sacrificial armor, autonomous stabilization, independent life support, recovery beacons, adaptive tactics, and concentrated task-group rescue support."
+  },
+  "recovered_persons": {
+    "anvil_shadow_operators": 18,
+    "cinder_shadow_operators_recovered": 6,
+    "cinder_shadow_operators_surviving_initial_stabilization": 3,
+    "eira_valkyrie": 1,
+    "selene_ark": 1,
+    "total_shadow_or_command_persons_physically_recovered": 25,
+    "shadow_or_command_persons_alive_after_initial_stabilization": 22
+  },
+  "command_authority": {
+    "naval": "Captain Alric Tann commanded task-group maneuver, combat support, launch geometry, recovery conditions, emergency safety, and the decision not to pursue the retreating Shadow Fleet after the sensor flare.",
+    "sentinel": "Sentinel Mission Control and Sentinel High Command authorized the Crown Dark detachments and retained authority over suit doctrine, detachment tactics, personnel decisions, classified methods, and hazardous-artifact transfer support.",
+    "marshal": "Marshal-Captain Elias Drayen authorized Third Measure's investigative mission; Tessa Korr retained investigative authority while Major Elias Radek coordinated immediate assault action and exercised emergency withdrawal authority inside the concealed vessel.",
+    "judicial": "Commander Lyra Voss imposed emergency evidence-preservation holds; Field Judge Aveline Soryn issued binding sealing, preservation, quarantine-support, and evidentiary orders."
+  },
+  "canon_observations": [
+    "Shadow Fleet vessels possessed operational cloaking or concealment systems.",
+    "Crown Dark functioned as a distributed fleet-command platform.",
+    "The concealed vessel used segmented internal signal and material domains of approximately thirty-seven meters in observed areas.",
+    "The Third Silence artifact altered active material behavior, partially engaged with a compatible internal interface, and was recovered in damaged but functional condition.",
+    "Partial engagement of the Third Silence coincided with a massive sensor flare that exposed cloaked vessels and revealed anomalous returns beyond the immediate system.",
+    "Seventeen outbound vectors were recovered from the flare and synchronized captive response; their targets remain unidentified.",
+    "Kallis Foundry evidence displayed engineering similarities to the Third Silence interface and coupling geometry.",
+    "Marshal Selene Ark was recovered alive after eleven years missing.",
+    "Ark's historical case number survives as an empty registry shell while associated reports, warrants, intelligence attachments, and transfer records are absent across multiple systems.",
+    "Retrospective analysis found indications that Shadow Fleet transits and related anomalies had crossed commercial and institutional sensor records without being integrated into a unified threat assessment.",
+    "The Shadow Fleet withdrew from the Lethan system following Crown Dark's collapse and the sensor flare.",
+    "Watchfire successfully defended Continuance during the final withdrawal action.",
+    "The concealed vessel remains under Judicator quarantine."
+  ],
+  "testimony_and_intelligence_leads": [
+    "Selene Ark states that a Union Intelligence technical recovery team removed an artifact she calls the First Silence eleven years earlier.",
+    "Ark states that a Union-coded extraction vessel departed with the First Silence.",
+    "Ark names an otherwise-unverified Marshal called Kellan Durn as a participant in the earlier operation and later says to ask Durn.",
+    "Eira describes the flare as a recognition event and states that the star transmitted to anything built to remember its pattern.",
+    "Eira states that the Shadow Fleet came to return what had been removed and recover minds carrying an open pattern.",
+    "Eira describes memory as a route and claims observation or proximity can create exposure.",
+    "Eira claims that evidence of the earlier incident ends inside Union institutions and that the Field Court was already under attack through record removal and jurisdictional fragmentation."
+  ],
+  "staging_hypotheses": [
+    "The concealed vessel is definitively a prison.",
+    "Captive bodies are definitively containment locks or processing nodes.",
+    "The Shadow Fleet's complete strategic purpose was to restore containment.",
+    "Union personnel intentionally opened the dark star eleven years earlier.",
+    "The prior Union-coded extraction was lawfully authorized by Union Intelligence.",
+    "Kellan Durn existed as described, was related to General Kael Durn, or participated knowingly in an illicit operation.",
+    "Calder Vey was constructing a replacement isolation command.",
+    "The seventeen vectors identify other Dark Star vessels, receivers, routes, or connected structures.",
+    "The sensor flare transmitted beyond Kharis rather than producing a passive recognition response.",
+    "Union institutions deliberately suppressed the threat rather than failing through compartmentalization, corruption, jurisdictional fragmentation, or analytic error.",
+    "The dark star's origin, creators, age, nature, and degree of consciousness.",
+    "The unknown fourth face in the recovered Span-drone image represents a stored person, observer, or active intelligence.",
+    "Eira's and Ark's historical claims are accurate."
+  ],
+  "post_incident_state": {
+    "union_control": "Judicator Prime Task Group holds the immediate Lethan battlespace.",
+    "shadow_fleet": "Withdrawn from the field; surviving strength, destination, and regrouping state unknown.",
+    "dark_star_vessel": "Quarantined under naval security, isolated remote observation, Marshal investigation, Sentinel technical review, and Field Court preservation authority.",
+    "third_silence": "Aboard Judicator Prime in joint Marshal-Sentinel hazardous-evidence custody under court-appointed observation.",
+    "original_campaign": "The Kharis organized-crime mission remains active; Calder Vey and his sponsors remain unresolved.",
+    "strategic_threat": "The Judicator must investigate the seventeen vectors, erased Union records, unrecognized Shadow Fleet transits, and the possibility of additional related structures or compromised institutions."
+  },
+  "source_refs": [
+    "canon/L2/operations/GUMAS_L2__RETCON__DARK_STAR_VALKYRIE_CONTINUITY__v1.0__2026-07-22.md",
+    "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_CHAPTER_03_THIRD_SILENCE__v1.0__2026-07-22.md",
+    "owner-authored narrative chapters The Dark Star, Valkyrie, and Third Silence, 2026-07-22"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22; Third Silence Narrative Audit — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "updated_at": "2026-07-22",
+  "notes": "Observable events and corrected continuity are CANON. Historical interpretation, First Silence history, Kellan Durn, institutional complicity, the meaning of the seventeen vectors, and the true nature of the dark star remain testimony, intelligence leads, or STAGING hypotheses."
+}

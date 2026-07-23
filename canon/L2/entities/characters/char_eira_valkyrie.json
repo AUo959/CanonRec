@@ -1,0 +1,53 @@
+{
+  "entity_id": "char_eira_valkyrie",
+  "entity_kind": "character",
+  "name": "Eira",
+  "aliases": [
+    "Valkyrie",
+    "Eira / Valkyrie"
+  ],
+  "certainty": "CANON",
+  "status": "alive_in_union_custody",
+  "layer": "L2",
+  "faction_bindings": [
+    "fleet_shadow_fleet"
+  ],
+  "role": "Captured Shadow Fleet command operator bearing the functional title Valkyrie",
+  "pronouns": "she/her",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "custody_location": "vessel_gu_001",
+  "custody_status": "Medical isolation and emergency evidence-preservation hold followed by Field Court judicial sealing and preservation order.",
+  "stable_identity_anchors": [
+    "Understands command as responsibility for returning people who cannot return themselves.",
+    "Served as a central but not necessarily singular operator within Crown Dark's distributed command architecture.",
+    "Attempted to prevent capture of Crown Dark and its command network through catastrophic collapse.",
+    "Was captured alive by Talon Detachment.",
+    "States that she has no family name; no fleet-wide naming rule is inferred from this statement."
+  ],
+  "testimony_claims_staging": [
+    "The Union boarded the wrong vessel by attacking Crown Dark rather than the concealed containment vessel.",
+    "Actors inside the Union opened the dark star during an earlier incident.",
+    "The Judicator Prime Field Court was under attack from the moment the Union entered the system through erased records, divided evidence, and delayed institutional response.",
+    "Valkyrie is a command function associated with deciding which linked minds can return from the fleet.",
+    "The system-wide sensor flare was a recognition event in which the star reconstructed or exposed an external pattern.",
+    "The flare reached anything built to remember the pattern.",
+    "The Shadow Fleet entered Lethan to return what had been removed and recover any mind carrying an open pattern.",
+    "Observation, memory, computational recording, or proximity may create a route for exposure.",
+    "The Shadow Fleet does not name dark-star phenomena because names may create stable paths.",
+    "Related structures may already exist within inhabited systems or recorded data environments."
+  ],
+  "corroborating_observations": [
+    "The sensor flare exposed previously concealed Shadow Fleet vessels and additional anomalous returns.",
+    "Seventeen outbound vectors were recovered from the flare and synchronized captive response.",
+    "Some recovered Crown Dark operators displayed knowledge, languages, or perceptions not readily explained by their confirmed movement aboard Judicator Prime.",
+    "Crown Dark command-network records contained degraded forms of the same vector pattern."
+  ],
+  "epistemic_boundary": "Eira's statements are testimony and intelligence leads, not independently proven history or mechanism unless corroborated by later evidence. Correlating observations strengthen investigative priority without proving her interpretation.",
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json",
+    "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_CHAPTER_03_THIRD_SILENCE__v1.0__2026-07-22.md"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22; Third Silence Narrative Audit — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "updated_at": "2026-07-22"
+}

@@ -1,0 +1,47 @@
+{
+  "entity_id": "char_selene_ark",
+  "entity_kind": "character",
+  "name": "Selene Ark",
+  "aliases": [
+    "Marshal Ark"
+  ],
+  "certainty": "CANON",
+  "status": "alive_in_union_medical_custody",
+  "layer": "L2",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
+  "role": "Union Marshal recovered alive from the concealed Dark Star vessel after eleven years missing",
+  "pronouns": "she/her",
+  "first_confirmed_event_id": "event_dark_star_incident_4718_224",
+  "current_location": "vessel_gu_001",
+  "current_condition": "Survived initial recovery and first surgery after prolonged restraint and physiological degradation.",
+  "identity_verification": "Identity confirmed through surviving Union biometric records and Marshal registry data.",
+  "canon_observations": [
+    "Served with a Kharis interdiction group eleven years before the Dark Star Incident.",
+    "Was found alive in a restraint structure aboard the concealed vessel.",
+    "Recognized the symbol family associated with the Silence artifacts.",
+    "Her historical case number survives only as an empty registry shell; reports, warrants, intelligence attachments, and transfer records are missing.",
+    "Provided testimony concerning an earlier Union-coded extraction operation and an artifact she called the First Silence."
+  ],
+  "testimony_claims_staging": [
+    "A Union Intelligence technical recovery team removed one of three control artifacts from the concealed vessel eleven years earlier.",
+    "The removed artifact was believed by the recovery team to contain navigational records.",
+    "Removing the artifact activated the vessel and caused personnel to share perceptions before being physically restrained.",
+    "A Union-coded extraction vessel departed with the artifact.",
+    "A Marshal identified as Kellan Durn participated in the earlier operation.",
+    "The First Silence was taken toward an unspecified Core location.",
+    "The concealed vessel remembers being opened and produces a recurring call or recognition event."
+  ],
+  "epistemic_boundary": "Ark's identity, recovery, condition, missing-record shell, and presence in the earlier Kharis operation are CANON observations. Her account of the First Silence, Kellan Durn, Union Intelligence authority, and the prior extraction remains testimony pending corroboration.",
+  "source_refs": [
+    "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_CHAPTER_03_THIRD_SILENCE__v1.0__2026-07-22.md",
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Third Silence Narrative Audit — 2026-07-22",
+  "locked_at": "2026-07-22",
+  "notes": "No exact Selene Ark or Kellan Durn identity collision was found in CanonRec before admission. No relationship between Kellan Durn and General Kael Durn is established."
+}

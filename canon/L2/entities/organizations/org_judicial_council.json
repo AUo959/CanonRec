@@ -8,6 +8,14 @@
     {
       "source_id": "archive_mining_2026_07_20",
       "path": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md"
+    },
+    {
+      "source_id": "owner_ruling_2026_07_21_judicator_field_court",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.0__2026-07-21.md"
+    },
+    {
+      "source_id": "owner_ruling_2026_07_21_mobile_justice",
+      "path": "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_MOBILE_JUSTICE__v1.0__2026-07-21.md"
     }
   ],
   "status": "active",
@@ -20,18 +28,20 @@
     "archive_mining"
   ],
   "conflict_flags": [],
-  "role": null,
-  "organization_ids": [],
+  "role": "Union-wide judicial administration and oversight organ.",
+  "organization_ids": [
+    "org_high_judiciary_galactic_tribunal"
+  ],
   "org_type": "judiciary",
-  "jurisdiction": "Union-wide legal oversight: appoints judges, arbitrates disputes, receives reports from the Chief Marshal of the Union Marshals.",
+  "jurisdiction": "Union-wide legal oversight: appoints judges, administers judiciary operations and warrants, arbitrates designated disputes, and receives reports from the Chief Marshal of the Union Marshals.",
   "parent_org_id": null,
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "Marshals Charter Promotion Pass \u2014 2026-07-20",
-  "promotion_note": "Created 2026-07-20 at STAGING per owner ruling (reconciliation C5) to resolve ghost reference in the Marshals oversight model. Sourced from April-2025 'MAS - Glactic Union' thread.",
+  "promotion_pass": "Marshals Charter Promotion Pass — 2026-07-20; Judicator Mobile Justice Closure Pass — 2026-07-21",
+  "promotion_note": "Created 2026-07-20 at STAGING per owner ruling to resolve the Marshals oversight reference; promoted to CANON by the Marshal Charter pass. 2026-07-21: Judicator Prime Field Court, Field Judge Aveline Soryn, and High Judiciary & Galactic Tribunal links registered by direct owner ruling.",
   "design_open_questions": {
-    "status": "RESOLVED by Marshal Charter v0.1 Art. III (owner-approved promotion 2026-07-20)",
+    "status": "RESOLVED",
     "items": [
       "membership",
       "appointment process",
@@ -39,19 +49,37 @@
       "warrant authority",
       "appeals",
       "investigative review",
-      "power to suspend a Marshal operation"
+      "power to suspend a Marshal operation",
+      "relationship to High Judiciary & Galactic Tribunal",
+      "Judicator Prime Field Judge incumbent"
     ],
-    "related_body": "High Judiciary & Galactic Tribunal (archive; interstellar law, war crimes, AI rights, authority over planetary courts) \u2014 relationship to this Council undefined"
+    "related_body_id": "org_high_judiciary_galactic_tribunal",
+    "related_body": "High Judiciary & Galactic Tribunal — superior adjudicative authority for constitutional, interstellar, appellate, war-crimes, and AI-rights matters."
   },
   "locked_at": "2026-07-21T03:05:00Z",
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-07-21",
   "prev_certainty": "STAGING",
   "charter": {
     "composition": "9 jurists, fixed staggered terms (mirrors canonical GU leadership bench, engine F6)",
     "appointment": "Chancellor nominates, Union Senate confirms (engine F2/F3: executive legitimacy volatile, Senate stable across all seeds)",
-    "status": "administrative-judicial oversight organ; trial/appeals at High Judiciary & Galactic Tribunal",
+    "status": "administrative-judicial oversight organ; trial and appellate adjudication remains with lawfully constituted courts and the High Judiciary & Galactic Tribunal",
     "warrant_authority": "duty magistrates issue Union warrants for Marshal overrides (Charter Art. I)",
     "suspension_power": "6-of-9 supermajority suspends a Marshal operation; Sentinel suspensions notify Senate",
     "certainty": "CANON"
-  }
+  },
+  "superior_adjudicative_body_id": "org_high_judiciary_galactic_tribunal",
+  "deployed_courts": [
+    {
+      "court_entity_id": "org_judicator_prime_field_court",
+      "name": "Judicator Prime Field Court",
+      "vessel_binding": "vessel_gu_001",
+      "court_level": "trial",
+      "presiding_office_id": "office_judicator_field_judge",
+      "presiding_judge_entity_id": "char_aveline_soryn",
+      "authority": "Full trial-level authority within assigned Union jurisdiction",
+      "administrative_relationship": "Judicial Council provides appointment and administrative support; judicial decisions remain independent",
+      "appeal_body_id": "org_high_judiciary_galactic_tribunal",
+      "certainty": "CANON"
+    }
+  ]
 }

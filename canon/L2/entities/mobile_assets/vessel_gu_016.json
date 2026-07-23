@@ -1,0 +1,51 @@
+{
+  "canonical_id": "vessel_gu_016",
+  "entity_kind": "mobile_asset",
+  "vessel_id": "VESSEL-GU-016",
+  "name": "G.U.S. Watchfire",
+  "aliases": [
+    "Watchfire",
+    "the Watchfire"
+  ],
+  "class_id": "CLASS-VIGILANT-01",
+  "class_entity_id": "cls_vigilant",
+  "class_hull_type": "medium escort destroyer",
+  "allegiance": "galactic_union",
+  "commanding_officer_id": "char_mara_venn",
+  "status": "active",
+  "certainty": "CANON",
+  "narrative_significance": "notable",
+  "location_type": "moving",
+  "home_port": null,
+  "task_group_assignment": {
+    "formation_entity_id": "org_judicator_prime_task_group",
+    "slot_id": "JPTG-ESCORT-01",
+    "status": "standing_assignment",
+    "certainty": "CANON"
+  },
+  "operational_identity": {
+    "role_emphasis": "Formation defense, long-range picket coordination, route security, and controlled interception.",
+    "ship_character": "The Watchfire is known within the task group for disciplined sensor coverage, stable defensive geometry, and readiness reporting that does not improve merely because command would prefer better news.",
+    "formation_preference": "Often used where continuity of screen, emergence-zone security, or protection of the Sustainer is more important than extended pursuit.",
+    "certainty": "CANON"
+  },
+  "command_relationship": {
+    "task_group_commander_id": "alric_tann",
+    "task_group_rule": "Captain Alric Tann directs task-group operations; Captain Mara Venn retains internal command, discipline, readiness, safety, and damage-control authority aboard the Watchfire.",
+    "hosted_asset_boundary": "The Watchfire may support Rangers, Marshals, Sentinels, diplomatic craft, and court-related movements without assuming their institutional mission authority."
+  },
+  "placement_rule": "No fixed coordinates. Position must be asserted per event with valid movement, formation, patrol, detachment, or emergency-separation continuity.",
+  "crew_approx": null,
+  "specifications": null,
+  "specifications_note": "Class-level canonical capabilities and staged technical envelope are defined by cls_vigilant. No vessel-specific dimensions, complement, armament, or performance have been promoted.",
+  "source_refs": [
+    {
+      "source_id": "owner_authorized_task_group_identity_pass_2026_07_21",
+      "path": "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+    }
+  ],
+  "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Name and vessel ID are collision-free against CanonRec and AUo959/aurora-cloudbank-symbolic at admission."
+}

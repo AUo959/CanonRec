@@ -1,0 +1,30 @@
+{
+  "entity_id": "place_lethan_system",
+  "entity_kind": "place",
+  "name": "Lethan System",
+  "aliases": [
+    "Lethan"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "layer": "L2",
+  "place_type": "star_system",
+  "parent_place_id": "place_kharis_sector",
+  "narrative_role": "Location of the Dark Star incident, including the initial rescue engagement, concealed-vessel boarding, Forward Hammer fleet action, and Crown Dark raid.",
+  "known_features": [
+    "Lethan Six, used by the Shadow Fleet to mask approach through its magnetic wake",
+    "outer-system mining and industrial traffic"
+  ],
+  "open_fields": [
+    "stellar type",
+    "planetary roster",
+    "settlements",
+    "population",
+    "exact political administration"
+  ],
+  "source_refs": [
+    "canon/L2/events/event_dark_star_incident_4718_224.json"
+  ],
+  "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
+  "locked_at": "2026-07-22"
+}

@@ -1,0 +1,56 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_sera_thalen",
+  "name": "Sera Thalen",
+  "aliases": [
+    "Captain Thalen"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_judicator_prime_task_group"
+  ],
+  "role": "Commanding officer of the G.U.S. Continuance",
+  "rank": "Captain",
+  "pronouns": "she/her",
+  "vessel_binding": "vessel_gu_018",
+  "task_group_slot": "JPTG-LOGISTICS-01",
+  "stable_identity_anchors": [
+    "Treats endurance, transfer capacity, and inventory truth as strategic capabilities rather than support details.",
+    "Will refuse or delay an unsafe replenishment evolution even under operational pressure and will state exactly what must change before it can proceed.",
+    "Protects cargo integrity, hazardous-material separation, and crew safety without treating the Sustainer as more valuable than the people it supports.",
+    "Plans for the campaign after the current emergency and preserves reserves against demands that would create a larger failure later.",
+    "Expects every promise of supply, repair, or transfer to be traceable to real mass, time, personnel, and risk."
+  ],
+  "decision_style": "Long-horizon, capacity-driven, and blunt about constraints; she is flexible about method but inflexible about falsified readiness or concealed risk.",
+  "working_relationships": {
+    "alric_tann": "A direct professional relationship. Tann sets task-group priorities; Thalen tells him what the logistics system can actually sustain and expects that truth to shape the plan.",
+    "char_mara_venn": "Close operational trust grounded in Venn's consistent protection of replenishment geometry and transfer windows.",
+    "char_corin_hale": "Frequent friction over risk and tempo, moderated by Hale's willingness to accept her final safety judgment once the constraint is demonstrated."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior commands",
+    "personal relationships outside established task-group roles"
+  ],
+  "conflict_flags": [],
+  "tags": [
+    "galactic_union_navy",
+    "sustainer_class",
+    "fleet_logistics_command",
+    "judicator_task_group"
+  ],
+  "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "doc_sources": [
+    "canon/L2/operations/GUMAS_L2__ROSTER__JUDICATOR_PRIME_TASK_GROUP_VESSELS__v1.0__2026-07-21.md"
+  ],
+  "notes": "Name collision scan returned no exact match in CanonRec or AUo959/aurora-cloudbank-symbolic before admission. Open biographical fields must not be silently invented."
+}

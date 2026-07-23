@@ -1,0 +1,62 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_aveline_soryn",
+  "name": "Aveline Soryn",
+  "aliases": [
+    "Field Judge Soryn",
+    "Judge Soryn"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [
+    "org_judicator_prime_field_court",
+    "org_high_judiciary_galactic_tribunal"
+  ],
+  "role": "Field Judge presiding over the Judicator Prime Field Court",
+  "office_id": "office_judicator_field_judge",
+  "pronouns": "she/her",
+  "location_binding": "vessel_gu_001",
+  "jurisdiction": "Full trial-level judicial authority over matters properly within the jurisdiction of the Judicator Prime Field Court.",
+  "institutional_status": "Commissioned Union judicial officer; permanently assigned to the Judicator Prime Field Court; independent of the Judicator naval chain, Union Marshal command, and Sentinel High Command when exercising judicial authority.",
+  "stable_identity_anchors": [
+    "Treats operational urgency as a reason for faster lawful process, not exemption from process.",
+    "Insists that consequential state action produce a reviewable record.",
+    "Regards defense counsel, evidence integrity, detention review, and appeal as operational necessities of legitimate justice.",
+    "Will rule against Union officers or institutions without treating disagreement as disloyalty.",
+    "Distinguishes the reach of Union justice from the limits imposed by jurisdiction, rights, sovereignty, and law."
+  ],
+  "decision_style": "Patient in fact-finding, exacting about jurisdiction and evidence, concise in rulings, and unusually decisive once the record is sufficient.",
+  "working_relationships": {
+    "alric_tann": "Mutual institutional respect. Tann controls vessel safety; Soryn controls judicial proceedings and outcomes. Neither treats coordination as subordination.",
+    "elias_drayen": "Professional but necessarily adversarial when Marshal operations require warrants, detention review, disclosure, or evidentiary rulings.",
+    "org_union_marshals": "Recognizes the Marshals as essential to cross-sector justice while refusing to let operational necessity become self-authorizing power.",
+    "org_judicial_council": "Receives administrative support and appointment authority without accepting direction on case outcomes.",
+    "org_high_judiciary_galactic_tribunal": "Superior adjudicative authority and appellate destination for her court."
+  },
+  "open_traits": [
+    "species",
+    "age",
+    "homeworld",
+    "family history",
+    "prior judicial postings",
+    "personal relationships outside established institutional roles"
+  ],
+  "conflict_flags": [],
+  "tags": [
+    "judiciary",
+    "field_judge",
+    "judicator_prime",
+    "mobile_justice"
+  ],
+  "promotion_pass": "Judicator Mobile Justice Closure Pass — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "doc_sources": [
+    "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_FIELD_COURT__v1.1__2026-07-21.md",
+    "canon/L2/operations/GUMAS_L2__DOCTRINE__JUDICATOR_PRIME_MOBILE_JUSTICE__v1.0__2026-07-21.md"
+  ],
+  "notes": "Name collision scan returned no exact match in CanonRec or AUo959/aurora-cloudbank-symbolic before admission. Identity is owner-authorized CANON; open biographical fields must not be silently invented."
+}
