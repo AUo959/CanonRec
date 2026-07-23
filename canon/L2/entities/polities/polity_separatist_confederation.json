@@ -1,0 +1,51 @@
+{
+  "entity_id": "polity_separatist_confederation",
+  "entity_kind": "polity",
+  "subtype": "active_faction",
+  "name": "Separatist Confederation",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "separatist_confed"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_or_movement",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "faction_type": "Dissident human-led factions (anti-Union movement)",
+  "alignment": "Anti-Union",
+  "traits": [
+    "Push for independence or alternative rule",
+    "Militarized via stolen/outdated Union tech",
+    "Exploit trade routes, corruption, and local unrest"
+  ],
+  "substructures": [],
+  "engine_faction_id": "separatist_confed",
+  "source_refs": [
+    {
+      "source_id": "gumas_factions",
+      "path": "canon/L2/factions/GUMAS_Factions.json"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/factions/GUMAS_Factions.json",
+    "archives (root): GUMAS_Unified_Registry/gumas_lore_db.json + canon/L2/factions/GUMAS_Factions.json"
+  ],
+  "promotion_pass": "Active-Faction Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "identity_model_note": "Polity/faction = a political or organized structure, NOT a people. Members and sub-cells may span species and allegiances.",
+  "peoplehood_note": "A movement/confederation, not a single people. Members are dissident populations of varied species; its political leadership (Governor Selia Trask) and military command (Supreme Commander Rhaegon Torr-Kai) are distinct offices within it.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Faction name \"Separatist Confederation\" preserved from canonical GUMAS_Factions.json (engine faction set).",
+    "authority": "Active-Faction Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "canon/L2/factions/GUMAS_Factions.json"
+    ]
+  }
+}

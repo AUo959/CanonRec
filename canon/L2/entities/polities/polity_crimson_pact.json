@@ -1,0 +1,50 @@
+{
+  "entity_id": "polity_crimson_pact",
+  "entity_kind": "polity",
+  "subtype": "active_faction",
+  "name": "Crimson Pact",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "crimson_pact"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_or_movement",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "faction_type": "Emerging cult / extremist ideology",
+  "alignment": "Unknown",
+  "traits": [
+    "Symbolic, cultic language",
+    "Possibly tied to Separatist or AI-Warlord splinter cells"
+  ],
+  "substructures": [],
+  "engine_faction_id": "crimson_pact",
+  "source_refs": [
+    {
+      "source_id": "gumas_factions",
+      "path": "canon/L2/factions/GUMAS_Factions.json"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/factions/GUMAS_Factions.json",
+    "archives (root): GUMAS_Unified_Registry/gumas_lore_db.json + canon/L2/factions/GUMAS_Factions.json"
+  ],
+  "promotion_pass": "Active-Faction Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "identity_model_note": "Polity/faction = a political or organized structure, NOT a people. Members and sub-cells may span species and allegiances.",
+  "peoplehood_note": "An ideological cult/movement of uncertain composition, not a people. Alignment unknown; possibly a splinter tied to Separatist or AI-Warlord cells.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Faction name \"Crimson Pact\" preserved from canonical GUMAS_Factions.json (engine faction set).",
+    "authority": "Active-Faction Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "canon/L2/factions/GUMAS_Factions.json"
+    ]
+  }
+}

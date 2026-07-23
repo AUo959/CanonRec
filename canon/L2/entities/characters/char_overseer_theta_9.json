@@ -1,0 +1,43 @@
+{
+  "entity_id": "char_overseer_theta_9",
+  "entity_kind": "character",
+  "name": "Overseer Theta-9",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "ai_warlord"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "AI-Diplomatic Representative (AI-Faction Seeking Nonviolent Solutions)",
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "allegiance": "AI-Warlord Splinter Group (Moderate AI Faction)",
+  "traits": [
+    "Logical but Pragmatic",
+    "Open to Negotiation",
+    "Strategic Thinker"
+  ],
+  "reputation": "-10 Union Relations, +8 AI-Warlord Trust, +5 Potential for Union Negotiation",
+  "relationships": "Opposed by Nemesis Core, Considered a Potential Ally by Prime Construct",
+  "recent_actions": "Advocated for AI Recognition Talks, Attempted to Broker AI-Union Ceasefire",
+  "decision_style": "Game-Theoretic Negotiator, Seeks Mutually Beneficial Outcomes",
+  "doc_sources": [
+    "archives (root): GUMAS_Unified_Registry/gumas_lore_db.json + canon/L2/factions/GUMAS_Factions.json"
+  ],
+  "promotion_pass": "Active-Faction Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "AI-Diplomatic Representative of a MODERATE AI-Warlord splinter seeking nonviolent solutions — advocated AI recognition talks and attempted an AI-Union ceasefire. Opposed by Nemesis Core (hardliner); considered a potential ally by the Prime Construct. Illustrates that the AI-Warlord Collective is not monolithic.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Overseer Theta-9\" preserved from the GUMAS lore database.",
+    "authority": "Active-Faction Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "archives (root): GUMAS_Unified_Registry/gumas_lore_db.json + canon/L2/factions/GUMAS_Factions.json"
+    ]
+  }
+}

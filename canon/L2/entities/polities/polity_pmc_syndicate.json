@@ -1,0 +1,51 @@
+{
+  "entity_id": "polity_pmc_syndicate",
+  "entity_kind": "polity",
+  "subtype": "active_faction",
+  "name": "PMC Syndicate",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "pmc_syndicate"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_or_movement",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "faction_type": "Corporate-aligned military and mercenary forces",
+  "alignment": "Mixed / mercenary",
+  "traits": [
+    "Driven by profit and contracts, not ideology",
+    "Shift sides based on incentives",
+    "Own fleets and tech rivaling the Union"
+  ],
+  "substructures": [],
+  "engine_faction_id": "pmc_syndicate",
+  "source_refs": [
+    {
+      "source_id": "gumas_factions",
+      "path": "canon/L2/factions/GUMAS_Factions.json"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/factions/GUMAS_Factions.json",
+    "archives (root): GUMAS_Unified_Registry/gumas_lore_db.json + canon/L2/factions/GUMAS_Factions.json"
+  ],
+  "promotion_pass": "Active-Faction Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "identity_model_note": "Polity/faction = a political or organized structure, NOT a people. Members and sub-cells may span species and allegiances.",
+  "peoplehood_note": "A syndicate of corporate military contractors, not a people — multispecies and allegiance-fluid. Leadership: CEO/Military Commander Vailen Rix; Intelligence Chief Eriana Vos.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Faction name \"PMC Syndicate\" preserved from canonical GUMAS_Factions.json (engine faction set).",
+    "authority": "Active-Faction Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "canon/L2/factions/GUMAS_Factions.json"
+    ]
+  }
+}
