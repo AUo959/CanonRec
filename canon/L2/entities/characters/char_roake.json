@@ -32,5 +32,14 @@
     "sim_capture_v1",
     "spatha_promotion_2026_07_21"
   ],
-  "notes": "Established: third member of the 3-person Ranger crew (2-in/1-out doctrine); retained control over timing, routing, and prioritization of field resupply under active threat (homing carrier drone + high-speed porter drones); received Cross's 3D battlefield imagery for analysis. Per Ranger drone doctrine (kit, 2026-07-21 ruling), the logistics officer normally manages the overall drone picture. Gender, full name, and history NOT established."
+  "notes": "Established: third member of the 3-person Ranger crew (2-in/1-out doctrine); retained control over timing, routing, and prioritization of field resupply under active threat (homing carrier drone + high-speed porter drones); received Cross's 3D battlefield imagery for analysis. Per Ranger drone doctrine (kit, 2026-07-21 ruling), the logistics officer normally manages the overall drone picture. Gender, full name, and history NOT established.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Roake\" preserved from an observed-use sim capture / canon ledger primary source, not hand-minted.",
+    "authority": "Spatha Promotion / Roster Closure / Sentinel Capsule passes — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "L2 sim capture (observed-use): canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+      "reports (root): roster_closure_audit__2026-07-21.md"
+    ]
+  }
 }

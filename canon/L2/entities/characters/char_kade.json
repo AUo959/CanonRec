@@ -32,5 +32,14 @@
     "sim_capture_v1",
     "spatha_promotion_2026_07_21"
   ],
-  "notes": "Established: member of the four-suit Sentinel task force that entered the system in the late simulation phase (space-capable suits; arrival triggered immediate hostile withdrawal — absolute escalation dominance). Suit variant, full name, and history NOT established. Sentinel scarcity constraint: four suits total in-system, severely number-limited force."
+  "notes": "Established: member of the four-suit Sentinel task force that entered the system in the late simulation phase (space-capable suits; arrival triggered immediate hostile withdrawal — absolute escalation dominance). Suit variant, full name, and history NOT established. Sentinel scarcity constraint: four suits total in-system, severely number-limited force.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Kade\" preserved from an observed-use sim capture / canon ledger primary source, not hand-minted.",
+    "authority": "Spatha Promotion / Roster Closure / Sentinel Capsule passes — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "L2 sim capture (observed-use): canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+      "reports (root): roster_closure_audit__2026-07-21.md"
+    ]
+  }
 }

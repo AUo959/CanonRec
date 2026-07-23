@@ -31,5 +31,14 @@
     "deceased",
     "kia"
   ],
-  "notes": "Separatist admiral; KILLED IN ACTION during Operation Phantom Eclipse before he could unify separatist factions (C2 terminal). Distinct from the Vos/Voss cluster: Lyra Voss, Lirian Vael-Torin, Eriana Vos, Rhaegon Torr-Kai. Early-generation salvage (owner ruling: mine selectively, reconcile conflicts). Only the title/role/faction established in source are recorded; further detail (history, age, full profile) NOT invented."
+  "notes": "Separatist admiral; KILLED IN ACTION during Operation Phantom Eclipse before he could unify separatist factions (C2 terminal). Distinct from the Vos/Voss cluster: Lyra Voss, Lirian Vael-Torin, Eriana Vos, Rhaegon Torr-Kai. Early-generation salvage (owner ruling: mine selectively, reconcile conflicts). Only the title/role/faction established in source are recorded; further detail (history, age, full profile) NOT invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Karn Vos\" preserved verbatim from a cited archive/knowledge-core source, not hand-minted. Salvaged by the L2 Character Salvage pass(es) 2026-07-21; recorded at STAGING.",
+    "authority": "L2 Character Salvage Pass — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects/GUI_Cloudhub/…/v2.2.6b core (Operation Phantom Eclipse)",
+      "reports (root): l2_character_salvage_audit__2026-07-21.md"
+    ]
+  }
 }

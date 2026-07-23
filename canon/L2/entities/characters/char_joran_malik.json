@@ -34,5 +34,14 @@
     "type": "vessel",
     "target_id": "vessel_gu_002",
     "basis": "Commander of the G.U.S. Umbra Stalker during Operation Obsidian Dawn (v2.2.6b mission log)"
+  },
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Joran Malik\" preserved verbatim from a cited archive/knowledge-core source, not hand-minted. Salvaged by the L2 Character Salvage pass(es) 2026-07-21; recorded at STAGING.",
+    "authority": "L2 Character Salvage Pass — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects/GUI_Cloudhub/…/v2.2.6b core (Operation Obsidian Dawn mission log)",
+      "reports (root): l2_character_salvage_audit__2026-07-21.md"
+    ]
   }
 }

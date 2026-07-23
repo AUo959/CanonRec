@@ -36,5 +36,15 @@
     "shc_incumbent",
     "roster_closure_2026_07_21"
   ],
-  "notes": "Dual-role career, both canon-established: (1) Commander / Sentinel-Praetor — mission author and lead of Operation Silent Dagger (LEDGER-MISSIONS-0001); (2) Grand Marshal of Sentinel High Command — incumbent per Marshal Charter Article V (CANON, owner-approved 2026-07-20), selected by deterministic rule as the highest-seniority named Praetor commander free of engine-roster collision. SHC seat coheres with Praetor doctrine (battlefield command / \"Field Marshal\" variant) and the SHC direct advisory uplink to the Chancellor & Military High Command. Distinct office from Chief Marshal (owner ruling CL-13a). Engine note: aric_thal absent from all leader rosters across all seeds — no collision. Full history, age, and origin NOT established."
+  "notes": "Dual-role career, both canon-established: (1) Commander / Sentinel-Praetor — mission author and lead of Operation Silent Dagger (LEDGER-MISSIONS-0001); (2) Grand Marshal of Sentinel High Command — incumbent per Marshal Charter Article V (CANON, owner-approved 2026-07-20), selected by deterministic rule as the highest-seniority named Praetor commander free of engine-roster collision. SHC seat coheres with Praetor doctrine (battlefield command / \"Field Marshal\" variant) and the SHC direct advisory uplink to the Chancellor & Military High Command. Distinct office from Chief Marshal (owner ruling CL-13a). Engine note: aric_thal absent from all leader rosters across all seeds — no collision. Full history, age, and origin NOT established.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Aric Thal\" preserved from an observed-use sim capture / canon ledger primary source, not hand-minted.",
+    "authority": "Spatha Promotion / Roster Closure / Sentinel Capsule passes — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (LEDGER-MISSIONS-0001, SRC-0005)",
+      "canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md (Article V)",
+      "reports (root): roster_closure_audit__2026-07-21.md"
+    ]
+  }
 }

@@ -32,5 +32,14 @@
     "sim_capture_v1",
     "spatha_promotion_2026_07_21"
   ],
-  "notes": "Established: female (explicit owner correction, 2026-02-03 sweep). Operates in doctrinal pair with Cross; demonstrated aggressive forward momentum and active pursuit of retreating hostiles. Distinctive kit: bracer-mounted repulsion device emitting short-range impulse force — observed redirecting a thrown munition back toward hostile forces, causing premature detonation (only established use; the sweep explicitly retracts other claimed uses). Full name, rank grade, and history NOT established."
+  "notes": "Established: female (explicit owner correction, 2026-02-03 sweep). Operates in doctrinal pair with Cross; demonstrated aggressive forward momentum and active pursuit of retreating hostiles. Distinctive kit: bracer-mounted repulsion device emitting short-range impulse force — observed redirecting a thrown munition back toward hostile forces, causing premature detonation (only established use; the sweep explicitly retracts other claimed uses). Full name, rank grade, and history NOT established.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Vorn\" preserved from an observed-use sim capture / canon ledger primary source, not hand-minted.",
+    "authority": "Spatha Promotion / Roster Closure / Sentinel Capsule passes — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "L2 sim capture (observed-use): canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+      "reports (root): roster_closure_audit__2026-07-21.md"
+    ]
+  }
 }

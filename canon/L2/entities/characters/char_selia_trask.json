@@ -41,5 +41,15 @@
     "political_leadership",
     "l2_char_salvage_2026_07_21"
   ],
-  "notes": "Recovered L2 character (STAGING). Fills the Separatist Confederation political-leader slot (distinct from Supreme Military Commander Rhaegon Torr-Kai). Corroborated by the \"Separatist Diplomatic Summit – Outer Fringe\" sim log, where she advocated ceasefire with the Union while Rhaegon (Torr-Kai) declined to attend. Unestablished detail not invented."
+  "notes": "Recovered L2 character (STAGING). Fills the Separatist Confederation political-leader slot (distinct from Supreme Military Commander Rhaegon Torr-Kai). Corroborated by the \"Separatist Diplomatic Summit – Outer Fringe\" sim log, where she advocated ceasefire with the Union while Rhaegon (Torr-Kai) declined to attend. Unestablished detail not invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Selia Trask\" preserved verbatim from a cited archive/knowledge-core source, not hand-minted. Salvaged by the L2 Character Salvage pass(es) 2026-07-21; recorded at STAGING.",
+    "authority": "L2 Character Salvage Pass — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/…/Aurora_GUMAS_Knowledge_Bundle.md (character-profile block)",
+      "archives (root): GUMAS_Extracted_Simulation_Modules.txt (summit sim log)",
+      "reports (root): l2_character_salvage_audit__2026-07-21.md"
+    ]
+  }
 }

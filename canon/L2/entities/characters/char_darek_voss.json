@@ -32,5 +32,14 @@
     "kia",
     "roster_closure_2026_07_21"
   ],
-  "notes": "Operation Silent Dagger: shockwave weapons, rear-guard; KILLED IN ACTION during the operation (the mission's single recorded fatality). C2 terminal status — no canonical revival mechanism exists. Shared surname with Kael Voss recorded; relationship NOT established."
+  "notes": "Operation Silent Dagger: shockwave weapons, rear-guard; KILLED IN ACTION during the operation (the mission's single recorded fatality). C2 terminal status — no canonical revival mechanism exists. Shared surname with Kael Voss recorded; relationship NOT established.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Darek Voss\" preserved from an observed-use sim capture / canon ledger primary source, not hand-minted.",
+    "authority": "Spatha Promotion / Roster Closure / Sentinel Capsule passes — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (LEDGER-MISSIONS-0001, SRC-0005)",
+      "reports (root): roster_closure_audit__2026-07-21.md"
+    ]
+  }
 }

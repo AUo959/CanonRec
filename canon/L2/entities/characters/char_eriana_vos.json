@@ -42,5 +42,15 @@
     "vos_voss_cluster",
     "l2_char_salvage_2026_07_21"
   ],
-  "notes": "Recovered L2 character (STAGING). Fills the PMC Syndicate intelligence-chief slot (distinct from CEO/Military Commander Vailen Rix). Corroborated beyond the profile block by the \"Separatist Diplomatic Summit\" sim log. DISAMBIGUATION: distinct from Lyra Voss (Judicator XO), Lirian Vael-Torin (alias \"Lirian Vos\"), and Rhaegon Torr-Kai (alias \"Rhaegon Voss\"). Unestablished detail (full history, origin) not invented."
+  "notes": "Recovered L2 character (STAGING). Fills the PMC Syndicate intelligence-chief slot (distinct from CEO/Military Commander Vailen Rix). Corroborated beyond the profile block by the \"Separatist Diplomatic Summit\" sim log. DISAMBIGUATION: distinct from Lyra Voss (Judicator XO), Lirian Vael-Torin (alias \"Lirian Vos\"), and Rhaegon Torr-Kai (alias \"Rhaegon Voss\"). Unestablished detail (full history, origin) not invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Eriana Vos\" preserved verbatim from a cited archive/knowledge-core source, not hand-minted. Salvaged by the L2 Character Salvage pass(es) 2026-07-21; recorded at STAGING.",
+    "authority": "L2 Character Salvage Pass — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/…/Aurora_GUMAS_Knowledge_Bundle.md (GUMAS character-profile block)",
+      "archives (root): GUMAS_Extracted_Simulation_Modules.txt (Separatist Diplomatic Summit sim log)",
+      "reports (root): l2_character_salvage_audit__2026-07-21.md"
+    ]
+  }
 }

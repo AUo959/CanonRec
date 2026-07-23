@@ -30,5 +30,14 @@
     "l2_char_supplement_2026_07_21",
     "generative_example"
   ],
-  "notes": "Recorded UNCONFIRMED: presented as a design \"Option 3\" character choice, not an affirmed actor. Early-generation salvage (owner ruling: mine selectively, reconcile conflicts). Only the title/role/faction established in source are recorded; further detail (history, age, full profile) NOT invented."
+  "notes": "Recorded UNCONFIRMED: presented as a design \"Option 3\" character choice, not an affirmed actor. Early-generation salvage (owner ruling: mine selectively, reconcile conflicts). Only the title/role/faction established in source are recorded; further detail (history, age, full profile) NOT invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Vaxtan Rhel\" preserved verbatim from a cited archive/knowledge-core source, not hand-minted. Salvaged by the L2 Character Salvage pass(es) 2026-07-21; recorded at UNCONFIRMED.",
+    "authority": "L2 Character Salvage Pass — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects/GUI_Cloudhub/…/v2.2.6b core (design \"Option 3\" proposal)",
+      "reports (root): l2_character_salvage_audit__2026-07-21.md"
+    ]
+  }
 }

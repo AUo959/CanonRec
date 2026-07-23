@@ -32,5 +32,14 @@
     "sim_capture_v1",
     "spatha_promotion_2026_07_21"
   ],
-  "notes": "Established (capture + forensic sweep, observed-use only): operates in doctrinal pair with Vorn as a single tactical unit; maintained situational oversight; conducted battlefield documentation via helmet-mounted imaging (3D stills of enemy armor/weapons, transmitted to Roake for analysis); fired a Viper from the hip during surprise contact with an elite vanguard unit (situational, not doctrinal); called for ordnance after assessing comms interference; accessed the station data core prior to final disengagement. Carries standard Marshal kit (Spatha Moderna, MR-6, Viper). Full name, rank grade, and history NOT established — do not invent."
+  "notes": "Established (capture + forensic sweep, observed-use only): operates in doctrinal pair with Vorn as a single tactical unit; maintained situational oversight; conducted battlefield documentation via helmet-mounted imaging (3D stills of enemy armor/weapons, transmitted to Roake for analysis); fired a Viper from the hip during surprise contact with an elite vanguard unit (situational, not doctrinal); called for ordnance after assessing comms interference; accessed the station data core prior to final disengagement. Carries standard Marshal kit (Spatha Moderna, MR-6, Viper). Full name, rank grade, and history NOT established — do not invent.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Cross\" preserved from an observed-use sim capture / canon ledger primary source, not hand-minted.",
+    "authority": "Spatha Promotion / Roster Closure / Sentinel Capsule passes — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "L2 sim capture (observed-use): canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
+      "reports (root): roster_closure_audit__2026-07-21.md"
+    ]
+  }
 }

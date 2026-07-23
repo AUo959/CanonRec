@@ -43,5 +43,14 @@
     "example_derived",
     "l2_char_salvage_2026_07_21"
   ],
-  "notes": "Recorded at UNCONFIRMED (owner ruling 2026-07-21). His profile block appears in the archive under a header explicitly labeled \"AI-Generated Character\" and is framed as a demonstration of on-demand character generation (\"Characters are generated when needed, rather than stored permanently\"), NOT an established standing actor. Retained as a record because the profile is coherent and fills the Union Navy fleet-admiral slot, but not promotable above UNCONFIRMED until owner affirms him as canon. No capsule built. Relationship names resolve: Durn=kael_durn, Vael=vael_saros, Tann=alric_tann."
+  "notes": "Recorded at UNCONFIRMED (owner ruling 2026-07-21). His profile block appears in the archive under a header explicitly labeled \"AI-Generated Character\" and is framed as a demonstration of on-demand character generation (\"Characters are generated when needed, rather than stored permanently\"), NOT an established standing actor. Retained as a record because the profile is coherent and fills the Union Navy fleet-admiral slot, but not promotable above UNCONFIRMED until owner affirms him as canon. No capsule built. Relationship names resolve: Durn=kael_durn, Vael=vael_saros, Tann=alric_tann.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Haden Korr\" preserved verbatim from a cited archive/knowledge-core source, not hand-minted. Salvaged by the L2 Character Salvage pass(es) 2026-07-21; recorded at UNCONFIRMED.",
+    "authority": "L2 Character Salvage Pass — owner-directed 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/…/Aurora_GUMAS_Knowledge_Bundle.md (\"AI-Generated Character\" demo block)",
+      "reports (root): l2_character_salvage_audit__2026-07-21.md"
+    ]
+  }
 }
