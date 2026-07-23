@@ -1,0 +1,43 @@
+{
+  "entity_id": "loc_daeryth_enclave",
+  "entity_kind": "location",
+  "name": "Daeryth Enclave",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "velar_imperium"
+  ],
+  "organization_ids": [
+    "org_republican_reformists"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": "fortified urban enclave",
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_knowledge_core",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen chronicle)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen chronicle)",
+    "reports (root): l2_character_salvage_supplement__2026-07-21.md"
+  ],
+  "promotion_pass": "L2 Location Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "map_primacy_note": "Named referent attested in source but NOT on the map source-of-truth placed-systems list. canonical_position_status=unplaced; placement requires a future map §8 entry (epistemic rule: detail discovered, not invented). Velari Mid-World, a former academic and technological hub.",
+  "notes": "Reformist Capital of the Velar Republican Movement (Union-aligned faction). Digitally-networked council/parliamentary democracy grounded in Velari tradition; defended by solar-harmonics planetary shields, Velar Civil Defense Brigades, and an AI-assisted cyberwarfare grid. Cross-ref: org_republican_reformists; char_iskar_veyr (UNCONFIRMED) cited as its defense commander.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Place name \"Daeryth Enclave\" preserved verbatim from a cited archive/knowledge-core source.",
+    "authority": "L2 Location Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen chronicle)"
+    ]
+  }
+}

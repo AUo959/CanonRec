@@ -1,0 +1,41 @@
+{
+  "entity_id": "loc_thalor_sector",
+  "entity_kind": "location",
+  "name": "Thalor Sector",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "separatist_confed"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": "sector",
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_knowledge_core",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen chronicle)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen chronicle)",
+    "reports (root): l2_character_salvage_supplement__2026-07-21.md"
+  ],
+  "promotion_pass": "L2 Location Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "map_primacy_note": "Named referent attested in source but NOT on the map source-of-truth placed-systems list. canonical_position_status=unplaced; placement requires a future map §8 entry (epistemic rule: detail discovered, not invented). Separatist-adjacent / contested sector.",
+  "notes": "Sector from which Envoy-Captain Deyan Orros extracted key separatist informants (cross-ref: char_deyan_orros).",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Place name \"Thalor Sector\" preserved verbatim from a cited archive/knowledge-core source.",
+    "authority": "L2 Location Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen chronicle)"
+    ]
+  }
+}
