@@ -1,0 +1,36 @@
+{
+  "entity_id": "char_syrr_velkonn",
+  "entity_kind": "character",
+  "name": "Syrr Velkonn",
+  "aliases": [
+    "Dr. Syrr Velkonn"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "velar_imperium"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Velar anthropologist (potential reformist)",
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b (+ siblings) — widened prose sweep",
+    "reports (root): l2_character_salvage_supplement__2026-07-21.md"
+  ],
+  "promotion_pass": "Widened Prose Sweep — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "A Velar anthropologist noted as a potential reformist. Shares the Velkonn name with exiled Grand Duke Talyx Velkonn (char_talyx_velkonn) — relationship recorded but NOT established; do not infer kinship. Widened-prose-sweep salvage; only source-established fields recorded, rest not invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Syrr Velkonn\" preserved verbatim from cited knowledge-core sources.",
+    "authority": "Widened Prose Sweep — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b (+ siblings) — widened prose sweep"
+    ]
+  }
+}

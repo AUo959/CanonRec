@@ -16,7 +16,10 @@
   "entity_id": "char_selia_trask",
   "name": "Selia Trask",
   "aliases": [
-    "Governor Selia Trask"
+    "Governor Selia Trask",
+    "Governor Selia Tren-Voss",
+    "Selia Tren",
+    "Selia Tren-Voss"
   ],
   "certainty": "STAGING",
   "status": "active",
@@ -51,5 +54,7 @@
       "archives (root): GUMAS_Extracted_Simulation_Modules.txt (summit sim log)",
       "reports (root): l2_character_salvage_audit__2026-07-21.md"
     ]
-  }
+  },
+  "alias_drift_note": "Chronicler variants \"Selia Tren-Voss\"/\"Selia Tren\" (v2.2.6b siblings) = canonical Selia Trask — same office (Political Leader of the Separatist Confederation). Surname churn, registered by the Widened Prose Sweep 2026-07-21.",
+  "updated_at": "2026-07-21"
 }
