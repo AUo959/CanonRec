@@ -1,0 +1,39 @@
+{
+  "entity_id": "anomaly_eltari_nexus",
+  "entity_kind": "anomaly",
+  "name": "The Eltari Nexus",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": "loc_eltari_nebula",
+  "canonical_position_status": null,
+  "discovered_by_id": "adrienne_kovas",
+  "host_location_id": "loc_eltari_nebula",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_expedition_scenario",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Deep Space Expedition scenario)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Deep Space Expedition scenario)"
+  ],
+  "promotion_pass": "Anomaly Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "A previously unknown quantum phenomenon discovered deep within the Eltari Nebula (loc_eltari_nebula) — a breakthrough in quantum astroengineering with potentially era-defining implications. Discovered by a Union science team led by Dr. Adrienne Kovas (adrienne_kovas, CSO of the Judicator Prime), working alongside the Prime Construct and an AI/human research coalition. Cross-ref: loc_eltari_nebula notes.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Anomaly name \"The Eltari Nexus\" preserved verbatim from the cited expedition scenario.",
+    "authority": "Anomaly Salvage Pass — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Deep Space Expedition scenario)"
+    ]
+  }
+}
