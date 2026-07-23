@@ -6,13 +6,7 @@ on:
       - canon/dark-star-unified-v1-1
     paths:
       - tools/materialize_dark_star.py
-      - tools/dark_star_payload_00.b64
-      - tools/dark_star_payload_01.b64
-      - tools/dark_star_payload_02.b64
-      - tools/dark_star_payload_03.b64
-      - tools/dark_star_payload_04.b64
-      - tools/dark_star_payload_05.b64
-      - tools/dark_star_payload_06.b64
+      - tools/dark_star_bz2_*.b64
       - .github/workflows/materialize-dark-star.yml
   pull_request:
     branches:
@@ -50,18 +44,15 @@ jobs:
           test -s canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_UNIFIED__v1.1__2026-07-22.md
           grep -q "status: canon" canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_UNIFIED__v1.1__2026-07-22.md
           grep -q "translation_recording_policy" canon/L2/events/event_dark_star_incident_4718_224.json
-      - name: Remove one-time materializer
+      - name: Remove one-time materializer and transport files
         run: |
-          rm tools/materialize_dark_star.py
-          rm tools/dark_star_payload_00.b64
-          rm tools/dark_star_payload_01.b64
-          rm tools/dark_star_payload_02.b64
-          rm tools/dark_star_payload_03.b64
-          rm tools/dark_star_payload_04.b64
-          rm tools/dark_star_payload_05.b64
-          rm tools/dark_star_payload_06.b64
-          rm tools/dark_star_payload_diagnostics.json
-          rm .github/workflows/materialize-dark-star.yml
+          rm -f tools/materialize_dark_star.py
+          rm -f tools/dark_star_payload_*.b64
+          rm -f tools/dark_star_payload_small_*.b64
+          rm -f tools/dark_star_pack_*.b64
+          rm -f tools/dark_star_bz2_*.b64
+          rm -f tools/dark_star_payload_diagnostics.json
+          rm -f .github/workflows/materialize-dark-star.yml
       - name: Commit generated canon update
         run: |
           git config user.name "Aurora Canon Materializer"
