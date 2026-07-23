@@ -3,7 +3,7 @@
   "entity_kind": "species",
   "name": "Velari",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "extant",
   "faction_bindings": [],
   "organization_ids": [],
@@ -42,5 +42,13 @@
   "distribution": "Founding species of the Velar Imperium, but the Velari PEOPLE are not the Imperium STATE: Velari also live Union-aligned (e.g. the Velari-heritage world Vel-Surak sits in the Union) and drove the Republican Reformist movement. Imperial, reformist, and Union-aligned Velari all coexist.",
   "cultural_note": "\"Velari\" denotes the people and cultural heritage; \"Velar Imperium\" is one (fragmented) political expression of that heritage, not its whole. The Vel-Surak placement ruling (2026-07-21) turns on exactly this species≠state distinction.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  }
 }

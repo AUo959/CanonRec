@@ -1,6 +1,6 @@
 {
   "entity_kind": "location",
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "conflict_flags": [],
   "role": null,
@@ -34,5 +34,22 @@
   "location_type": "border world system",
   "region_id": "loc_zone_velar_crescent",
   "canonical_position_status": "canon",
-  "promotion_note": "Created at STAGING from map §8.5 (VEL-BORDER-01, Placed/Historically Layered). System name pending ratification. Forced adjacency (map §5, non-negotiable): direct adjacency to GU-FRONT-01 (Union Frontier ↔ Velar Border Worlds) — cannot be ignored by GU-FRONT-01; cannot be politically stable; cannot fully align with the Union without triggering Velar retaliation. Buffer and flashpoint; recruitment ground for Loyalists, Reformists, and warlords alike. Anchors map §4 requirement \"Border World\"."
+  "promotion_note": "Created at STAGING from map §8.5 (VEL-BORDER-01, Placed/Historically Layered). System name pending ratification. Forced adjacency (map §5, non-negotiable): direct adjacency to GU-FRONT-01 (Union Frontier ↔ Velar Border Worlds) — cannot be ignored by GU-FRONT-01; cannot be politically stable; cannot fully align with the Union without triggering Velar retaliation. Buffer and flashpoint; recruitment ground for Loyalists, Reformists, and warlords alike. Anchors map §4 requirement \"Border World\".",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  },
+  "updated_at": "2026-07-21",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Velar Border World System\" preserved from cited map/source material (map-derived or salvaged referent).",
+    "authority": "Major Promotion Pass — 2026-07-21 (recovered-source; retrofit for pre-gate records)",
+    "source_refs": [
+      "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md"
+    ]
+  }
 }

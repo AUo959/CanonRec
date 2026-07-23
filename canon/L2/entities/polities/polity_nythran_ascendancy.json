@@ -6,7 +6,7 @@
   "aliases": [
     "Post-Singularity Civilization & AI-Symbiotic Culture"
   ],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "nythran_ascendancy"
@@ -51,5 +51,13 @@
   "multispecies": true,
   "citizenry": "Two peoples as equal citizens: Nythran organics AND AI intelligences (co-equal council votes). The polity is not reducible to the Nythran species alone.",
   "peoplehood_note": "A STATE, not a people. Its citizenry deliberately spans organic Nythrans and AI persons.",
-  "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people."
+  "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people.",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  }
 }

@@ -21,7 +21,7 @@
     "Selia Tren",
     "Selia Tren-Voss"
   ],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "separatist_confed"
@@ -56,5 +56,13 @@
     ]
   },
   "alias_drift_note": "Chronicler variants \"Selia Tren-Voss\"/\"Selia Tren\" (v2.2.6b siblings) = canonical Selia Trask — same office (Political Leader of the Separatist Confederation). Surname churn, registered by the Widened Prose Sweep 2026-07-21.",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  }
 }

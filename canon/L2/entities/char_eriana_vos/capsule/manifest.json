@@ -5,7 +5,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "b9b005f444396059b3d343c374e5026935ce45d2f07b7d2e8f721441c69bbf30"
+      "sha256": "f89a42fe112872f4e58e2a1ddab40dccf0ab3fa7bccff7084b72c02ffadcf7b8"
     },
     {
       "path": "traits.json",
@@ -27,5 +27,7 @@
       "path": "runtime.py",
       "sha256": "55e1cf0d878e8cf43077c7c38e48220556bd69d63ef6d4df8ac8ff8011de4920"
     }
-  ]
+  ],
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "certainty STAGING->CANON (Major Promotion Pass)"
 }

@@ -6,7 +6,7 @@
     "The Twin Dyson Spheres",
     "Dyson Frontier megastructures"
   ],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [],
   "organization_ids": [],
@@ -44,5 +44,14 @@
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)",
       "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md §2.5 Dyson Sphere Frontier"
     ]
-  }
+  },
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  },
+  "updated_at": "2026-07-21"
 }

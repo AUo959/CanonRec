@@ -17,7 +17,7 @@
   "aliases": [
     "Commander Joran Malik"
   ],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "galactic_union"
@@ -43,5 +43,14 @@
       "projects/GUI_Cloudhub/…/v2.2.6b core (Operation Obsidian Dawn mission log)",
       "reports (root): l2_character_salvage_audit__2026-07-21.md"
     ]
-  }
+  },
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  },
+  "updated_at": "2026-07-21"
 }

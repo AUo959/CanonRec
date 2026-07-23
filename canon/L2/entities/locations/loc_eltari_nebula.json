@@ -3,7 +3,7 @@
   "entity_kind": "location",
   "name": "Eltari Nebula",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [],
   "organization_ids": [],
@@ -37,5 +37,13 @@
     ]
   },
   "anomaly_id": "anomaly_eltari_nexus",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  }
 }

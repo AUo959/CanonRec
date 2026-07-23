@@ -5,7 +5,7 @@
   "aliases": [],
   "role": "Political Leader of the Separatist Confederation",
   "faction_id": "separatist_confed",
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "doc_sources": [
     "canon/L2/entities/characters/char_selia_trask.json",
@@ -13,5 +13,7 @@
   ],
   "promotion_pass": "L2 Character Salvage Pass — Capsule Build — 2026-07-21",
   "notes": "Capsule built from the recovered GUMAS character profile (STAGING). Unestablished detail deliberately absent.",
-  "location_binding_note": "No organization/vessel binding: no dedicated faction-government record exists; faction-level only (C1 gap by design, not omission)."
+  "location_binding_note": "No organization/vessel binding: no dedicated faction-government record exists; faction-level only (C1 gap by design, not omission).",
+  "prev_certainty": "STAGING",
+  "updated_at": "2026-07-21"
 }

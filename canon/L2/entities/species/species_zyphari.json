@@ -3,7 +3,7 @@
   "entity_kind": "species",
   "name": "Zyphari",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "extant",
   "faction_bindings": [],
   "organization_ids": [],
@@ -40,5 +40,13 @@
   ],
   "distribution": "Dominant species of the Zyphari Compact, but the Compact is explicitly MULTISPECIES — Zyphari are its most prominent members, not its only ones. Zyphari also appear in Union trade contexts.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  }
 }

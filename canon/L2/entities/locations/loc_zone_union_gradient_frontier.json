@@ -3,7 +3,7 @@
   "entity_kind": "location",
   "name": "Union Gradient Frontier",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "source_refs": [
     {
       "source_id": "gumas_l2_map_source_of_truth",
@@ -29,5 +29,22 @@
   "canonical_position_status": "canon",
   "promotion_pass": "Velar Fabric Pass — Placement Ruling — 2026-07-21",
   "promotion_note": "RULING-VELAR-PLACEMENT (owner, 2026-07-21): macro-zone entity created at STAGING from map source-of-truth §2 so region_id adjacency anchors resolve (P3). Map remains geometry authority. Declining gate density; Union authority degrades gradually. Forward Bastions, Union-aligned Velar worlds, Sovereign Front clusters, Zyphari secondary ports.",
-  "locked_at": "2026-07-21T00:00:00Z"
+  "locked_at": "2026-07-21T00:00:00Z",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Major Promotion Pass — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner directive: promote all staged records that do not conflict with canon",
+    "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
+    "at": "2026-07-21"
+  },
+  "updated_at": "2026-07-21",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Union Gradient Frontier\" preserved from cited map/source material (map-derived or salvaged referent).",
+    "authority": "Major Promotion Pass — 2026-07-21 (recovered-source; retrofit for pre-gate records)",
+    "source_refs": [
+      "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md"
+    ]
+  }
 }

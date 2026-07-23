@@ -5,7 +5,7 @@
   "aliases": [],
   "role": "Intelligence Chief of the PMC Syndicate",
   "faction_id": "pmc_syndicate",
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "doc_sources": [
     "canon/L2/entities/characters/char_eriana_vos.json",
@@ -17,5 +17,7 @@
     "type": "organization",
     "target_id": "org_the_black_hand",
     "basis": "PMC Syndicate intelligence apparatus; bound to the nearest recorded PMC covert organization (org_the_black_hand) — no dedicated PMC intelligence-division record exists"
-  }
+  },
+  "prev_certainty": "STAGING",
+  "updated_at": "2026-07-21"
 }
