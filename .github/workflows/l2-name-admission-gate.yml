@@ -1,0 +1,83 @@
+name: L2 Name Admission Gate
+
+on:
+  pull_request:
+    paths:
+      - "canon/L2/entities/**/*.json"
+      - "canon/L2/registries/L2_NAMING_ADMISSION_POLICY__v1.0__2026-07-22.md"
+      - "aurora-canon-reconciler/scripts/export_name_registry.py"
+      - "aurora-canon-reconciler/scripts/validate_naming_receipts.py"
+      - "aurora-canon-reconciler/tests/test_naming_gate.py"
+      - "aurora-canon-reconciler/references/l2_naming_receipt_schema.json"
+      - ".github/workflows/l2-name-admission-gate.yml"
+  push:
+    branches: [main]
+    paths:
+      - "canon/L2/entities/**/*.json"
+      - "canon/L2/registries/L2_NAMING_ADMISSION_POLICY__v1.0__2026-07-22.md"
+      - "aurora-canon-reconciler/scripts/export_name_registry.py"
+      - "aurora-canon-reconciler/scripts/validate_naming_receipts.py"
+      - "aurora-canon-reconciler/tests/test_naming_gate.py"
+      - "aurora-canon-reconciler/references/l2_naming_receipt_schema.json"
+      - ".github/workflows/l2-name-admission-gate.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-new-l2-names:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run naming gate unit tests
+        run: |
+          PYTHONPATH=aurora-canon-reconciler/scripts \
+            python -m unittest discover \
+              -s aurora-canon-reconciler/tests \
+              -p 'test_naming_gate.py'
+
+      - name: Export current L2 name registry
+        run: |
+          python aurora-canon-reconciler/scripts/export_name_registry.py \
+            --repo-root . --output /tmp/l2_name_registry.json
+
+      - name: Determine newly added L2 entity records
+        id: added
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          if [[ "$EVENT_NAME" == "pull_request" ]]; then
+            BASE_SHA="$PR_BASE_SHA"
+          else
+            BASE_SHA="$PUSH_BEFORE"
+          fi
+          if [[ -z "$BASE_SHA" || "$BASE_SHA" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA="$(git rev-list --max-parents=0 HEAD | tail -1)"
+          fi
+          mapfile -t files < <(
+            git diff --diff-filter=A --name-only "$BASE_SHA" "$HEAD_SHA" \
+              -- ':(glob)canon/L2/entities/**/*.json'
+          )
+          printf '%s\n' "${files[@]}" > /tmp/added_l2_entities.txt
+          echo "count=${#files[@]}" >> "$GITHUB_OUTPUT"
+
+      - name: Validate naming receipts on new referents
+        if: steps.added.outputs.count != '0'
+        shell: bash
+        run: |
+          mapfile -t files < /tmp/added_l2_entities.txt
+          python aurora-canon-reconciler/scripts/validate_naming_receipts.py \
+            --registry /tmp/l2_name_registry.json \
+            --require-receipt \
+            "${files[@]}"
