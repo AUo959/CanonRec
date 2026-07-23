@@ -19,7 +19,6 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "species": "Harkoni — reptilian bipeds with dense muscle structure and hardened physiology suited to extreme environments",
   "government": "Authoritarian yet stable; led by a High Strategos who must prove worth through tactical brilliance rather than bloodline or wealth. Factional split: Loyalists (stability through strength) vs isolationists.",
   "source_refs": [
     {
@@ -47,6 +46,9 @@
       "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
     ]
   },
-  "primary_species_id": "species_harkoni",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "dominant_species_id": "species_harkoni",
+  "multispecies": false,
+  "peoplehood_note": "A STATE (government of the Harkoni), not the Harkoni people themselves. The Harkoni are internally divided (loyalists vs isolationists) and are not reducible to their government.",
+  "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people."
 }

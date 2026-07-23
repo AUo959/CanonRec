@@ -19,7 +19,6 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "species": "Nythrans — once organic, now cybernetically enhanced beings",
   "government": "Council where organic minds and AI intelligences hold equal votes. Ideological divisions: Cyber-Symbiotes (fully merged, pro-integration) vs Traditionalists (partially organic, resist total AI dependence).",
   "source_refs": [
     {
@@ -47,6 +46,10 @@
       "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
     ]
   },
-  "primary_species_id": "species_nythran",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "founding_species_id": "species_nythran",
+  "multispecies": true,
+  "citizenry": "Two peoples as equal citizens: Nythran organics AND AI intelligences (co-equal council votes). The polity is not reducible to the Nythran species alone.",
+  "peoplehood_note": "A STATE, not a people. Its citizenry deliberately spans organic Nythrans and AI persons.",
+  "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people."
 }

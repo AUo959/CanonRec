@@ -14,7 +14,6 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "primary_polity_id": "velar_imperium",
   "source_refs": [
     {
       "source_id": "v2_2_6b_species_codex",
@@ -34,5 +33,14 @@
     "source_refs": [
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (species/civilization codex)"
     ]
-  }
+  },
+  "origin_polity_id": "velar_imperium",
+  "member_polities": [
+    "velar_imperium",
+    "galactic_union"
+  ],
+  "distribution": "Founding species of the Velar Imperium, but the Velari PEOPLE are not the Imperium STATE: Velari also live Union-aligned (e.g. the Velari-heritage world Vel-Surak sits in the Union) and drove the Republican Reformist movement. Imperial, reformist, and Union-aligned Velari all coexist.",
+  "cultural_note": "\"Velari\" denotes the people and cultural heritage; \"Velar Imperium\" is one (fragmented) political expression of that heritage, not its whole. The Vel-Surak placement ruling (2026-07-21) turns on exactly this species≠state distinction.",
+  "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
+  "updated_at": "2026-07-21"
 }

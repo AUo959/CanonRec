@@ -19,7 +19,6 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "species": "Zyphari — insectoid, highly communal beings emphasizing long-term investment and economic dominance (multispecies membership)",
   "government": "Corporate oligarchy: a loose confederation of megacorporations. Hierarchy: Trade Lords (CEOs more influential than some Union senators), Guild Alliances (mid-level corps), Corporate Resistance (labor/activist/separatist entrepreneurs).",
   "source_refs": [
     {
@@ -41,6 +40,9 @@
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)"
     ]
   },
-  "primary_species_id": "species_zyphari",
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "dominant_species_id": "species_zyphari",
+  "multispecies": true,
+  "peoplehood_note": "A STATE (corporate confederation), not a people. Zyphari are its dominant/founding species but membership is explicitly multispecies. Do not equate the Compact with the Zyphari people.",
+  "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people."
 }

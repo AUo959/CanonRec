@@ -14,7 +14,6 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "primary_polity_id": null,
   "source_refs": [
     {
       "source_id": "v2_2_6b_species_codex",
@@ -34,5 +33,13 @@
     "source_refs": [
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (species/civilization codex)"
     ]
-  }
+  },
+  "origin_polity_id": null,
+  "member_polities": [
+    "galactic_union",
+    "zyphari_compact"
+  ],
+  "distribution": "Present across the Galactic Union and the Zyphari trade sphere, including wealthy mercantile dynasties. Chancellor Zylox is Xenon and leads the Union — his species and his polity are orthogonal.",
+  "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
+  "updated_at": "2026-07-21"
 }
