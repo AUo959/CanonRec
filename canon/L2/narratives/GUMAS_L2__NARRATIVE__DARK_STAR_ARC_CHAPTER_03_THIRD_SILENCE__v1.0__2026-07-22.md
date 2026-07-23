@@ -5,8 +5,10 @@ doctype: narrative
 version: 1.0.0
 date: 2026-07-22
 layer: L2
-status: canon
+status: superseded
 parent_event: event_dark_star_incident_4718_224
+superseded_by: canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_UNIFIED__v1.1__2026-07-22.md
+supersession_note: Preserved for provenance; the unified v1.1 manuscript governs narrative wording, translation behavior, and continuity.
 preceded_by:
   - The Dark Star
   - Valkyrie
