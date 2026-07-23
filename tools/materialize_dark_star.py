@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+# Triggered after workflow registration; this materializer is intentionally one-use.
+
 import base64
 import json
 import zlib
