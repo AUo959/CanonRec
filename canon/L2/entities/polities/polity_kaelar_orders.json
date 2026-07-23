@@ -1,0 +1,54 @@
+{
+  "entity_id": "polity_kaelar_orders",
+  "entity_kind": "polity",
+  "subtype": "people_and_polity",
+  "name": "Kaelar Monastic Orders",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "kaelar_orders"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_polity",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "faction_type": "MONASTIC_NETWORK",
+  "dominant_bias": "status_quo",
+  "engine_faction_id": "kaelar_orders",
+  "cultural_traditions": [
+    "Organic Ink Histories — body-archive historiography; elders serve as living libraries",
+    "Doctrine of Perfect Uncertainty — permanent skepticism as a governance test"
+  ],
+  "source_refs": [
+    {
+      "source_id": "l2_mechanics_packet",
+      "path": "projects (root): GUMAS_SIM_2.0/…/l_2_dossier_gumas_reference_packet_machine_readable (Cultural Tapestry §2)"
+    },
+    {
+      "source_id": "engine_scenarios",
+      "path": "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (engine faction archetypes)"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUMAS_SIM_2.0/…/l_2_dossier_gumas_reference_packet_machine_readable (Cultural Tapestry §2)",
+    "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (engine faction archetypes)"
+  ],
+  "promotion_pass": "Peoples & Cultural Tapestry Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "identity_model_note": "A people-and-polity: recorded with its cultural traditions as a distinct dimension. The polity is a political structure; the culture is the living tradition; neither reduces to the other.",
+  "peoplehood_note": "A monastic network (the Kaelar people), not a territorial state. Philosophically aligned with the Tharaxian Nomads (engine relationship 0.10).",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Kaelar Monastic Orders\" preserved from the engine faction set + cultural tapestry.",
+    "authority": "Peoples & Cultural Tapestry Pass — 2026-07-21",
+    "source_refs": [
+      "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (engine faction archetypes)",
+      "projects (root): GUMAS_SIM_2.0/…/l_2_dossier_gumas_reference_packet_machine_readable (Cultural Tapestry §2)"
+    ]
+  }
+}
