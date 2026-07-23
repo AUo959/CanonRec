@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "8bf7f46ce07443e99f0349767e071c41000f3dae6d98aed49dde87bd2abfa47b"
+      "sha256": "aa655c19a557d84ee83183ccc2b88c9d8e88de840f2c4cb16aef910230161ec5"
     },
     {
       "path": "traits.json",
@@ -39,5 +39,7 @@
     "manifest.json": "b984153e0ee2352999e1514152ff08ee7bb105c30d9b296906fead618a5ed3b2"
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
-  "canon_lock": true
+  "canon_lock": true,
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "Zylox alias enrichment (v2.2.6b variants)"
 }

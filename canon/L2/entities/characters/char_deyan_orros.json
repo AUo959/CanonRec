@@ -1,0 +1,33 @@
+{
+  "entity_kind": "character",
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "promotion_pass": "L2 Character Salvage Supplement — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (early-gen knowledge core, 2025-04)",
+    "reports (root): l2_character_salvage_supplement__2026-07-21.md"
+  ],
+  "entity_id": "char_deyan_orros",
+  "name": "Deyan Orros",
+  "aliases": [
+    "Envoy-Captain Deyan Orros"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [],
+  "role": "Envoy-Captain (diplomatic vessel commanding officer)",
+  "tags": [
+    "galactic_union",
+    "v2_2_6b_salvage",
+    "l2_char_supplement_2026_07_21"
+  ],
+  "notes": "Diplomatic outreach and intelligence-gathering command (Thalor Sector envoy vessel). Early-generation salvage (owner ruling: mine selectively, reconcile conflicts). Only the title/role/faction established in source are recorded; further detail (history, age, full profile) NOT invented."
+}

@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "6ebd74d27ab754703c22ec11ed6f45dc396052cad265c4fddbd4cbbd70b3aad6"
+      "sha256": "a23f89d09b12f7e08f7ed3774b20a18be8d84643a7453a9dafad617daf031dce"
     },
     {
       "path": "traits.json",
@@ -39,5 +39,7 @@
     "manifest.json": "87d325d6f85337bf8817c9ac13f3377de4c8b6dabbf181d3519029193985d4e3"
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
-  "canon_lock": true
+  "canon_lock": true,
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "Valcor bare-alias enrichment"
 }
