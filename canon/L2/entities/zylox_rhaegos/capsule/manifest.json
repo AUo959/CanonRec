@@ -14,7 +14,7 @@
     },
     {
       "path": "knowledge.jsonl",
-      "sha256": "92346845bc25257545f52673a7dd4ed10f0c7ad8de5d4ebb34d4e5b6af5e2198"
+      "sha256": "f948c682ce87e4eda7da69ee12aa9296ad48a9a6a3388d8e2e785061342d8f2d"
     },
     {
       "path": "cns.yaml",
@@ -41,5 +41,5 @@
   "rehashed_at": "2026-03-20T01:26:19Z",
   "canon_lock": true,
   "rebuilt_at": "2026-07-21T00:00:00Z",
-  "rebuild_reason": "Zylox alias enrichment (v2.2.6b variants)"
+  "rebuild_reason": "biographical reconciliation from v2.2.6b (Zylox Verrin chronicle)"
 }

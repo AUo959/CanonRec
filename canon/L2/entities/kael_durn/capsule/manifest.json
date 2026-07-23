@@ -14,7 +14,7 @@
     },
     {
       "path": "knowledge.jsonl",
-      "sha256": "c0f68fbcee496fb05d60c2b45a078ece08c44a33d947c28c2e6654ea2435fff4"
+      "sha256": "78100c8cc6ab297a866cc123365624ac85cfd921335b5a4222b201139df4a3b3"
     },
     {
       "path": "cns.yaml",
@@ -39,5 +39,7 @@
     "manifest.json": "b41fd0ac078d4f48a3ccd0afd7746c24e0d03589968ca70904b9fe31c4eab8bd"
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
-  "canon_lock": true
+  "canon_lock": true,
+  "rebuilt_at": "2026-07-21T00:00:00Z",
+  "rebuild_reason": "biographical reconciliation from v2.2.6b (Kael Durn)"
 }
