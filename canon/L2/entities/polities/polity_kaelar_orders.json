@@ -50,5 +50,8 @@
       "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (engine faction archetypes)",
       "projects (root): GUMAS_SIM_2.0/…/l_2_dossier_gumas_reference_packet_machine_readable (Cultural Tapestry §2)"
     ]
-  }
+  },
+  "dominant_species_id": "species_kaelar",
+  "multispecies": false,
+  "updated_at": "2026-07-21"
 }

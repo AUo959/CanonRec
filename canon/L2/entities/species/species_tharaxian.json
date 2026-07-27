@@ -1,0 +1,49 @@
+{
+  "entity_id": "species_tharaxian",
+  "entity_kind": "species",
+  "name": "Tharaxian",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "extant",
+  "faction_bindings": [],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "origin_polity_id": "polity_tharaxian_nomads",
+  "member_polities": [
+    "polity_tharaxian_nomads"
+  ],
+  "distribution": "A dispersed nomadic people (the Tharaxian diaspora); no fixed territory.",
+  "cultural_note": "Silent Poetry — gesture/light/bio-signal poetics, \"felt\" rather than read.",
+  "biology": "Not established in recovered sources — do not invent (physiology unspecified).",
+  "source_refs": [
+    {
+      "source_id": "cultural_tapestry",
+      "path": "canon/L2/culture/L2_CULTURAL_TAPESTRY__v0.1__2026-07-21.md"
+    },
+    {
+      "source_id": "l2_mechanics_packet",
+      "path": "projects (root): …/l_2_dossier_gumas_reference_packet_machine_readable (Cultural Tapestry §2)"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/culture/L2_CULTURAL_TAPESTRY__v0.1__2026-07-21.md",
+    "projects (root): …/l_2_dossier_gumas_reference_packet_machine_readable (Cultural Tapestry §2)"
+  ],
+  "promotion_pass": "Species Salvage Pass (peoples) — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "identity_model_note": "Species = a people. Its culture (recorded here) and its polity (origin_polity_id) are separate dimensions; the people is not the state.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "People/species name \"Tharaxian\" preserved from the cultural tapestry + engine faction set.",
+    "authority": "Species Salvage Pass (peoples) — 2026-07-21",
+    "source_refs": [
+      "canon/L2/culture/L2_CULTURAL_TAPESTRY__v0.1__2026-07-21.md"
+    ]
+  }
+}
