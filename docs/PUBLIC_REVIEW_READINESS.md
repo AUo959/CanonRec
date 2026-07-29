@@ -1,8 +1,7 @@
 # Public-review readiness
 
-Status as of 2026-07-29: **bounded review only**. CanonRec is suitable for
-owner/reviewer inspection, but the strict publication gate remains blocked by
-the items below.
+Status as of 2026-07-29: **open-source review ready under the MIT License**.
+The strict canon-integrity publication gate remains blocked by the items below.
 
 ## Confirmed working surfaces
 
@@ -15,6 +14,7 @@ the items below.
   findings are CI-blocking.
 - GitHub private vulnerability reporting is enabled so reviewers can disclose
   security findings without opening a public issue.
+- Repository contents are licensed under the MIT License.
 
 ## Known integrity debt
 
@@ -42,9 +42,7 @@ registry differ materially and are not part of the current propagation
 contract. One authority must be selected or a deterministic merge contract
 must be approved before either file is presented as the sole staff SSOT.
 
-## Owner actions before calling the repository open source
+## Remaining owner actions before strict publication
 
-- Choose and add a license. Public GitHub visibility alone does not grant reuse
-  rights.
 - Resolve the two strict integrity blockers and the staff-registry authority
   decision.
