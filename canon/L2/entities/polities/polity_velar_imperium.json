@@ -9,8 +9,9 @@
     "Former Velar Empire"
   ],
   "certainty": "CANON",
-  "status": "fractured_remnant",
-  "status_note": "No longer exists as the unified galactic empire it once was. It is a failed/fractured state: its former core worlds were absorbed into the Galactic Union, and what remains persists only as post-imperial remnant territory held by splinter factions and remnant warlords.",
+  "status": "inactive",
+  "status_detail": "fractured_remnant",
+  "status_note": "Status 'inactive' = no longer a functioning unified polity (controlled-vocabulary value). No longer exists as the unified galactic empire it once was. It is a failed/fractured state: its former core worlds were absorbed into the Galactic Union, and what remains persists only as post-imperial remnant territory held by splinter factions and remnant warlords.",
   "faction_bindings": [
     "velar_imperium"
   ],
