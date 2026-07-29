@@ -9,7 +9,8 @@
     "Former Velar Empire"
   ],
   "certainty": "CANON",
-  "status": "active",
+  "status": "fractured_remnant",
+  "status_note": "No longer exists as the unified galactic empire it once was. It is a failed/fractured state: its former core worlds were absorbed into the Galactic Union, and what remains persists only as post-imperial remnant territory held by splinter factions and remnant warlords.",
   "faction_bindings": [
     "velar_imperium"
   ],
@@ -27,7 +28,13 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "government": "A once-unified galactic empire, now fragmented into competing internal factions after imperial decline: Imperial Loyalists (restorationists), Republican Reformists (constitutional reformers), and Outer Colony Warlords (frontier strongmen). No single authority commands the whole Imperium; it persists as a culturally coherent but politically divided former great power.",
+  "government": "A once-unified galactic empire that failed and fractured. No single authority commands it; what survives is contested among competing remnant factions: Imperial Loyalists (restorationists), Republican Reformists (constitutional reformers), and Outer Colony Warlords (frontier remnant strongmen). It is no longer a functioning empire — it is a post-imperial remnant.",
+  "successor_and_remnant_disposition": {
+    "absorbed_into_galactic_union": "A portion of the former Velar core was absorbed into the Galactic Union and now constitutes important Union core systems. Attested: Vel-Surak — a former Velar core world — is now bound to galactic_union and located in the Inner Mid-Disk Core Zone (loc_zone_inner_mid_disk_core).",
+    "surviving_remnant": "The remaining Imperium territory is the Velar Crescent (loc_zone_velar_crescent), the 'Post-Imperial Fault Line': ruin worlds (loc_velar_ruin_worlds), border worlds (loc_vel_border_01, loc_vel_core_01), and outer colony nodes (loc_velar_outer_colony_nodes) — the last held by the remnant Outer Colony Warlords.",
+    "people_split": "The Velari are split across both successors: species_velari.member_polities = [velar_imperium, galactic_union]. Membership in the Union does not extinguish Velari identity, and the remnant Imperium does not encompass the whole people.",
+    "evidence": "Derived from committed location records (loc_vel_surak → galactic_union / Inner Mid-Disk Core; the Crescent-bound Velar worlds → velar_imperium) and species_velari member_polities. Not invented."
+  },
   "internal_factions": [
     "org_imperial_loyalists",
     "org_republican_reformists",
@@ -58,7 +65,7 @@
   ],
   "promotion_pass": "Filesystem Re-Sweep — Velar Imperium referent closure — 2026-07-21",
   "locked_at": "2026-07-21T00:00:00Z",
-  "notes": "The Velar Imperium is a fragmented former galactic empire and a homeworld/origin polity of the Velari people. It was referenced across canon (species_velari origin_polity_id + member_polity, three internal-faction org records, the Union-Imperium border conflict, the virex_talvaren capsule, and multiple Velar location records) but had no parent entity record; this record was created to close that dangling canonical referent. Every attribute is recovered from the cited sources, not invented.",
+  "notes": "The Velar Imperium is a FAILED/FRACTURED former galactic empire — the origin polity of the Velari people — that no longer exists as the unified great power it once was. Its former core worlds were absorbed into the Galactic Union (e.g. Vel-Surak, now a Union core system in the Inner Mid-Disk Core Zone), while its surviving remnant is confined to the Velar Crescent (Post-Imperial Fault Line) and held by splinter factions and remnant warlords (Outer Colony Warlords). It was referenced across canon (species_velari origin_polity_id + member_polity, three internal-faction org records, the Union-Imperium border conflict, the virex_talvaren capsule, and multiple Velar location records) but had no parent entity record; this record closes that dangling canonical referent. Every attribute is recovered from the cited sources and cross-linked location/species records — not invented.",
   "naming_exemption": {
     "type": "recovered_source",
     "reason": "Polity name \"Velar Imperium\" preserved verbatim from GUMAS_Factions.json and the canonical timeline (Velar-Harkon Wars); the referent \"velar_imperium\" is already in canonical use across multiple committed records.",
