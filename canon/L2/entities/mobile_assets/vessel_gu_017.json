@@ -47,5 +47,15 @@
   "promotion_pass": "Judicator Task Group Vessel Identity Pass — 2026-07-21",
   "locked_at": "2026-07-21",
   "updated_at": "2026-07-21",
-  "notes": "Name and vessel ID are collision-free against CanonRec and AUo959/aurora-cloudbank-symbolic at admission."
+  "notes": "Name and vessel ID are collision-free against CanonRec and AUo959/aurora-cloudbank-symbolic at admission.",
+  "derived_capabilities": {
+    "basis": "Extrapolated from the vessel's canonical class (cls_vigilant, Vigilant-Class) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
+    "class_role": "General-purpose fleet escort, screening, interception, anti-piracy, picket duty, convoy protection, independent patrol, and rescue support.",
+    "class_key_features": [],
+    "class_typical_complement": null
+  },
+  "doc_sources": [
+    "canon/L2/entities/ship_classes/cls_vigilant.json",
+    "canon/L2/fleet/L2_GUMAS_SHIP_REGISTRY__v1.0.md"
+  ]
 }

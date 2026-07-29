@@ -25,5 +25,15 @@
     "owner-authored Dark Star narrative, 2026-07-22"
   ],
   "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22",
-  "locked_at": "2026-07-22"
+  "locked_at": "2026-07-22",
+  "description": "The sector encompassing the Lethan system and Kallis Foundry, through which the Shadow Fleet operated without coherent detection during the Dark Star Incident.",
+  "event_refs": [
+    "event_dark_star_incident_4718_224"
+  ],
+  "doc_sources": [
+    "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_UNIFIED__v1.1__2026-07-22.md",
+    "canon/L2/reports/GUMAS_L2__AAR__DARK_STAR_INCIDENT_TO_CHANCELLOR__v1.0__2026-07-22.md"
+  ],
+  "reconciliation_note": "Reconciled 2026-07-21 from committed Dark Star arc canon (narrative v1.1 + AAR + event_dark_star_incident). Derivation from established canon, additive; prior fields preserved.",
+  "updated_at": "2026-07-21"
 }

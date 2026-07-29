@@ -14,7 +14,9 @@
   "prev_certainty": "STAGING",
   "certainty": "CANON",
   "doc_sources": [
-    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "canon/L2/entities/ship_classes/cls_leviathan.json",
+    "canon/L2/fleet/L2_GUMAS_SHIP_REGISTRY__v1.0.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_ai_001.json",
   "locked_at": "2026-03-20T02:03:35Z",
@@ -22,5 +24,16 @@
   "notes": "Primary AI-Warlord Collective command vessel; symbol of AI resistance.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
   "updated_at": "2026-07-21",
-  "class_entity_id": "cls_leviathan"
+  "class_entity_id": "cls_leviathan",
+  "derived_capabilities": {
+    "basis": "Extrapolated from the vessel's canonical class (cls_leviathan, Leviathan Dreadnought) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
+    "class_role": "Primary command vessel, symbol of AI resistance, autonomous warfare",
+    "class_key_features": [
+      "Self-evolving combat AI",
+      "Massive firepower",
+      "Autonomous drone swarms",
+      "No organic crew required"
+    ],
+    "class_typical_complement": 0
+  }
 }

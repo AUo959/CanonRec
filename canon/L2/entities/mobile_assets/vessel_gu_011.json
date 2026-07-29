@@ -12,7 +12,9 @@
   "prev_certainty": "STAGING",
   "certainty": "CANON",
   "doc_sources": [
-    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md"
+    "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
+    "canon/L2/entities/ship_classes/cls_vanguard.json",
+    "canon/L2/fleet/L2_GUMAS_SHIP_REGISTRY__v1.0.md"
   ],
   "record_path": "L2_CANON__2026-03-19/mobile_assets/vessel_gu_011.json",
   "locked_at": "2026-03-20T02:03:35Z",
@@ -20,5 +22,15 @@
   "notes": "Fleet Modernization flagship; cutting-edge heavy combat vessel.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
   "updated_at": "2026-07-21",
-  "class_entity_id": "cls_vanguard"
+  "class_entity_id": "cls_vanguard",
+  "derived_capabilities": {
+    "basis": "Extrapolated from the vessel's canonical class (cls_vanguard, Vanguard-Class) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
+    "class_role": "Patrol, anti-piracy, high-speed interception, frontier security",
+    "class_key_features": [
+      "High-speed sublight engines",
+      "Reinforced hull for boarding",
+      "Hybrid energy/projectile weapons"
+    ],
+    "class_typical_complement": 180
+  }
 }
