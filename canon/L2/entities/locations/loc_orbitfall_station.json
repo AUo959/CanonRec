@@ -1,0 +1,52 @@
+{
+  "entity_id": "loc_orbitfall_station",
+  "entity_kind": "location",
+  "name": "Orbitfall Station",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "location_type": "orbital_station",
+  "subtype": "secure_union_facility",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Secure Galactic Union orbital facility above Kaelor Prime",
+  "org_type": null,
+  "parent_org_id": null,
+  "jurisdiction": "galactic_union",
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "placement_note": "Orbital position is defined relationally (in orbit above Kaelor Prime, loc_kaelor_prime); absolute map placement follows Kaelor Prime, which is itself unplaced pending map-authority evidence.",
+  "orbits": "loc_kaelor_prime",
+  "description": "A secure Galactic Union facility in orbit above Kaelor Prime. Featured as the setting of the live-simulation excerpt 'Intercept at Orbitfall Station'.",
+  "related_location_ids": [
+    "loc_kaelor_prime"
+  ],
+  "source_refs": [
+    {
+      "source_id": "gumas_extracted_sim_modules",
+      "path": "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt (\"Intercept at Orbitfall Station\" — a secure Union facility on Orbitfall Station, above Kaelor Prime)"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+  ],
+  "tags": [
+    "prose_recovered",
+    "union_facility"
+  ],
+  "promotion_pass": "Old-Prose Canon Sweep — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Secure Union orbital facility above Kaelor Prime, established in the early GUMAS extracted-simulation-modules prose but never given an entity record. Detail recovered verbatim; placement relational to Kaelor Prime. STAGING pending owner promotion gate.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Station name \"Orbitfall Station\" preserved verbatim from the early GUMAS extracted-simulation-modules prose.",
+    "authority": "Old-Prose Canon Sweep — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+    ]
+  },
+  "updated_at": "2026-07-21"
+}

@@ -1,0 +1,51 @@
+{
+  "entity_id": "loc_kaelor_prime",
+  "entity_kind": "location",
+  "name": "Kaelor Prime",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "location_type": "planet",
+  "subtype": "union_core_military_industrial_world",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Galactic Union military command and high-technology industrial hub",
+  "org_type": null,
+  "parent_org_id": null,
+  "jurisdiction": "galactic_union",
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "placement_note": "No row in the L2 Map Location Authority Table for Kaelor Prime; per RESOLUTION_ROUTING it remains unplaced until map evidence resolves it. NOT to be conflated with Kaelor's Rift (loc_kaelor_s_rift) — the map authority table explicitly warns against conflating the Kaelor name-root; the Rift is a separate high-density gravitational anomaly/warzone, while Kaelor Prime is a Union-aligned military-industrial planet. Any relationship between them beyond the shared name-root is UNDETERMINED absent evidence.",
+  "description": "A Union-aligned planet serving as a Galactic Union military command center and high-technology industrial hub. Orbitfall Station (loc_orbitfall_station) is a secure Union facility in orbit above it. Kaelor Prime was the setting of a scenario in which the planet suffered an unauthorized memory leak from a rogue Sentinel unit, with a Velar Loyalist operative intercepting the classified communications for release to Outer Colony warlords.",
+  "related_location_ids": [
+    "loc_orbitfall_station"
+  ],
+  "source_refs": [
+    {
+      "source_id": "gumas_extracted_sim_modules",
+      "path": "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt (Kaelor Prime — Military Command & High-Tech Industry; Orbitfall Station above Kaelor Prime; rogue-Sentinel memory-leak scenario)"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+  ],
+  "tags": [
+    "prose_recovered",
+    "union_world"
+  ],
+  "promotion_pass": "Old-Prose Canon Sweep — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Union military-industrial planet established across the early GUMAS extracted-simulation-modules prose but never given an entity record. Detail recovered verbatim; placement deliberately left unplaced (no map-authority evidence). STAGING pending owner promotion gate.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Planet name \"Kaelor Prime\" preserved verbatim from the early GUMAS extracted-simulation-modules prose.",
+    "authority": "Old-Prose Canon Sweep — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+    ]
+  },
+  "updated_at": "2026-07-21"
+}

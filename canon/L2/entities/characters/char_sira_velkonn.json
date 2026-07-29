@@ -1,0 +1,55 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_sira_velkonn",
+  "name": "Sira Velkonn",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "conflict_flags": [],
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "faction_bindings": [
+    "velar_imperium"
+  ],
+  "organization_ids": [
+    "org_imperial_loyalists"
+  ],
+  "role": "Velar Imperial figure of the pro-monarchy / nobility camp; political pole within the Velar Imperium's civil conflict",
+  "polity_id": "polity_velar_imperium",
+  "relationships": "Political rival of Councillor Thalen Rynn (char_thalen_rynn, Republican Reformist). Their clash is framed as philosophical as much as political — restoration of imperial monarchy (Velkonn's camp) versus republican reform (Rynn).",
+  "description": "A Velar Imperial political figure aligned with the pro-monarchy nobility ('High Houses') camp in the Velar Imperium's civil conflict. She is the established pole against whom the canonical Republican Reformist figure Thalen Rynn is defined as a rival. Her camp seeks the return of imperial monarchy.",
+  "source_refs": [
+    {
+      "source_id": "gumas_extracted_sim_modules",
+      "path": "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt (Sira Velkonn — pro-monarchy Velar camp; rival of Republican Reformist Thalen Rynn; Velar Imperium civil conflict)"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+  ],
+  "tags": [
+    "prose_recovered",
+    "velar_imperium",
+    "old_prose_sweep_2026_07_21"
+  ],
+  "promotion_pass": "Old-Prose Canon Sweep — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Velar Imperial pro-monarchy figure recovered from early prose, established as the fixed rival pole against whom the canonical Thalen Rynn was defined. ONLY the established relational facts are recorded (pro-monarchy/Loyalist camp, Thalen Rynn's rival, Velar Imperium civil conflict). Surrounding source prose contains generative/proposed backstory ('could become', 'perhaps she once saved his life') that is explicitly NOT recorded — that dramatic-arc material is UNDETERMINED until committed. Family note: distinct from the canonical Dr. Syrr Velkonn and Talyx Velkonn; shared surname only, kinship UNDETERMINED. STAGING pending owner promotion gate.",
+  "undetermined": [
+    "Proposed life-saving/peacekeeping backstory arc with Thalen Rynn (generative, uncommitted).",
+    "First name/title beyond 'Sira'; office, age, full profile.",
+    "Any kinship to Syrr Velkonn or Talyx Velkonn (shared surname only)."
+  ],
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Sira Velkonn\" preserved verbatim from the early GUMAS extracted-simulation-modules prose; established as Thalen Rynn's canonical rival pole.",
+    "authority": "Old-Prose Canon Sweep — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+    ]
+  },
+  "updated_at": "2026-07-21"
+}

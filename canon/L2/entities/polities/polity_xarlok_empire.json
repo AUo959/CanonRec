@@ -1,0 +1,51 @@
+{
+  "entity_id": "polity_xarlok_empire",
+  "entity_kind": "polity",
+  "subtype": "external_militant_empire",
+  "name": "Xarlok Empire",
+  "aliases": [],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "xarlok_empire"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "External militant expansionist power on the Galactic Union frontier",
+  "org_type": "sovereign_polity",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "alignment": "Adversarial / external",
+  "description": "A militant, expansionist empire — described in source as a militant species with expansionist ambitions — that frequently challenges Galactic Union borders. It is treated by the Union as a standing external threat: a rationale for maintaining a strong deterrent fleet, a target of Union espionage and surveillance, and a power that (alongside pirates and rogue states) might exploit any perceived Union weakness to attack trade routes.",
+  "source_refs": [
+    {
+      "source_id": "gumas_extracted_sim_modules",
+      "path": "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt (Xarlok Empire — militant species with expansionist ambitions; challenges Union borders; deterrence/espionage rationale)"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+  ],
+  "tags": [
+    "prose_recovered",
+    "external_power"
+  ],
+  "promotion_pass": "Old-Prose Canon Sweep — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "External adversary empire established across the early GUMAS extracted-simulation-modules prose but never given an entity record. Described as both a species and an empire; modeled here as a polity (state), with the species aspect noted. Only the established facts (militant, expansionist, challenges Union borders, target of deterrence/espionage) are recorded — homeworld, leadership, fleet specifics, and any war history are UNDETERMINED, not invented. STAGING pending owner promotion gate.",
+  "dominant_species_id": null,
+  "multispecies": false,
+  "peoplehood_note": "Source calls the Xarlok a 'militant species' and the 'Xarlok Empire' interchangeably; whether the Empire is coextensive with the species or a state governing them is UNDETERMINED. A dedicated species record was NOT minted absent clearer evidence.",
+  "identity_model_note": "Polity = a state / political entity, orthogonal to species. Recorded as a polity; species dimension left undetermined.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Polity name \"Xarlok Empire\" preserved verbatim from the early GUMAS extracted-simulation-modules prose.",
+    "authority": "Old-Prose Canon Sweep — 2026-07-21 (recovered-source preservation)",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
+    ]
+  },
+  "updated_at": "2026-07-21"
+}
