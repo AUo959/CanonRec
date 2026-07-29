@@ -1,0 +1,77 @@
+{
+  "entity_id": "polity_velar_imperium",
+  "entity_kind": "polity",
+  "subtype": "fragmented_former_empire",
+  "name": "Velar Imperium",
+  "aliases": [
+    "velar_imperium",
+    "The Imperium",
+    "Former Velar Empire"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "velar_imperium"
+  ],
+  "organization_ids": [
+    "org_imperial_loyalists",
+    "org_republican_reformists",
+    "org_outer_colony_warlords"
+  ],
+  "conflict_flags": [
+    "conflict_union_imperium_border"
+  ],
+  "role": null,
+  "org_type": "sovereign_polity",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "government": "A once-unified galactic empire, now fragmented into competing internal factions after imperial decline: Imperial Loyalists (restorationists), Republican Reformists (constitutional reformers), and Outer Colony Warlords (frontier strongmen). No single authority commands the whole Imperium; it persists as a culturally coherent but politically divided former great power.",
+  "internal_factions": [
+    "org_imperial_loyalists",
+    "org_republican_reformists",
+    "org_outer_colony_warlords"
+  ],
+  "alignment": "Mixed",
+  "traits": [
+    "Culturally significant, economically fractured",
+    "Deeply divided, vulnerable to external manipulation"
+  ],
+  "source_refs": [
+    {
+      "source_id": "gumas_factions_archive",
+      "path": "archives/session_archives/AU_Archive_327-330/GUMAS_Factions.json (Velar Imperium: type \"Former Galactic Empire (Fragmented)\", species Velari, internal_factions [Imperial Loyalists, Republican Reformists, Outer Colony Warlords], traits)"
+    },
+    {
+      "source_id": "gumas_timeline",
+      "path": "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars — Imperium as a great-power belligerent)"
+    },
+    {
+      "source_id": "canon_cross_references",
+      "path": "Referenced as a canonical polity by species_velari (origin_polity_id), the three internal-faction org records (faction_bindings), conflict_union_imperium_border (party), and Velar location records — this record closes that previously-dangling referent."
+    }
+  ],
+  "doc_sources": [
+    "archives/session_archives/AU_Archive_327-330/GUMAS_Factions.json",
+    "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (Velar-Harkon Wars)"
+  ],
+  "promotion_pass": "Filesystem Re-Sweep — Velar Imperium referent closure — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "The Velar Imperium is a fragmented former galactic empire and a homeworld/origin polity of the Velari people. It was referenced across canon (species_velari origin_polity_id + member_polity, three internal-faction org records, the Union-Imperium border conflict, the virex_talvaren capsule, and multiple Velar location records) but had no parent entity record; this record was created to close that dangling canonical referent. Every attribute is recovered from the cited sources, not invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Polity name \"Velar Imperium\" preserved verbatim from GUMAS_Factions.json and the canonical timeline (Velar-Harkon Wars); the referent \"velar_imperium\" is already in canonical use across multiple committed records.",
+    "authority": "Filesystem Re-Sweep — 2026-07-21 (recovered-source preservation; referent closure)",
+    "source_refs": [
+      "archives/session_archives/AU_Archive_327-330/GUMAS_Factions.json",
+      "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (Velar-Harkon Wars)"
+    ]
+  },
+  "updated_at": "2026-07-21",
+  "dominant_species_id": "species_velari",
+  "multispecies": true,
+  "peoplehood_note": "A STATE (a former imperial government, now fragmented), not the Velari people themselves. The Velari also hold membership in the Galactic Union (per species_velari.member_polities); the Imperium does not encompass the whole Velari people.",
+  "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people.",
+  "certainty_basis": "Existence is CANON (referenced by CANON species/location records and the timeline-attested Velar-Harkon Wars); attributes are recovered-source from the cited archive and cross-linked to existing internal-faction records. No invention."
+}

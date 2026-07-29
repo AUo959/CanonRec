@@ -27,7 +27,18 @@
   ],
   "conflict_flags": [],
   "role": null,
-  "organization_ids": [],
+  "organization_ids": [
+    "org_union_intelligence_bureau",
+    "org_union_marshals",
+    "org_diplomatic_corps",
+    "org_sentinel_high_command"
+  ],
+  "substructures": [
+    "Union Intelligence",
+    "Union Marshals",
+    "Diplomatic Corps",
+    "Sentinels"
+  ],
   "org_type": "polity",
   "jurisdiction": null,
   "parent_org_id": null,
@@ -36,5 +47,16 @@
   "canonical_position_status": null,
   "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
   "promotion_note": "World Bible dual-source; primary GU polity. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "substructure_reconciliation": {
+    "pass": "Filesystem Re-Sweep \u2014 GU substructure cross-link \u2014 2026-07-21",
+    "note": "GUMAS_Factions.json names the Galactic Union's substructures (Union Intelligence, Union Marshals, Diplomatic Corps, Sentinels). Each already has its own committed entity record; this pass cross-links them via organization_ids. Additive only \u2014 no new entities, no invented detail.",
+    "source_ref": "archives/session_archives/AU_Archive_327-330/GUMAS_Factions.json (Galactic Union: substructures [Union Intelligence, Union Marshals, Diplomatic Corps, Sentinels])",
+    "linked_records": [
+      "org_union_intelligence_bureau",
+      "org_union_marshals",
+      "org_diplomatic_corps",
+      "org_sentinel_high_command"
+    ]
+  }
 }
