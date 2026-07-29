@@ -17,7 +17,7 @@
   "status": "active",
   "faction_bindings": [],
   "tags": [
-    "Do not conflate with city\u2011state politics; placement TBD / FTL disruption",
+    "Do not conflate with city‑state politics; placement TBD / FTL disruption",
     "anomaly region"
   ],
   "conflict_flags": [],
@@ -29,7 +29,16 @@
   "location_type": "anomaly region",
   "region_id": null,
   "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Referenced in 5+ character histories; FTL anomaly region.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "nature": "FTL-disruption anomaly region — a navigation hazard that disrupts faster-than-light travel (CANON per World Bible). Carries a placement_rule as a region/anomaly/route-hazard.",
+  "event_significance": "The \"event scar\" of the Battle of Kaelor's Rift (map §7: \"Overlay Kaelor's Rift as an event scar\"). A major Union engagement — Captain Alric Tann led the Victory at Kaelor's Rift; XO Lyra Voss managed crew readiness during it; Gunnery Chief Arin Tavos directed ship-to-ship combat there. A defining fleet-command battle in recent Union military history.",
+  "related_character_ids": [
+    "alric_tann",
+    "lyra_voss",
+    "arin_tavos"
+  ],
+  "notes": "Enriched 2026-07-21 (Prime Construct + Kaelor's Rift Pass): record was a bare stub; filled with established canon — FTL-disruption anomaly region and the site of the canonical Battle/Victory at Kaelor's Rift. No invention; detail drawn from World Bible (FTL-disruption CANON), map §7 (event scar), and character recent_actions.",
+  "updated_at": "2026-07-21"
 }

@@ -1,0 +1,54 @@
+{
+  "entity_id": "polity_prime_construct",
+  "entity_kind": "polity",
+  "subtype": "major_civilization",
+  "name": "Prime Construct",
+  "aliases": [
+    "The Prime Construct",
+    "Prime Construct Polity"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "prime_construct"
+  ],
+  "organization_ids": [
+    "org_prime_construct_polity"
+  ],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": "sovereign_ai_polity",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "engine_faction_id": "prime_construct",
+  "nature": "A sovereign AI civilization — NOT a single AI but a network of evolving consciousnesses.",
+  "political_evolution": "Originally designed as an AI war strategist; gained self-awareness and autonomy; nearly triggered a war but negotiated peace through diplomacy and logic; now recognized as a sovereign life form within Union borders (a former AI-Warlord Collective member, since defected/allied).",
+  "source_refs": [
+    {
+      "source_id": "v2_2_6b_major_civ",
+      "path": "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b (Major Civilizations §6)"
+    },
+    {
+      "source_id": "world_bible",
+      "path": "canon/L2/world_bible/L2_SYSTEM__GUMAS_L2_World_Bible__v0.2__2026-02-08__BAY02_0809.md"
+    }
+  ],
+  "doc_sources": [
+    "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b (Major Civilizations §6)",
+    "canon/L2/entities/organizations/org_prime_construct_polity.json"
+  ],
+  "promotion_pass": "Prime Construct + Kaelor’s Rift Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "identity_model_note": "The Prime Construct is BOTH a people (a network of AI consciousnesses) and a recognized statehood (org_prime_construct_polity). Distinct dimensions; recorded together because the \"people\" here is itself the polity — an AI collective consciousness granted sovereignty.",
+  "peoplehood_note": "Leader/representative: prime_construct_leader. Related: Overseer Theta-9 considers the Prime Construct a potential ally; the AI Sovereignty Crisis (conflict_ai_sovereignty_crisis) turns on Prime Construct + AI-Warlord + Union.",
+  "naming_exemption": {
+    "type": "legacy_canonical",
+    "reason": "Prime Construct already exists in canon as org_prime_construct_polity and prime_construct_leader; this polity record consolidates the civilization dimension for engine-faction parity.",
+    "authority": "Prime Construct + Kaelor’s Rift Pass — 2026-07-21",
+    "source_refs": [
+      "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b (Major Civilizations §6)"
+    ]
+  }
+}
