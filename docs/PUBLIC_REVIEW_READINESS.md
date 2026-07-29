@@ -13,6 +13,8 @@ the items below.
 - New L2 referents are protected by the naming admission workflow.
 - Historical secret-scan matches have been individually triaged; new history
   findings are CI-blocking.
+- GitHub private vulnerability reporting is enabled so reviewers can disclose
+  security findings without opening a public issue.
 
 ## Known integrity debt
 
@@ -44,6 +46,5 @@ must be approved before either file is presented as the sole staff SSOT.
 
 - Choose and add a license. Public GitHub visibility alone does not grant reuse
   rights.
-- Decide whether GitHub private vulnerability reporting should be enabled.
 - Resolve the two strict integrity blockers and the staff-registry authority
   decision.
