@@ -1,0 +1,4 @@
+# Deterministic CloudBank AES test fixture copied into the legacy survey artifact.
+# Triaged 2026-07-29: non-runtime, identical to the public CloudBank test default.
+cc4f561abf4c98486b1939c30d09812fec474dfa:text 2.txt:generic-api-key:3
+cc4f561abf4c98486b1939c30d09812fec474dfa:text 2.txt:generic-api-key:22
