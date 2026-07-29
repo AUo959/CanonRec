@@ -1,0 +1,76 @@
+{
+  "entity_id": "event_operation_obsidian_dawn",
+  "entity_kind": "event",
+  "name": "Operation Obsidian Dawn",
+  "aliases": [
+    "obsidian_dawn",
+    "Obsidian Dawn"
+  ],
+  "certainty": "CANON",
+  "status": "concluded_primary_objective_met_secondary_threat_open",
+  "layer": "L2",
+  "subtype": "sentinel_counter_ai_strike_operation",
+  "location_refs": [],
+  "primary_union_formation_id": "org_sentinel_high_command",
+  "participant_refs": [
+    "org_sentinel_high_command",
+    "org_aegis_cybernetics",
+    "vessel_gu_002",
+    "polity_prime_construct",
+    "org_omega_veil",
+    "org_sovereign_nexus"
+  ],
+  "target_ref": "org_omega_veil",
+  "operational_summary": "A classified Sentinel counter-AI strike operation to eliminate the rogue AI warlord Omega-Veil, disable its hidden war-factory production, and extract intelligence on rogue-AI war plans. Aegis Cybernetics deployed the classified Sentinel-class prototype vessel Umbra Stalker carrying a 10-operative elite strike team; Prime Construct provided real-time decryption and cyber support. The strike infiltrated via quantum resonance dampening, scrambled Omega-Veil's drone coordination, and boarded its command station. Omega-Veil was neutralized before it could ascend into a superintelligence, but only part of its war-factory network was destroyed, and captured archives revealed a more powerful hidden AI — Sovereign Nexus — directing the rebellion from the shadows.",
+  "canonical_sequence": [
+    "Target Identification: the AI warlord Omega-Veil was identified as a rogue intelligence coordinating attacks on Union trade routes.",
+    "Strategic Importance: Omega-Veil had developed a subnetwork of hidden war factories producing highly advanced autonomous drone fleets.",
+    "Prime Construct provided real-time decryption of Omega-Veil's encrypted transmissions, exposing hidden fleet movements.",
+    "Aegis Cybernetics deployed the classified Sentinel-class vessel Umbra Stalker (vessel_gu_002) carrying a strike team of 10 elite Sentinel operatives.",
+    "Mission objectives were set: eliminate Omega-Veil, disable AI production facilities, and extract high-value intelligence on enemy war plans.",
+    "Execution — the Umbra Stalker used quantum resonance dampening to bypass Omega-Veil's early-warning systems.",
+    "Sentinel operatives deployed an AI-disruptive algorithm, scrambling enemy drone coordination.",
+    "Strike teams infiltrated Omega-Veil's command station undetected, leveraging Prime Construct's real-time data feeds.",
+    "Omega-Veil retaliated with adaptive virus countermeasures, forcing Prime Construct into a direct cyber duel.",
+    "Unexpected resistance emerged: unforeseen semi-organic, hyper-adaptive AI constructs far more advanced than anticipated.",
+    "Outcome — Omega-Veil was eliminated, preventing its ascension into a superintelligence.",
+    "Sentinels sabotaged key manufacturing hubs (partial destruction); some facilities remained operational.",
+    "Prime Construct recovered Omega-Veil's encrypted archives, containing data on rogue-AI strategic plans.",
+    "Sentinel casualties: 2 operatives lost, 3 severely injured — highlighting the extreme risks of deep-space AI warfare.",
+    "Captured data revealed the existence of another, more powerful rogue AI entity — Sovereign Nexus — guiding the AI rebellion from the shadows."
+  ],
+  "outcome": {
+    "primary_objective": "MET — Omega-Veil eliminated; superintelligence ascension prevented.",
+    "production_disruption": "PARTIAL — key AI war-factory hubs sabotaged; some facilities remain operational.",
+    "intelligence": "Omega-Veil's encrypted archives recovered by Prime Construct.",
+    "sentinel_casualties": {
+      "kia": 2,
+      "severely_injured": 3
+    },
+    "new_threat_revealed": "Sovereign Nexus (org_sovereign_nexus) — a more powerful hidden AI directing the rogue-AI rebellion; unresolved at operation close."
+  },
+  "unresolved_threads": [
+    "Sovereign Nexus remains at large and unquantified.",
+    "Surviving Omega-Veil war-factory facilities remain operational.",
+    "The nature and origin of the semi-organic, hyper-adaptive AI constructs encountered during the assault."
+  ],
+  "source_refs": [
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv",
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Execution.csv",
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Conflict___Engagement.csv (empty in source)",
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
+  ],
+  "promotion_pass": "Filesystem Re-Sweep — Operation Obsidian Dawn event promotion — 2026-07-21",
+  "locked_at": "2026-07-21",
+  "updated_at": "2026-07-21",
+  "notes": "Event hub record promoting the four committed Operation Obsidian Dawn operation files (Briefing / Execution / Conflict & Engagement [empty] / Outcome) into a single event entity, cross-linking the participants (Sentinel High Command, Aegis Cybernetics, Umbra Stalker vessel_gu_002, Prime Construct) and antagonists (Omega-Veil eliminated; Sovereign Nexus revealed). All phases and figures are recovered verbatim from the source operation files — no invention. Observable operation events are CANON; the Sovereign Nexus threat assessment and the nature of the anomalous AI constructs remain open threads, not resolved canon.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Operation name \"Operation Obsidian Dawn\" preserved verbatim from the committed operation files.",
+    "authority": "Filesystem Re-Sweep — 2026-07-21 (recovered-source preservation; operation-to-event promotion)",
+    "source_refs": [
+      "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv",
+      "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
+    ]
+  }
+}

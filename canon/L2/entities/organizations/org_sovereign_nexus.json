@@ -14,6 +14,9 @@
   ],
   "organization_ids": [],
   "conflict_flags": [],
+  "event_refs": [
+    "event_operation_obsidian_dawn"
+  ],
   "role": "Hidden rogue-AI mastermind",
   "org_type": "rogue_ai_power",
   "parent_org_id": "polity_ai_warlord_collective",
