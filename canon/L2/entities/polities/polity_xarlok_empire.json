@@ -4,7 +4,7 @@
   "subtype": "external_militant_empire",
   "name": "Xarlok Empire",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "xarlok_empire"
@@ -47,5 +47,15 @@
       "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
     ]
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-07-21",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "Old-Prose Reconciliation — aurora-canon-reconciler process — 2026-07-21",
+    "from": "STAGING",
+    "rule": "owner standing directive: discovered prose detail that does not conflict with canon IS canon",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor scoring",
+    "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist; fabric linter clean",
+    "advisor_recommended_tag": "CANON_PROMOTE",
+    "at": "2026-07-21"
+  }
 }

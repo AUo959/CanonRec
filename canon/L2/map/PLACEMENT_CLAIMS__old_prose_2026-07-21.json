@@ -1,0 +1,27 @@
+{
+  "ledger": "L2 placement claims — unresolved, routed to map-authority process (Reconciliation Workflow §4.5)",
+  "created": "2026-07-21",
+  "note": "These entities are CANON on their attributes (non-conflicting discovered detail). Only their absolute map coordinate is unresolved — no row exists yet in the L2 Map Location Authority Table. The map-authority / §4.5 process resolves placement from evidence; these claims are the queue for that process. Entities remain canonical and usable while unplaced.",
+  "claims": [
+    {
+      "entity_id": "loc_kaelor_prime",
+      "claim_type": "placement",
+      "value": "Union-aligned core military-industrial planet; hosts Orbitfall Station in orbit; adjacency/coordinate UNRESOLVED.",
+      "certainty": "UNCONFIRMED",
+      "doc_source": "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt",
+      "conflicts_with": null,
+      "constraint": "Must NOT be conflated with loc_kaelor_s_rift (separate anomaly/warzone; map authority table warns against the name-root conflation).",
+      "notes": "Awaiting a map-authority row or adjacency evidence. Entity attributes already CANON."
+    },
+    {
+      "entity_id": "loc_orbitfall_station",
+      "claim_type": "placement",
+      "value": "Secure Union orbital facility above Kaelor Prime; absolute coordinate follows Kaelor Prime (relational placement known, absolute UNRESOLVED).",
+      "certainty": "UNCONFIRMED",
+      "doc_source": "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt",
+      "conflicts_with": null,
+      "constraint": "Orbits loc_kaelor_prime; resolves when Kaelor Prime resolves.",
+      "notes": "Relational placement (in orbit of Kaelor Prime) is established; absolute map coordinate follows the parent. Entity attributes already CANON."
+    }
+  ]
+}
