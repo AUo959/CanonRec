@@ -87,6 +87,6 @@ changing canonical records.
 Report suspected vulnerabilities privately as described in `SECURITY.md`.
 Never commit operational credentials or private source material.
 
-No open-source license has been selected yet. Public visibility permits review
-but does not grant reuse rights by itself. The repository owner must choose and
-add a license before describing CanonRec as open source.
+CanonRec is available under the [MIT License](LICENSE). The license permits
+reuse of repository contents but does not change any canon certainty,
+authority, or promotion labels recorded inside the repository.
