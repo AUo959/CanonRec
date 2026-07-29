@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "purpose": "Exact legacy integrity findings accepted temporarily by the regression gate. Strict validation ignores this baseline.",
+  "known_issues": [
+    {
+      "check": "empty_file",
+      "path": "canon/L2/entities/anaya_ral_seyr/capsule/state.bin",
+      "reason": "Known zero-byte capsule state; authoritative replacement required."
+    },
+    {
+      "check": "capsule_hash_mismatch",
+      "path": "canon/L2/entities/anaya_ral_seyr/capsule/state.bin",
+      "reason": "The zero-byte state does not match the promoted capsule manifest."
+    },
+    {
+      "check": "empty_file",
+      "path": "canon/L2/entities/organizations/org_tactical_enforcement_officers.json",
+      "reason": "Legacy empty canon record; content cannot be inferred safely."
+    }
+  ]
+}
