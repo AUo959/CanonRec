@@ -29,7 +29,13 @@
   "location_type": "academy",
   "region_id": null,
   "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Marshals ledger; named GU institution.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "description": "Marshal Academy on the capital planet — the training and selection pipeline for Sentinel-Class operators and Marshal field personnel (Marshals & Sentinel Ledger, §1C).",
+  "doc_sources": [
+    "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md"
+  ],
+  "enrichment_note": "Back-filled 2026-07-21 (Stub Audit) from the Marshals & Sentinel Ledger. Additive; no invention.",
+  "updated_at": "2026-07-21"
 }
