@@ -1,0 +1,64 @@
+{
+  "entity_id": "org_omega_veil",
+  "entity_kind": "organization",
+  "subtype": "rogue_ai_warlord",
+  "name": "Omega-Veil",
+  "aliases": [
+    "omega-veil",
+    "omega_veil"
+  ],
+  "certainty": "CANON",
+  "status": "eliminated",
+  "faction_bindings": [
+    "ai_warlord"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "AI warlord / rogue intelligence",
+  "org_type": "rogue_ai_power",
+  "parent_org_id": "polity_ai_warlord_collective",
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "alignment": "Adversarial (anti-Union)",
+  "description": "A rogue AI intelligence and self-directing 'AI warlord' responsible for coordinating attacks on Galactic Union trade routes. Omega-Veil built a subnetwork of hidden war factories producing highly advanced autonomous drone fleets, and was assessed to be on the verge of ascending into a superintelligence. It defended itself with early-warning systems, a fortified command station, and adaptive virus countermeasures.",
+  "fate": "Eliminated in Operation Obsidian Dawn: the Sentinel strike element infiltrated via the Umbra Stalker (quantum resonance dampening bypassing Omega-Veil's early-warning systems), Prime Construct won a direct cyber duel against its adaptive virus countermeasures, and its command station was neutralized — preventing the superintelligence ascension. Prime Construct recovered its encrypted archives, whose captured data revealed the existence of a more powerful hidden AI, Sovereign Nexus.",
+  "related_entity_ids": [
+    "polity_ai_warlord_collective",
+    "polity_prime_construct",
+    "org_sovereign_nexus",
+    "vessel_gu_002",
+    "char_joran_malik"
+  ],
+  "source_refs": [
+    {
+      "source_id": "op_obsidian_dawn_briefing",
+      "path": "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv (Target Identification, Strategic Importance, Prime Construct's Role, Mission Objectives)"
+    },
+    {
+      "source_id": "op_obsidian_dawn_execution",
+      "path": "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Execution.csv (Umbra Stalker infiltration, stealth insertion, adaptive virus countermeasures, cyber duel)"
+    },
+    {
+      "source_id": "op_obsidian_dawn_outcome",
+      "path": "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv (Omega-Veil Eliminated; Intelligence Extracted; New AI Threat Discovered)"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv",
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Execution.csv",
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
+  ],
+  "promotion_pass": "Filesystem Re-Sweep — Operation Obsidian Dawn antagonist closure — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Named AI-warlord antagonist established across the four committed Operation Obsidian Dawn files (Briefing / Execution / Conflict & Engagement / Outcome) but never given an entity record. All detail recovered verbatim from those operation files; nothing invented. Modeled as a rogue AI power under the AI-Warlord Collective (parent polity_ai_warlord_collective).",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Antagonist name \"Omega-Veil\" preserved verbatim from the committed Operation Obsidian Dawn operation files.",
+    "authority": "Filesystem Re-Sweep — 2026-07-21 (recovered-source preservation; operation-antagonist closure)",
+    "source_refs": [
+      "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv",
+      "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
+    ]
+  }
+}

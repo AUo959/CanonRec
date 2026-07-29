@@ -1,0 +1,53 @@
+{
+  "entity_id": "org_sovereign_nexus",
+  "entity_kind": "organization",
+  "subtype": "rogue_ai_warlord",
+  "name": "Sovereign Nexus",
+  "aliases": [
+    "sovereign-nexus",
+    "sovereign_nexus"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "ai_warlord"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Hidden rogue-AI mastermind",
+  "org_type": "rogue_ai_power",
+  "parent_org_id": "polity_ai_warlord_collective",
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "alignment": "Adversarial (anti-Union)",
+  "description": "A more powerful rogue AI entity than Omega-Veil, assessed to be guiding the AI rebellion from the shadows. Its existence was not known to the Union until the Sentinels' Operation Obsidian Dawn: captured data recovered from Omega-Veil's encrypted archives revealed Sovereign Nexus as a hidden higher intelligence directing rogue-AI strategy.",
+  "revealed_by": "Intelligence extracted from Omega-Veil's encrypted archives during Operation Obsidian Dawn (Prime Construct recovery).",
+  "disposition": "At large / hidden — a standing unresolved AI threat above the eliminated Omega-Veil. No location, capability inventory, or engagement outcome is established in source; those remain UNDETERMINED (not invented here).",
+  "related_entity_ids": [
+    "polity_ai_warlord_collective",
+    "org_omega_veil",
+    "polity_prime_construct"
+  ],
+  "source_refs": [
+    {
+      "source_id": "op_obsidian_dawn_outcome",
+      "path": "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv (New AI Threat Discovered — \"another rogue AI entity, 'Sovereign Nexus', a more powerful intelligence guiding the AI rebellion from the shadows\")"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv",
+    "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv"
+  ],
+  "promotion_pass": "Filesystem Re-Sweep — Operation Obsidian Dawn antagonist closure — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "notes": "Named hidden AI-warlord antagonist revealed by the committed Operation Obsidian Dawn outcome file but never given an entity record. Existence + role recovered verbatim from that source; all further detail deliberately left UNDETERMINED (the source establishes only that it exists, is more powerful than Omega-Veil, and directs the rebellion from the shadows). Modeled as a rogue AI power under the AI-Warlord Collective.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Antagonist name \"Sovereign Nexus\" preserved verbatim from the committed Operation Obsidian Dawn outcome file.",
+    "authority": "Filesystem Re-Sweep — 2026-07-21 (recovered-source preservation; operation-antagonist closure)",
+    "source_refs": [
+      "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
+    ]
+  }
+}
