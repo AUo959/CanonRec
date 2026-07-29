@@ -1,0 +1,50 @@
+{
+  "entity_id": "conflict_union_imperium_border",
+  "entity_kind": "conflict",
+  "subtype": "standing_tension",
+  "name": "Union–Imperium Border Conflict",
+  "aliases": [
+    "union_imperium_border"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union",
+    "velar_imperium"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "engine_conflict_id": "union_imperium_border",
+  "parties": [
+    "galactic_union",
+    "velar_imperium"
+  ],
+  "initial_phase": "TENSION",
+  "source_refs": [
+    {
+      "source_id": "engine_scenario",
+      "path": "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+    }
+  ],
+  "doc_sources": [
+    "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+  ],
+  "promotion_pass": "Engine Geopolitics Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "nature": "A standing border tension between the Galactic Union and the (fragmented) Velar Imperium — a slow-burn frontier friction, not open war at scenario start.",
+  "instance_local_note": "CANONICAL FACT recorded here = the scenario-defined standing tension (parties + initial phase). Per-run dynamics (war_cost, turns_active, de-escalation probability, casualty index, mediation state) are TERTIARY / instance-local simulation output (Canon Protocol §5) and are NOT canon — they belong to specific engine runs, not the setting.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Conflict \"Union–Imperium Border Conflict\" is a scenario-defined canonical tension point.",
+    "authority": "Engine Geopolitics Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+    ]
+  }
+}

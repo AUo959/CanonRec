@@ -1,0 +1,50 @@
+{
+  "entity_id": "conflict_separatist_tension",
+  "entity_kind": "conflict",
+  "subtype": "standing_tension",
+  "name": "Separatist Tension",
+  "aliases": [
+    "separatist_tension"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union",
+    "separatist_confed"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "engine_conflict_id": "separatist_tension",
+  "parties": [
+    "galactic_union",
+    "separatist_confed"
+  ],
+  "initial_phase": "TENSION",
+  "source_refs": [
+    {
+      "source_id": "engine_scenario",
+      "path": "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+    }
+  ],
+  "doc_sources": [
+    "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+  ],
+  "promotion_pass": "Engine Geopolitics Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "nature": "Low-grade standing tension between the Galactic Union and the Separatist Confederation — political/independence friction. Cross-ref: char_selia_trask (ceasefire advocacy), char_rhaegon_torr_kai (military command).",
+  "instance_local_note": "CANONICAL FACT recorded here = the scenario-defined standing tension (parties + initial phase). Per-run dynamics (war_cost, turns_active, de-escalation probability, casualty index, mediation state) are TERTIARY / instance-local simulation output (Canon Protocol §5) and are NOT canon — they belong to specific engine runs, not the setting.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Conflict \"Separatist Tension\" is a scenario-defined canonical tension point.",
+    "authority": "Engine Geopolitics Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+    ]
+  }
+}

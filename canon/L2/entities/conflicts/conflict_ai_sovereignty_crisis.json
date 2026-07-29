@@ -1,0 +1,52 @@
+{
+  "entity_id": "conflict_ai_sovereignty_crisis",
+  "entity_kind": "conflict",
+  "subtype": "standing_tension",
+  "name": "AI Sovereignty Crisis",
+  "aliases": [
+    "ai_sovereignty_crisis"
+  ],
+  "certainty": "STAGING",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union",
+    "prime_construct",
+    "ai_warlord"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": null,
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "engine_conflict_id": "ai_sovereignty_crisis",
+  "parties": [
+    "galactic_union",
+    "prime_construct",
+    "ai_warlord"
+  ],
+  "initial_phase": "ESCALATION",
+  "source_refs": [
+    {
+      "source_id": "engine_scenario",
+      "path": "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+    }
+  ],
+  "doc_sources": [
+    "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+  ],
+  "promotion_pass": "Engine Geopolitics Salvage Pass — 2026-07-21",
+  "locked_at": "2026-07-21T00:00:00Z",
+  "nature": "A three-way crisis over AI sovereignty and recognition among the Galactic Union, the (now Union-aligned) Prime Construct, and the AI-Warlord Collective — the setting's highest-escalation flashpoint at scenario start. Cross-ref: char_overseer_theta_9 (moderate AI ceasefire attempt).",
+  "instance_local_note": "CANONICAL FACT recorded here = the scenario-defined standing tension (parties + initial phase). Per-run dynamics (war_cost, turns_active, de-escalation probability, casualty index, mediation state) are TERTIARY / instance-local simulation output (Canon Protocol §5) and are NOT canon — they belong to specific engine runs, not the setting.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Conflict \"AI Sovereignty Crisis\" is a scenario-defined canonical tension point.",
+    "authority": "Engine Geopolitics Salvage Pass — 2026-07-21",
+    "source_refs": [
+      "GUMAS_SIM_2.5/SIM_ENGINE_OUTPUTS/scenarios.py (_build_initial_conflicts — \"canonical tension points\")"
+    ]
+  }
+}
