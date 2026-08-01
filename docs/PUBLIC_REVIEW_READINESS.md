@@ -1,7 +1,7 @@
 # Public-review readiness
 
-Status as of 2026-07-29: **open-source review ready under the MIT License**.
-The strict canon-integrity publication gate remains blocked by the items below.
+Status as of 2026-08-01: **open-source review ready under the MIT License**.
+Both the normal and strict repository-integrity gates are clean.
 
 ## Confirmed working surfaces
 
@@ -16,20 +16,21 @@ The strict canon-integrity publication gate remains blocked by the items below.
   security findings without opening a public issue.
 - Repository contents are licensed under the MIT License.
 
-## Known integrity debt
+## Resolved integrity recovery
 
-The baseline file records exact machine-checkable findings so that CI can stop
-new regressions without hiding old ones:
+The two legacy zero-byte defects were recovered on 2026-08-01 from committed
+authority evidence:
 
-1. `canon/L2/entities/anaya_ral_seyr/capsule/state.bin` is empty and does not
-   match its capsule manifest. The defect predates the current review and is
-   already recorded in canon promotion documentation.
-2. `canon/L2/entities/organizations/org_tactical_enforcement_officers.json` is
-   an empty legacy record. Its intended content cannot be reconstructed from
-   repository evidence without inventing canon.
+1. `canon/L2/entities/anaya_ral_seyr/capsule/state.bin` was restored with the
+   exact 42-byte state vector named by its locked manifest. Eight intact peer
+   capsules carry the same byte-identical object and digest.
+2. `canon/L2/entities/organizations/org_tactical_enforcement_officers.json` was
+   reconstructed from its CANON lock record, the original Marshals ledger, and
+   the schema of the adjacent locked Marshal sub-unit records.
 
-`make validate-strict` fails until both are repaired from authoritative source
-material and their baseline entries are removed.
+No certainty, identity, or authority transition was made. The temporary
+integrity baseline is now empty, and `make validate-strict` passes. See
+`reports/CANON_INTEGRITY_RECOVERY__2026-08-01.md` for the receipt.
 
 The L2 fabric also reports a pre-existing status-vocabulary violation for
 `char_selene_ark` (`alive_in_union_medical_custody`). That value requires a
@@ -42,7 +43,8 @@ registry differ materially and are not part of the current propagation
 contract. One authority must be selected or a deterministic merge contract
 must be approved before either file is presented as the sole staff SSOT.
 
-## Remaining owner actions before strict publication
+## Remaining owner action before a sole staff-SSOT claim
 
-- Resolve the two strict integrity blockers and the staff-registry authority
-  decision.
+- Resolve the staff-registry authority decision described above. This does not
+  block repository review, but it does block presenting either registry as the
+  sole cross-repository staff SSOT.
