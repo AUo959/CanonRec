@@ -22,7 +22,9 @@
   "faction_bindings": [
     "velar_imperium"
   ],
-  "organization_ids": [],
+  "organization_ids": [
+    "org_house_velkonn"
+  ],
   "role": "Exiled Grand Duke (Velar Imperial restorationist)",
   "tags": [
     "velar_imperium",
@@ -47,5 +49,5 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-09"
 }

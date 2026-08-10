@@ -10,7 +10,9 @@
   "faction_bindings": [
     "velar_imperium"
   ],
-  "organization_ids": [],
+  "organization_ids": [
+    "org_house_velkonn"
+  ],
   "conflict_flags": [],
   "role": "Velar anthropologist (potential reformist)",
   "org_type": null,
@@ -41,5 +43,5 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-09"
 }

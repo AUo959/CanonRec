@@ -1,0 +1,66 @@
+{
+  "entity_id": "org_house_velkonn",
+  "entity_kind": "organization",
+  "name": "House Velkonn",
+  "aliases": [
+    "Velkonn",
+    "house_velkonn"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "org_type": "velar_high_house",
+  "subtype": "noble_clan",
+  "faction_bindings": [
+    "velar_imperium"
+  ],
+  "parent_org_id": "org_imperial_loyalists",
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "A Velar High House of the Imperial Loyalist camp",
+  "description": "A High House (noble clan) of the Velar Imperium. Per the Velar social order, High Houses wield ancestral power, command legacy fleets and hold ancient artifacts; House Velkonn holds all three — it fields the Velkonn House Fleet and maintains an ancestral citadel among the Velar House seats.",
+  "assets": {
+    "fleet": "Velkonn House Fleet — the House’s legacy fleet, listed in source under the Imperial Loyalists alongside Sira Velkonn.",
+    "seat": "An ancestral citadel, attested as one of the Velar House seats. No coordinate is established; not placed."
+  },
+  "lineage_marker": "Vel- — royal or noble lineage, per polity_velar_imperium.naming_conventions.",
+  "known_members": {
+    "char_sira_velkonn": "Velar Imperial pro-monarchy figure",
+    "char_talyx_velkonn": "Exiled Grand Duke, Velar Imperial restorationist",
+    "char_syrr_velkonn": "Velar anthropologist (potential reformist)"
+  },
+  "membership_note": "The three canonical Velkonn characters share the house name and all read as nobility, which is what the Vel- lineage prefix predicts. Shared house membership is recorded as the evident reading; no kinship relation between them is asserted, because no source establishes one.",
+  "related_entity_ids": [
+    "polity_velar_imperium",
+    "org_imperial_loyalists",
+    "char_sira_velkonn",
+    "char_talyx_velkonn",
+    "char_syrr_velkonn"
+  ],
+  "source_refs": [
+    {
+      "source_id": "velar_foundations",
+      "path": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"The Debate at T’karas\" storyline block + \"Foundations of the Velar Imperium\")"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"The Debate at T’karas\" storyline block + \"Foundations of the Velar Imperium\")"
+  ],
+  "promotion_pass": "Prose-Claim Ledger Reconciliation — Velar promotion pass — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "House name \"Velkonn\" is already in canonical use across three committed character records; \"House Velkonn\" and \"Velkonn House Fleet\" are preserved verbatim from source.",
+    "authority": "Prose-Claim Ledger Reconciliation — Velar promotion pass — 2026-08-09",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"The Debate at T’karas\" storyline block + \"Foundations of the Velar Imperium\")"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "Prose-Claim Ledger Reconciliation — Velar promotion pass — 2026-08-09",
+    "rule": "owner directive 2026-08-09: treat any detail about the Velari as promotable unless there is a direct reason not to. Applied here; the one item held back is recorded on char_sira_velkonn.",
+    "process": "aurora-canon-reconciler: conflict scan + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — closes a referent already implied by three committed character records",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}

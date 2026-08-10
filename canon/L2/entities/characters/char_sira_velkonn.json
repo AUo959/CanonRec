@@ -15,6 +15,7 @@
     "velar_imperium"
   ],
   "organization_ids": [
+    "org_house_velkonn",
     "org_imperial_loyalists"
   ],
   "role": "Velar Imperial figure of the pro-monarchy / nobility camp; political pole within the Velar Imperium's civil conflict",
@@ -51,7 +52,7 @@
       "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
     ]
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Old-Prose Reconciliation — aurora-canon-reconciler process — 2026-07-21",
@@ -61,5 +62,17 @@
     "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist; fabric linter clean",
     "advisor_recommended_tag": "CANON_PROMOTE",
     "at": "2026-07-21"
-  }
+  },
+  "alignment_conflict": {
+    "claim": "Early prose (\"The Debate at T’karas\") frames Sira Velkonn as the REFORMIST leader hosting Union envoys on T’karas Prime.",
+    "canon_position": "This record holds her as a pro-monarchy / High-Houses figure — the fixed rival pole against whom the Republican Reformist Thalen Rynn is defined.",
+    "status": "UNRESOLVED — canon position retained; the claim is recorded, not applied.",
+    "why_not_applied": "The source contradicts itself and says so: the same archive message observes that one chunk makes her a Reformist host while its own faction table lists \"Sira Velkonn, Velkonn House Fleet\" under the Imperial Loyalists. Canon chose the Loyalist reading on independent evidence, and this record already noted that only established relational facts were kept because the surrounding source was unreliable. Inverting her would also invert Thalen Rynn’s definition, which depends on her being the opposing pole.",
+    "house_binding": "Consistent with the Loyalist reading: House Velkonn (org_house_velkonn) is a High House of the Imperial Loyalist camp, and the source’s own faction table places her and the Velkonn House Fleet there.",
+    "routing": "aurora-canon-reconciler conflict scan; queued as tkaras-host-identity.",
+    "detected": "2026-08-09 prose-claim salvage"
+  },
+  "event_refs": [
+    "event_debate_at_tkaras"
+  ]
 }

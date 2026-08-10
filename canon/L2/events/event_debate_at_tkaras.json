@@ -1,0 +1,85 @@
+{
+  "entity_id": "event_debate_at_tkaras",
+  "entity_kind": "event",
+  "name": "The Debate at T’karas",
+  "aliases": [
+    "Debate at T’karas",
+    "T’karas Incident"
+  ],
+  "certainty": "CANON",
+  "status": "concluded",
+  "layer": "L2",
+  "subtype": "diplomatic_flashpoint_with_sabotage",
+  "location_refs": [
+    "loc_tkaras_prime"
+  ],
+  "participant_refs": [
+    "org_republican_reformists",
+    "org_imperial_loyalists",
+    "vessel_gu_012",
+    "char_deyan_orros",
+    "org_union_intelligence_bureau",
+    "char_sira_velkonn",
+    "polity_velar_imperium"
+  ],
+  "operational_summary": "A Union diplomatic approach to the Velar reformists, held on the neutral Velari world of T’karas Prime. A Union envoy was dispatched covertly from the G.U.S. Resolute Dawn (vessel_gu_012) to negotiate an alliance with the Velar Republican Reformists. The Imperial Loyalists detected the approach and answered it with media subversion, Crimson Pact sympathizers were implicated in sabotage, and an explosion disabled T’karas Prime’s local planetary archives. Union Intelligence flagged the reformists for covert support, and the Resolute Dawn sent a classified dispatch to the Union Senate.",
+  "canonical_sequence": [
+    "A Union diplomatic envoy is dispatched covertly from the G.U.S. Resolute Dawn to the neutral Velari world of T’karas Prime, intending to negotiate an alliance with the Velar reformists.",
+    "The debate is hosted on T’karas Prime by a Velar reformist leader — see actor_role_conflict.",
+    "The Imperial Loyalists detect the Union approach and respond with media subversion.",
+    "Crimson Pact sympathizers are implicated in sabotage.",
+    "An explosion disables T’karas Prime’s local planetary archives; sabotage is the suggested attribution, not an established finding.",
+    "Union Intelligence (officer Deyrus) flags the Velar reformists for covert Union support.",
+    "The Resolute Dawn transmits a classified dispatch to the Union Senate."
+  ],
+  "outcome": {
+    "diplomatic": "Union contact with the Velar Republican Reformists established; covert support flagged by Union Intelligence.",
+    "material": "T’karas Prime’s local planetary archives disabled by explosion.",
+    "escalation": "Imperial Loyalist counter-action shifted from detection to media subversion — an information-domain response rather than a military one.",
+    "reporting": "A classified dispatch reached the Union Senate via the Resolute Dawn."
+  },
+  "actor_role_conflict": {
+    "question": "Sira Velkonn’s alignment. This source frames her as the REFORMIST leader hosting the Union envoys. Committed canon (char_sira_velkonn) has her as a pro-monarchy / High-Houses figure — the fixed rival pole against whom the Republican Reformist Thalen Rynn is defined.",
+    "status": "UNRESOLVED — the event is promoted; her role in it is NOT.",
+    "why_not_resolved": "These cannot both hold, and the source itself says so: the same archive message notes \"In the earlier pasted chunk, Sira is framed as Reformist Leader hosting Union envoys at T’karas. Here, the table places Sira Velkonn under Imperial Loyalists.\" Canon already chose the Loyalist reading on independent evidence, and her committed record states that only established relational facts were recorded because the surrounding source was unreliable. Rewriting her alignment from the weaker side of a contradiction the source flagged would invert an established rival pole and take Thalen Rynn’s definition with it.",
+    "what_is_promoted": "The event, its location, the Union approach, the Loyalist counter-action, the sabotage and the archive explosion — none of which depend on which Velar figure hosted.",
+    "routing": "aurora-canon-reconciler conflict scan; queued as tkaras-host-identity."
+  },
+  "explicitly_not_promoted": {
+    "claim": "The surrounding message frames this as system telemetry — fidelity tiers 0–4, \"memory load\", thread \"ignition\", an 18% thread-overhead reduction, a \"Character Generation Queue\", and the Velar thread being \"upgraded to Tier 3 (Active)\".",
+    "why": "Out-of-world simulation bookkeeping, not in-world fact. The archive message itself marks these as unverified claims. Only the diegetic storyline content is promoted."
+  },
+  "unresolved_threads": [
+    "Sabotage attribution to Crimson Pact sympathizers is \"implied\"/\"suggested\" in source, not established. Recorded as an allegation, not a finding.",
+    "The identity of the covert Union envoy dispatched from the Resolute Dawn is not named. char_deyan_orros is the vessel’s Envoy-Captain and is linked as the dispatching authority, NOT as the envoy — the source does not say he went.",
+    "Union Intelligence officer Deyrus appears in the committed character roster; the depth of his involvement beyond flagging the reformists is not established."
+  ],
+  "source_refs": [
+    {
+      "source_id": "debate_at_tkaras",
+      "path": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"The Debate at T’karas\")"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"The Debate at T’karas\")"
+  ],
+  "promotion_pass": "Prose-Claim Ledger Reconciliation — Velar promotion pass — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "notes": "A named Velar diplomatic flashpoint with no prior canon record. Every actor resolves to committed canon — the Resolute Dawn (vessel_gu_012), its Envoy-Captain Deyan Orros, Union Intelligence, the Crimson Pact, the officer Deyrus, and the three Velar factions — which is the corroboration that made promotion safe. One actor role is in genuine contradiction with canon and is recorded rather than decided.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Event name \"The Debate at T’karas\" preserved verbatim.",
+    "authority": "Prose-Claim Ledger Reconciliation — Velar promotion pass — 2026-08-09",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"The Debate at T’karas\")"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "Prose-Claim Ledger Reconciliation — Velar promotion pass — 2026-08-09",
+    "rule": "owner directive 2026-08-09: promote Velari detail unless there is a direct reason not to. There is a direct reason on exactly one point (the host’s identity), which is recorded in actor_role_conflict; the rest is promoted.",
+    "process": "aurora-canon-reconciler: conflict scan + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN on the event; one actor-role conflict recorded",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}
