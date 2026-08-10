@@ -57,7 +57,7 @@
     "related_body": "High Judiciary & Galactic Tribunal — superior adjudicative authority for constitutional, interstellar, appellate, war-crimes, and AI-rights matters."
   },
   "locked_at": "2026-07-21T03:05:00Z",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "prev_certainty": "STAGING",
   "charter": {
     "composition": "9 jurists, fixed staggered terms (mirrors canonical GU leadership bench, engine F6)",
@@ -81,5 +81,17 @@
       "appeal_body_id": "org_high_judiciary_galactic_tribunal",
       "certainty": "CANON"
     }
-  ]
+  ],
+  "composition_and_powers": {
+    "seats": "12 Justices",
+    "appointment": "Appointed by the High Chancellor, subject to Senate approval.",
+    "functions": [
+      "Interprets laws and resolves disputes between planets.",
+      "Ensures adherence to the Galactic Constitution."
+    ],
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
+    "basis": "Recovered from early-project prose claims; canon carried no composition or appointment detail for the Council.",
+    "note": "The prose references a \"Galactic Constitution\" alongside the Galactic Union Charter. Whether these are the same instrument under two names, or distinct, is NOT established and was not inferred."
+  }
 }

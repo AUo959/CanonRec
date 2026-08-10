@@ -45,12 +45,12 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "World Bible dual-source; primary GU polity. CANON.",
   "locked_at": "2026-03-20T02:03:35Z",
   "substructure_reconciliation": {
-    "pass": "Filesystem Re-Sweep \u2014 GU substructure cross-link \u2014 2026-07-21",
-    "note": "GUMAS_Factions.json names the Galactic Union's substructures (Union Intelligence, Union Marshals, Diplomatic Corps, Sentinels). Each already has its own committed entity record; this pass cross-links them via organization_ids. Additive only \u2014 no new entities, no invented detail.",
+    "pass": "Filesystem Re-Sweep — GU substructure cross-link — 2026-07-21",
+    "note": "GUMAS_Factions.json names the Galactic Union's substructures (Union Intelligence, Union Marshals, Diplomatic Corps, Sentinels). Each already has its own committed entity record; this pass cross-links them via organization_ids. Additive only — no new entities, no invented detail.",
     "source_ref": "archives/session_archives/AU_Archive_327-330/GUMAS_Factions.json (Galactic Union: substructures [Union Intelligence, Union Marshals, Diplomatic Corps, Sentinels])",
     "linked_records": [
       "org_union_intelligence_bureau",
@@ -58,5 +58,19 @@
       "org_diplomatic_corps",
       "org_sentinel_high_command"
     ]
-  }
+  },
+  "government": {
+    "form": "Federal, multi-species democracy — power is balanced among planets, regions and species.",
+    "principle": "A balance between centralized federal power and planetary autonomy: order without fully suppressing local governance.",
+    "legal_framework": "Built on interstellar treaties, regional authority and centralized oversight.",
+    "charter": {
+      "name": "Galactic Union Charter",
+      "content": "Formalized the principles of governance, trade regulation and conflict resolution.",
+      "status": "Attested in early-project canon prose; no separate charter document record exists in CanonRec."
+    },
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
+    "basis": "Recovered from early-project prose claims. Checked first against canon: no existing record carried the Union's constitutional basis — org_galactic_union had no government field at all. Non-conflicting discovered detail, reconciled per the standing rule."
+  },
+  "updated_at": "2026-08-09"
 }
