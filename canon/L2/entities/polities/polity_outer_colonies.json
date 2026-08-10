@@ -1,0 +1,58 @@
+{
+  "entity_id": "polity_outer_colonies",
+  "entity_kind": "polity",
+  "subtype": "frontier_polity_bloc",
+  "name": "Outer Colonies",
+  "aliases": [
+    "outer_colonies",
+    "Outer Colony Independents"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "outer_colonies"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Frontier colonial bloc beyond the Union core worlds",
+  "org_type": "polity_bloc",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "government": "Not a unified state. Canon describes it as a volatile bloc of independent frontier colonies — \"Outer Colony Independents (volatile)\" — within which Outer Colony Warlords hold local power. Its posture toward the Union is conditional: canon records it as \"Neutral: Outer Colonies (unless debts unpaid)\", i.e. alignment turns on economic obligation rather than ideology.",
+  "multispecies": true,
+  "peoplehood_note": "A bloc of frontier polities, not a people and not a unified government. Membership is loose and its constituent colonies act independently.",
+  "identity_model_note": "Polity = a state / political entity, orthogonal to species, culture and region.",
+  "notes": "Created 2026-08-09 to close a dangling faction referent. \"outer_colonies\" was used as a faction binding by 5 canonical records (cls_dreadraider, char_jaxx_tyren, char_vaxtan_rhel, char_theryn_kaelvakar and its capsule) with no entity record behind it — the same defect as the Velar Imperium referent. Attributes recovered from committed canon; nothing invented. Note the distinct but related referent org_outer_colony_warlords, which is a Velar-Imperium internal faction, NOT this bloc.",
+  "source_refs": [
+    {
+      "source_id": "canon_faction_bindings",
+      "path": "Referenced as faction_bindings/faction_id by 5 canonical records; this record closes the dangling referent."
+    },
+    {
+      "source_id": "canon_reputation_tables",
+      "path": "canon/L2 reputation/relations tables: \"Neutral: Outer Colonies (unless debts unpaid)\"; \"Outer Colony Independents (volatile)\""
+    },
+    {
+      "source_id": "gumas_extracted_sim_modules",
+      "path": "archives (root): GUMAS extracted simulation modules — Outer Colony trade routes, warlord power"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2 relations tables",
+    "archives: GUMAS extracted simulation modules"
+  ],
+  "promotion_pass": "Dangling Faction-Referent Closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "updated_at": "2026-08-09",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "\"Outer Colonies\" is already in canonical use as a faction binding and appears verbatim in committed canon relations tables.",
+    "authority": "Dangling Faction-Referent Closure — 2026-08-09",
+    "source_refs": [
+      "canon/L2 relations tables",
+      "faction_bindings across 5 canonical records"
+    ]
+  }
+}

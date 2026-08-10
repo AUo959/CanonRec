@@ -1,0 +1,53 @@
+{
+  "entity_id": "org_trade_coalition",
+  "entity_kind": "organization",
+  "subtype": "economic_power_bloc",
+  "name": "Trade Coalition",
+  "aliases": [
+    "trade_coalition"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Corporate/economic power bloc within the Galactic Union",
+  "org_type": "economic_bloc",
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "description": "A corporate and economic power bloc operating inside Union politics. Canon establishes three things about it: it was one leg of the alliance that carried Chancellor Zylox to the chancellorship (Trade Coalition + AI Vanguard + economic technocrats, narrowly defeating a military-backed candidate); its headquarters sits on the Union capital, the \"Engine of the Union\" and wealthiest world; and it brokered neutral ceasefire zones enabling controlled trade between Union, separatist and neutral parties.",
+  "political_role": "Its backing is a standing constraint on the chancellorship — canon describes Zylox as viewed by Outer Colony leaders as a corporate-controlled figurehead, with corporate-versus-government interests straining as private security expands.",
+  "notes": "Created 2026-08-09. A named power bloc attested repeatedly in committed canon (chancellorship alliance, capital HQ, ceasefire-zone brokerage) that had no entity record. All attributes recovered from canon; nothing invented.",
+  "source_refs": [
+    {
+      "source_id": "canon_chancellorship",
+      "path": "canon/L2: Zylox rose to the chancellorship \"via an alliance of the Trade Coalition, AI Vanguard, and economic technocrats, narrowly defeating a military-backed candidate\""
+    },
+    {
+      "source_id": "canon_capital",
+      "path": "canon/L2: capital described as \"Engine of the Union\" — wealthiest, most economically powerful world; hosts Trade Coalition HQ (CANON — primary-source knowledge bundle)"
+    },
+    {
+      "source_id": "canon_operations",
+      "path": "canon/L2 operations: \"Trade Coalition Establishes Ceasefire Zones — brokered neutral zones enable controlled trade between Union, separatist, and neutral parties\""
+    }
+  ],
+  "doc_sources": [
+    "canon/L2 (chancellorship, capital, operations)"
+  ],
+  "promotion_pass": "Dangling Faction-Referent Closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "updated_at": "2026-08-09",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "\"Trade Coalition\" preserved verbatim from committed canon.",
+    "authority": "Dangling Faction-Referent Closure — 2026-08-09",
+    "source_refs": [
+      "canon/L2 chancellorship + capital + operations records"
+    ]
+  }
+}
