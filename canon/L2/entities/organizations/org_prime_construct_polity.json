@@ -5,7 +5,7 @@
   "aliases": [
     "Prime Construct"
   ],
-  "certainty": "CANON",
+  "certainty": "SUPERSEDED",
   "source_refs": [
     {
       "source_id": "world_bible",
@@ -14,7 +14,7 @@
       "line_end": 223
     }
   ],
-  "status": "active",
+  "status": "alias_forward_only",
   "faction_bindings": [
     "prime_construct"
   ],
@@ -31,8 +31,12 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "World Bible; alias conflict resolved: 'Prime Construct' is also char ID prime_construct_leader. Org is distinct entity. CANON.",
   "locked_at": "2026-03-20T02:03:35Z",
-  "alias_disambiguation": "org_prime_construct_polity refers to the state entity; prime_construct_leader refers to the AI entity. Distinct. No merge."
+  "alias_disambiguation": "org_prime_construct_polity refers to the state entity; prime_construct_leader refers to the AI entity. Distinct. No merge.",
+  "prev_certainty": "CANON",
+  "superseded_by": "polity_prime_construct",
+  "supersession_note": "Duplicate of polity_prime_construct (same referent: this record aliases \"Prime Construct\"; the polity record aliases \"Prime Construct Polity\"). Retired 2026-08-09 by the STAGING closure reconciliation. The polity record is canonical because it models the correct identity dimension (a state, not an organization), carries doc_sources provenance which this record lacked, and is referenced by more live records. This id is retained as an alias-forward so existing references keep resolving.",
+  "updated_at": "2026-08-09"
 }

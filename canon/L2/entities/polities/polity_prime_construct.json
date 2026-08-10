@@ -7,7 +7,7 @@
     "The Prime Construct",
     "Prime Construct Polity"
   ],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "prime_construct"
@@ -50,5 +50,19 @@
     "source_refs": [
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b (Major Civilizations §6)"
     ]
-  }
+  },
+  "prev_certainty": "STAGING",
+  "supersedes": [
+    "org_prime_construct_polity"
+  ],
+  "promotion_to_canon": {
+    "pass": "STAGING Closure Reconciliation — aurora-canon-reconciler — 2026-08-09",
+    "rule": "owner standing directive: discovered detail that does not conflict with canon IS canon",
+    "process": "aurora-canon-reconciler: name/alias collision scan + structural reference check + ReconciliationAdvisor scoring",
+    "advisor_recommended_tag": "CANON_PROMOTE",
+    "at": "2026-08-09",
+    "from": "STAGING",
+    "conflict_scan": "DUPLICATE RESOLVED — collided with org_prime_construct_polity (same referent, cross-aliased). This record retained as canonical: correct identity dimension (polity/state, not organization), carries provenance, and holds more inbound references from live records. org_prime_construct_polity superseded and alias-forwarded here."
+  },
+  "updated_at": "2026-08-09"
 }

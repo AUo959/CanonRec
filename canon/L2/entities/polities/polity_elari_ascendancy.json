@@ -4,7 +4,7 @@
   "subtype": "people_and_polity",
   "name": "Elari Ascendancy",
   "aliases": [],
-  "certainty": "STAGING",
+  "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "elari_ascendancy"
@@ -53,5 +53,15 @@
   },
   "dominant_species_id": "species_elari",
   "multispecies": false,
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-09",
+  "prev_certainty": "STAGING",
+  "promotion_to_canon": {
+    "pass": "STAGING Closure Reconciliation — aurora-canon-reconciler — 2026-08-09",
+    "rule": "owner standing directive: discovered detail that does not conflict with canon IS canon",
+    "process": "aurora-canon-reconciler: name/alias collision scan + structural reference check + ReconciliationAdvisor scoring",
+    "advisor_recommended_tag": "CANON_PROMOTE",
+    "at": "2026-08-09",
+    "from": "STAGING",
+    "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
+  }
 }

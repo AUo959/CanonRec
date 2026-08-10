@@ -39,5 +39,13 @@
       "projects/GUI_Cloudhub/…/v2.2.6b core (design \"Option 3\" proposal)",
       "reports (root): l2_character_salvage_audit__2026-07-21.md"
     ]
-  }
+  },
+  "certainty_hold": {
+    "held_at": "UNCONFIRMED",
+    "reviewed": "2026-08-09",
+    "conflict_scan": "CLEAN (no collisions) — but a clean collision scan is NOT sufficient here",
+    "reason": "Presented as a design \"Option 3\" among alternatives — an option that was never selected.",
+    "rule": "The standing rule promotes DISCOVERED detail that survives a conflict check. These are not discovered detail: they are generative scaffolding that never happened in the fiction. Same distinction applied to the Sira Velkonn backstory. They rise only if a source-of-truth artifact establishes them in-world."
+  },
+  "updated_at": "2026-08-09"
 }

@@ -799,3 +799,17 @@
 - **Entities affected:** `anaya_ral_seyr` capsule state; `org_tactical_enforcement_officers`
 - **Description:** Restored Anaya Ral-Seyr's 42-byte `state.bin` with the exact object required by her locked capsule manifest (`1571a3933d7f344c8facd70a26620283268d2cdc34f569f21b1c06cb1a6afb73`). The object is independently present in eight intact peer capsules. Reconstructed the Tactical Enforcement Officers record from its 2026-03-19 CANON lock and the Marshals ledger entry at line 125, following the adjacent locked Marshal sub-unit schema.
 - **Resolution:** RECOVERED without promotion or authority change. Removed the three temporary baseline findings after strict validation passed. Detailed receipt: `reports/CANON_INTEGRITY_RECOVERY__2026-08-01.md`.
+
+## Drift Entry — 2026-08-09 (duplicate: Prime Construct)
+- **Source:** STAGING closure reconciliation (aurora-canon-reconciler conflict scan over all 21 STAGING/UNCONFIRMED records)
+- **Type:** duplicate name / ghost entity
+- **Entities affected:** `org_prime_construct_polity` (CANON), `polity_prime_construct` (STAGING)
+- **Description:** Two records described the same referent and cross-aliased each other — the organization record was named "Prime Construct Polity" with alias "Prime Construct"; the polity record was named "Prime Construct" with alias "Prime Construct Polity". The organization record was already CANON but carried **no doc_sources**; the polity record carried provenance (Major Civilizations codex) and held more inbound references from live records (Obsidian Dawn event, Omega-Veil, Sovereign Nexus).
+- **Resolution:** RESOLVED. `polity_prime_construct` retained as canonical — it models the correct identity dimension (a state, not an organization, per IDENTITY_DIMENSIONS v0.1), has provenance, and is more referenced. `org_prime_construct_polity` set to `certainty: SUPERSEDED`, `status: alias_forward_only`, `superseded_by: polity_prime_construct`, so existing references keep resolving. No content lost.
+
+## Drift Entry — 2026-08-09 (certainty precision: Shroudborn)
+- **Source:** same reconciliation pass
+- **Type:** certainty mis-tag
+- **Entities affected:** `polity_shroudborn`
+- **Description:** Held at UNCONFIRMED, but the record is in-world legend material ("Some believe the Shroudborn are a surviving precursor race…"), not unvalidated speculation about the setting. UNCONFIRMED conflated "we lack evidence" with "the in-world account is disputed".
+- **Resolution:** RESOLVED — retagged `LEGEND_CONTESTED`, the approved tag for in-universe rumor/myth/disputed account. The legend's existence is canon; its truth remains contested. Not a promotion to fact.

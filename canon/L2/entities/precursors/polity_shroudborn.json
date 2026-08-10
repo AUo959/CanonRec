@@ -6,7 +6,7 @@
   "aliases": [
     "Mysterious Transcendents"
   ],
-  "certainty": "UNCONFIRMED",
+  "certainty": "LEGEND_CONTESTED",
   "status": "unknown",
   "faction_bindings": [],
   "organization_ids": [],
@@ -38,5 +38,8 @@
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (precursor codex)",
       "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md §2.5 Dyson Sphere Frontier"
     ]
-  }
+  },
+  "prev_certainty": "UNCONFIRMED",
+  "certainty_basis": "Retagged from UNCONFIRMED 2026-08-09. The EXISTENCE of the Shroudborn legend is established in-world content (precursor codex: \"Some believe the Shroudborn are a surviving precursor race…\"); the TRUTH of the claim is disputed by construction, resting on visionary experience and cryptic transmission. LEGEND_CONTESTED is the tag for in-universe rumor/myth/disputed account, so this is a precision fix, not a promotion to fact.",
+  "updated_at": "2026-08-09"
 }
