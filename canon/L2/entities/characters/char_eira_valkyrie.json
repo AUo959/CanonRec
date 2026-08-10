@@ -7,7 +7,7 @@
     "Eira / Valkyrie"
   ],
   "certainty": "CANON",
-  "status": "alive_in_union_custody",
+  "status": "active",
   "layer": "L2",
   "faction_bindings": [
     "fleet_shadow_fleet"
@@ -49,5 +49,8 @@
   ],
   "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22; Third Silence Narrative Audit — 2026-07-22",
   "locked_at": "2026-07-22",
-  "updated_at": "2026-07-22"
+  "updated_at": "2026-08-09",
+  "prev_status": "alive_in_union_custody",
+  "status_detail": "Alive, held in Union custody following recovery from Crown Dark.",
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
 }

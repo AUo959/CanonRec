@@ -7,7 +7,7 @@
     "Lethan hostile fleet"
   ],
   "certainty": "CANON",
-  "status": "withdrawn_from_lethan_active_strength_unknown",
+  "status": "active",
   "layer": "L2",
   "org_type": "fleet",
   "faction_bindings": [],
@@ -79,5 +79,8 @@
     "why_not_invented": "The Hollow Expanse is typed a lawless corridor used for shadow logistics and would be a plausible citation, but canon establishes NO link between it and the Shadow Fleet. Citing it would be inference presented as fact.",
     "resolves_when": "A named route is established, or canon links the Shadow Fleet to an existing corridor.",
     "recorded": "2026-08-09 (FABRIC P4)"
-  }
+  },
+  "prev_status": "withdrawn_from_lethan_active_strength_unknown",
+  "status_detail": "Withdrew from the Lethan system after Crown Dark collapsed; surviving strength, destination and regrouping state unknown.",
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
 }

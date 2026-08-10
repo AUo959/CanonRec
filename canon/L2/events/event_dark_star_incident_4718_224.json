@@ -9,7 +9,7 @@
     "Third Silence Incident"
   ],
   "certainty": "CANON",
-  "status": "immediate_battle_concluded_quarantine_active",
+  "status": "concluded",
   "layer": "L2",
   "date": "4718.224",
   "location_refs": [
@@ -166,5 +166,8 @@
     "why_not_invented": "Naming a corridor here would mint an L2 referent with no source, which the L2 Naming Admission gate exists to prevent. The transit is canon; the route name is UNDETERMINED.",
     "resolves_when": "A named route is established through NameService / the map-authority process, at which point route_ref replaces this exemption.",
     "recorded": "2026-08-09 (FABRIC P4)"
-  }
+  },
+  "prev_status": "immediate_battle_concluded_quarantine_active",
+  "status_detail": "Immediate Battle of Lethan concluded; quarantine of the concealed vessel remains active and the Dark Star investigation continues.",
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
 }

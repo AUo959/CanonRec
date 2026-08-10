@@ -9,7 +9,7 @@
   "class_id": null,
   "allegiance": "fleet_shadow_fleet",
   "certainty": "CANON",
-  "status": "destroyed_or_collapsed",
+  "status": "destroyed",
   "first_confirmed_event_id": "event_dark_star_incident_4718_224",
   "narrative_significance": "Distributed command flagship of the Shadow Fleet during the Dark Star incident.",
   "canon_observations": [
@@ -43,6 +43,9 @@
     "canon/L2/reports/GUMAS_L2__AAR__DARK_STAR_INCIDENT_TO_CHANCELLOR__v1.0__2026-07-22.md"
   ],
   "reconciliation_note": "Reconciled 2026-07-21 from committed Dark Star arc canon (narrative v1.1 + AAR + event_dark_star_incident). Derivation from established canon, additive; prior fields preserved.",
-  "updated_at": "2026-07-21",
-  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
+  "updated_at": "2026-08-09",
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py).",
+  "prev_status": "destroyed_or_collapsed",
+  "status_detail": "Crown Dark collapsed during the boarding action; destroyed or structurally collapsed, exact end-state not established.",
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
 }

@@ -5,7 +5,7 @@
   "aliases": [],
   "designation_status": "Provisional Union translation of a Shadow Fleet term; true name unknown.",
   "certainty": "CANON",
-  "status": "damaged_functional_in_union_joint_custody",
+  "status": "active",
   "layer": "L2",
   "equipment_type": "isolation_or_containment_control_artifact",
   "first_confirmed_event_id": "event_dark_star_incident_4718_224",
@@ -48,7 +48,7 @@
   ],
   "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22; Third Silence Narrative Audit — 2026-07-22",
   "locked_at": "2026-07-22",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "description": "An artifact recovered from the Dark Star encounter; damaged but functional, held in joint Union custody aboard the Judicator Prime flagship in a hardened containment chamber shared by Marshal evidence officers, Sentinel specialists, and science staff.",
   "event_refs": [
     "event_dark_star_incident_4718_224"
@@ -57,5 +57,8 @@
     "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_UNIFIED__v1.1__2026-07-22.md",
     "canon/L2/reports/GUMAS_L2__AAR__DARK_STAR_INCIDENT_TO_CHANCELLOR__v1.0__2026-07-22.md"
   ],
-  "reconciliation_note": "Reconciled 2026-07-21 from committed Dark Star arc canon (narrative v1.1 + AAR + event_dark_star_incident). Derivation from established canon, additive; prior fields preserved."
+  "reconciliation_note": "Reconciled 2026-07-21 from committed Dark Star arc canon (narrative v1.1 + AAR + event_dark_star_incident). Derivation from established canon, additive; prior fields preserved.",
+  "prev_status": "damaged_functional_in_union_joint_custody",
+  "status_detail": "Damaged but functional; held in joint Marshal-Sentinel hazardous-evidence custody aboard Judicator Prime.",
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
 }

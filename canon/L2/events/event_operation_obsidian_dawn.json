@@ -7,7 +7,7 @@
     "Obsidian Dawn"
   ],
   "certainty": "CANON",
-  "status": "concluded_primary_objective_met_secondary_threat_open",
+  "status": "concluded",
   "layer": "L2",
   "subtype": "sentinel_counter_ai_strike_operation",
   "location_refs": [],
@@ -62,7 +62,7 @@
   ],
   "promotion_pass": "Filesystem Re-Sweep — Operation Obsidian Dawn event promotion — 2026-07-21",
   "locked_at": "2026-07-21",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "notes": "Event hub record promoting the four committed Operation Obsidian Dawn operation files (Briefing / Execution / Conflict & Engagement [empty] / Outcome) into a single event entity, cross-linking the participants (Sentinel High Command, Aegis Cybernetics, Umbra Stalker vessel_gu_002, Prime Construct) and antagonists (Omega-Veil eliminated; Sovereign Nexus revealed). All phases and figures are recovered verbatim from the source operation files — no invention. Observable operation events are CANON; the Sovereign Nexus threat assessment and the nature of the anomalous AI constructs remain open threads, not resolved canon.",
   "naming_exemption": {
     "type": "recovered_source",
@@ -72,5 +72,8 @@
       "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Briefing.csv",
       "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
     ]
-  }
+  },
+  "prev_status": "concluded_primary_objective_met_secondary_threat_open",
+  "status_detail": "Primary objective met (Omega-Veil eliminated); secondary threat open — Sovereign Nexus at large and surviving war-factory facilities operational.",
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
 }
