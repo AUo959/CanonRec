@@ -13,7 +13,9 @@
     "ai_warlord"
   ],
   "organization_ids": [],
-  "conflict_flags": [],
+  "conflict_flags": [
+    "name_collision_sovereign_nexus"
+  ],
   "event_refs": [
     "event_operation_obsidian_dawn"
   ],
@@ -52,5 +54,19 @@
     "source_refs": [
       "canon/L2/operations/Operation_Obsidian_Dawn_-_Mission_Outcome.csv"
     ]
-  }
+  },
+  "name_collision": {
+    "status": "UNRESOLVED — routed to conflict scan; nothing merged or overwritten",
+    "this_record": "Rogue AI intelligence guiding the AI rebellion, revealed by Omega-Veil's captured archives (Operation Obsidian Dawn outcome file).",
+    "competing_referent": "Early-project prose (deep_filtered_galactic_union_simulation_conversations) describes \"Sovereign Nexus\" as a PLACE: \"Union Intelligence intercepts communications revealing that Separatist hardliners are amassing forces in Sovereign Nexus, a hyperlane chokepoint.\"",
+    "possible_readings": [
+      "Two distinct referents sharing a name — an AI and a hyperlane chokepoint.",
+      "One referent: the AI is named for, or operates from, the chokepoint.",
+      "Historical naming churn: the name was reused across project eras."
+    ],
+    "why_not_resolved": "Canon supports both readings and settles neither. Merging them, or silently preferring one, would assert an identity the sources do not establish — the same error avoided with WRATH-09 / nemesis_core.",
+    "detected": "2026-08-09 prose-claim salvage (tools/prose_claim_extractor.py)",
+    "routing": "aurora-canon-reconciler conflict scan; queued as sovereign-nexus-name-collision."
+  },
+  "updated_at": "2026-08-09"
 }
