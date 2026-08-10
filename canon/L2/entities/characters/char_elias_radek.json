@@ -1,0 +1,52 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_elias_radek",
+  "name": "Major Elias Radek",
+  "aliases": [],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "Sentinel-Commander of the Judicator Prime",
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "capsule_ref": "canon/L2/entities/elias_radek/capsule/",
+  "doc_sources": [
+    "canon/L2/entities/elias_radek/capsule/identity.json (authoritative capsule)"
+  ],
+  "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "updated_at": "2026-08-09",
+  "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
+  "archive_profile": {
+    "allegiance": "Union Loyalist (Elite Operative, Relentless Combatant)",
+    "traits": [
+      "Fierce Warrior",
+      "Unshakable Loyalty",
+      "Tactical Execution Specialist",
+      "Brutally Efficient"
+    ],
+    "reputation": "+12 Sentinel Respect, +4 Fleet Trust, -10 Separatist Relations",
+    "relationships": "Strong Ally of Vael Saros, Tactical Coordinator with Vos, Close Combat Partner with Drayen",
+    "recent_actions": "Led Strike Team During Operation Phantom Eclipse, Executed Covert Infiltration Missions, Developed Sentinel-Only Battle Tactics",
+    "decision_style": "Direct Action, Prefers Tactical Superiority Over Diplomacy",
+    "personality_insight": "Struggles with inner conflict about his brutal efficiency but hides it behind a stoic demeanor.",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/ (galactic_union_character* master lists)",
+    "pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
+    "basis": "Recovered verbatim from the archived Galactic Union character master lists; non-conflicting discovered detail reconciled per the standing rule."
+  },
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name preserved verbatim from the committed charforge capsule (canon/L2/entities/elias_radek/capsule/identity.json).",
+    "authority": "Capsule-Only Entity-Record Closure — 2026-08-09 (recovered-source preservation)",
+    "source_refs": [
+      "canon/L2/entities/elias_radek/capsule/identity.json"
+    ]
+  }
+}

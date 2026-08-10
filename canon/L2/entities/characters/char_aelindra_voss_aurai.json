@@ -1,0 +1,40 @@
+{
+  "entity_kind": "character",
+  "entity_id": "char_aelindra_voss_aurai",
+  "name": "Luminary Aelindra Voss-Aurai",
+  "aliases": [
+    "Aelindra Voss-Aurai",
+    "Aelindra",
+    "The Luminary"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "faction_bindings": [
+    "elari_ascendancy"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "role": "High Luminary of the Elari Ascendancy",
+  "org_type": null,
+  "parent_org_id": null,
+  "location_type": null,
+  "region_id": null,
+  "canonical_position_status": null,
+  "capsule_ref": "canon/L2/entities/aelindra_voss_aurai/capsule/",
+  "doc_sources": [
+    "scenarios.py",
+    "canon/L2/entities/aelindra_voss_aurai/capsule/identity.json (authoritative capsule)"
+  ],
+  "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "updated_at": "2026-08-09",
+  "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name preserved verbatim from the committed charforge capsule (canon/L2/entities/aelindra_voss_aurai/capsule/identity.json).",
+    "authority": "Capsule-Only Entity-Record Closure — 2026-08-09 (recovered-source preservation)",
+    "source_refs": [
+      "canon/L2/entities/aelindra_voss_aurai/capsule/identity.json"
+    ]
+  }
+}
