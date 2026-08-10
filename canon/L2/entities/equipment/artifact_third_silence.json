@@ -2,6 +2,7 @@
   "entity_id": "artifact_third_silence",
   "entity_kind": "equipment",
   "name": "Third Silence",
+  "aliases": [],
   "designation_status": "Provisional Union translation of a Shadow Fleet term; true name unknown.",
   "certainty": "CANON",
   "status": "damaged_functional_in_union_joint_custody",

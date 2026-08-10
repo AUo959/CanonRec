@@ -2,6 +2,7 @@
   "entity_id": "place_kallis_foundry",
   "entity_kind": "place",
   "name": "Kallis Foundry",
+  "aliases": [],
   "certainty": "CANON",
   "status": "active_but_covertly_reoccupied",
   "layer": "L2",
