@@ -1,4 +1,5 @@
 {
+  "entity_id": "vessel_gu_005",
   "canonical_id": "vessel_gu_005",
   "entity_kind": "mobile_asset",
   "vessel_id": "VESSEL-GU-005",
@@ -32,5 +33,6 @@
       "Hybrid energy/projectile weapons"
     ],
     "class_typical_complement": 180
-  }
+  },
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
 }
