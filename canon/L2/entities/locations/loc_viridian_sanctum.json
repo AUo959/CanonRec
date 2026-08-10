@@ -26,8 +26,22 @@
   "parent_org_id": null,
   "location_type": "world/region preserve",
   "region_id": null,
-  "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "canonical_position_status": "staging",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Map authority table; protected biosphere preserve.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "prev_canonical_position_status": "canon",
+  "p1_downgrade": {
+    "pass": "FABRIC P1 canon remediation — 2026-08-09",
+    "from": "canon",
+    "to": "staging",
+    "invariant": "P1 — the map authority table is the source of truth for placement; an entity position status must not exceed its map row.",
+    "map_row": "Viridian Sanctum",
+    "map_row_status": "STAGING",
+    "basis": "Location Authority Table row is 'STAGING'",
+    "scope_note": "This downgrades the PLACEMENT CLAIM only. The entity itself remains CANON; its attributes are unaffected. Placement re-promotes when the map-authority / Reconciliation Workflow §4.5 process supplies evidence (precedent: loc_vel_surak was downgraded 2026-07-21, then legitimately re-promoted when its map row was promoted).",
+    "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
 }

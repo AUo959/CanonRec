@@ -1,7 +1,7 @@
 {
   "entity_id": "loc_xelvani_3_silent_plains",
   "entity_kind": "location",
-  "name": "Xelvani\u20113 (Silent Plains)",
+  "name": "Xelvani‑3 (Silent Plains)",
   "aliases": [
     "Xelvani 3",
     "Xelvani-3"
@@ -39,9 +39,23 @@
   "parent_org_id": null,
   "location_type": "world / anomalous ecology",
   "region_id": null,
-  "canonical_position_status": "canon",
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "canonical_position_status": "staging",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Canonical form of Xelvani-3; anomalous ecology. Supersedes loc_xelvani_3 (disambiguation placeholder). Disambiguation resolved 2026-03-19.",
   "locked_at": "2026-03-20T02:03:35Z",
-  "disambiguation_completed_at": "2026-03-19T00:00:00Z"
+  "disambiguation_completed_at": "2026-03-19T00:00:00Z",
+  "prev_canonical_position_status": "canon",
+  "p1_downgrade": {
+    "pass": "FABRIC P1 canon remediation — 2026-08-09",
+    "from": "canon",
+    "to": "staging",
+    "invariant": "P1 — the map authority table is the source of truth for placement; an entity position status must not exceed its map row.",
+    "map_row": "Xelvani-3 (Silent Plains)",
+    "map_row_status": "STAGING",
+    "basis": "Location Authority Table row is 'STAGING'",
+    "scope_note": "This downgrades the PLACEMENT CLAIM only. The entity itself remains CANON; its attributes are unaffected. Placement re-promotes when the map-authority / Reconciliation Workflow §4.5 process supplies evidence (precedent: loc_vel_surak was downgraded 2026-07-21, then legitimately re-promoted when its map row was promoted).",
+    "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
 }

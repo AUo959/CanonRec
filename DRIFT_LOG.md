@@ -813,3 +813,17 @@
 - **Entities affected:** `polity_shroudborn`
 - **Description:** Held at UNCONFIRMED, but the record is in-world legend material ("Some believe the Shroudborn are a surviving precursor race…"), not unvalidated speculation about the setting. UNCONFIRMED conflated "we lack evidence" with "the in-world account is disputed".
 - **Resolution:** RESOLVED — retagged `LEGEND_CONTESTED`, the approved tag for in-universe rumor/myth/disputed account. The legend's existence is canon; its truth remains contested. Not a promotion to fact.
+
+## Drift Entry — 2026-08-09 (P1 placement drift: 19 records overstating placement)
+- **Source:** aurora-canon-reconciler FABRIC P1 check, newly wired 2026-08-09
+- **Type:** invariant violation (P1 — map primacy)
+- **Entities affected:** 19 locations, incl. loc_khalrix_3, loc_veil_nebula, loc_hollow_expanse, loc_xyphos_prime_ruins, loc_draskor_9, loc_vaelos_iv, loc_silent_bastion, loc_torix_7_crimson_abyss, loc_shadow_reef_nebula, loc_rethos_iv, loc_viridian_sanctum, loc_prime_ascendancy, loc_velkaris_v, loc_xelvani_3_silent_plains, loc_deep_space_listening_posts, loc_xyphos_precursor_research_center, and (no map row) loc_kaelor_s_rift, loc_marshal_academy, loc_blackreach_station.
+- **Description:** 16 records claimed `canonical_position_status: canon` while their Location Authority Table row stood at STAGING/TBD; 3 claimed canonical placement with no LAT row at all. P1 holds that the map is the source of truth and an entity's position status must not exceed its map row. These were invisible until now because `tools/fabric_invariants_check.py` is Velar-domain-scoped (16 of 158 entities) — the drift sat outside its scan window.
+- **Resolution:** RESOLVED by downgrade, per the RULING-VELAR-P1 precedent (2026-07-21, "resolved by downgrade — entity records no longer overstate"). Position status set to `staging` where a STAGING row exists and `unplaced` where no row exists; each record carries a `p1_downgrade` block with the map row, its status, and the basis. **Scope: the placement claim only** — every entity remains CANON and its attributes are untouched. Placement re-promotes when the map-authority / Reconciliation Workflow §4.5 process supplies evidence (precedent: loc_vel_surak was downgraded, then legitimately re-promoted once its map row was promoted). No coordinates were invented.
+
+## Drift Entry — 2026-08-09 (P4 was unsatisfiable as first implemented)
+- **Source:** same pass — self-review of the newly added P4 gate
+- **Type:** governance defect (unsatisfiable exit condition)
+- **Entities affected:** event_dark_star_incident_4718_224, fleet_shadow_fleet (both correctly identified as movement events lacking route citation)
+- **Description:** P4 requires a canon promotion citing a movement/cross-region event to cite a canonical route or drive. Canon contains **no route, corridor, lane or drive entity at all**, so a hard BLOCK made every movement event permanently unpromotable with no compliant action available — a gate that can never be satisfied.
+- **Resolution:** RESOLVED. P4 now self-activates: it reports WARN (`FABRIC_P4_NO_ROUTE_REGISTRY`) while no route registry exists, and escalates to BLOCK automatically once one does. Mirrors the P1 degradation when the map authority table is absent. Building the route registry is queued as `l2-route-registry` — that is the work that makes P4 enforceable.
