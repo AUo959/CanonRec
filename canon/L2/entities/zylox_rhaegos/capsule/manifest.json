@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "aa655c19a557d84ee83183ccc2b88c9d8e88de840f2c4cb16aef910230161ec5"
+      "sha256": "efc8daa46760182a805e015509355c09808b72d2cee095f84b3ce30b72cc6ec3"
     },
     {
       "path": "traits.json",
@@ -40,6 +40,6 @@
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
   "canon_lock": true,
-  "rebuilt_at": "2026-07-21T00:00:00Z",
-  "rebuild_reason": "biographical reconciliation from v2.2.6b (Zylox Verrin chronicle)"
+  "rebuilt_at": "2026-08-09T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-FABRIC-SCHEMA part b); hashes re-derived. Binding recorded as UNDETERMINED: canon establishes no seat/vessel for this office."
 }

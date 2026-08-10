@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "a23f89d09b12f7e08f7ed3774b20a18be8d84643a7453a9dafad617daf031dce"
+      "sha256": "c549122b41608d755d50f4071e0dd1335fe550436ccee8bb396a4ffdf8e57eae"
     },
     {
       "path": "traits.json",
@@ -40,6 +40,6 @@
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
   "canon_lock": true,
-  "rebuilt_at": "2026-07-21T00:00:00Z",
-  "rebuild_reason": "Valcor bare-alias enrichment"
+  "rebuilt_at": "2026-08-09T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-FABRIC-SCHEMA part b); hashes re-derived. Binding recorded as UNDETERMINED: canon establishes no seat/vessel for this office."
 }

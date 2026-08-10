@@ -3,6 +3,7 @@
   "entity_kind": "mobile_asset",
   "vessel_id": "VESSEL-SHADOW-001",
   "name": "Crown Dark",
+  "aliases": [],
   "designation_status": "Union operational designation; self-name unknown",
   "class_id": null,
   "allegiance": "fleet_shadow_fleet",

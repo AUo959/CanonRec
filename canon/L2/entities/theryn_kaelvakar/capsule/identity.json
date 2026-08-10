@@ -16,6 +16,14 @@
     "L2_GUMAS_RUNTIME_REFERENCE_PACKET_v0.4.md",
     "L2_GUMAS_SHIP_REGISTRY_v1.0.md"
   ],
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
-  "notes": "Confederation leader and captain of the Khar'Thyrix (mobile fortress/refugee ship/black-market hub). Command authority tied to ship."
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
+  "notes": "Confederation leader and captain of the Khar'Thyrix (mobile fortress/refugee ship/black-market hub). Command authority tied to ship.",
+  "location_binding": {
+    "type": "undetermined",
+    "target_id": null,
+    "basis": "Office-holder binding. Canon establishes the office (Confederation Leader and Commanding Officer of the Khar'Thyrix, outer_colonies) but names no seat, vessel or world where this character is located. The Union capital is referenced only as 'the capital planet' (Marshal Academy charter) and has no location entity; no polity seat entities exist either.",
+    "why_not_invented": "Binding to an invented seat would fabricate a canonical place. C1 requires the one-body-one-place question to be ANSWERED; an explicit undetermined binding answers it honestly, the same way canonical_position_status: unplaced and route_exemption do.",
+    "resolves_when": "A seat-of-government / duty-station location is established in canon (queued as l2-seat-of-government-locations), at which point type/target_id are filled in."
+  },
+  "location_binding_added": "2026-08-09 (C1 rollout — undetermined bindings)"
 }

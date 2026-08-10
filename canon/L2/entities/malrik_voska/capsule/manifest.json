@@ -5,7 +5,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "59cefb22b27e7450bff3c3f24f66dad905d691185f1c4d616e5c8161071bdddb"
+      "sha256": "7a6eefe0d375f471bd59f8da6cc577c2ec760f05a71c6b93c2ae790141c5dca3"
     },
     {
       "path": "traits.json",
@@ -27,5 +27,7 @@
       "path": "runtime.py",
       "sha256": "8658c118cb5007bdf8a02b64bb3ff70caeb170943d1ca8044b3e9a5564ddaf7d"
     }
-  ]
+  ],
+  "rebuilt_at": "2026-08-09T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-FABRIC-SCHEMA part b); hashes re-derived. Binding recorded as UNDETERMINED: canon establishes no seat/vessel for this office."
 }

@@ -5,7 +5,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "48cf5826ed7c8e50458d0f80f7146e0709ddb7aaee8439bdd5fc8385f0117fe3"
+      "sha256": "ca6066e88a2a03340ba07dea7476892f0833ec079270209aacca7161ccc25763"
     },
     {
       "path": "traits.json",
@@ -28,6 +28,6 @@
       "sha256": "6f89cd194d6737a7d10fce6d92ef36504a728a99e0176d2e6239d39bc41747be"
     }
   ],
-  "rebuilt_at": "2026-07-21T00:00:00Z",
-  "rebuild_reason": "certainty STAGING->CANON (Major Promotion Pass)"
+  "rebuilt_at": "2026-08-09T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-FABRIC-SCHEMA part b); hashes re-derived. Binding recorded as UNDETERMINED: canon establishes no seat/vessel for this office."
 }

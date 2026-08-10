@@ -5,7 +5,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "e63673a5eff815c689b5e2379e4c8ac9bbb0de66395bc4817db77a9dd138de00"
+      "sha256": "925abc83171efd9c43c53ede5a62712038c12693e6049535f8057b176d83366d"
     },
     {
       "path": "traits.json",
@@ -28,6 +28,6 @@
       "sha256": "4db4a35e924992aebae737e173079d316864ee3c59758005e5caecda6e87e614"
     }
   ],
-  "rebuilt_at": "2026-07-21T00:00:00Z",
-  "rebuild_reason": "alias drift enrichment (L2 Character Salvage Pass); hashes re-derived"
+  "rebuilt_at": "2026-08-09T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-FABRIC-SCHEMA part b); hashes re-derived. Binding recorded as UNDETERMINED: canon establishes no seat/vessel for this office."
 }

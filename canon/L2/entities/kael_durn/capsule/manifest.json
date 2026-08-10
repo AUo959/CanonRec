@@ -6,7 +6,7 @@
   "records": [
     {
       "path": "identity.json",
-      "sha256": "424875f53276f8689488bdda0545ee47a2f8635a8abc61236f610ea5285e45f5"
+      "sha256": "801f66b1756de7b17a294e61d65761faa8fd50733941e44d15dec41644b41c3a"
     },
     {
       "path": "traits.json",
@@ -40,6 +40,6 @@
   },
   "rehashed_at": "2026-03-20T01:26:19Z",
   "canon_lock": true,
-  "rebuilt_at": "2026-07-21T00:00:00Z",
-  "rebuild_reason": "biographical reconciliation from v2.2.6b (Kael Durn)"
+  "rebuilt_at": "2026-08-09T00:00:00Z",
+  "rebuild_reason": "location_binding added (C1, RULING-FABRIC-SCHEMA part b); hashes re-derived. Binding recorded as UNDETERMINED: canon establishes no seat/vessel for this office."
 }
