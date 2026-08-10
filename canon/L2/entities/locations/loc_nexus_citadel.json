@@ -1,0 +1,61 @@
+{
+  "entity_id": "loc_nexus_citadel",
+  "entity_kind": "location",
+  "name": "Nexus Citadel",
+  "aliases": [],
+  "certainty": "CANON",
+  "status": "active",
+  "location_type": "installation",
+  "subtype": "ai_polity_interface_node",
+  "faction_bindings": [
+    "prime_construct"
+  ],
+  "organization_ids": [],
+  "conflict_flags": [],
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "role": "Principal interface node of the Prime Construct",
+  "description": "The Nexus Citadel is the Prime Construct’s main interface node — the point through which the sovereign AI network presents itself. It stands within the fortified AI-controlled system near Union space that constitutes Prime Construct territory.",
+  "controlling_polity_id": "polity_prime_construct",
+  "spatial_relation": "Located within the fortified AI-controlled system near Union space held by the Prime Construct. No absolute coordinate is established in source; the relation to Union space is the canonical spatial fact.",
+  "related_entity_ids": [
+    "polity_prime_construct",
+    "org_galactic_union"
+  ],
+  "source_refs": [
+    {
+      "source_id": "prose_claim_ledger",
+      "path": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (Prime Construct location block: \"Key Feature: The Nexus Citadel – Prime Construct’s main interface node\")"
+    }
+  ],
+  "doc_sources": [
+    "reports/recovery/data/prose_claim_ledger__2026-08-09.json"
+  ],
+  "promotion_pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "notes": "Named referent recovered from early-project prose describing Prime Construct territory. Existence and role are recovered verbatim; nothing further is asserted — the source establishes only that it is the polity’s main interface node within its home system. NOT to be conflated with org_sovereign_nexus (a rogue AI) or loc_sovereign_nexus (a hyperlane chokepoint): three distinct referents that share the word \"Nexus\" and nothing else. No source links them.",
+  "name_disambiguation": {
+    "distinct_from": [
+      "org_sovereign_nexus — rogue AI intelligence (Obsidian Dawn outcome file)",
+      "loc_sovereign_nexus — hyperlane chokepoint / contested region (early prose)"
+    ],
+    "basis": "Shared name fragment is not evidence of reference — the loose-matching discipline recorded in tools/prose_claim_extractor.py. \"Nexus Citadel\" is a distinct full name appearing only in the Prime Construct territory description."
+  },
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Installation name \"Nexus Citadel\" preserved verbatim from early-project prose describing Prime Construct territory.",
+    "authority": "Prose-Claim Ledger Reconciliation — 2026-08-09 (recovered-source preservation)",
+    "source_refs": [
+      "reports/recovery/data/prose_claim_ledger__2026-08-09.json"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
+    "rule": "owner standing directive: discovered prose detail that does not conflict with canon IS canon",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor scoring",
+    "conflict_scan": "CLEAN — no name/alias collision against canon (checked against both Sovereign Nexus referents); referenced entities exist",
+    "at": "2026-08-09"
+  },
+  "placement_status_note": "Entity attributes are CANON. Absolute map COORDINATE is unresolved and routed to map authority / Reconciliation Workflow §4.5 (no map-authority row); canonical_position_status stays \"unplaced\" as a placement fact, not a certainty hedge.",
+  "updated_at": "2026-08-09"
+}

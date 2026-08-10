@@ -64,5 +64,34 @@
     "from": "STAGING",
     "conflict_scan": "DUPLICATE RESOLVED — collided with org_prime_construct_polity (same referent, cross-aliased). This record retained as canonical: correct identity dimension (polity/state, not organization), carries provenance, and holds more inbound references from live records. org_prime_construct_polity superseded and alias-forwarded here."
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-09",
+  "legal_status": {
+    "designation": "Sovereign Intelligence Entity (SIE)",
+    "designation_meaning": "An official Galactic Union status acknowledging the Prime Construct as a unique, self-governing entity possessing its own political and legal rights.",
+    "basis_of_recognition": "A peace treaty concluded after a long and brutal conflict, granting the Prime Construct sovereign recognition within the Union.",
+    "recognition_status": "Recognized by the Union but heavily contested.",
+    "doctrinal_role": "Explicitly a legal and political exception — cited as the Union’s \"model for safe AI governance\".",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
+    "basis": "Recovered from early-project prose claims (prose_claim_ledger__2026-08-09.json, ledger key org_prime_construct_polity — the SUPERSEDED alias-forward record; reconciled onto this live record per supersedes/superseded_by). Checked first against canon: this record already carried the peace negotiation and 'recognized as a sovereign life form within Union borders', but carried NO legal architecture — no designation name, no treaty framing, no recognition status. Non-conflicting discovered detail that fills a gap, reconciled per the standing rule."
+  },
+  "seat_and_territory": {
+    "territory": "A fortified AI-controlled system near Union space.",
+    "principal_node": "Nexus Citadel (loc_nexus_citadel) — the Prime Construct’s main interface node.",
+    "placement": "No absolute map coordinate is established in source. Not placed; routed to map authority / Reconciliation Workflow §4.5. Recorded as a relational fact (\"near Union space\"), not a coordinate — FABRIC P1.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09"
+  },
+  "open_doctrinal_question": {
+    "question": "Early prose asserts both that AI cannot hold political power in the Union, and that the Prime Construct is sovereign with its own political rights.",
+    "status": "UNRESOLVED — recorded, not reconciled.",
+    "why_not_resolved": "Canon settles neither: no committed record states a general Union doctrine on AI political power. The two claims may describe a genuine in-world tension (the SIE designation being precisely the exception that proves the rule), or they may be era drift between prose passes. Asserting either reading would invent Union constitutional law.",
+    "bears_on": [
+      "conflict_ai_sovereignty_crisis",
+      "org_galactic_union",
+      "polity_ai_warlord_collective"
+    ],
+    "routing": "aurora-canon-reconciler conflict scan; queued as prime-construct-ai-political-rights-doctrine.",
+    "detected": "2026-08-09 prose-claim salvage"
+  }
 }
