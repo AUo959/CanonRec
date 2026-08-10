@@ -105,5 +105,31 @@
     "fracture_outcome": "The Fracture War produced the factions this record already carries: Imperial Loyalists (restorationists), Republican Reformists (Union-aligned constitutional reformers) and the Outer Colony Warlords (frontier strongmen).",
     "source": "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json",
     "surfaced_by": "tools/prose_claim_extractor.py over the archive .md tier"
-  }
+  },
+  "social_structure": {
+    "high_houses": "Noble clans. Wield ancestral power, command legacy fleets, and hold ancient artifacts.",
+    "margrave_orders": "Military governors tasked with defending border systems. Some have gone rogue.",
+    "lorekeepers_thessari": "A monastic caste preserving pre-collapse history and genetic codices.",
+    "citizen_tier": "Citizen-Tier Velari are educated but politically voiceless unless granted \"House Ascention\" through merit or marriage.",
+    "note": "Describes the Imperium as a social order — it predates and outlives the unified state, which is why it is recorded on the polity rather than on any one faction.",
+    "source": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"Foundations of the Velar Imperium\" — structured cultural/political blueprint)",
+    "pass": "Prose-Claim Ledger Reconciliation — Velar foundations — 2026-08-09"
+  },
+  "naming_conventions": {
+    "formal_style": "First name + House/Lineage name (e.g. Sira Velkonn). Nobility or military rank precedes the name (e.g. Duchess Sira Velkonn, Commander Jaxx Tyren).",
+    "informal_use": "Close relations may drop the house name or use childhood honorifics (e.g. \"Sira of Flamewake\").",
+    "lineage_prefixes": {
+      "Vel-": "Royal or noble lineage (Velkonn, Vel’Rynn)",
+      "Varn-": "Military-class bloodline",
+      "Thess-": "Spiritual or scholarly orders",
+      "Rynn-": "Reformist families",
+      "Ty-": "Outworld colonials, often warlord-led (Tyren, Tymar)"
+    },
+    "corroboration": "STRONG. The system was tested against Velari characters already committed to canon from independent sources and predicts their allegiances: Thalen Rynn (Rynn- = reformist) is \"Voice of the Republican Reformist Assembly\"; Jaxx Tyren (Ty- = outworld colonial/warlord) is \"Warlord of the Outer Colonies\"; Sira Velkonn, Talyx Velkonn and Syrr Velkonn (Vel- = noble) are respectively a pro-monarchy noble figure, an exiled Grand Duke and a Velar anthropologist. Canon was not written from this system, so the agreement is evidence the system is real rather than reconstructed.",
+    "matching_caution": "A prefix is a LINEAGE marker, not a substring test. Screening canon by substring also matched Mara Velthis (a Galactic Union captain, not Velar nobility) and Aveline Soryn — where \"Vel\" occurs inside the GIVEN name. Applying this system to identify houses requires the house/lineage element specifically.",
+    "bearing": "Relevant to the naming gate and NameService: it supplies a canonical basis for whether a newly discovered Velari name is plausible and which faction it implies. It does NOT license inventing names.",
+    "source": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"Foundations of the Velar Imperium\" — structured cultural/political blueprint)",
+    "pass": "Prose-Claim Ledger Reconciliation — Velar foundations — 2026-08-09"
+  },
+  "political_spectrum_note": "The blueprint lists a FOURTH grouping beyond the three internal factions this record carries: \"Neutral Houses\" — hesitant or opportunistic factions watching for leverage or safety. No entity record exists; queued as velar-neutral-houses-referent. The blueprint's \"Sim Status\" column (\"In development\", \"Awaiting generation\", \"candidate\") is out-of-world production tracking, not in-world fact, and was not promoted."
 }
