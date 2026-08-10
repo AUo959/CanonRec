@@ -49,7 +49,7 @@
   "notes": "Primary narrative vessel; senior command roster CANON-locked. 2026-07-20: Marshal-integration attributes + approx crew added from April-2025 archive mining (owner-approved); 2026-07-21: 'supercarrier' RESOLVED as canonical hull-type descriptor of CLASS-JUDICATOR-01 (class ID unchanged, no rename); hosted-asset command doctrine JUDICATOR-HOST-001 locked by direct owner ruling. 2026-07-21 Judicator Promotion Pass: full specifications promoted (World Bible §4.2 + Ship Registry v1.0, mutually corroborating); senior-staff crew roster linked; class_entity_id bound to cls_judicator; crew-count conflict resolved in favor of ~12,000 by owner ruling. The embarked/ship's-company distinction in crew_roster_note is the roster expression of JUDICATOR-HOST-001 — Drayen is hosted, retaining his Marshal parent chain. Functional, power, combat, carrier, and daily-life architecture retain STAGING fields except where selected details were promoted by the Dark Star Narrative Reconciliation Pass on 2026-07-22. Field Court pointer corrected to governing doctrine v1.1.",
   "class_hull_type": "supercarrier",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "specifications": {
     "primary_weapons": [
       "Long-range plasma lances",
@@ -296,5 +296,32 @@
     ],
     "class_typical_complement": 2500
   },
-  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py).",
+  "embarked_flag_officer": {
+    "name": "Fleet Admiral Saela Corven",
+    "character_id": "char_saela_corven",
+    "role": "Flag officer embarked aboard the fleet flagship; commands the fleet, not the vessel.",
+    "reconciliation": "Canon sets commanding_officer_id=alric_tann (Captain), who commands the SHIP. The archived profile names Fleet Admiral Saela Corven as commanding officer. These are not in conflict once the roles are distinguished: on a flagship an embarked flag officer commands the formation while the ship's captain commands the vessel. Recorded as two fields rather than overwriting either. Corroborated by canon: loc_nethari_expanse records Corven suppressing a Separatist Armada at the Siege of Nethari Expanse, which this profile lists as a recent action.",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09"
+  },
+  "recovered_profile": {
+    "traits": "Command Authority, Strategic Coordination, Massive Deployment Capacity",
+    "reputation": "+20 Fleet Trust, +12 Political Leverage, +10 Battle Honors",
+    "crew_complement": "3,500+ personnel, including Fleet Admiral, AI Analysts, and Carrier Division",
+    "key_systems": {
+      "Primary_Weapons": "Long-Range Plasma Rail Batteries & Orbital Bombardment Array",
+      "Defensive_Capabilities": "Layered Deflector Shields, Reactive Armor Plating, Decoy Flares",
+      "Propulsion": "Tri-Core Fusion Drive with Gravitic Stabilizers",
+      "Support_Craft": "90 Strike Fighters, 12 Dropships, 4 Recon Drones, 2 Heavy Gunboats",
+      "Cyberwarfare_Suite": "Quantum Encryption & Fleet-Wide BattleNet Uplink"
+    },
+    "recent_actions": "Commanded the Siege of Nethari Expanse; Suppressed Separatist Armada",
+    "core_directives": "Fleet Command, Space Superiority, Carrier Support for Vanguard Forces",
+    "adaptive_evolution": "Neural AI Optimization Enabled – Tactically reconfigures deployment patterns and ECM routines",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
+    "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule.",
+    "note": "Canon already carries a `specifications` block; this recovered profile is kept separate rather than merged over it, so neither source is lost."
+  }
 }

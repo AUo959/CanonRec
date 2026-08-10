@@ -47,5 +47,13 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-09",
+  "command_binding": {
+    "vessel_id": "vessel_gu_011",
+    "vessel_name": "G.U.S. Valiant Spear",
+    "role": "Commanding officer",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
+    "basis": "Ship-to-officer linkage recovered from the archived core-ship-profiles module; the characters were already canon but the linkage never landed."
+  }
 }

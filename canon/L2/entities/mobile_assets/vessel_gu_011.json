@@ -7,7 +7,7 @@
   "aliases": [],
   "class_id": "CLASS-VANGUARD-01",
   "allegiance": "galactic_union",
-  "commanding_officer_id": null,
+  "commanding_officer_id": "char_mara_velthis",
   "narrative_significance": "notable",
   "status": "active",
   "prev_certainty": "STAGING",
@@ -22,7 +22,7 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "notes": "Fleet Modernization flagship; cutting-edge heavy combat vessel.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "class_entity_id": "cls_vanguard",
   "derived_capabilities": {
     "basis": "Extrapolated from the vessel's canonical class (cls_vanguard, Vanguard-Class) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
@@ -34,5 +34,24 @@
     ],
     "class_typical_complement": 180
   },
-  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py).",
+  "commanding_officer": "Captain Mara Velthis",
+  "recovered_profile": {
+    "traits": "Heavy Firepower, Forward Assault, Fleet Anchor",
+    "reputation": "+18 Combat Record, +6 Tactical Respect, -3 Separatist Morale",
+    "crew_complement": "1,200 personnel",
+    "key_systems": {
+      "Primary_Weapons": "Quad Pulse Cannons, Forward Plasma Projectors, Missile Barrage Bays",
+      "Defensive_Capabilities": "High-Density Kinetic Armor, Countermeasure Drone Launchers, Fielded Shield Dome",
+      "Propulsion": "High-Thrust Ion Drives with Vectoring Stabilizers",
+      "Support_Craft": "6 Assault Dropships, 2 Mobile Artillery Drones, Emergency Recovery Skiff",
+      "Cyberwarfare_Suite": "Tactical Scrambler Grid, Integrated Combat AI (VALR-99)"
+    },
+    "recent_actions": "Led charge at Battle of Tevrak’s Gate; destroyed siege platforms",
+    "core_directives": "Frontline Supremacy, Target Suppression, Reinforcement Spearhead",
+    "adaptive_evolution": "Adjusts firing vectors based on evolving shield harmonics",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
+    "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule."
+  }
 }

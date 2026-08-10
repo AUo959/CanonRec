@@ -38,5 +38,25 @@
   ],
   "promotion_pass": "Judicator Prime Promotion Pass — Fleet Class Records — 2026-07-21",
   "locked_at": "2026-07-21T00:00:00Z",
-  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21)."
+  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21).",
+  "recovered_profile": {
+    "traits": "Stealth Infiltration, Adaptive Combat, Autonomous Intelligence",
+    "reputation": "Classified: Confirmed Kill Record (Unreleased); High Clearance Use Only",
+    "crew_complement": "40 specialized operatives",
+    "key_systems": {
+      "Primary_Weapons": "Twin Plasma Lances & Precision Railgun Array",
+      "Defensive_Capabilities": "Phase-Shift Cloaking, Hull-Embedded Reactive Stealth Armor",
+      "Propulsion": "Quantum Pulse Drive with Silent Warp Signature Masking",
+      "Support_Craft": "2 Micro-Infiltration Pods, 1 Automated Extraction Drone",
+      "Cyberwarfare_Suite": "Black ICE Subroutines, Deep Infiltration AI (Sentinel Ghost v3.7)"
+    },
+    "recent_actions": "Disrupted PMC blacksite operations in the Kaelor Shadow Ring",
+    "core_directives": "Covert Surveillance, High-Value Target Elimination, AI Network Infiltration",
+    "adaptive_evolution": "Modifies tactics in response to enemy cyberdefenses and fleet patterns",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
+    "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule.",
+    "note": "The archived entry is a CLASS profile (\"Sentinel-Class Hunter Vessel\"), not a named ship, so it reconciles onto the class record. Vessels of this class (e.g. vessel_gu_002 Umbra Stalker) already derive capabilities from here."
+  },
+  "updated_at": "2026-08-09"
 }

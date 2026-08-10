@@ -7,7 +7,7 @@
   "aliases": [],
   "class_id": "CLASS-DIPLOMATIC-01",
   "allegiance": "galactic_union",
-  "commanding_officer_id": null,
+  "commanding_officer_id": "char_deyan_orros",
   "narrative_significance": "notable",
   "status": "active",
   "prev_certainty": "STAGING",
@@ -22,7 +22,7 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "notes": "Diplomatic & Intelligence Flagship.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "class_entity_id": "cls_diplomatic",
   "derived_capabilities": {
     "basis": "Extrapolated from the vessel's canonical class (cls_diplomatic, Diplomatic-Class) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
@@ -34,5 +34,24 @@
     ],
     "class_typical_complement": 350
   },
-  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py).",
+  "commanding_officer": "Envoy-Captain Deyan Orros",
+  "recovered_profile": {
+    "traits": "High-Level Negotiation Platform, Deep Intelligence Relay, Mobile Command Node",
+    "reputation": "+14 Senate Approval, +10 Foreign Trust, -6 Separatist Suspicion",
+    "crew_complement": "850 personnel",
+    "key_systems": {
+      "Primary_Weapons": "Dual Defense Lasers, Point Shield Emitters",
+      "Defensive_Capabilities": "AI-Predicted Shield Evasion, Adaptive ECM",
+      "Propulsion": "Smooth Transit Drive, Enhanced Interstellar Stability Grid",
+      "Support_Craft": "4 Ambassadorial Shuttles, 2 Surveillance Pods, 1 Courier Drone",
+      "Cyberwarfare_Suite": "Sentient Signal Interceptor, Language Decoding Engine"
+    },
+    "recent_actions": "Brokered AI-Union ceasefire; extracted key separatist informants",
+    "core_directives": "Diplomatic Outreach, Intelligence Gathering, Political Stabilization",
+    "adaptive_evolution": "AI discourse tools adjust negotiation across ideological factions",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
+    "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule."
+  }
 }

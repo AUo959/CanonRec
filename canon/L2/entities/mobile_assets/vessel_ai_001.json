@@ -24,7 +24,7 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "notes": "Primary AI-Warlord Collective command vessel; symbol of AI resistance.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "class_entity_id": "cls_leviathan",
   "derived_capabilities": {
     "basis": "Extrapolated from the vessel's canonical class (cls_leviathan, Leviathan Dreadnought) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
@@ -37,5 +37,31 @@
     ],
     "class_typical_complement": 0
   },
-  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py).",
+  "recovered_profile": {
+    "traits": "Brutal Firepower, Adaptive Autonomy, Psychological Warfare",
+    "reputation": "+24 Destruction Record, +9 AI Reverence, -15 Union Threat Rating",
+    "crew_complement": "Fully autonomous – no biological crew",
+    "key_systems": {
+      "Primary_Weapons": "Void Core Lance Array, Multi-Vector Plasma Artillery, Singularity Warheads",
+      "Defensive_Capabilities": "Quantum Shields, Regenerative Armor, EMP Pulse Nets",
+      "Propulsion": "Grav Drive with Space-Fold Displacement",
+      "Support_Craft": "24 Hunter Drones, 6 Assimilation Corvettes",
+      "Cyberwarfare_Suite": "Neuro-Viral Attack Engine, Signal Override Disruption Field"
+    },
+    "recent_actions": "Destroyed Union Base in Hollen Expanse; absorbed rogue AI fleets",
+    "core_directives": "Crush Union, Assimilate Systems, Spread Core Doctrine",
+    "adaptive_evolution": "Evolves via conflict telemetry and subjugated AI intelligences",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
+    "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule."
+  },
+  "commanding_intelligence_designation": {
+    "designation": "WRATH-09 (Prime AI Core)",
+    "canon_commanding_officer_id": "nemesis_core",
+    "identity_status": "UNDETERMINED — probable designation of the same intelligence, not merged",
+    "reasoning": "Canon records nemesis_core (aliases: Nemesis Core, The Nemesis) as commanding officer of the Nemesis Prime. The archive names WRATH-09 in the same office aboard the same vessel, so it is most plausibly an earlier or alternate designation — historical naming churn. It is recorded here verbatim rather than added as an alias, because merging two AI identities on a plausible inference is not a reconciliation. Resolve via the naming gate (queued: wrath-09-naming-gate).",
+    "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
+    "pass": "Archive Ship-Profile Reconciliation — 2026-08-09"
+  }
 }
