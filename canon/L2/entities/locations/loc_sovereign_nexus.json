@@ -1,0 +1,49 @@
+{
+  "entity_id": "loc_sovereign_nexus",
+  "entity_kind": "location",
+  "name": "Sovereign Nexus",
+  "aliases": [
+    "sovereign_nexus_region"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "location_type": "hyperlane chokepoint / strategic region",
+  "faction_bindings": [],
+  "organization_ids": [],
+  "conflict_flags": [
+    "name_collision_sovereign_nexus"
+  ],
+  "role": "Strategically vital region of space controlling hyperlane transit",
+  "org_type": null,
+  "parent_org_id": null,
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "placement_note": "No Location Authority Table row; placement routed to the map-authority / Reconciliation Workflow §4.5 process. canonical_position_status unplaced is a placement fact, not a certainty hedge.",
+  "description": "A hyperlane chokepoint and strategically vital region of space. Early-project canon attests it three independent ways: as \"a strategically vital region of space\", as \"a hyperlane chokepoint\" where Separatist hardliners were observed amassing forces (per Union Intelligence intercepts), and as the setting of the Sovereign Nexus Crisis — a high-stakes multi-faction standoff.",
+  "disambiguation": {
+    "shares_name_with": "org_sovereign_nexus (a rogue AI intelligence, from the Operation Obsidian Dawn outcome file)",
+    "relationship": "UNDETERMINED. The two referents are distinct — one a region, one an intelligence — and both are independently attested. Whether the AI is named for this place, operates from it, or the name was simply reused across project eras is NOT established by canon and was not inferred.",
+    "basis": "The place reading is supported by three independent characterisations in the early prose; the AI reading by the Obsidian Dawn outcome file. Neither displaces the other."
+  },
+  "source_refs": [
+    {
+      "source_id": "early_prose",
+      "path": "archives (early-project conversation prose, via tools/prose_claim_extractor.py) — \"a hyperlane chokepoint\"; \"The Sovereign Nexus Crisis – a high-stakes, multi-faction standoff over a strategically vital region of space\"; Union Intelligence intercepts re Separatist force concentration"
+    }
+  ],
+  "doc_sources": [
+    "archives (early-project conversation prose, via tools/prose_claim_extractor.py)"
+  ],
+  "promotion_pass": "Sovereign Nexus Collision Resolution — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "updated_at": "2026-08-09",
+  "notes": "Created 2026-08-09 to resolve the Sovereign Nexus name collision. Rather than merge two referents or silently prefer one, both are recorded and cross-linked as distinct, with the relationship left UNDETERMINED.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "\"Sovereign Nexus\" preserved verbatim from early-project canon prose.",
+    "authority": "Sovereign Nexus Collision Resolution — 2026-08-09",
+    "source_refs": [
+      "archives (early-project conversation prose, via tools/prose_claim_extractor.py)"
+    ]
+  }
+}
