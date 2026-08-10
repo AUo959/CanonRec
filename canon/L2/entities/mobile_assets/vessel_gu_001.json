@@ -323,5 +323,9 @@
     "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
     "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule.",
     "note": "Canon already carries a `specifications` block; this recovered profile is kept separate rather than merged over it, so neither source is lost."
-  }
+  },
+  "event_refs": [
+    "event_battle_of_kaelors_rift"
+  ],
+  "event_link_note": "Cross-linked 2026-08-09 (Prose-Claim Ledger Reconciliation). The battle was already canon here in prose form; this binds it to the promoted event hub record."
 }

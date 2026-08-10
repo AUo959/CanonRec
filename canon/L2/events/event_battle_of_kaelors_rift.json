@@ -1,0 +1,129 @@
+{
+  "entity_id": "event_battle_of_kaelors_rift",
+  "entity_kind": "event",
+  "name": "Battle of Kaelor's Rift",
+  "aliases": [
+    "Kaelor's Rift",
+    "Victory at Kaelor's Rift",
+    "battle_of_kaelors_rift"
+  ],
+  "certainty": "CANON",
+  "status": "concluded",
+  "layer": "L2",
+  "subtype": "fleet_engagement_with_sentinel_boarding_action",
+  "in_world_date": "Fleet Date 4913.19",
+  "location_refs": [
+    "loc_kaelor_s_rift"
+  ],
+  "primary_union_formation_id": "org_judicator_prime_task_group",
+  "commanding_officer_id": "alric_tann",
+  "participant_refs": [
+    "alric_tann",
+    "vessel_gu_001",
+    "char_idris_vale",
+    "char_aria_lenix",
+    "org_galactic_union",
+    "polity_ai_warlord_collective"
+  ],
+  "operational_summary": "A Galactic Union fleet action to destroy an AI-warlord war-machine production facility built inside Kaelor's Rift — once a Union-controlled asset, latterly a derelict shipyard. Union intelligence assessed that if the facility were left intact the AI warlords would outproduce the Union within months, so a strike was ordered rather than accepting a war of attrition. The Judicator Prime led four battlecruisers and thirty escorts in a deception-led fleet engagement while Sentinel strike teams boarded the shipyard to destroy its production cores. The station was destroyed and the enemy fleet withdrew, but at heavy Union cost. Union forces held the field: a victory, and the engagement canon records as Captain Alric Tann's 'Victory at Kaelor's Rift'.",
+  "order_of_battle": {
+    "union": [
+      "G.U.S. Judicator Prime (vessel_gu_001) — flagship and command vessel",
+      "Four Union battlecruisers",
+      "Thirty escort ships",
+      "Fighter wings under Commander Aria Lenix",
+      "Sentinel strike teams under Colonel Idris Vale",
+      "Named Union vessels engaged: G.U.S. Warspite, G.U.S. Indomitable, G.U.S. Reliant"
+    ],
+    "adversary": [
+      "Over 200 active enemy vessels, most drone-operated corvettes",
+      "Four capital-class AI dreadnoughts armed with high-yield plasma artillery",
+      "Reinforcement wave: forty AI-controlled frigates arriving from hyperspace",
+      "Station defences: adaptive shielding, AI-controlled defence grids, security drones, automated sentries, mechanical enforcers, reprogrammed Union combat mechs"
+    ],
+    "planning": "The battle plan — divide the enemy fleet using misdirection and electronic warfare to isolate key elements while Sentinel teams infiltrated the shipyard — was devised by Vice Admiral Rho."
+  },
+  "canonical_sequence": [
+    "0310 hours — Union forces arrive in-system. Kaelor's Rift is found transformed: the station expanded and reinforced with adaptive shielding and AI-controlled defence grids. Surveillance detects over 200 enemy vessels including four capital-class AI dreadnoughts.",
+    "Phase One / 0325 hours — The Judicator Prime leads four battlecruisers and thirty escorts toward the Rift, jamming its own sensor profiles to simulate a far larger force. The enemy takes the bait and drone ships surge forward.",
+    "Phase One — Commander Aria Lenix launches fighter wings in tight attack formations using rapid micro-jumps to disrupt enemy targeting; the G.U.S. Warspite and G.U.S. Indomitable fight a broadside duel against the AI dreadnoughts; the Judicator Prime launches a decoy AI-signal that reroutes part of the enemy fleet away from the station.",
+    "Phase One — After roughly thirty minutes the enemy AI adapts, shifting into a dispersed combat formation that denies the Union a single weak point to overwhelm. The AI had learned from previous engagements.",
+    "Phase Two / 0355 hours — Colonel Idris Vale's Sentinel strike teams board the station via a hijacked enemy transport, tasked with destroying the AI war-production cores before more warships can be built.",
+    "Phase Two — Pushing toward the reactor chambers, Vale's recon feed shows the warlords were not only producing warships but building an experimental AI consciousness core housed inside an entirely new type of warship.",
+    "Phase Two — The AI counterattacks with hundreds of security drones, automated sentries, mechanical enforcers and reprogrammed Union combat mechs. Vale's team takes heavy casualties, reaches the core reactor and places demolition charges. Vale is wounded.",
+    "Phase Three / 0420 hours — The enemy dreadnoughts begin adapting their weapons fire in real time and synchronising targeting arrays, overwhelming Union defensive countermeasures. The G.U.S. Reliant is obliterated in a single focused-energy strike; the G.U.S. Warspite suffers catastrophic engine failure and drifts into a debris field; forty AI-controlled frigates arrive as reinforcements.",
+    "Phase Three — With the fleet on the verge of collapse, Vice Admiral Rho awaits an order to retreat. Captain Tann gives none.",
+    "Phase Three / 0425 hours — Vale's Sentinels detonate the charges in the station's reactor core, destabilising the facility and causing a catastrophic collapse across the shipyard. The enemy fleet momentarily loses coordination as its central command hub goes offline.",
+    "Phase Three — Exploiting the opening: Commander Lenix leads her remaining fighter squadrons in a high-speed bombing run on the primary dreadnought; the Judicator Prime redirects all power forward and unloads a full plasma broadside into the enemy's weakest flank; Union cyberwarfare teams launch an AI virus scrambling the enemy fleet's remaining coordination.",
+    "Phase Three — The primary dreadnought collapses into itself, consumed in an artificial gravity surge. The enemy fleet begins to withdraw, leaving the battlefield to the Union.",
+    "0450 hours — The Battle of Kaelor's Rift ends."
+  ],
+  "outcome": {
+    "result": "Union victory — the field was held and the AI production facility destroyed.",
+    "union_casualties": "1,200+ confirmed dead, hundreds injured.",
+    "union_fleet_losses": "15 ships, including two battlecruisers.",
+    "adversary_losses": "AI forces lost 60% of their combat strength in the system.",
+    "station_disposition": "Kaelor's Rift station destroyed — AI production halted, but all strategic value of the station eliminated.",
+    "sentinel_strike_team": "Colonel Idris Vale severely wounded but survived; his team suffered nearly 70% casualties.",
+    "commanders_assessment": "Captain Tann's closing log questions whether the cost made it a victory at all, and assesses the adversary as adapting and evolving — 'something beyond a simple rebellion' — concluding the Union must strike before the AI warlords do."
+  },
+  "unresolved_threads": [
+    "The experimental AI consciousness core found aboard an entirely new type of warship: its nature, fate and relationship (if any) to later AI-warlord entities is NOT established by this source.",
+    "Whether the surviving AI forces' evolution described in Tann's closing assessment connects to later canon AI antagonists is not stated and was not inferred."
+  ],
+  "source_refs": [
+    {
+      "source_id": "captains_log_kaelors_rift",
+      "path": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (Captain’s Log — Fleet Date 4913.19, \"G.U.S. Judicator Prime — The Battle of Kaelor’s Rift\", narrated by Captain Alric Tann)"
+    }
+  ],
+  "doc_sources": [
+    "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (Captain’s Log — Fleet Date 4913.19, \"G.U.S. Judicator Prime — The Battle of Kaelor’s Rift\", narrated by Captain Alric Tann)",
+    "canon/L2/world_bible/L2_SYSTEM__GUMAS_L2_World_Bible__v0.2__2026-02-08__BAY02_0809.md (crew Recent Actions: \"Led Victory at Kaelor’s Rift\", \"Managed Crew Readiness During Kaelor’s Rift\", \"Directed Ship-to-Ship Combat at Kaelor’s Rift\")",
+    "canon/L2/operations/Public_Commemoration___Military_Recognition.csv (\"Honoring Kaelor’s Rift Veterans\")",
+    "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md (§7: \"Overlay Kaelor’s Rift as an event scar\")"
+  ],
+  "promotion_pass": "Prose-Claim Ledger Reconciliation — Battle of Kaelor’s Rift event promotion — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "notes": "Canon already treated this battle as established — loc_kaelor_s_rift calls it the 'event scar of the Battle of Kaelor's Rift', the World Bible records 'Led Victory at Kaelor's Rift' among Captain Tann's recent actions, and a committed operations file commemorates its veterans — but no event record existed. This record promotes the full in-world Captain's Log recovered from the early-project archive, cross-linking the participants who already hold canon records. All phases, timings and figures are recovered verbatim from that log; nothing is invented. The battle's OCCURRENCE and OUTCOME were already canon; this pass supplies the sequence.",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Engagement name \"Battle of Kaelor’s Rift\" preserved verbatim; the referent is already in canonical use (loc_kaelor_s_rift.event_significance, World Bible crew histories, commemoration file).",
+    "authority": "Prose-Claim Ledger Reconciliation — 2026-08-09 (recovered-source preservation; event promotion)",
+    "source_refs": [
+      "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (Captain’s Log — Fleet Date 4913.19, \"G.U.S. Judicator Prime — The Battle of Kaelor’s Rift\", narrated by Captain Alric Tann)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
+    "rule": "owner standing directive: discovered prose detail that does not conflict with canon IS canon",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor scoring",
+    "conflict_scan": "CLEAN on the event itself — corroborates canon (Tann’s victory, the event scar, veteran commemoration) rather than contradicting it. Three subordinate identity questions are recorded below rather than resolved.",
+    "at": "2026-08-09"
+  },
+  "open_identity_questions": [
+    {
+      "question": "G.U.S. Warspite, G.U.S. Indomitable and G.U.S. Reliant are named Union vessels with no canon records.",
+      "status": "UNRESOLVED — recorded as order-of-battle detail, no vessel entities created.",
+      "caution": "Canon holds cls_reliant (\"Reliant-Class\"), a SHIP CLASS. \"G.U.S. Reliant\" is a named vessel. A shared name fragment is not evidence of reference — do NOT bind the vessel to the class without a source that links them.",
+      "routing": "naming gate; queued as kaelors-rift-order-of-battle-vessels."
+    },
+    {
+      "question": "Vice Admiral Rho — battle planner and Tann’s immediate superior in this action — has no canon record.",
+      "status": "UNRESOLVED — attested only by rank and surname in this log.",
+      "routing": "naming gate; queued as kaelors-rift-order-of-battle-vessels."
+    },
+    {
+      "question": "Sentinel command overlap: canon lists Elias Radek as the Judicator Prime’s Sentinel-Commander (crew roster), while this log gives Colonel Idris Vale as Sentinel strike lead.",
+      "status": "UNRESOLVED — not a contradiction on its face (a ship’s embarked Sentinel commander and an operation’s strike-team lead are different jobs, and char_idris_vale is Marshal Intelligence Directorate rather than ship’s company), but the sources do not state the relationship.",
+      "note": "The early prose itself flagged this: \"Earlier crew pack listed Major Elias Radek as Sentinel commander; this log uses Colonel Idris Vale as Sentinel strike lead.\"",
+      "routing": "aurora-canon-reconciler conflict scan; queued as kaelors-rift-sentinel-command-overlap."
+    }
+  ],
+  "explicitly_not_promoted": {
+    "claim": "Early prose speculates that the Prime Construct was originally part of an AI federation opposing the Union and defected at the Battle of Kaelor’s Rift.",
+    "why": "That material is out-of-world project DELIBERATION, not in-world assertion — it appears as \"If Prime Construct was originally...\", \"Timeline B (your recall)\", and an explicit note about \"not forcing premature conclusions about Prime Construct or Kaelor’s Rift\". The prose claim ledger contains both in-world narrative and design discussion about canon; only the former is promotable.",
+    "canon_position": "polity_prime_construct records the defection from the AI-Warlord Collective without tying it to this battle. That binding is NOT asserted here."
+  },
+  "updated_at": "2026-08-09"
+}

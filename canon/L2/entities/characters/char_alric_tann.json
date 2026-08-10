@@ -48,5 +48,9 @@
     "source_refs": [
       "canon/L2/entities/alric_tann/capsule/identity.json"
     ]
-  }
+  },
+  "event_refs": [
+    "event_battle_of_kaelors_rift"
+  ],
+  "event_link_note": "Cross-linked 2026-08-09 (Prose-Claim Ledger Reconciliation). The battle was already canon here in prose form; this binds it to the promoted event hub record."
 }

@@ -121,6 +121,10 @@
   "conflict_flags": [],
   "promotion_pass": "Judicator Standing Escort Group Pass — 2026-07-21; Judicator Escort and Bulker Class Pass — 2026-07-21; Judicator Task Group Vessel Identity Pass — 2026-07-21",
   "locked_at": "2026-07-21",
-  "updated_at": "2026-07-21",
-  "notes": "Standing formation, classes, named vessels, slot assignments, commanding officers, and relational command anchors are owner-authorized CANON. Exact vessel-specific technical specifications and unnamed senior crews remain open or class-level STAGING."
+  "updated_at": "2026-08-09",
+  "notes": "Standing formation, classes, named vessels, slot assignments, commanding officers, and relational command anchors are owner-authorized CANON. Exact vessel-specific technical specifications and unnamed senior crews remain open or class-level STAGING.",
+  "event_refs": [
+    "event_battle_of_kaelors_rift"
+  ],
+  "event_link_note": "Cross-linked 2026-08-09 (Prose-Claim Ledger Reconciliation). The battle was already canon here in prose form; this binds it to the promoted event hub record."
 }
