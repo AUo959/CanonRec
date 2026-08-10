@@ -76,10 +76,34 @@
       "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (Velar-Harkon Wars)"
     ]
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "dominant_species_id": "species_velari",
   "multispecies": true,
   "peoplehood_note": "A STATE (a former imperial government, now fragmented), not the Velari people themselves. The Velari also hold membership in the Galactic Union (per species_velari.member_polities); the Imperium does not encompass the whole Velari people.",
   "identity_model_note": "Polity = a state / political entity, an orthogonal dimension from species (people), culture, and region. A polity does not describe a whole people.",
-  "certainty_basis": "Existence is CANON (referenced by CANON species/location records and the timeline-attested Velar-Harkon Wars); attributes are recovered-source from the cited archive and cross-linked to existing internal-faction records. No invention."
+  "certainty_basis": "Existence is CANON (referenced by CANON species/location records and the timeline-attested Velar-Harkon Wars); attributes are recovered-source from the cited archive and cross-linked to existing internal-faction records. No invention.",
+  "history": {
+    "basis": "Reconciled 2026-08-09 from canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json — the authoritative timeline. Surfaced by prose-claim salvage: early-project prose asserted the Imperium's arc (technocratic monarchy -> Celestial Surge -> Fracture War -> three-way split) and the check showed the timeline already held it while this entity record did not.",
+    "arc": "Unification under a technocratic monarchy (Sahn'Darith Accord) -> peak expansion (Celestial Surge) -> collapse (Fracture War) -> fragmentation into the present three internal factions.",
+    "events": {
+      "Sahn'Darith Accord": {
+        "name": "Sahn'Darith Accord",
+        "details": "The Velari unified their star systems under a technocratic monarchy through the Sahn'Darith Accord, achieving peak cultural and technological development. This unification laid the groundwork for modern interstellar governance.",
+        "geo_context": "Core Systems of the Velari"
+      },
+      "Celestial Surge": {
+        "name": "Celestial Surge",
+        "details": "A technological renaissance featuring breakthroughs in terraforming, subspace navigation, and military innovation. The development of early Sentinel prototypes revitalized commerce and redefined military strategy across the galaxy.",
+        "geo_context": "Various interstellar hubs"
+      },
+      "Fracture War": {
+        "name": "Fracture War",
+        "details": "Internal corruption, succession disputes, and external rebellions tore the Velar Imperium apart. The resulting Fracture War led to the emergence of distinct factions: Loyalist enclaves, Reformist movements, and Outer Colony Warlords.",
+        "geo_context": "Disputed Border Systems"
+      }
+    },
+    "fracture_outcome": "The Fracture War produced the factions this record already carries: Imperial Loyalists (restorationists), Republican Reformists (Union-aligned constitutional reformers) and the Outer Colony Warlords (frontier strongmen).",
+    "source": "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json",
+    "surfaced_by": "tools/prose_claim_extractor.py over the archive .md tier"
+  }
 }

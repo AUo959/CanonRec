@@ -26,9 +26,17 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Audit Ruling Batch \u2014 2026-07-21",
+  "promotion_pass": "L2 Audit Ruling Batch — 2026-07-21",
   "promotion_note": "Created at STAGING by L2 Corpus Audit 2026-07-21: named substructure/internal faction in canonical GUMAS_Factions.json lacked an entity record.",
   "locked_at": "2026-07-21T04:10:00Z",
-  "updated_at": "2026-07-21",
-  "prev_certainty": "STAGING"
+  "updated_at": "2026-08-09",
+  "prev_certainty": "STAGING",
+  "stance": {
+    "position": "Union integration — the Reformists support integrating Velar space with the Galactic Union, against the Imperial Loyalists who seek to restore centralized imperial rule.",
+    "recorded_position": "Canon prose: \"Republican Reformists warn that legitimizing the Imperials will lead to increased internal instability in Velar space.\"",
+    "origin": "One of the three factions that emerged from the Fracture War (see polity_velar_imperium.history).",
+    "source": "archive .md tier + deep_filtered GU conversations, via tools/prose_claim_extractor.py",
+    "pass": "Prose-Claim Salvage — 2026-08-09",
+    "basis": "Recovered from early-project prose claims and cross-checked against the Velar history now recorded on polity_velar_imperium. Non-conflicting discovered detail."
+  }
 }
