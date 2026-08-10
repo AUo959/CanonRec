@@ -78,3 +78,35 @@ Velar pass executed (receipts: `canon/L2/velar/VELAR_FABRIC_PASS__2026-07-21.md`
 **Certainty: STAGING → verified-in-scope for the Velar domain.** Spec v0.1 text unchanged;
 promotion of the spec itself remains an owner gate after a second domain pass (AI Warlords
 queued as next candidate).
+
+## Ruling batch closure — 2026-08-09
+
+All five rulings from the 2026-07-21 batch are now implemented.
+
+| Ruling | Implementation | Where |
+|---|---|---|
+| RULING-VELAR-P1 (placement) | Map primacy enforced at validation; 19 overstating records downgraded | `validate_entity.py` FABRIC_P1_*; canon `p1_downgrade` blocks |
+| RULING-VELAR-P3 (adjacency/collapse) | Megacity collapse executed; region anchoring still deferred to placement | canon (SUPERSEDED alias-forward) |
+| RULING-FABRIC-SCHEMA (a) placement_rule | All mobile assets carry `placement_rule`; P2 enforced at validation | `validate_entity.py` FABRIC_P2_* |
+| RULING-FABRIC-SCHEMA (b) location_binding | All 40 capsules bound; capsules rebuilt (sha256 manifests re-derived) | canon capsules; `fabric_invariants_check.py` C1 |
+| RULING-ENGINE-P4 (route citation) | Promotion gate live; satisfiable by route citation **or** explicit `route_exemption` | `validate_entity.py` FABRIC_P4_*; `ROUTE_REGISTRY v0.1` |
+| RULING-FABRIC-WIRING (checker→responder) | Findings routed to `DriftAlert` → `DriftResponder` with dedicated fabric runbooks | cloudbank `src/monitoring/fabric_invariant_bridge.py` |
+
+**Enforcement now exists at three points**, and they share semantics deliberately:
+
+1. **Static** — `tools/fabric_invariants_check.py` over committed canon (T/P/C).
+2. **Pre-canon** — `aurora-canon-reconciler` blocks P1/P2/P4 breaches at validation.
+3. **Runtime** — CloudBank converts findings into DriftAlerts and runs fabric runbooks.
+
+**A design principle earned across this batch:** three invariants (P1 placement, P4
+route, C1 binding) each hit the same wall — canon establishes a *fact* without
+establishing the *referent* the invariant wants cited. The resolution in every case was
+to require the question be **answered**, not fabricated: `canonical_position_status:
+unplaced`, `route_exemption`, and `location_binding: undetermined` are all explicit,
+reasoned answers carrying the evidence that does exist and what would resolve them. A
+gate that can only be satisfied by invention is a defect — it either produces false
+canon or gets switched off.
+
+**Certainty: STAGING → verified-in-scope for the Velar domain, implemented across all
+three enforcement points.** Spec v0.1 text unchanged; promotion of the spec itself
+remains an owner gate after a second domain pass (AI Warlords queued).
