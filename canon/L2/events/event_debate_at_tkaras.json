@@ -25,7 +25,7 @@
   "operational_summary": "A Union diplomatic approach to the Velar reformists, held on the neutral Velari world of T’karas Prime. A Union envoy was dispatched covertly from the G.U.S. Resolute Dawn (vessel_gu_012) to negotiate an alliance with the Velar Republican Reformists. The Imperial Loyalists detected the approach and answered it with media subversion, Crimson Pact sympathizers were implicated in sabotage, and an explosion disabled T’karas Prime’s local planetary archives. Union Intelligence flagged the reformists for covert support, and the Resolute Dawn sent a classified dispatch to the Union Senate.",
   "canonical_sequence": [
     "A Union diplomatic envoy is dispatched covertly from the G.U.S. Resolute Dawn to the neutral Velari world of T’karas Prime, intending to negotiate an alliance with the Velar reformists.",
-    "The debate is hosted on T’karas Prime by a Velar reformist leader — see actor_role_conflict.",
+    "The debate is hosted on T’karas Prime by a Velar reformist figure whose identity is NOT established — see actor_role_conflict.",
     "The Imperial Loyalists detect the Union approach and respond with media subversion.",
     "Crimson Pact sympathizers are implicated in sabotage.",
     "An explosion disables T’karas Prime’s local planetary archives; sabotage is the suggested attribution, not an established finding.",
@@ -40,10 +40,11 @@
   },
   "actor_role_conflict": {
     "question": "Sira Velkonn’s alignment. This source frames her as the REFORMIST leader hosting the Union envoys. Committed canon (char_sira_velkonn) has her as a pro-monarchy / High-Houses figure — the fixed rival pole against whom the Republican Reformist Thalen Rynn is defined.",
-    "status": "UNRESOLVED — the event is promoted; her role in it is NOT.",
+    "status": "RESOLVED 2026-08-09 — Sira Velkonn is an Imperial Loyalist; the Reformist-host framing is a mis-attribution. See char_sira_velkonn.alignment_conflict.",
     "why_not_resolved": "These cannot both hold, and the source itself says so: the same archive message notes \"In the earlier pasted chunk, Sira is framed as Reformist Leader hosting Union envoys at T’karas. Here, the table places Sira Velkonn under Imperial Loyalists.\" Canon already chose the Loyalist reading on independent evidence, and her committed record states that only established relational facts were recorded because the surrounding source was unreliable. Rewriting her alignment from the weaker side of a contradiction the source flagged would invert an established rival pole and take Thalen Rynn’s definition with it.",
     "what_is_promoted": "The event, its location, the Union approach, the Loyalist counter-action, the sabotage and the archive explosion — none of which depend on which Velar figure hosted.",
-    "routing": "aurora-canon-reconciler conflict scan; queued as tkaras-host-identity."
+    "routing": "aurora-canon-reconciler conflict scan; queued as tkaras-host-identity.",
+    "resolution": "A recovered full character profile states her Imperial Loyalist allegiance three ways and is corroborated at five independent points against committed canon. The host of the debate is therefore NOT established by this source — the event stands, the host does not."
   },
   "explicitly_not_promoted": {
     "claim": "The surrounding message frames this as system telemetry — fidelity tiers 0–4, \"memory load\", thread \"ignition\", an 18% thread-overhead reduction, a \"Character Generation Queue\", and the Velar thread being \"upgraded to Tier 3 (Active)\".",

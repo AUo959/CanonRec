@@ -46,5 +46,18 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-09",
+  "fleet_reactivation": {
+    "summary": "Velar Imperial restorationist loyalist houses reactivated ancient Velar fleets in this region.",
+    "attributed_actors": [
+      "char_talyx_velkonn",
+      "char_sira_velkonn"
+    ],
+    "basis": "This record already carried the reactivation, cross-referenced to the char_talyx_velkonn restorationist arc. A recovered Sira Velkonn profile independently lists \"reactivated ancient Velar fleets in the Nyros Expanse\" among her recent actions. Both are Imperial Loyalist restorationists, so the accounts are complementary rather than competing; neither is asserted as sole agent.",
+    "pass": "Prose-Claim Ledger Reconciliation — Sira Velkonn profile — 2026-08-09"
+  },
+  "related_character_ids": [
+    "char_sira_velkonn",
+    "char_talyx_velkonn"
+  ]
 }

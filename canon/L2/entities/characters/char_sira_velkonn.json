@@ -65,14 +65,75 @@
   },
   "alignment_conflict": {
     "claim": "Early prose (\"The Debate at T’karas\") frames Sira Velkonn as the REFORMIST leader hosting Union envoys on T’karas Prime.",
-    "canon_position": "This record holds her as a pro-monarchy / High-Houses figure — the fixed rival pole against whom the Republican Reformist Thalen Rynn is defined.",
-    "status": "UNRESOLVED — canon position retained; the claim is recorded, not applied.",
-    "why_not_applied": "The source contradicts itself and says so: the same archive message observes that one chunk makes her a Reformist host while its own faction table lists \"Sira Velkonn, Velkonn House Fleet\" under the Imperial Loyalists. Canon chose the Loyalist reading on independent evidence, and this record already noted that only established relational facts were kept because the surrounding source was unreliable. Inverting her would also invert Thalen Rynn’s definition, which depends on her being the opposing pole.",
-    "house_binding": "Consistent with the Loyalist reading: House Velkonn (org_house_velkonn) is a High House of the Imperial Loyalist camp, and the source’s own faction table places her and the Velkonn House Fleet there.",
-    "routing": "aurora-canon-reconciler conflict scan; queued as tkaras-host-identity.",
+    "canon_position": "Imperial Loyalist — a pro-monarchy High-Houses figure, the fixed rival pole against whom the Republican Reformist Thalen Rynn is defined.",
+    "status": "RESOLVED 2026-08-09 — canon position confirmed; the Reformist framing is a mis-attribution.",
+    "resolution_basis": [
+      "A full character profile recovered from the same archive states it outright three ways: role \"Heir-Apparent of the Velar Imperium (Imperial Loyalist)\", allegiance \"Velar Imperium (Imperial Loyalist Faction)\", and a reputation line reading \"+10 Imperial Loyalist Respect … −6 Republican Reformist Trust\".",
+      "Her core directives are restorationist — \"Reclaim the Throne of the Imperium\".",
+      "The same source’s faction table lists \"Sira Velkonn, Velkonn House Fleet\" under the Imperial Loyalists.",
+      "Independent corroboration against committed canon: her mentor Talyx Velkonn is canon’s exiled Grand Duke restorationist; her rival Jaxx Tyren is canon’s Warlord of the Outer Colonies; her covert tie Valcor is a canon alias; and loc_nyros_expanse ALREADY records that Velar restorationist loyalist houses reactivated ancient fleets there — the exact action her profile attributes to her."
+    ],
+    "mechanism_for_the_misattribution": "Her profile records that she \"covertly contacted Union diplomats under a false identity\" and held \"secret diplomatic ties\" with a senior Union figure. A Loyalist engaging the Union covertly is precisely the kind of actor a later summary could mis-record as a Reformist host. This is offered as the likely explanation of the drift; the source does NOT state that the T’karas debate was that contact, and no such identification is asserted.",
+    "effect_on_canon": "None — the canon position is unchanged. The conflict is retained as recorded history of how it was resolved, not as an open question.",
     "detected": "2026-08-09 prose-claim salvage"
   },
   "event_refs": [
     "event_debate_at_tkaras"
-  ]
+  ],
+  "title": "Heir-Apparent of the Velar Imperium",
+  "allegiance": "Velar Imperium — Imperial Loyalist Faction",
+  "traits": [
+    "Noble-Born",
+    "Strategic Visionary",
+    "Conflicted Idealist",
+    "Trained Diplomat",
+    "Battle-Tested Commander"
+  ],
+  "reputation": "+10 Imperial Loyalist Respect, +3 Union Curiosity, −6 Republican Reformist Trust",
+  "relationships_detail": {
+    "mentor": {
+      "name": "Talyx Velkonn",
+      "entity_id": "char_talyx_velkonn",
+      "relation": "Mentored by the exiled Grand Duke."
+    },
+    "covert_tie": {
+      "name": "High Chancellor Valcor",
+      "entity_id": "char_renn_valcor",
+      "relation": "Secret diplomatic ties.",
+      "note": "\"High Chancellor Valcor\" is an established alias of char_renn_valcor (Speaker of the Union Senate). Distinct office from Chancellor Zylox Rhaegos, Supreme Chancellor — no conflict."
+    },
+    "rival": {
+      "name": "Jaxx Tyren",
+      "entity_id": "char_jaxx_tyren",
+      "relation": "Open rivalry with the Warlord of the Outer Colonies."
+    },
+    "defining_opposition": {
+      "name": "Thalen Rynn",
+      "entity_id": "char_thalen_rynn",
+      "relation": "Established canonical rival pole — the Republican Reformist figure defined against her."
+    }
+  },
+  "recent_actions": [
+    "Rallied the remaining Imperial loyalist houses.",
+    "Reactivated ancient Velar fleets in the Nyros Expanse (loc_nyros_expanse).",
+    "Covertly contacted Union diplomats under a false identity."
+  ],
+  "decision_style": "Carefully calculated; balances restorationist goals with realpolitik survivalism.",
+  "core_directives": [
+    "Reclaim the Throne of the Imperium",
+    "Unify or neutralize the splintered Velar factions",
+    "Avoid full confrontation with the Galactic Union — for now"
+  ],
+  "adaptive_evolution": "May drift toward authoritarianism if betrayed or outmanoeuvred politically; could shift toward reformism if Union trust is earned.",
+  "narrative_position": "A pivot point in the Imperium's destiny: her actions tend toward either the recentralization of imperial authority and a new war, or a fragile reintegration with the Galactic Union under a Velar-led compromise.",
+  "location_refs": [
+    "loc_nyros_expanse"
+  ],
+  "profile_promotion": {
+    "pass": "Prose-Claim Ledger Reconciliation — Sira Velkonn profile — 2026-08-09",
+    "source": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"Character Profile: Sira Velkonn\" — full JSON profile block)",
+    "rule": "owner directive 2026-08-09: treat Velari detail as promotable unless there is a direct reason not to.",
+    "conflict_scan": "CLEAN — five independent points corroborate against committed canon (Talyx Velkonn, Jaxx Tyren, Renn Valcor alias, Thalen Rynn opposition, loc_nyros_expanse fleet reactivation). The one prior conflict is resolved in favour of the standing canon position.",
+    "at": "2026-08-09"
+  }
 }
