@@ -144,7 +144,7 @@
   ],
   "promotion_pass": "Dark Star Narrative Reconciliation Pass — 2026-07-22; Third Silence Narrative Audit — 2026-07-22; Dark Star Unified Manuscript and Translation Improvement Pass — 2026-07-22",
   "locked_at": "2026-07-22",
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-08-09",
   "notes": "Observable events and corrected continuity are CANON. Historical interpretation, First Silence history, Kellan Durn, institutional complicity, the meaning of the seventeen vectors, and the true nature of the dark star remain testimony, intelligence leads, or STAGING hypotheses. Unified narrative v1.1 governs prose and live-translation presentation; prior chapter-only narrative remains provenance only.",
   "governing_narrative_ref": "canon/L2/narratives/GUMAS_L2__NARRATIVE__DARK_STAR_ARC_UNIFIED__v1.1__2026-07-22.md",
   "superseded_narrative_refs": [
@@ -154,5 +154,17 @@
     "status": "CANON",
     "rule": "Shadow personnel speak fluently in their own language. Fragmentation, substitutions, confidence warnings, and subtle errors belong to the live Union translation system rather than to speaker competence.",
     "evidentiary_boundary": "Translated output is a provisional instrument record and may be revised by later context; it does not function as an omniscient gloss."
+  },
+  "route_exemption": {
+    "status": "no_canonical_route_established",
+    "endpoints": [
+      "place_kharis_sector",
+      "place_lethan_system",
+      "place_kallis_foundry"
+    ],
+    "basis": "The transits in this event are defined by their canonical endpoints — the Shadow Fleet moved through the Kharis Sector to the Lethan system, and Kallis Foundry supplied the removed Dark Star records. Those places are canon; the corridor between them has never been named in canon.",
+    "why_not_invented": "Naming a corridor here would mint an L2 referent with no source, which the L2 Naming Admission gate exists to prevent. The transit is canon; the route name is UNDETERMINED.",
+    "resolves_when": "A named route is established through NameService / the map-authority process, at which point route_ref replaces this exemption.",
+    "recorded": "2026-08-09 (FABRIC P4)"
   }
 }
