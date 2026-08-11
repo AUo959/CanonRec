@@ -38,5 +38,7 @@
     "source_refs": [
       "canon/L2/entities/theryn_kaelvakar/capsule/identity.json"
     ]
-  }
+  },
+  "capsule_id": "theryn_kaelvakar",
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"theryn_kaelvakar\", while the record identity is \"char_theryn_kaelvakar\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
 }

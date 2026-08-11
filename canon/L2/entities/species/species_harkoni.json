@@ -40,7 +40,7 @@
   ],
   "distribution": "The people of the Harkon Sovereignty. The Sovereignty is the STATE; Harkoni is the PEOPLE — internally divided (loyalists vs isolationists) and not reducible to their government.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-09",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Major Promotion Pass — 2026-07-21",
@@ -48,5 +48,7 @@
     "rule": "owner directive: promote all staged records that do not conflict with canon",
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
-  }
+  },
+  "origin_polity_entity_id": "polity_harkon_sovereignty",
+  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"harkon_sovereignty\"), which is also what polity_harkon_sovereignty.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost."
 }

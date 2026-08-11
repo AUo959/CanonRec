@@ -61,5 +61,7 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-09",
+  "capsule_id": "char_eriana_vos",
+  "capsule_binding_note": "Capsule directory and entity record share one identifier (\"char_eriana_vos\"): this record is in the entity namespace on both sides. Recorded explicitly because the corpus also contains capsules named WITHOUT the kind prefix (e.g. \"alric_tann\" for char_alric_tann), so \"capsule id equals entity id\" is a fact about this record, not a rule that holds corpus-wide."
 }

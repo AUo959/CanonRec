@@ -52,5 +52,7 @@
   "event_refs": [
     "event_battle_of_kaelors_rift"
   ],
-  "event_link_note": "Cross-linked 2026-08-09 (Prose-Claim Ledger Reconciliation). The battle was already canon here in prose form; this binds it to the promoted event hub record."
+  "event_link_note": "Cross-linked 2026-08-09 (Prose-Claim Ledger Reconciliation). The battle was already canon here in prose form; this binds it to the promoted event hub record.",
+  "capsule_id": "alric_tann",
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"alric_tann\", while the record identity is \"char_alric_tann\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
 }

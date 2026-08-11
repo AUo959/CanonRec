@@ -39,5 +39,7 @@
   "related_entity_ids": [
     "char_varnak"
   ],
-  "electoral_context": "Ran a competitive chancellorship race against Varnak (char_varnak), who campaigned on military defence — a key issue in the Outer Colonies — and finished closely behind."
+  "electoral_context": "Ran a competitive chancellorship race against Varnak (char_varnak), who campaigned on military defence — a key issue in the Outer Colonies — and finished closely behind.",
+  "capsule_id": "zylox_rhaegos",
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"zylox_rhaegos\", while the record identity is \"char_zylox_rhaegos\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
 }

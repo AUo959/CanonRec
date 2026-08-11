@@ -41,5 +41,8 @@
       "L2 sim capture (observed-use): canon/L2/operations/L2_SIM_CAPTURE__MARSHALS_RANGER_SENTINEL__v1.0.md",
       "reports (root): roster_closure_audit__2026-07-21.md"
     ]
-  }
+  },
+  "capsule_id": "char_kade",
+  "capsule_binding_note": "Capsule directory and entity record share one identifier (\"char_kade\"): this record is in the entity namespace on both sides. Recorded explicitly because the corpus also contains capsules named WITHOUT the kind prefix (e.g. \"alric_tann\" for char_alric_tann), so \"capsule id equals entity id\" is a fact about this record, not a rule that holds corpus-wide.",
+  "updated_at": "2026-08-09"
 }

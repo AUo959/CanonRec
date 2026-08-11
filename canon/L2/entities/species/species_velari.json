@@ -71,5 +71,7 @@
     ],
     "source": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"Foundations of the Velar Imperium\" — structured cultural/political blueprint)",
     "pass": "Prose-Claim Ledger Reconciliation — Velar foundations — 2026-08-09"
-  }
+  },
+  "origin_polity_entity_id": "polity_velar_imperium",
+  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"velar_imperium\"), which is also what polity_velar_imperium.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost."
 }

@@ -41,5 +41,8 @@
       "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (LEDGER-MISSIONS-0001, SRC-0005)",
       "reports (root): roster_closure_audit__2026-07-21.md"
     ]
-  }
+  },
+  "capsule_id": "char_darek_voss",
+  "capsule_binding_note": "Capsule directory and entity record share one identifier (\"char_darek_voss\"): this record is in the entity namespace on both sides. Recorded explicitly because the corpus also contains capsules named WITHOUT the kind prefix (e.g. \"alric_tann\" for char_alric_tann), so \"capsule id equals entity id\" is a fact about this record, not a rule that holds corpus-wide.",
+  "updated_at": "2026-08-09"
 }
