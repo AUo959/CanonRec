@@ -35,5 +35,9 @@
     "source_refs": [
       "canon/L2/entities/zylox_rhaegos/capsule/identity.json"
     ]
-  }
+  },
+  "related_entity_ids": [
+    "char_varnak"
+  ],
+  "electoral_context": "Ran a competitive chancellorship race against Varnak (char_varnak), who campaigned on military defence — a key issue in the Outer Colonies — and finished closely behind."
 }

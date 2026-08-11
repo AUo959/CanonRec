@@ -1,0 +1,54 @@
+{
+  "entity_id": "loc_kaelor_shadow_ring",
+  "entity_kind": "location",
+  "name": "Kaelor Shadow Ring",
+  "aliases": [
+    "Shadow Ring"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "conflict_flags": [],
+  "faction_bindings": [],
+  "organization_ids": [],
+  "location_type": "region",
+  "subtype": "shadow_ring",
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "role": "Region where Sentinel-class vessels disrupted PMC blacksite operations",
+  "description": "A region attested in the Sentinel-Class recent actions as the site where Sentinel-class vessels disrupted PMC blacksite operations.",
+  "name_disambiguation": {
+    "distinct_from": [
+      "loc_kaelor_prime — a military-industrial world",
+      "loc_kaelor_s_rift — an FTL-disruption anomaly region and battle site"
+    ],
+    "basis": "Three canonical referents share the element \"Kaelor\". No source links them beyond the shared name, and none is asserted here. Shared name fragments are not evidence of reference."
+  },
+  "placement_status_note": "No map-authority row; \"unplaced\" is a placement fact, not a certainty hedge. Routed to map authority / Reconciliation Workflow §4.5.",
+  "source_refs": [
+    {
+      "source_id": "recovered_source",
+      "path": "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+    }
+  ],
+  "doc_sources": [
+    "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+  ],
+  "promotion_pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Kaelor Shadow Ring\" preserved verbatim from the cited recovered source.",
+    "authority": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "source_refs": [
+      "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "rule": "owner directive 2026-08-09: promote discovered detail unless there is a direct reason not to. Each name here is preserved verbatim from a recovered source and survived a name/alias collision scan.",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}

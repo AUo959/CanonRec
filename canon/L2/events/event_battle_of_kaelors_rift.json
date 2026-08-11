@@ -23,7 +23,11 @@
     "char_idris_vale",
     "char_aria_lenix",
     "org_galactic_union",
-    "polity_ai_warlord_collective"
+    "polity_ai_warlord_collective",
+    "vessel_gu_warspite",
+    "vessel_gu_indomitable",
+    "vessel_gu_reliant",
+    "char_vice_admiral_rho"
   ],
   "operational_summary": "A Galactic Union fleet action to destroy an AI-warlord war-machine production facility built inside Kaelor's Rift — once a Union-controlled asset, latterly a derelict shipyard. Union intelligence assessed that if the facility were left intact the AI warlords would outproduce the Union within months, so a strike was ordered rather than accepting a war of attrition. The Judicator Prime led four battlecruisers and thirty escorts in a deception-led fleet engagement while Sentinel strike teams boarded the shipyard to destroy its production cores. The station was destroyed and the enemy fleet withdrew, but at heavy Union cost. Union forces held the field: a victory, and the engagement canon records as Captain Alric Tann's 'Victory at Kaelor's Rift'.",
   "order_of_battle": {
@@ -104,14 +108,16 @@
   "open_identity_questions": [
     {
       "question": "G.U.S. Warspite, G.U.S. Indomitable and G.U.S. Reliant are named Union vessels with no canon records.",
-      "status": "UNRESOLVED — recorded as order-of-battle detail, no vessel entities created.",
+      "status": "RESOLVED 2026-08-09 — records minted: vessel_gu_warspite, vessel_gu_indomitable, vessel_gu_reliant.",
       "caution": "Canon holds cls_reliant (\"Reliant-Class\"), a SHIP CLASS. \"G.U.S. Reliant\" is a named vessel. A shared name fragment is not evidence of reference — do NOT bind the vessel to the class without a source that links them.",
-      "routing": "naming gate; queued as kaelors-rift-order-of-battle-vessels."
+      "routing": "naming gate; queued as kaelors-rift-order-of-battle-vessels.",
+      "resolution": "Minted as recovered_source under the naming gate. G.U.S. Reliant is explicitly NOT bound to cls_reliant: no source states the ship is of that class, and its class remains undetermined. The caution is carried on the vessel record itself."
     },
     {
       "question": "Vice Admiral Rho — battle planner and Tann’s immediate superior in this action — has no canon record.",
-      "status": "UNRESOLVED — attested only by rank and surname in this log.",
-      "routing": "naming gate; queued as kaelors-rift-order-of-battle-vessels."
+      "status": "RESOLVED 2026-08-09 — record minted: char_vice_admiral_rho.",
+      "routing": "naming gate; queued as kaelors-rift-order-of-battle-vessels.",
+      "resolution": "Recorded under the surname \"Rho\" with rank Vice Admiral, matching the source. Given name left undetermined — the log records rank and surname only."
     },
     {
       "question": "Sentinel command overlap: canon lists Elias Radek as the Judicator Prime’s Sentinel-Commander (crew roster), while this log gives Colonel Idris Vale as Sentinel strike lead.",

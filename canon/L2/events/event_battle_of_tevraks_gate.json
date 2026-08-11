@@ -1,0 +1,57 @@
+{
+  "entity_id": "event_battle_of_tevraks_gate",
+  "entity_kind": "event",
+  "name": "Battle of Tevrak’s Gate",
+  "aliases": [
+    "Tevrak’s Gate",
+    "Battle of Tevraks Gate"
+  ],
+  "certainty": "CANON",
+  "status": "concluded",
+  "conflict_flags": [],
+  "faction_bindings": [],
+  "organization_ids": [],
+  "layer": "L2",
+  "subtype": "fleet_engagement",
+  "operational_summary": "An engagement in which the G.U.S. Valiant Spear led the charge and destroyed enemy siege platforms. Recorded in the Valiant Spear’s recent actions; canon already carries the engagement on vessel_gu_011 but had no event record.",
+  "participant_refs": [
+    "vessel_gu_011"
+  ],
+  "attested_detail": [
+    "The Valiant Spear led the charge.",
+    "Siege platforms were destroyed."
+  ],
+  "undetermined": [
+    "Belligerents beyond the Valiant Spear",
+    "Location and date",
+    "Outcome beyond the destruction of the siege platforms"
+  ],
+  "notes": "Minted to close a referent that a committed canon record (vessel_gu_011.recent_actions) already asserted. Only what the source states is recorded.",
+  "source_refs": [
+    {
+      "source_id": "recovered_source",
+      "path": "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+    }
+  ],
+  "doc_sources": [
+    "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+  ],
+  "promotion_pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Battle of Tevrak’s Gate\" preserved verbatim from the cited recovered source.",
+    "authority": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "source_refs": [
+      "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "rule": "owner directive 2026-08-09: promote discovered detail unless there is a direct reason not to. Each name here is preserved verbatim from a recovered source and survived a name/alias collision scan.",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}

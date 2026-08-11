@@ -1,0 +1,49 @@
+{
+  "entity_id": "loc_arkelon_theta",
+  "entity_kind": "location",
+  "name": "Arkelon Theta",
+  "aliases": [],
+  "certainty": "CANON",
+  "status": "active",
+  "conflict_flags": [],
+  "faction_bindings": [],
+  "organization_ids": [],
+  "location_type": "planet",
+  "subtype": "precursor_vault_site",
+  "region_id": null,
+  "canonical_position_status": "unplaced",
+  "role": "Site of a Precursor vault seized by the Velar warlord Jasrek Tyr",
+  "description": "The site of a Precursor vault whose seizure by Jasrek Tyr sparked a diplomatic and military confrontation involving the Outer Colonies, the Pirate Queen Theryn Kael’Vakar and a covert Union Sentinel unit.",
+  "related_entity_ids": [
+    "char_jasrek_tyr",
+    "polity_outer_colonies"
+  ],
+  "placement_status_note": "No map-authority row; unplaced as a placement fact. Routed to map authority / Reconciliation Workflow §4.5.",
+  "source_refs": [
+    {
+      "source_id": "recovered_source",
+      "path": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+    }
+  ],
+  "doc_sources": [
+    "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+  ],
+  "promotion_pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Arkelon Theta\" preserved verbatim from the cited recovered source.",
+    "authority": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "source_refs": [
+      "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "rule": "owner directive 2026-08-09: promote discovered detail unless there is a direct reason not to. Each name here is preserved verbatim from a recovered source and survived a name/alias collision scan.",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}

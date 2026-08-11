@@ -1,0 +1,56 @@
+{
+  "entity_id": "char_varnak",
+  "entity_kind": "character",
+  "name": "Varnak",
+  "aliases": [],
+  "certainty": "CANON",
+  "status": "active",
+  "conflict_flags": [],
+  "faction_bindings": [],
+  "organization_ids": [],
+  "subtype": "political_figure",
+  "role": "Chancellorship candidate; electoral rival to Zylox",
+  "description": "A candidate in the Galactic Union chancellorship race, running on a military-defence platform. The race was competitive, with Varnak closely behind Zylox, military defence being a key issue in the Outer Colonies.",
+  "related_entity_ids": [
+    "char_zylox_rhaegos",
+    "polity_outer_colonies"
+  ],
+  "name_disambiguation": {
+    "distinct_from": [
+      "Varnak’s Rest — an agricultural and refugee world in the frontier region, attested separately in the same corpus and NOT yet a canon record"
+    ],
+    "basis": "A person and a world share the element \"Varnak\". No source links them; no relation is asserted. This is the fragment-match trap the salvage tooling exists to avoid."
+  },
+  "undetermined": [
+    "Full name",
+    "Species and origin",
+    "Outcome of the race beyond placing behind Zylox"
+  ],
+  "source_refs": [
+    {
+      "source_id": "recovered_source",
+      "path": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+    }
+  ],
+  "doc_sources": [
+    "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+  ],
+  "promotion_pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Varnak\" preserved verbatim from the cited recovered source.",
+    "authority": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "source_refs": [
+      "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "rule": "owner directive 2026-08-09: promote discovered detail unless there is a direct reason not to. Each name here is preserved verbatim from a recovered source and survived a name/alias collision scan.",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}

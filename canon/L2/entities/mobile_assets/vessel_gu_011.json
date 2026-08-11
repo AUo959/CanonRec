@@ -53,5 +53,12 @@
     "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
     "pass": "Archive Ship-Profile Reconciliation — 2026-08-09",
     "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule."
-  }
+  },
+  "event_refs": [
+    "event_battle_of_tevraks_gate"
+  ],
+  "equipment_ids": [
+    "eq_valr_99"
+  ],
+  "referent_closure_note": "Its recent_actions named the Battle of Tevrak’s Gate and the integrated combat AI VALR-99; both now have records (2026-08-09 naming batch)."
 }

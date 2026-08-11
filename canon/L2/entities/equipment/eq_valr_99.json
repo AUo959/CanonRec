@@ -1,0 +1,45 @@
+{
+  "entity_id": "eq_valr_99",
+  "entity_kind": "equipment",
+  "name": "VALR-99",
+  "aliases": [
+    "VALR99"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "conflict_flags": [],
+  "faction_bindings": [],
+  "organization_ids": [],
+  "equipment_type": "integrated_combat_ai",
+  "layer": "L2",
+  "description": "The integrated combat AI of the G.U.S. Valiant Spear, part of that vessel’s Tactical Scrambler Grid cyberwarfare suite.",
+  "installed_on": "vessel_gu_011",
+  "custody": "Galactic Union",
+  "source_refs": [
+    {
+      "source_id": "recovered_source",
+      "path": "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+    }
+  ],
+  "doc_sources": [
+    "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+  ],
+  "promotion_pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+  "locked_at": "2026-08-09T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"VALR-99\" preserved verbatim from the cited recovered source.",
+    "authority": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "source_refs": [
+      "archives/.../galactic_union_core_ships_module (archived ship-profiles module; see reports/analysis/archive_content_triage__2026-08-09.md)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "L2 Naming Admission — recovered-source batch closure — 2026-08-09",
+    "rule": "owner directive 2026-08-09: promote discovered detail unless there is a direct reason not to. Each name here is preserved verbatim from a recovered source and survived a name/alias collision scan.",
+    "process": "aurora-canon-reconciler: conflict scan (name/alias collision + structural refs) + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — no name/alias collision against canon; referenced entities exist",
+    "at": "2026-08-09"
+  },
+  "updated_at": "2026-08-09"
+}
