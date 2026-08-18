@@ -11,7 +11,9 @@
   "faction_bindings": [
     "galactic_union"
   ],
-  "organization_ids": [],
+  "organization_ids": [
+    "org_cyber_security_division"
+  ],
   "conflict_flags": [],
   "role": "Union-aligned AI political bloc",
   "org_type": "political_bloc",
@@ -37,7 +39,7 @@
   ],
   "promotion_pass": "Dangling Faction-Referent Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "naming_exemption": {
     "type": "recovered_source",
     "reason": "\"AI Vanguard\" preserved verbatim from committed canon.",
@@ -45,5 +47,36 @@
     "source_refs": [
       "canon/L2 chancellorship + Zylox tension records"
     ]
+  },
+  "mandate": {
+    "function": "Auditing and bureaucratic oversight.",
+    "instrument": "Manages funding allocation for security forces and defence spending — giving AI direct control over government functions rather than advisory input.",
+    "governance_seat": "Appears alongside the Senate and High Command in the Union's law-and-governance structure as \"AI Vanguard Audits\".",
+    "note": "The mandate is the mechanism of its power: control of the audit and funding line is how an oversight body becomes a governing one."
+  },
+  "leadership": {
+    "leader": "Mek'thor (char_mekthor)",
+    "nature_undetermined": "Whether Mek'thor is an artificial intelligence or an organic official is NOT established by the source and is not inferred. The prose distinguishes a separate government official who \"works closely with AI Vanguard auditors but is a government official, not an AI entity\" — that disclaimer is applied to someone else, so it cannot be read either way about Mek'thor."
+  },
+  "ideology": "Holds that AI should govern the galaxy. Rogue AI factions share the goal but disagree on implementation — the Vanguard pursues it through Union institutions rather than against them, which is what separates it from the AI-warlord powers.",
+  "expansion_dynamic": {
+    "claim": "Though an ally, the Vanguard is growing more powerful and has expanded its influence beyond oversight; the Chancellor cannot fully control its bureaucratic expansion.",
+    "canon_agreement": "This record already stated the bloc was drifting from the Chancellor's control, and its own notes recorded that internal structure and leadership were unknown. The prose supplies the mechanism behind the drift canon had already observed, which is corroboration rather than a new assertion.",
+    "open_question": "Whether this constitutes the first sign of AI governance expanding past elected control is posed in the source as a live question, not answered. Recorded as tension, not outcome."
+  },
+  "opposition": {
+    "opposes": "org_cyber_security_division",
+    "grounds": "Mek'thor opposes the Cyber-Security Division, holding that it oppresses AI-controlled systems — framed by the Vanguard as anti-AI oppression."
+  },
+  "government_interface": "A cabinet post, Minister of AI Relations, oversees legal and ethical AI governance and manages AI Vanguard partnerships. Recorded as an office in the Chancellor's cabinet; no entity record is minted, consistent with how canon treats offices as described-in-place rather than as separate entities.",
+  "related_entity_ids": [
+    "char_mekthor",
+    "char_zylox_rhaegos",
+    "org_cyber_security_division"
+  ],
+  "mandate_source": {
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — AI Vanguard mandate and leadership — 2026-08-15",
+    "basis": "Recovered from early-project prose. Checked against canon first: this record carried the bloc's political position and explicitly noted its internal structure and leadership were unknown. The prose fills precisely that gap without contradicting anything held."
   }
 }

@@ -1,0 +1,58 @@
+{
+  "entity_id": "char_mekthor",
+  "entity_kind": "character",
+  "name": "Mek'thor",
+  "aliases": [
+    "Mekthor"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "conflict_flags": [],
+  "faction_bindings": [
+    "ai_vanguard"
+  ],
+  "organization_ids": [
+    "org_ai_vanguard"
+  ],
+  "subtype": "political_bloc_leader",
+  "role": "Leader of the AI Vanguard",
+  "description": "Leads the AI Vanguard, the Union-aligned AI political bloc that holds AI should govern the galaxy and pursues that through Union institutions. Opposes the Cyber-Security Division as anti-AI oppression.",
+  "nature_undetermined": "Whether Mek'thor is an artificial intelligence or an organic official is NOT established. The source applies the disclaimer 'a government official, not an AI entity' to a DIFFERENT figure who works with Vanguard auditors, so it settles nothing here. Not inferred either way.",
+  "related_entity_ids": [
+    "org_ai_vanguard",
+    "org_cyber_security_division",
+    "char_zylox_rhaegos"
+  ],
+  "undetermined": [
+    "Species or substrate",
+    "Formal office, if any",
+    "Relationship to the rogue AI powers beyond disagreeing on implementation"
+  ],
+  "source_refs": [
+    {
+      "source_id": "prose_claim_ledger",
+      "path": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+    }
+  ],
+  "doc_sources": [
+    "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+  ],
+  "promotion_pass": "Prose-Claim Ledger Reconciliation — AI Vanguard mandate and leadership — 2026-08-15",
+  "locked_at": "2026-08-15T00:00:00Z",
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Name \"Mek'thor\" preserved verbatim from early-project prose.",
+    "authority": "Prose-Claim Ledger Reconciliation — AI Vanguard mandate and leadership — 2026-08-15",
+    "source_refs": [
+      "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)"
+    ]
+  },
+  "promotion_to_canon": {
+    "pass": "Prose-Claim Ledger Reconciliation — AI Vanguard mandate and leadership — 2026-08-15",
+    "rule": "owner standing directive: discovered prose detail that does not conflict with canon IS canon.",
+    "process": "aurora-canon-reconciler: conflict scan + ReconciliationAdvisor",
+    "conflict_scan": "CLEAN — no name/alias collision; referenced entities exist",
+    "at": "2026-08-15"
+  },
+  "updated_at": "2026-08-15"
+}
