@@ -1,6 +1,8 @@
 {
   "entity_kind": "character",
-  "conflict_flags": [],
+  "conflict_flags": [
+    "gsb_uib_directorship"
+  ],
   "org_type": null,
   "parent_org_id": null,
   "location_type": null,
@@ -47,5 +49,19 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-15",
+  "agency_name_conflict": {
+    "question": "Two canon records head the same intelligence agency under different names: char_sarina_vael is \"Director of the Galactic Security Bureau (GSB)\" and char_callan_deyrus is \"Head of Union Intelligence Bureau (UIB)\". Canon rules GSB a SUPERSEDED draft name for the UIB.",
+    "status": "UNRESOLVED — recorded, not decided.",
+    "how_it_survived": "char_sarina_vael was promoted on 2026-07-21 with a conflict scan recording \"zero name/office collisions\". The GSB->UIB superseded-draft ruling is dated 2026-07-20 — one day earlier. The scan did not consult it, which is why her own notes read \"No GSB org record exists yet\": there is no GSB record because GSB is not a canonical agency.",
+    "possible_readings": [
+      "Sequence: she is an earlier-era director under the earlier agency name, and Deyrus is the current head — exactly the shape of the Durn -> Saros case, where \"Director of the Galactic Marshals\" was retitled \"Chief Marshal\" and the two holders were sequential.",
+      "Duplication: two salvage generations produced two heads of one agency, and one record should be superseded.",
+      "Distinct bodies: GSB and UIB were genuinely different organs and the superseded-draft note is too broad."
+    ],
+    "why_not_decided": "The Durn/Saros parallel is suggestive, not evidence. That case was settled by an explicit owner retcon ruling naming both holders and the retitling; nothing comparable exists here. Choosing sequence would invent a tenure, and choosing duplication would delete a salvaged character.",
+    "authority": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md (superseded-draft notes: early agency name \"Galactic Security Bureau\" -> canonical Union Intelligence Bureau)",
+    "routing": "aurora-canon-reconciler conflict scan; queued as gsb-uib-directorship-conflict.",
+    "detected": "2026-08-15 prose-claim ledger reconciliation (Union Intelligence pass)"
+  }
 }

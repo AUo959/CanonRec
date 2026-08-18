@@ -28,7 +28,30 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "World Bible; core GU legislative body. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "policy_fault_line": "The Senate debates whether to implement economic controls or trust market forces to stabilize prices. That is the Trade Coalition question in legislative form: a chamber where many senators are backed by Coalition interests deciding whether to constrain the markets those interests hold.",
+  "notable_statute": {
+    "law": "The Union Senate has outlawed certain simulations depicting past wars and atrocities.",
+    "violation": "AI warlords create rogue versions of them, treating history as a tactical study.",
+    "significance": "A memory law and its evasion. The Union restricts the reenactment of its own atrocities; its adversaries mine exactly that material for advantage."
+  },
+  "speaker": {
+    "incumbent": "char_renn_valcor",
+    "title": "Speaker of the Union Senate",
+    "note": "Recorded elsewhere as High Chancellor Renn Valcor; the Speaker role is the office attested here."
+  },
+  "fiscal_power": "Sets the Union Marshals budget and can increase or cut their funding — the limit already recorded on org_union_marshals.institutional_independence.",
+  "senate_source": {
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Union Senate and Intelligence — 2026-08-15"
+  },
+  "related_entity_ids": [
+    "char_renn_valcor",
+    "char_zylox_rhaegos",
+    "org_trade_coalition",
+    "org_union_marshals"
+  ],
+  "updated_at": "2026-08-15"
 }
