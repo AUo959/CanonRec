@@ -25,7 +25,13 @@ attributed to peoples, not collapsed into their states.
 - **Symmetry Doctrine** (Elari + Vorran) — dualities and balance; criticized as excessive
   neutrality. *(Engine encodes Elari↔Vorran alignment at 0.20 — "Symmetry Doctrine allies.")*
 - **Varlithian Paradox** (Humans + Zyphari) — progress ethics vs short-term suffering; cited
-  in AI-rights debates.
+  in AI-rights debates. Stated as the question *"is technological progress ethical if it
+  causes short-term suffering for long-term gain?"*, and rooted in the **early AI labor
+  revolutions**, where mechanization displaced millions but produced post-scarcity
+  societies. The paradox is not abstract: it is the Union's own founding trade rehearsed
+  as philosophy, which is why it recurs in AI-rights argument.
+  *(Origin recovered 2026-08-15 from the prose claim ledger; the debate itself was already
+  canon here.)*
 - **Doctrine of Perfect Uncertainty** (Kaelar) — permanent skepticism as a governance test.
   *(Engine encodes Kaelar↔Tharaxian "philosophical alignment" at 0.10.)*
 - **Ultari Code** (Marshals / military ethics) — intervention constraints; attacked from both

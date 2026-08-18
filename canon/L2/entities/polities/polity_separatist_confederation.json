@@ -58,5 +58,12 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-15",
+  "composition_note": {
+    "attested": "Characterised as \"Human Dissidents\" — anti-Union, decentralized, exploiting weaknesses in Union control.",
+    "reading": "Gives the Confederation a demographic character canon had not recorded: a human dissident movement rather than a species- or region-defined bloc. Decentralization is stated as its method, which is consistent with a movement defined by disaffection rather than territory.",
+    "caution": "\"Human Dissidents\" describes who dissents, not a claim that the Confederation is exclusively human. Nothing here excludes other peoples, and none is asserted.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — species_human triage — 2026-08-15"
+  }
 }
