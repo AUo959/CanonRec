@@ -29,7 +29,7 @@
   ],
   "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
   "naming_exemption": {
     "type": "recovered_source",
@@ -40,5 +40,14 @@
     ]
   },
   "capsule_id": "theryn_kaelvakar",
-  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"theryn_kaelvakar\", while the record identity is \"char_theryn_kaelvakar\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"theryn_kaelvakar\", while the record identity is \"char_theryn_kaelvakar\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it.",
+  "rule_model": {
+    "basis": "Her rule emerges from charisma, force and adaptability rather than inheritance or office.",
+    "contrast": "Explicitly set against the aristocratic politics of the Core: those traits are what a lawless, post-imperial frontier rewards, where a title confers nothing.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Outer Colonies frontier character — 2026-08-15"
+  },
+  "related_entity_ids": [
+    "polity_outer_colonies"
+  ]
 }

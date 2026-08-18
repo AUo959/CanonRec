@@ -72,5 +72,13 @@
     "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
     "basis": "Recovered from early-project prose claims. Checked first against canon: no existing record carried the Union's constitutional basis — org_galactic_union had no government field at all. Non-conflicting discovered detail, reconciled per the standing rule."
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-15",
+  "lingua_franca": {
+    "name": "Union Standard Galactic (USG)",
+    "role": "The common trade and diplomatic language of the Union.",
+    "limit": "Local dialects and cultural traditions persist alongside it — a shared language of exchange rather than an imposed monoculture.",
+    "record_form": "Recorded inline rather than minted: canon has no \"language\" entity kind, and the same treatment is used for offices, which are described in place.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Outer Colonies frontier character — 2026-08-15"
+  }
 }

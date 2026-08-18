@@ -45,7 +45,7 @@
   ],
   "promotion_pass": "Dangling Faction-Referent Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "naming_exemption": {
     "type": "recovered_source",
     "reason": "\"Outer Colonies\" is already in canonical use as a faction binding and appears verbatim in committed canon relations tables.",
@@ -54,5 +54,41 @@
       "canon/L2 relations tables",
       "faction_bindings across 5 canonical records"
     ]
-  }
+  },
+  "description": "The Union's frontier bloc: warlord-controlled and rogue territory beyond the core worlds, where central authority is nominal. Turbulence there comes from insurrections rather than from inter-state war, and integration with the Union is markedly weaker than in the core.",
+  "regional_position": {
+    "core_worlds": "Stable, but sensitive to trade policy.",
+    "outer_colonies": "Turbulent, driven by insurrections.",
+    "deep_space_settlements": "A third tier attested alongside the other two; its leaning is stated in source but is cut off in the recovered fragment and is NOT reconstructed here.",
+    "integration": "Less integration, more divisions than the core — the frontier is a political condition, not only a distance."
+  },
+  "security_environment": "Planetary defence is contracted rather than provided: the Iron Fang Mercenaries (org_iron_fang_mercenaries) operate here, hired for planetary defence. A frontier that buys its defence on the open market is one where the Union does not supply it.",
+  "notable_figures": {
+    "char_theryn_kaelvakar": "Pirate Queen; commands power in the fractured frontier.",
+    "char_jaxx_tyren": "Warlord of the Outer Colonies.",
+    "char_varnak": "Chancellorship candidate who ran on military defence — a key issue here."
+  },
+  "frontier_worlds": {
+    "attested": [
+      "loc_rethos_iv",
+      "loc_draskor_9"
+    ],
+    "rethos_iv": "Frontier capital and autonomous trade port; canon holds it as a semi-unregulated hub. A centre of trade, smuggling and black-market dealing where the Union keeps a diplomatic presence but local governors hold the real authority.",
+    "draskor_9": "Corporate-controlled mining and resource-extraction world, rich in the rare minerals and heavy elements used in ship construction, with harsh conditions for indentured labour and frequent pirate raids.",
+    "binding_caution": "These worlds are recorded here as ATTESTED IN THE FRONTIER, not bound to this bloc. Both carry empty faction_bindings in canon, and the source places them geographically (\"Frontier & Outer Colonies\") without stating allegiance. Being located in the frontier and being a member of a frontier bloc are different claims, and only the first is supported."
+  },
+  "open_referent": "The same source block names a third frontier world, \"Varnak's Rest\" — a self-sustaining agrarian and refugee world — with no canon record. Queued rather than minted here. NOT to be conflated with char_varnak, the chancellorship candidate: a person and a world sharing a name element.",
+  "frontier_source": {
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Outer Colonies frontier character — 2026-08-15",
+    "basis": "Recovered from early-project prose. Checked against canon first: this record existed only to close a dangling faction referent and carried a role line with no description, governance or geography."
+  },
+  "related_entity_ids": [
+    "char_jaxx_tyren",
+    "char_theryn_kaelvakar",
+    "char_varnak",
+    "loc_draskor_9",
+    "loc_rethos_iv",
+    "org_iron_fang_mercenaries"
+  ]
 }
