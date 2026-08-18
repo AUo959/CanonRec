@@ -11,7 +11,10 @@
   "faction_bindings": [
     "galactic_union"
   ],
-  "organization_ids": [],
+  "organization_ids": [
+    "org_trade_zone_defense_forces",
+    "org_union_stock_exchange"
+  ],
   "conflict_flags": [],
   "role": "Corporate/economic power bloc within the Galactic Union",
   "org_type": "economic_bloc",
@@ -41,7 +44,7 @@
   ],
   "promotion_pass": "Dangling Faction-Referent Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "naming_exemption": {
     "type": "recovered_source",
     "reason": "\"Trade Coalition\" preserved verbatim from committed canon.",
@@ -49,5 +52,38 @@
     "source_refs": [
       "canon/L2 chancellorship + capital + operations records"
     ]
-  }
+  },
+  "composition": "A bloc of megacorporations, economic leaders and free-market advocates.",
+  "instruments_of_power": {
+    "trade_zone_defense_forces": "The TZDF (org_trade_zone_defense_forces) is the OFFICIAL defence unit protecting the Free Trade Zone, and is indirectly under Trade Coalition control — armed force held at one remove from the bloc that directs it.",
+    "hyperlane_infrastructure": "Hyperlane infrastructure projects funded by Coalition partners give it direct control over trade routes.",
+    "financial_markets": "Coalition members control major financial markets through the Union Stock Exchange (org_union_stock_exchange), affecting currency and commodity prices.",
+    "senate_representation": "Many senators are backed by Trade Coalition interests, ensuring policy alignment inside the Union legislature."
+  },
+  "governance": {
+    "body": "Trade Coalition Executive Board",
+    "note": "High Chancellor Zylox Rhaegos sits on the Executive Board, granting him access to economic and corporate leadership OUTSIDE federal control. Canon already records his career as hyperlane development -> Trade Minister (founding the Free Trade Zone project) -> chancellorship via a Trade Coalition alliance; the board seat is the standing institutional form of that relationship, not a separate claim.",
+    "bearing": "The four instruments above plus a board seat held by the sitting head of government describe a bloc whose leverage runs through, not against, the Union state."
+  },
+  "diplomatic_function": "Neutral trade leaders serve as intermediaries in negotiations, reaching factions unwilling to engage Union diplomats directly. The Coalition brokered non-combat trade zones, allowing limited economic stability in war-affected regions — an outcome this record already carried as \"ceasefire-zone brokerage\".",
+  "open_identity_question": {
+    "question": "Early prose also names a \"Galactic Trade Coalition (GTC)\" that \"oversees fair trade laws, tariffs, and corporate accountability\".",
+    "status": "UNRESOLVED — not merged into this record.",
+    "why": "That is a REGULATOR's mandate, while everything else attested about the Trade Coalition describes a private power bloc that lobbies, funds and holds board seats. A body that writes tariff law and a bloc that benefits from tariff law are not obviously the same institution, and the shared name root is not evidence that they are — the fragment-match discipline applies to institutions as much as to people.",
+    "possible_readings": [
+      "One body: \"Galactic Trade Coalition\" is the formal name and the regulatory mandate is its public face.",
+      "Two bodies: a Union regulator and a private bloc with confusingly similar names.",
+      "Era drift: the name was reused across project phases."
+    ],
+    "routing": "aurora-canon-reconciler conflict scan; queued as trade-coalition-gtc-identity."
+  },
+  "power_structure_source": {
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Trade Coalition power structure — 2026-08-15",
+    "basis": "Recovered from early-project prose. Checked first against canon: this record carried the Coalition's political role and its chancellorship alliance but named none of its institutions. The prose attaches to canon anchors rather than replacing them — Zylox's hyperlane career and his founding of the Free Trade Zone project are already committed canon, and the TZDF protects that same Free Trade Zone."
+  },
+  "related_entity_ids": [
+    "char_zylox_rhaegos",
+    "org_galactic_union"
+  ]
 }
