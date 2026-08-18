@@ -55,7 +55,9 @@
   ],
   "conflict_flags": [],
   "role": null,
-  "organization_ids": [],
+  "organization_ids": [
+    "org_trade_zone_defense_forces"
+  ],
   "org_type": "law_enforcement",
   "jurisdiction": "Crimes crossing planetary or sector boundaries: organized crime, political crimes, interplanetary fugitives. Authority to override local planetary police; diplomatic immunity across borders. Weak presence in Outer Colonies.",
   "oversight": {
@@ -74,7 +76,7 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "World Bible + 4 Marshals ledger refs; law enforcement corps. CANON. Enriched 2026-07-20 (jurisdiction + oversight) from April-2025 archive mining, owner-approved; see ARCHIVE_MINING_ADDENDUM__2026-07-20.md.",
   "locked_at": "2026-03-20T02:03:35Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "charter": {
     "charter_status": "Marshal Charter v0.1 CANON (Articles I-III, V; Art. IV APPROX). See canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md",
     "local_police_override_trigger": "standard=Judicial Council warrant; exigent=Chief Marshal cross-sector certification, 1 cycle max, retroactive review; emergency=Senate declaration. Corruption findings = warrant grounds only (Charter Art. I)",
@@ -92,5 +94,35 @@
     "pass": "Prose-Claim Ledger Reconciliation — 2026-08-09",
     "basis": "Recovered from early-project prose claims; complements the existing Marshals record rather than replacing it.",
     "note": "Canon separately records Chief Marshal Vael Saros as \"Leader of the Union Marshals\". Whether \"Director of the Galactic Marshals\" is the same office under another title is NOT established and was not inferred."
-  }
+  },
+  "leadership_lineage": {
+    "office_history": "Led by a Director of the Galactic Marshals (Kael Durn, alias \"The Iron Sentinel\"); the office was later retitled Chief Marshal and passed to Vael Saros.",
+    "current": "char_vael_saros, Chief Marshal.",
+    "predecessor": "char_kael_durn, as Director.",
+    "resolves": "An apparent conflict between \"Director of the Galactic Marshals\" in early prose and canon's \"Chief Marshal Vael Saros\" — flagged as an open identity question during the 2026-08-09 prose salvage. It was never a conflict: one office, retitled, two holders in sequence. The answer was already in canon as an owner retcon ruling; the question was raised without finding it.",
+    "authority": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md (LEDGER-MARSHALS-0005, owner retcon ruling 2026-07-20)"
+  },
+  "institutional_independence": {
+    "stance": "The Marshals are framed as a bulwark against corporate capture of law enforcement — their Director took the post to prevent the Union falling into corporate-controlled anarchy.",
+    "enacted_as": "Zylox-Durn Pact item 1: reintegration of drifting private/renegade security elements under constitutional order.",
+    "counterweight": "Stands against the Trade Coalition apparatus, whose defence arm (org_trade_zone_defense_forces) is an official force indirectly under private control. The Marshals are the constitutional answer to exactly that arrangement.",
+    "limit": "Independence is not autonomy: the Galactic Senate sets their budget and can increase or cut funding, and they remain subject to government oversight. A bulwark that the legislature funds is a bulwark the legislature can starve.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Marshals independence and the Durn directorship — 2026-08-15"
+  },
+  "sentinel_program": {
+    "origin": "The Sentinel-Class Power Suit was designed as an elite adaptive exo-frame for the Galactic Marshals — canon records its genesis as item 2 of the Zylox-Durn Pact.",
+    "expansion": "Since expanded into a series of specialized units, each tailored to a role.",
+    "scarcity": "The Marshals maintain a strictly limited number of Sentinel-Class operatives: the suits are resource-intensive and the training time is long. Capability is bounded by cost, not by doctrine.",
+    "significance": "Among the most technologically sophisticated and strategically vital assets in the Marshals' arsenal; Core-World security improved markedly once the Marshals fielded them alongside greater authority.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Marshals independence and the Durn directorship — 2026-08-15"
+  },
+  "flagship": "The G.U.S. Judicator Prime (vessel_gu_001) is attested as the flagship of the Union Marshals — a second, independent attestation of the marshal_integration already on that vessel record.",
+  "related_entity_ids": [
+    "char_kael_durn",
+    "char_vael_saros",
+    "org_trade_coalition",
+    "vessel_gu_001"
+  ]
 }

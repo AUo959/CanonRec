@@ -2,13 +2,18 @@
   "entity_kind": "character",
   "entity_id": "char_kael_durn",
   "name": "General Kael Durn",
-  "aliases": [],
+  "aliases": [
+    "Director Durn",
+    "The Iron Sentinel"
+  ],
   "certainty": "CANON",
   "status": "active",
   "faction_bindings": [
     "galactic_union"
   ],
-  "organization_ids": [],
+  "organization_ids": [
+    "org_union_marshals"
+  ],
   "conflict_flags": [],
   "role": "Supreme Military Commander, GU Armed Forces",
   "org_type": null,
@@ -22,7 +27,7 @@
   ],
   "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
   "archive_profile": {
     "allegiance": "Union Loyalist (Strong Rule-of-Law Advocate)",
@@ -50,5 +55,23 @@
     ]
   },
   "capsule_id": "kael_durn",
-  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"kael_durn\", while the record identity is \"char_kael_durn\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"kael_durn\", while the record identity is \"char_kael_durn\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it.",
+  "career_arc": {
+    "sequence": "Supreme Commander of Union Special Forces -> Director of the Galactic Marshals -> Supreme Military Commander, GU Armed Forces.",
+    "marshals_tenure": "Led the Marshals under the earlier title \"Director of the Galactic Marshals\" (alias \"The Iron Sentinel\"), before Vael Saros. The office was subsequently retitled Chief Marshal and passed to Saros.",
+    "authority": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md (LEDGER-MARSHALS-0005, owner retcon ruling 2026-07-20)",
+    "note": "His entity record previously carried only the final rank, so the Marshals directorship — the tenure the Zylox-Durn Pact was made with — was invisible from the character record even though canon held the ruling."
+  },
+  "motive_for_the_directorship": {
+    "claim": "A strong believer in law enforcement, he chose to lead the Galactic Marshals to prevent the Union falling into corporate-controlled anarchy, and accepted the Directorship believing it the last chance to keep law enforcement from falling under corporate control.",
+    "why_this_matters": "It supplies the motive behind a pact canon already records. Item 1 of the Zylox-Durn Pact is \"reintegration of drifting private/renegade security elements under constitutional order\" — pulling private security back under law is precisely the corporate-capture concern stated here, in canon's own terms.",
+    "corroborating_context": "Canon separately records a Trade Coalition whose armed instrument, the TZDF, is a chartered force indirectly under a private bloc's control. The fear is not abstract in this setting.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Marshals independence and the Durn directorship — 2026-08-15"
+  },
+  "related_entity_ids": [
+    "char_vael_saros",
+    "char_zylox_rhaegos",
+    "org_union_marshals"
+  ]
 }
