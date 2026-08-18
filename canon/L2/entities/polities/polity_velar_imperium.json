@@ -76,7 +76,7 @@
       "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (Velar-Harkon Wars)"
     ]
   },
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "dominant_species_id": "species_velari",
   "multispecies": true,
   "peoplehood_note": "A STATE (a former imperial government, now fragmented), not the Velari people themselves. The Velari also hold membership in the Galactic Union (per species_velari.member_polities); the Imperium does not encompass the whole Velari people.",
@@ -131,5 +131,11 @@
     "source": "archives/unzipped/ZIP_Archives/9c9ce296c28a97c4989049becd7bc7f9b5cc9aedf8fa86e51a9f7f82e35342be-2026-02-05-19-12-28-22da4e485f0b487cae0716c77b02b379/conversations.json (\"Foundations of the Velar Imperium\" — structured cultural/political blueprint)",
     "pass": "Prose-Claim Ledger Reconciliation — Velar foundations — 2026-08-09"
   },
-  "political_spectrum_note": "The blueprint lists a FOURTH grouping beyond the three internal factions this record carries: \"Neutral Houses\" — hesitant or opportunistic factions watching for leverage or safety. No entity record exists; queued as velar-neutral-houses-referent. The blueprint's \"Sim Status\" column (\"In development\", \"Awaiting generation\", \"candidate\") is out-of-world production tracking, not in-world fact, and was not promoted."
+  "political_spectrum_note": "The blueprint lists a FOURTH grouping beyond the three internal factions this record carries: \"Neutral Houses\" — hesitant or opportunistic factions watching for leverage or safety. No entity record exists; queued as velar-neutral-houses-referent. The blueprint's \"Sim Status\" column (\"In development\", \"Awaiting generation\", \"candidate\") is out-of-world production tracking, not in-world fact, and was not promoted.",
+  "marshal_council_corroboration": {
+    "claim": "Early prose: the conquest period \"birthed the Marshal-Council System, from which Tal'Varen would later rise.\"",
+    "status": "CORROBORATION — no new canon. Canon already records the Marshal-Council System as born in the gravitic-drive conquest era (~300 years before present) and as the origin of the title \"Lord Marshal\" held by Virex Tal'Varen.",
+    "note_worth_keeping": "That same canon entry states the system is institutionally UNRELATED to the Union Marshals and that the shared word is coincidental — canon applying the same fragment-match discipline this salvage uses. Two \"Marshal\" institutions, explicitly declared distinct.",
+    "authority": "canon/L2/marshals_sentinels/ARCHIVE_MINING_ADDENDUM__2026-07-20.md (Disambiguation — Velar \"Lord Marshal\")"
+  }
 }

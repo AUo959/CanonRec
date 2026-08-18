@@ -42,7 +42,7 @@
   "distribution": "Founding species of the Velar Imperium, but the Velari PEOPLE are not the Imperium STATE: Velari also live Union-aligned (e.g. the Velari-heritage world Vel-Surak sits in the Union) and drove the Republican Reformist movement. Imperial, reformist, and Union-aligned Velari all coexist.",
   "cultural_note": "\"Velari\" denotes the people and cultural heritage; \"Velar Imperium\" is one (fragmented) political expression of that heritage, not its whole. The Vel-Surak placement ruling (2026-07-21) turns on exactly this species≠state distinction.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-15",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Major Promotion Pass — 2026-07-21",
@@ -73,5 +73,13 @@
     "pass": "Prose-Claim Ledger Reconciliation — Velar foundations — 2026-08-09"
   },
   "origin_polity_entity_id": "polity_velar_imperium",
-  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"velar_imperium\"), which is also what polity_velar_imperium.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost."
+  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"velar_imperium\"), which is also what polity_velar_imperium.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost.",
+  "imperial_social_order": {
+    "mechanism": "The Velari integrated diverse species and cultures into a rigid imperial caste hierarchy, favouring order and control over freedom.",
+    "significance": "This is HOW a multi-species empire held together: not assimilation and not federation, but ranked incorporation. It explains why species_velari is recorded as multispecies while the Imperium remained culturally Velari, and why its collapse produced restorationist, reformist and warlord successors rather than a clean separation into peoples.",
+    "relation_to_successors": "The Republican Reformists' charge that the Imperium fell to \"aristocratic rot\" is a charge against this order specifically; the Imperial Loyalists' doctrine of hierarchical order and sacred bloodlines is a defence of it.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Velari caste order and Daeryth symbolism — 2026-08-15"
+  },
+  "world_disparity": "Velari worlds are sharply unequal: some are economic powerhouses, others war-torn ruins of past conflicts. Consistent with the successor split already recorded — former core worlds absorbed into the Galactic Union against a remnant confined to the Velar Crescent."
 }

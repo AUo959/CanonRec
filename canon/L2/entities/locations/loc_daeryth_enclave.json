@@ -48,5 +48,18 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-08-15",
+  "symbolic_role": {
+    "status": "Spiritual capital of reformist ideology; seen by many as the future of Velari governance.",
+    "distinct_from_institutional": "This record already held Daeryth's INSTITUTIONAL role — reformist capital of the Velar Republican Movement, a digitally-networked council democracy grounded in Velari tradition. The symbolic role is a separate fact: a place can be the seat of a movement without being its ideal, and here it is both.",
+    "bearing": "Gives the Reformist pole a centre of gravity to match the Loyalists' High Houses and the Warlords' frontier holdings.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (early-project prose, via tools/prose_claim_extractor.py)",
+    "pass": "Prose-Claim Ledger Reconciliation — Velari caste order and Daeryth symbolism — 2026-08-15"
+  },
+  "related_entity_ids": [
+    "org_republican_reformists",
+    "polity_velar_imperium",
+    "species_velari"
+  ],
+  "placement_note": "Placement remains unresolved — no map-authority row and region_id null, which the fabric linter reports as P1/P3 gaps. This pass adds political and symbolic meaning only; it does not assert a position, and the gaps stand as placement facts."
 }
