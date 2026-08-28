@@ -56,5 +56,30 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-27",
+  "arts_and_aesthetics": {
+    "form": "Massive sound-reactive sculptures built into Vorran cities, responding to the movement of passers-by.",
+    "philosophy": "Vorran artists read this as a reflection of communal identity: no artwork is static, and each evolves over time.",
+    "coherence_with_record": "Consistent with the recorded clan/kinship organisation. Art that completes itself only when the community moves through it is the aesthetic of a people organised by kinship rather than by a state.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — species_vorran, 2026-08-27"
+  },
+  "open_referents": [
+    {
+      "term": "The Vorran Resonance Sphere",
+      "claim": "Appears as a draft entity record — entity_kind location, type \"megastucture_region\" (typo preserved in source), certainty STAGING, sourced to a deduplicated physical-locations draft index.",
+      "canon_state": "No canon record exists.",
+      "why_not_minted": "It arrives as a STAGING draft entry rather than as prose assertion, and belongs to a locations pass rather than a species one. Its name resonates with the recorded sound-reactive sculpture, which makes it interesting and does not make it canon.",
+      "status": "RECORDED — referent has no canon record.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — species_vorran, 2026-08-27"
+    }
+  ],
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "species_vorran",
+    "claims_examined": 5,
+    "pass": "Prose-Claim Ledger Reconciliation — species_vorran, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }

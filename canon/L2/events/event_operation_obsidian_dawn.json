@@ -62,7 +62,7 @@
   ],
   "promotion_pass": "Filesystem Re-Sweep — Operation Obsidian Dawn event promotion — 2026-07-21",
   "locked_at": "2026-07-21",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "notes": "Event hub record promoting the four committed Operation Obsidian Dawn operation files (Briefing / Execution / Conflict & Engagement [empty] / Outcome) into a single event entity, cross-linking the participants (Sentinel High Command, Aegis Cybernetics, Umbra Stalker vessel_gu_002, Prime Construct) and antagonists (Omega-Veil eliminated; Sovereign Nexus revealed). All phases and figures are recovered verbatim from the source operation files — no invention. Observable operation events are CANON; the Sovereign Nexus threat assessment and the nature of the anomalous AI constructs remain open threads, not resolved canon.",
   "naming_exemption": {
     "type": "recovered_source",
@@ -75,5 +75,29 @@
   },
   "prev_status": "concluded_primary_objective_met_secondary_threat_open",
   "status_detail": "Primary objective met (Omega-Veil eliminated); secondary threat open — Sovereign Nexus at large and surviving war-factory facilities operational.",
-  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped."
+  "status_split_note": "status split 2026-08-09 (selene-ark-status-vocab). The original value packed lifecycle and situation into one string, which put it outside the C2 lifecycle vocabulary and made the invariant uncheckable. Lifecycle now lives in \"status\"; the situational canon is preserved verbatim in \"status_detail\" and \"prev_status\". No canon detail was dropped.",
+  "in_world_detail": {
+    "command_emphasis": "The Chancellor emphasised to Durn that Operation Obsidian Dawn was of utmost importance.",
+    "register": "Source marks a shift in mood by the time of the operation — an earlier state \"replaced with grim acceptance\". The antecedent is not identified in the extracted line.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — event_operation_obsidian_dawn, 2026-08-27"
+  },
+  "reconstruction_hypotheses": {
+    "standing": "NOT canon. These are design-side proposals recorded so they are not later mistaken for in-world statements.",
+    "proposals": [
+      "That the Silent Bastion / Obsidian-class stealth fleet and the Umbra Stalker connect to this operation — argued from the shared \"Obsidian\" naming, the stealth fleet and asteroid concealment, and called a \"very clean fit\".",
+      "That Obsidian Dawn is a downstream consequence of the Battle of Kaelor's Rift rather than a parallel event, argued from interval plausibility."
+    ],
+    "why_recorded_not_promoted": "Both are participants reasoning toward a reconstruction — one is explicitly framed as supporting \"your intuition\". Naming coincidence and plausible timing are grounds for investigation, not for asserting a causal chain between committed events.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — event_operation_obsidian_dawn, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "event_operation_obsidian_dawn",
+    "claims_examined": 5,
+    "note": "Three of five claims are design-side reasoning rather than in-world content, filed under reconstruction_hypotheses. One is a meta description of a canonization pass and is excluded.",
+    "pass": "Prose-Claim Ledger Reconciliation — event_operation_obsidian_dawn, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }

@@ -56,5 +56,33 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-27",
+  "cultural_practices": {
+    "cycle_of_reclamation": {
+      "form": "A bi-annual festival at which knowledge lost to war or disaster is ceremoniously restored.",
+      "shared_with": "Named as an Elari and Kaelar tradition — polity_kaelar_orders exists in canon, so the tradition spans both.",
+      "coherence_with_record": "Consistent with the recorded characterisation of the Elari Ascendancy as a cultural and spiritual civilization: a people whose central rite is the recovery of what was lost."
+    },
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — species_elari, 2026-08-27"
+  },
+  "open_referents": [
+    {
+      "term": "Lir'Vex",
+      "claim": "An Elari \"Grav-Punk\" star — a rebellious musician known for blasting anti-establishment messages across Union-controlled space.",
+      "canon_state": "No record. Not to be confused with char_lirian_vael_torin, whose aliases include \"Lirian Vos\" and \"Vos\".",
+      "why_not_minted": "A named individual with a genre, a reputation and a political posture, attested twice from one source. Minting a character belongs to a character pass with a proper conflict scan, not to a species reconciliation.",
+      "status": "RECORDED — named individual, no canon record.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — species_elari, 2026-08-27"
+    }
+  ],
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "species_elari",
+    "claims_examined": 5,
+    "excluded": "One production note proposing that similar fact sheets be created for other species.",
+    "pass": "Prose-Claim Ledger Reconciliation — species_elari, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
