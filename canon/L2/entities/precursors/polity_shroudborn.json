@@ -41,5 +41,28 @@
   },
   "prev_certainty": "UNCONFIRMED",
   "certainty_basis": "Retagged from UNCONFIRMED 2026-08-09. The EXISTENCE of the Shroudborn legend is established in-world content (precursor codex: \"Some believe the Shroudborn are a surviving precursor race…\"); the TRUTH of the claim is disputed by construction, resting on visionary experience and cryptic transmission. LEGEND_CONTESTED is the tag for in-universe rumor/myth/disputed account, so this is a precision fix, not a promotion to fact.",
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-27",
+  "social_function": {
+    "use": "The Shroudborn story is routinely invoked to justify modern AI restrictions.",
+    "why_it_matters": "The legend is not inert. Whatever its truth, it does political work in the present, which is a fact about the galaxy independent of whether the Shroudborn exist.",
+    "care": "Recorded as the use made of the story, not as evidence for or against the Shroudborn. The LEGEND_CONTESTED tag is unchanged.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_shroudborn, 2026-08-27"
+  },
+  "attested_phenomena": {
+    "epithet": "\"Echoes in the Void\".",
+    "manifestations": "Cryptic visions and transmissions; memetic artifacts; alleged self-evolving broadcasts.",
+    "encounter_character": "Encounters are described as unpredictable.",
+    "standing": "All reported rather than established — the record's UNCONFIRMED basis is unchanged. Extends the recorded \"visionary experiences and cryptic transmissions\" with the memetic and broadcast forms.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_shroudborn, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_shroudborn",
+    "claims_examined": 6,
+    "note": "One claim is the source-side instruction that produced this record's own certainty tag: \"the history packet reads like 'truth' rather than 'staging hypotheses' — consider marking uncertain items (e.g. Shroudborn) with (UNCONFIRMED) or (LEGEND/CONTESTED)\". Canon adopted it; certainty_basis already documents the retag.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_shroudborn, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
