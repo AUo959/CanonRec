@@ -21,7 +21,14 @@
   "tags": [
     "world_bible"
   ],
-  "conflict_flags": [],
+  "conflict_flags": [
+    {
+      "flag": "gsb_uib_directorship",
+      "detail": "char_sarina_vael heads this agency under its superseded draft name (GSB) while char_callan_deyrus heads it under the canonical name. Both character records already carry this flag; the agency record now carries it too, with the attested GSB phrasing in gsb_relationship_evidence.",
+      "detected": "2026-08-27",
+      "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27"
+    }
+  ],
   "role": null,
   "organization_ids": [],
   "org_type": "intelligence",
@@ -30,8 +37,64 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "World Bible; core GU intelligence arm. CANON.",
   "locked_at": "2026-03-20T02:03:35Z",
-  "notes": null
+  "notes": "World Bible; core GU intelligence arm. Leadership, operations and the GSB-name evidence reconciled from the 2026-08-09 prose ledger on 2026-08-27.",
+  "leadership": {
+    "head": "char_callan_deyrus",
+    "title_in_source": "Director Callan Deyrus (Union Intelligence)",
+    "recorded_role": "Head of Union Intelligence Bureau (UIB)",
+    "note": "event_debate_at_tkaras records him as \"Union Intelligence officer Deyrus\" and states the depth of his involvement is not established. The prose consistently titles him Director across five independent claims, which is what the character record already carries.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27"
+  },
+  "operations": {
+    "covert_action": "Runs covert operations to secure relics capable of destabilising the balance of power.",
+    "signals_access": "Holds access to rogue faction communication networks, obtained after an operation that crippled pirate presence in the sector and permanently shut down illegal AI research.",
+    "counter_ai": "Identified fractures within AI-controlled factions and exploits AI Warlord divisions.",
+    "interception": "Intercepted communications revealing Separatist hardliners massing forces at Sovereign Nexus, a hyperlane chokepoint.",
+    "covert_sponsorship": "Flags events for covert Union support — including the Velar reformists at the Debate at T'karas (event_debate_at_tkaras).",
+    "reporting": "Produces intelligence reporting on rogue AI entities.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27"
+  },
+  "directors_assessments": {
+    "on_relic_recovery": "Rival factions will attempt to seize control if word of the recovery leaks.",
+    "on_corporate_corruption": "PMC-backed corruption could produce a permanent shift in economic power away from the Senate.",
+    "attribution": "Both attributed to Director Callan Deyrus in source prose.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27"
+  },
+  "gsb_relationship_evidence": {
+    "attested_phrase": "\"Union Intelligence Network (GSB and covert agencies)\"",
+    "what_it_shows": "Source language that places GSB as one component alongside covert agencies inside a wider Union Intelligence Network.",
+    "participant_inference": "A design-conversation participant reads this as implying GSB was an official intelligence organisation whose remnants splintered later. That is the participant's inference, not an in-world assertion, and is recorded as commentary.",
+    "tension_with_ruling": "Canon ruled 2026-07-20 that \"Galactic Security Bureau\" is a superseded name for the Union Intelligence Bureau — i.e. a rename. The attested phrase instead reads as a part-whole relation, which is a different structural claim.",
+    "bears_on": [
+      "gsb-uib-directorship-conflict",
+      "char_sarina_vael",
+      "char_callan_deyrus"
+    ],
+    "status": "RECORDED — not reconciled. Adds a third reading (component) to the two already in play (rename, collision). Deciding among them would settle Union agency structure that no committed record settles.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_union_intelligence_bureau",
+    "claims_examined": 15,
+    "distinct_after_dedup": 11,
+    "excluded": "One claim is an engine/mechanic example describing what the QGM retrieval layer returns, not an in-world fact about the Bureau.",
+    "note": "The operational claims were partly reconciled onto char_callan_deyrus on 2026-08-15; this pass records them on the agency that performs them and adds the interception, counter-AI, sponsorship and reporting lines.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27",
+    "recorded": "2026-08-27"
+  },
+  "related_entity_ids": [
+    "char_callan_deyrus",
+    "char_sarina_vael",
+    "loc_sovereign_nexus",
+    "event_debate_at_tkaras"
+  ],
+  "updated_at": "2026-08-27"
 }
