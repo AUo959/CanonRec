@@ -24,7 +24,9 @@
   ],
   "entity_id": "char_roake",
   "name": "Roake",
-  "aliases": [],
+  "aliases": [
+    "Kellan Roake"
+  ],
   "role": "Ranger logistics officer and primary pilot",
   "jurisdiction": null,
   "tags": [
@@ -44,5 +46,53 @@
   },
   "capsule_id": "char_roake",
   "capsule_binding_note": "Capsule directory and entity record share one identifier (\"char_roake\"): this record is in the entity namespace on both sides. Recorded explicitly because the corpus also contains capsules named WITHOUT the kind prefix (e.g. \"alric_tann\" for char_alric_tann), so \"capsule id equals entity id\" is a fact about this record, not a rule that holds corpus-wide.",
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-27",
+  "given_name_evidence": {
+    "attested_form": "Kellan Roake",
+    "source_line": "\"…with Kellan Roake laying out the trade hub situation…\"",
+    "handling": "Recorded as an alias, not written into `name`. The record's name \"Roake\" is preserved from the sim capture under its existing recovered-source naming exemption; this is the same provenance class, so the fuller form is attested rather than minted.",
+    "shared_given_name": "Canon independently uses \"Kellan\" for Kellan Durn (Dark Star arc). No full-name collision — different surnames — but noted because this corpus has produced variant forms of one person before (Zylox Verrin / Zylox Rhaegos), and Kellan Durn itself sits beside char_kael_durn.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_roake, 2026-08-27"
+  },
+  "shipboard_functions": {
+    "piloting": "Primary pilot; threads the Ranger through overlapping fire with no clear origin or priority, drive output fluctuating under the manoeuvre.",
+    "systems_monitoring": "Monitors ship systems aboard the Ranger.",
+    "signals_and_ew": "Reports when all communications directed outside the system are being jammed, and is the crew's referent for locating the interference source.",
+    "cyber_defence": "Detects attempts to hack the Ranger's database.",
+    "note": "Extends the recorded logistics/pilot role: the prose shows him holding the ship's sensor, comms and data surfaces as well as the helm.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_roake, 2026-08-27"
+  },
+  "operational_authority": {
+    "extraction_call": "Holds the departure decision — \"the one who gets them home, or decides they don't leave yet.\"",
+    "relation_to_record": "Distinct from the recorded control over timing, routing and prioritisation of field resupply: that governs materiel to the team, this governs the team's own extraction.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_roake, 2026-08-27"
+  },
+  "intelligence_briefing": {
+    "content": "Briefs the team on the trade hub situation, including which pirate elements are likely already aware of their arrival.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_roake, 2026-08-27"
+  },
+  "open_referents": [
+    {
+      "term": "Kestrel",
+      "claim": "\"For the last six months, traffic through Kestrel has stayed high\" — used as a transit hub or waypoint.",
+      "canon_uses_of_the_name": "Only as a Marshal-Sentinel unit family in the Dark Star arc: Kestrel Detachment, Kestrel Four, Kestrel's Dime.",
+      "why_unresolved": "A detachment is not a place traffic routes through. Binding the observation to the Dark Star Kestrel would invent a location; dropping it would lose an attested six-month traffic observation.",
+      "status": "RECORDED — referent undetermined.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — char_roake, 2026-08-27"
+    }
+  ],
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_roake",
+    "claims_examined": 12,
+    "distinct_after_dedup": 12,
+    "provenance_note": "All claims are scene text from the Ranger sim capture. One is metatextual and states the frame directly: the Ranger mission was an L2 discovery space populated only by actors generated inside the sim (Cross, Vorn, Roake, Kade, the antagonists). Recorded because it establishes these as sim-observed facts about an existing crew member, consistent with the record's existing sim_capture_v1 tag, not as world-bible assertions from an external source.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_roake, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
