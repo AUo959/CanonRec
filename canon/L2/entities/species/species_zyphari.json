@@ -40,7 +40,7 @@
   ],
   "distribution": "Dominant species of the Zyphari Compact, but the Compact is explicitly MULTISPECIES — Zyphari are its most prominent members, not its only ones. Zyphari also appear in Union trade contexts.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Major Promotion Pass — 2026-07-21",
@@ -50,5 +50,34 @@
     "at": "2026-07-21"
   },
   "origin_polity_entity_id": "polity_zyphari_compact",
-  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"zyphari_compact\"), which is also what polity_zyphari_compact.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost."
+  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"zyphari_compact\"), which is also what polity_zyphari_compact.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost.",
+  "naming_convention": {
+    "rule": "Zyphari names often carry affiliation metadata — guild, holding or division — in the position humans use for a surname.",
+    "implication": "A Zyphari name encodes economic allegiance rather than descent, which is consistent with a people organised around guilds and holdings.",
+    "comparison": "Structurally parallel to the Velar lineage-prefix system already in canon, but keyed to affiliation rather than bloodline.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — Zyphari species/polity split, 2026-08-27"
+  },
+  "cultural_practices": {
+    "enclave_homogeneity": "Zyphari corporate enclaves are among the worlds maintaining strict cultural homogeneity, where non-natives must adhere to local custom. Harkon military training worlds are cited alongside them as the other example of enforced cultural zones.",
+    "psychic_projection_arenas": "A corporate-controlled Zyphari sport. Recorded as a cultural institution under corporate control; the source names the sport and does not attribute psionic capability to the Zyphari, so none is inferred.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — Zyphari species/polity split, 2026-08-27"
+  },
+  "resolved_prose_question": {
+    "question": "Early prose left open whether \"Zyphari\" denotes a species or a corporate nationality spanning multiple peoples.",
+    "resolution": "Settled by committed canon. species_zyphari.identity_model_note holds species as a people; polity_zyphari_compact.peoplehood_note holds the Compact as a state with explicitly multispecies membership, of which the Zyphari are the dominant founding species. Both, not either.",
+    "status": "CLOSED — answered by the committed identity model.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — Zyphari species/polity split, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "species_zyphari",
+    "claims_examined": 11,
+    "routing_note": "Claims split across the identity model: the Zyphari Wire and the corridor-thalassocracy characterisation describe the Compact as a state and were filed on polity_zyphari_compact in the same pass. The insectoid/communal characterisation was already reconciled into notes.",
+    "excluded": "\"Zyphari power is now structurally unavoidable\" is a design-conversation assessment, not an in-world assertion.",
+    "pass": "Prose-Claim Ledger Reconciliation — Zyphari species/polity split, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }

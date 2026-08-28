@@ -92,7 +92,8 @@
     "coercive": "Private security fleets.",
     "informational": "Corporate intelligence networks; corporate-controlled media.",
     "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
-    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27",
+    "zyphari_wire": "The Zyphari Wire — corporate frame control, projecting a markets-first reality. Named instrument behind the corporate-controlled media already recorded."
   },
   "cultural_practices": {
     "trade_festivals": "The Compact hosts trade festivals in which entire planets are transformed into marketplaces.",
@@ -113,5 +114,11 @@
     "excluded": "3 claims are about other subjects and merely mention the Compact (a character distrusting Compact leaders, another character's rivalry list, and commentary on \"Compact-style actors\"). None asserts a fact about the Compact.",
     "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27",
     "recorded": "2026-08-27"
+  },
+  "structural_characterisation": {
+    "form": "A corridor-controlled thalassocracy translated to space.",
+    "meaning": "Power rests on control of transit corridors rather than territory — consistent with the recorded holding of ports, hubs and trade corridors, and with the Primary Trade Nexus.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — Zyphari species/polity split, 2026-08-27"
   }
 }
