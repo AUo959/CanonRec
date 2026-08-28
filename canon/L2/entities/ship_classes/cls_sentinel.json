@@ -58,12 +58,33 @@
     "basis": "Recovered verbatim from the archived core-ship-profiles module; non-conflicting discovered detail, reconciled per the standing rule.",
     "note": "The archived entry is a CLASS profile (\"Sentinel-Class Hunter Vessel\"), not a named ship, so it reconciles onto the class record. Vessels of this class (e.g. vessel_gu_002 Umbra Stalker) already derive capabilities from here."
   },
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "location_refs": [
     "loc_kaelor_shadow_ring"
   ],
   "equipment_ids": [
     "eq_sentinel_ghost_v37"
   ],
-  "referent_closure_note": "Its recent_actions named the Kaelor Shadow Ring and the deep-infiltration AI Sentinel Ghost v3.7; both now have records (2026-08-09 naming batch)."
+  "referent_closure_note": "Its recent_actions named the Kaelor Shadow Ring and the deep-infiltration AI Sentinel Ghost v3.7; both now have records (2026-08-09 naming batch).",
+  "doctrinal_use": {
+    "marshal_support": "The Marshals often operate with Sentinel-class support as part of their doctrine.",
+    "consistency": "Coheres with the recorded class role — covert operations, rapid Sentinel deployment, counterinsurgency — and with org_union_marshals deploying Sentinel-Class operators as a top-tier capability.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_sentinel, 2026-08-27"
+  },
+  "open_doctrinal_question": {
+    "question": "How do Sentinel suits interface with Sentinel-class carriers — deployment cadence, boarding doctrine, command and control?",
+    "why_it_is_a_real_gap": "\"Sentinel-Class\" names both a suit lineage and this ship class. This record is the SHIP class, created from the L2 GUMAS Ship Registry. The relationship between the two is exactly what no committed record establishes.",
+    "status": "OPEN — raised in source, unanswered in canon.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_sentinel, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "cls_sentinel",
+    "claims_examined": 4,
+    "excluded": "Two production prompts asking which topic to develop next.",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_sentinel, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }

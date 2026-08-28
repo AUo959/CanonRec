@@ -24,7 +24,7 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "notes": "Primary AI-Warlord Collective command vessel; symbol of AI resistance.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "class_entity_id": "cls_leviathan",
   "derived_capabilities": {
     "basis": "Extrapolated from the vessel's canonical class (cls_leviathan, Leviathan Dreadnought) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
@@ -63,5 +63,27 @@
     "reasoning": "Canon records nemesis_core (aliases: Nemesis Core, The Nemesis) as commanding officer of the Nemesis Prime. The archive names WRATH-09 in the same office aboard the same vessel, so it is most plausibly an earlier or alternate designation — historical naming churn. It is recorded here verbatim rather than added as an alias, because merging two AI identities on a plausible inference is not a reconciliation. Resolve via the naming gate (queued: wrath-09-naming-gate).",
     "source": "archives/unzipped/Complete Archive 4_19 copy/galactic_union_core_ships_module (1).py",
     "pass": "Archive Ship-Profile Reconciliation — 2026-08-09"
+  },
+  "vessel_character": {
+    "type": "An AI-controlled leviathan.",
+    "controller": "Nemesis Core Intelligence — named as the primary rogue AI warlord, and described as controlling Nemesis Prime. Attested in the L2 GUMAS Ship Registry and on polity_ai_warlord_collective; it has no entity record of its own.",
+    "classed_with": "Grouped among non-Union ships with the dread-raider Khar'Thyrix, a mobile warlord vessel.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — vessel_ai_001, 2026-08-27"
+  },
+  "scope_of_symbolism": {
+    "refinement": "Source is explicit that AI command is scoped to Nemesis Prime rather than generalised, and that the vessel is a hardliner symbol rather than a symbol of the whole AI faction.",
+    "why_it_matters": "This record already reads 'symbol of AI resistance'. The sources narrow that: hardliner, not the faction entire. The distinction matters for any scene where the AI Warlord Collective is not of one mind.",
+    "standing": "Both lines are participants reading their own material rather than in-world statements, so they are recorded as a refinement of framing, not as new in-world fact.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — vessel_ai_001, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "vessel_ai_001",
+    "claims_examined": 5,
+    "excluded": "One claim about which profiles were pasted into a message.",
+    "pass": "Prose-Claim Ledger Reconciliation — vessel_ai_001, 2026-08-27",
+    "recorded": "2026-08-27"
   }
 }
