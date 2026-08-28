@@ -12,7 +12,14 @@
     "zyphari_compact"
   ],
   "organization_ids": [],
-  "conflict_flags": [],
+  "conflict_flags": [
+    {
+      "flag": "sovereignty_de_jure_vs_de_facto",
+      "detail": "org_type 'sovereign_polity' vs prose 'not openly sovereign, but often behaves like it'. Recorded in sovereignty_posture; unresolved.",
+      "detected": "2026-08-27",
+      "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+    }
+  ],
   "role": null,
   "org_type": "sovereign_polity",
   "parent_org_id": null,
@@ -40,7 +47,7 @@
       "projects (root): GUI_Cloudhub/…/Aurora_Master_Knowledge_Core_v2.2.6b_CLEANED.md (Major Civilizations codex)"
     ]
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-27",
   "dominant_species_id": "species_zyphari",
   "multispecies": true,
   "peoplehood_note": "A STATE (corporate confederation), not a people. Zyphari are its dominant/founding species but membership is explicitly multispecies. Do not equate the Compact with the Zyphari people.",
@@ -52,5 +59,59 @@
     "rule": "owner directive: promote all staged records that do not conflict with canon",
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
+  },
+  "governance_model": {
+    "structure": "Corporate board system.",
+    "leadership_selection": "CEOs are appointed or removed on financial performance — leadership is held by results rather than by tenure, election or inheritance.",
+    "relation_to_existing_hierarchy": "Refines the recorded Trade Lords / Guild Alliances / Corporate Resistance hierarchy: the board system is the mechanism by which Trade Lord seats change hands.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+  },
+  "origins": {
+    "event": "The Corporate Proto-Wars.",
+    "account": "The Compact's foundations were laid when early mega-corporations formed trade leagues, sometimes hiring entire mercenary fleets to enforce contracts.",
+    "significance": "Establishes the Compact as an outgrowth of contract enforcement by private force, which is consistent with its later reliance on private security fleets.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+  },
+  "sovereignty_posture": {
+    "de_facto": "Behaves as a state wherever it controls ports, hubs and trade corridors; described as a corporate-sovereign economic bloc.",
+    "de_jure": "Prose characterises it as \"legal-oligarchy adjacent\" — not openly sovereign, but often behaving as though it were.",
+    "diplomatic_posture": "Officially neutral, while manipulating Union politics.",
+    "relationship_style": "\"Interdependent rivalry\".",
+    "tension_with_record": {
+      "issue": "This record carries org_type 'sovereign_polity' without qualification, while the prose distinguishes de facto conduct from de jure standing.",
+      "handling": "org_type left unchanged. Whether the Compact holds formal Union sovereignty is a question of Union constitutional standing that no committed record settles; asserting either reading would invent it. Recorded as a distinction, flagged for the conflict scan.",
+      "status": "RECORDED — not reconciled."
+    },
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+  },
+  "instruments_of_power": {
+    "economic": "Controls vast portions of interstellar trade; ports, hubs and trade corridors.",
+    "coercive": "Private security fleets.",
+    "informational": "Corporate intelligence networks; corporate-controlled media.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+  },
+  "cultural_practices": {
+    "trade_festivals": "The Compact hosts trade festivals in which entire planets are transformed into marketplaces.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+  },
+  "succession_fragility": {
+    "mechanic": "If a Compact CEO is killed, rival corporations may contest dominance, producing economic instability.",
+    "why_recorded": "A stated consequence of the board system rather than a narrative flourish: leadership held on performance has no orderly succession rule, so a sudden vacancy is contested.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_zyphari_compact",
+    "claims_examined": 18,
+    "distinct_after_dedup": 10,
+    "excluded": "3 claims are about other subjects and merely mention the Compact (a character distrusting Compact leaders, another character's rivalry list, and commentary on \"Compact-style actors\"). None asserts a fact about the Compact.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_zyphari_compact, 2026-08-27",
+    "recorded": "2026-08-27"
   }
 }
