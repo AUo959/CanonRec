@@ -25,7 +25,7 @@
   ],
   "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
   "archive_profile": {
     "allegiance": "Union Loyalist (Senate Stabilizer, Pragmatic Deal-Maker)",
@@ -53,5 +53,47 @@
     ]
   },
   "capsule_id": "renn_valcor",
-  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"renn_valcor\", while the record identity is \"char_renn_valcor\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"renn_valcor\", while the record identity is \"char_renn_valcor\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it.",
+  "political_alignment": {
+    "bloc_as_named": "Pro-Regulation Faction.",
+    "named_members": [
+      "Zylox",
+      "Valcor",
+      "Saros"
+    ],
+    "platform": "Senate control over economic security, and Union-backed military intervention.",
+    "standing": "As Speaker of the Senate, described as one of the most powerful civilian figures outside Zylox, and a stabilising force for legislation — consistent with the recorded Senate Stabilizer profile and +10 Senate Influence.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_renn_valcor, 2026-08-27"
+  },
+  "leadership_grouping": {
+    "grouping": "Command & Strategy.",
+    "named_alongside": [
+      "Chancellor Zylox",
+      "Alric Tann",
+      "Lyra Voss"
+    ],
+    "note": "A source-side grouping of senior figures, not a recorded office. Placed here as an attested association rather than as an org binding.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_renn_valcor, 2026-08-27"
+  },
+  "open_referents": [
+    {
+      "term": "Pro-Regulation Faction",
+      "claim": "Named once, as a membership list — Zylox, Valcor, Saros — with a platform of Senate economic control and Union-backed military intervention.",
+      "canon_state": "No record; the name appears nowhere else in canon.",
+      "why_not_minted": "A single membership list does not establish whether this is a formal Senate caucus or a descriptive alignment. Minting an organisation from it would overstate what the source says.",
+      "status": "RECORDED — political bloc, standing undetermined.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — char_renn_valcor, 2026-08-27"
+    }
+  ],
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_renn_valcor",
+    "claims_examined": 7,
+    "excluded": "Three claims are production metadata about building the character profile — \"here is the JSON character profile\", \"profile has been successfully stored\", and a note that the master list was reconstructed and exported. One further claim records that Valcor was earlier referenced as \"High Chancellor Valcor\" and later given a full name, which canon already carries as an alias.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_renn_valcor, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }

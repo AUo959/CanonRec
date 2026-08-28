@@ -28,7 +28,7 @@
   ],
   "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
   "archive_profile": {
     "allegiance": "AI Autonomy, Cooperative with the Union",
@@ -56,5 +56,24 @@
     ]
   },
   "capsule_id": "prime_construct_leader",
-  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"prime_construct_leader\", while the record identity is \"char_prime_construct_leader\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"prime_construct_leader\", while the record identity is \"char_prime_construct_leader\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it.",
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_prime_construct_leader",
+    "claims_examined": 7,
+    "in_world_claims": 0,
+    "outcome": "Closed with no change. All 7 claims matched the alias \"The Prime\" against generic English and none concerns this character.",
+    "noise_examples": [
+      "the prime meridian at the Royal Observatory, Greenwich",
+      "\"the prime example\" of the Spanish two-surname system",
+      "\"Aurora Prime would be the prime candidate\" — fleet shuttle discussion",
+      "\"T1, the prime thread of Aurora's reality continuum\" — system architecture",
+      "\"the prime directive of our AI system\" — project AI ethics",
+      "the Prime Video channel"
+    ],
+    "alias_retained": "\"The Prime\" is a legitimate in-world alias and is kept. The fault was in matching, not in canon.",
+    "tool_fix": "tools/prose_claim_extractor.py applied its common-noun stoplist only to single-word forms, on the reasoning that multi-word names are distinctive. \"The Prime\" disproves that: two words, wholly generic. The stoplist now applies to every form and includes it.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_prime_construct_leader triage, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
