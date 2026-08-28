@@ -45,5 +45,32 @@
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-27",
+  "jurisdiction_character": {
+    "standing": "A frontier trade hub that operates semi-independently, permitting unregulated commerce and trade diversity.",
+    "resolves_tag": "The record's tag asked to \"clarify jurisdiction\"; this is the clarification. Semi-independence is the standing condition, not an anomaly.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_rethos_iv, 2026-08-27"
+  },
+  "black_district": {
+    "name": "Rethos IV Black District.",
+    "description": "The largest unregulated trade hub, where Union authority holds no power.",
+    "handling": "Recorded as a named district of this world rather than minted as a separate location: source treats it as a quarter of Rethos IV, and no placement or extent is established for it.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_rethos_iv, 2026-08-27"
+  },
+  "trade_context": {
+    "role": "Named as one of the galaxy's major trade hubs alongside Vel-Surak, within a trade infrastructure of supply corridors and Union-controlled lanes carrying standing piracy risk.",
+    "contrast": "Vel-Surak is the recorded economic capital under Union order; Rethos IV is the hub that operates outside it. The pair frames regulated against unregulated commerce.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_rethos_iv, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_rethos_iv",
+    "claims_examined": 7,
+    "excluded": "One metatextual line approving how the trade infrastructure was handled. The Vel-Surak economic-capital claim needed no action — loc_vel_surak already records it.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_rethos_iv, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }

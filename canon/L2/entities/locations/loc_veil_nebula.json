@@ -45,5 +45,44 @@
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-08-27",
+  "classification": {
+    "category": "Spatial phenomenon / region — explicitly NON-SOVEREIGN.",
+    "statement": "Source is emphatic that these regions are not political entities. They exert strategic, navigational and narrative gravity without being polities.",
+    "grouped_with": "Named in source alongside the Hollow Expanse (loc_hollow_expanse), the Echo Abyss and Kaelor's Rift as anomalous or \"mystery\" zones that function like geographic characters.",
+    "why_recorded": "A nebula sheltering smugglers and separatists is easy to mistake for a faction or territory. The non-sovereign classification forecloses that reading.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_veil_nebula, 2026-08-27"
+  },
+  "navigational_character": {
+    "phenomenon": "FTL-disrupting nebular region.",
+    "consequence": "Disruption of faster-than-light transit is what gives the region its strategic weight, and is the standing condition behind its use as a haven.",
+    "note": "Already gestured at by the record's \"Placement TBD / FTL disruption\" tag; recorded here as substance rather than a tag string.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_veil_nebula, 2026-08-27"
+  },
+  "security_profile": {
+    "status": "Unregulated region.",
+    "activity": "A frequent target of piracy and smuggling, named together with Kaelor's Rift, and a haven for smugglers and separatists.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_veil_nebula, 2026-08-27"
+  },
+  "open_referents": [
+    {
+      "term": "Echo Abyss",
+      "claim": "Named in the same breath as the Veil Nebula and the Hollow Expanse as an anomalous region.",
+      "canon_state": "loc_hollow_expanse exists; no Echo Abyss record exists. loc_torix_7_crimson_abyss is a different place.",
+      "status": "RECORDED — referent has no canon record.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — loc_veil_nebula, 2026-08-27"
+    }
+  ],
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_veil_nebula",
+    "claims_examined": 8,
+    "excluded": "Two authoring notes — a \"lift the veil but hold the lock\" framing and a proposed anchor phrase — are craft notes about how to write the place, not facts about it.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_veil_nebula, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
