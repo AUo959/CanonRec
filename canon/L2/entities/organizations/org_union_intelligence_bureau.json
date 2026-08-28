@@ -78,7 +78,9 @@
     ],
     "status": "RECORDED — not reconciled. Adds a third reading (component) to the two already in play (rename, collision). Deciding among them would settle Union agency structure that no committed record settles.",
     "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
-    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27"
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_intelligence_bureau, 2026-08-27",
+    "second_attested_phrase": "\"the Union's institutional organs (Senate, Trade Coalition, Office of Strategic Diplomacy (OSD), Marshalls, Galactic Security Bureau (GSB), research councils)\" — GSB listed as an organ beside the OSD and the Marshals, from a separate source passage.",
+    "weight_of_evidence": "Two independent passages now place GSB as a component within a wider structure rather than as a superseded label. That strengthens the component reading without settling it; the 2026-07-20 rename ruling remains the committed position."
   },
   "prose_ledger_triage": {
     "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",

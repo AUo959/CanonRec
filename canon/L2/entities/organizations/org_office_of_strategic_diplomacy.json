@@ -30,7 +30,39 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Varek Norr profile CSV; tied to CANON character. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "leadership": {
+    "director": "char_varek_norr",
+    "title_in_source": "Director Varek Norr",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_office_of_strategic_diplomacy, 2026-08-27"
+  },
+  "remit": {
+    "negotiation": "Attempts to negotiate with moderate Separatists — the Union's channel to the faction it is otherwise in conflict with.",
+    "ceremonial": "Represents the Union at formal diplomatic recognition, alongside the Chancellor.",
+    "institutional_standing": "Listed among the Union's institutional organs beside the Senate, the Trade Coalition, the Marshals and the research councils.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_office_of_strategic_diplomacy, 2026-08-27"
+  },
+  "prime_construct_recognition_summit": {
+    "event": "A high-profile diplomatic summit at which Chancellor Zylox and Director Varek Norr formally welcomed the Prime Construct's representatives.",
+    "connects_to": "polity_prime_construct.legal_status records the Sovereign Intelligence Entity designation and its treaty basis but not the occasion. This is that occasion, from the Union side.",
+    "related_entity_ids": [
+      "polity_prime_construct",
+      "char_varek_norr"
+    ],
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_office_of_strategic_diplomacy, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_office_of_strategic_diplomacy",
+    "claims_examined": 6,
+    "note": "One claim is design commentary approving how the Union's organs map, but it names GSB as an organ beside the OSD and Marshals — a third attestation bearing on gsb-uib-directorship, filed on org_union_intelligence_bureau.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_office_of_strategic_diplomacy, 2026-08-27",
+    "recorded": "2026-08-27"
+  },
+  "updated_at": "2026-08-27"
 }
