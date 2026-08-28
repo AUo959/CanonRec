@@ -1,0 +1,70 @@
+{
+  "entity_id": "org_union_military_command",
+  "entity_kind": "organization",
+  "name": "Union Military Command",
+  "aliases": [
+    "UMC"
+  ],
+  "certainty": "CANON",
+  "status": "active",
+  "org_type": "military_command",
+  "faction_bindings": [
+    "galactic_union"
+  ],
+  "organization_ids": [],
+  "parent_org_id": null,
+  "conflict_flags": [],
+  "role": "The Galactic Union's military command, headquartered on Kaelor Prime.",
+  "headquarters": {
+    "location_id": "loc_kaelor_prime",
+    "detail": "Kaelor Prime is described as heavily fortified and serving as UMC's primary headquarters, alongside shipyards and weapons research producing the Union's most advanced starships and Sentinel technology, elite training academies including Sentinel academies, and a major planetary defence network.",
+    "placement_caveat": "loc_kaelor_prime is canonical_position_status 'unplaced' — the world has no map-authority row. Recording the headquarters relation does not place it."
+  },
+  "distinctness_from_existing_bodies": {
+    "checked_against": [
+      "org_sentinel_high_command",
+      "org_union_naval_forces",
+      "org_union_marshals"
+    ],
+    "finding": "None of the three fills this role. Sentinel High Command is org_type military_command but its recorded jurisdiction is explicitly 'operational command of the Sentinel program' — division commanders per suit class, tactical unit leaders, strike teams — which is a single service. Union Naval Forces is a service (org_type military). Union Marshals is law enforcement. The overarching Union military command role is unoccupied.",
+    "naming_evidence": "Source writes 'Union Military Command (UMC)' with a formal acronym across four attestations, which is institutional naming rather than a descriptive phrase.",
+    "why_this_matters": "The risk in minting a recovered institution is creating a second entity for one thing, after which every later reference has to guess which is meant. That risk is what held this back on 2026-08-27 until the comparison was made."
+  },
+  "not_established": {
+    "command_relationships": "Whether Sentinel High Command, Union Naval Forces or any other body reports to UMC is NOT established by any source. The sources name UMC and place its headquarters; they do not describe its structure.",
+    "leadership": "No commander, officer or council is named.",
+    "handling": "Recorded as attested. No subordination is asserted, and no organization_ids or parent_org_id are set on this record or on the service records."
+  },
+  "source_refs": [
+    {
+      "source_id": "prose_claim_ledger__2026-08-09",
+      "path": "reports/recovery/data/prose_claim_ledger__2026-08-09.json (ledger key loc_kaelor_prime; four attestations)"
+    }
+  ],
+  "doc_sources": [
+    "reports/recovery/data/prose_claim_ledger__2026-08-09.json"
+  ],
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Institution name \"Union Military Command\" and its acronym \"UMC\" preserved verbatim from the early-project prose describing Kaelor Prime.",
+    "authority": "Referent Recovery Pass — 2026-08-27 (recovered-source preservation)",
+    "source_refs": [
+      "reports/recovery/data/prose_claim_ledger__2026-08-09.json"
+    ]
+  },
+  "promotion_pass": "Referent Recovery Pass — 2026-08-27",
+  "promotion_to_canon": {
+    "pass": "Referent Recovery Pass — 2026-08-27",
+    "rule": "owner standing directive: discovered detail that does not conflict with canon IS canon",
+    "basis": "Attested four times with a formal acronym as the Union's military command headquartered on Kaelor Prime. The world bible is itself a reconstruction — 139 of 242 entity records carry a recovered_source naming exemption — so a named Union institution with no record is material the reconstruction dropped rather than a claim awaiting admission.",
+    "conflict_scan": "Compared against all three existing military or command bodies; none occupies the overarching command role, and Sentinel High Command's jurisdiction is explicitly scoped to the Sentinel program. No name or alias collision — 'UMC' and 'Union Military Command' appear nowhere else in canon.",
+    "at": "2026-08-27"
+  },
+  "related_entity_ids": [
+    "loc_kaelor_prime",
+    "org_galactic_union"
+  ],
+  "notes": "Recovered during the 2026-08-27 referent pass, which held it back on first encounter until it could be compared against the existing military bodies. The comparison is recorded in distinctness_from_existing_bodies so a later pass can re-open it if a source establishes UMC as an alias for something already recorded.",
+  "locked_at": "2026-08-27T00:00:00Z",
+  "updated_at": "2026-08-27"
+}

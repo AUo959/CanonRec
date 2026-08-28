@@ -61,7 +61,7 @@
   "placement_status_note": "Entity attributes are CANON (non-conflicting discovered detail). Absolute map COORDINATE remains unresolved and is routed to the map-authority / Reconciliation Workflow §4.5 process (no map-authority row yet); canonical_position_status stays 'unplaced' as a placement fact, not a certainty hedge.",
   "strategic_function": {
     "designation": "Core World / Military Command World.",
-    "command_role": "Hosts the primary headquarters of Union Military Command (UMC) — see open_referents for the standing of that body.",
+    "command_role": "Hosts the primary headquarters of Union Military Command (org_union_military_command).",
     "fortification": "Heavily fortified, with a major planetary defence network.",
     "industry": "Shipyards and weapons research producing the Union's most advanced starships and Sentinel technology.",
     "institutions": "Elite training academies, including Sentinel academies.",
@@ -72,18 +72,6 @@
     {
       "incident": "Suffered an unauthorised memory leak from a rogue Sentinel unit.",
       "note": "Consistent with the world's recorded Sentinel technology industry and academies; the unit, date and consequences are not established in source.",
-      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
-      "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27"
-    }
-  ],
-  "open_referents": [
-    {
-      "term": "Union Military Command (UMC)",
-      "claim": "Named as the Union's military command, with Kaelor Prime as its primary headquarters. Attested across four independent claims.",
-      "canon_state": "No entity record and no mention anywhere in canon. Canon does hold org_sentinel_high_command, org_union_naval_forces and org_union_marshals.",
-      "why_not_minted": "UMC may be an overarching command above those bodies, an alternate name for one of them, or a superseded draft form. Minting it without resolving that risks creating a duplicate of an existing Union institution, which is harder to undo than leaving the name attested here.",
-      "routing": "Queued as union-military-command-referent.",
-      "status": "RECORDED — organisation identity undetermined.",
       "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
       "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27"
     }
@@ -102,5 +90,18 @@
     "excluded": "The \"Shadows Over Kaelor\" live-scenario setup, approved by a named narrative development team — production metadata about exercising the world, not a fact within it.",
     "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27",
     "recorded": "2026-08-27"
-  }
+  },
+  "resolved_referents": [
+    {
+      "term": "Union Military Command (UMC)",
+      "resolution": "Recovered as org_union_military_command.",
+      "basis": "Held back on first encounter because it risked duplicating an existing Union institution. The comparison settled it: Sentinel High Command's jurisdiction is explicitly scoped to the Sentinel program, Union Naval Forces is a service, and the Marshals are law enforcement — the overarching command role was unoccupied.",
+      "not_asserted": "No command relationship between UMC and any service is recorded; the sources name it and place its headquarters, and say nothing about its structure.",
+      "closed": "2026-08-27",
+      "pass": "Referent Recovery Pass — 2026-08-27"
+    }
+  ],
+  "related_entity_ids": [
+    "org_union_military_command"
+  ]
 }
