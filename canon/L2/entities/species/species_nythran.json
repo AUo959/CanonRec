@@ -40,7 +40,7 @@
   ],
   "distribution": "The organic-descended people of the Nythran Ascendancy. Note the Ascendancy is a polity of TWO peoples — Nythran organics AND AI intelligences as equal citizens; the species is not the whole citizenry.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-08-27",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Major Promotion Pass — 2026-07-21",
@@ -50,5 +50,38 @@
     "at": "2026-07-21"
   },
   "origin_polity_entity_id": "polity_nythran_ascendancy",
-  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"nythran_ascendancy\"), which is also what polity_nythran_ascendancy.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost."
+  "origin_polity_id_note": "origin_polity_id carries the FACTION-binding form (\"nythran_ascendancy\"), which is also what polity_nythran_ascendancy.faction_bindings uses — so the value is meaningful, not a typo. It is simply not an entity id. origin_polity_entity_id is added alongside rather than rewriting it, the same additive pattern used when entity_id was added beside canonical_id, so neither namespace is lost.",
+  "formative_event": {
+    "event": "The Nythran Cyber Uprising.",
+    "account_in_prose": "A cybernetic revolt against organic rule that nearly caused complete societal collapse, and ultimately produced the hybrid AI-organic civilization.",
+    "already_recorded": "The event is timeline-attested to the First Civilization Expansion era; its substance was not recorded.",
+    "tension": {
+      "issue": "Canon describes the transition as \"controlled, gradual AI integration\". The prose describes a revolt and near-collapse. Both cannot be the plain account of the same transition.",
+      "candidate_readings": [
+        "Sequence — the revolt came first, and the controlled integration is the settlement that followed it.",
+        "Perspective — \"controlled and gradual\" is the Ascendancy's official self-account; the Uprising is what occurred.",
+        "Era drift — the two descriptions come from different prose passes and one supersedes the other."
+      ],
+      "status": "RECORDED — not reconciled.",
+      "why_not_resolved": "No committed record narrates the transition. Choosing a reading would invent the bridge between revolt and settlement."
+    },
+    "broader_effect": "Named alongside the Velar-Harkon Wars as a conflict that shifted territorial control and gave rise to hybrid organic-AI societies.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — Nythran pair + Union founding, 2026-08-27"
+  },
+  "resolved_prose_question": {
+    "question": "Early prose asked whether Nythran is a species defined by cybernetic/neural symbiosis, a transhumanist multi-species civilization, or both — \"a species defined by augmentation\".",
+    "resolution": "Settled by committed canon, and closest to the third framing. species_nythran is the organic-descended people; polity_nythran_ascendancy is a state whose citizenry is two peoples, Nythran organics and AI persons, as equal citizens. The species is not the whole citizenry.",
+    "status": "CLOSED — answered by the committed identity model.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — Nythran pair + Union founding, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "species_nythran",
+    "claims_examined": 8,
+    "routing_note": "The Union founding-participation claim was filed on org_galactic_union in this pass; the AI-assisted education and labour politics on polity_nythran_ascendancy.",
+    "pass": "Prose-Claim Ledger Reconciliation — Nythran pair + Union founding, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
