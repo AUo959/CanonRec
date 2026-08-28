@@ -47,7 +47,7 @@
       "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
     ]
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-08-27",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Old-Prose Reconciliation — aurora-canon-reconciler process — 2026-07-21",
@@ -58,5 +58,49 @@
     "advisor_recommended_tag": "LOCKED_POSITION",
     "at": "2026-07-21"
   },
-  "placement_status_note": "Entity attributes are CANON (non-conflicting discovered detail). Absolute map COORDINATE remains unresolved and is routed to the map-authority / Reconciliation Workflow §4.5 process (no map-authority row yet); canonical_position_status stays 'unplaced' as a placement fact, not a certainty hedge."
+  "placement_status_note": "Entity attributes are CANON (non-conflicting discovered detail). Absolute map COORDINATE remains unresolved and is routed to the map-authority / Reconciliation Workflow §4.5 process (no map-authority row yet); canonical_position_status stays 'unplaced' as a placement fact, not a certainty hedge.",
+  "strategic_function": {
+    "designation": "Core World / Military Command World.",
+    "command_role": "Hosts the primary headquarters of Union Military Command (UMC) — see open_referents for the standing of that body.",
+    "fortification": "Heavily fortified, with a major planetary defence network.",
+    "industry": "Shipyards and weapons research producing the Union's most advanced starships and Sentinel technology.",
+    "institutions": "Elite training academies, including Sentinel academies.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27"
+  },
+  "recorded_incidents": [
+    {
+      "incident": "Suffered an unauthorised memory leak from a rogue Sentinel unit.",
+      "note": "Consistent with the world's recorded Sentinel technology industry and academies; the unit, date and consequences are not established in source.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27"
+    }
+  ],
+  "open_referents": [
+    {
+      "term": "Union Military Command (UMC)",
+      "claim": "Named as the Union's military command, with Kaelor Prime as its primary headquarters. Attested across four independent claims.",
+      "canon_state": "No entity record and no mention anywhere in canon. Canon does hold org_sentinel_high_command, org_union_naval_forces and org_union_marshals.",
+      "why_not_minted": "UMC may be an overarching command above those bodies, an alternate name for one of them, or a superseded draft form. Minting it without resolving that risks creating a duplicate of an existing Union institution, which is harder to undo than leaving the name attested here.",
+      "routing": "Queued as union-military-command-referent.",
+      "status": "RECORDED — organisation identity undetermined.",
+      "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+      "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27"
+    }
+  ],
+  "kaelor_rift_distinctness": {
+    "claims": "Prose raises the Kaelor Prime / Kaelor's Rift naming proximity as either a linked theatre — Prime as command and industry, the Rift as frontline graveyard — or a future confusion risk, and elsewhere states the two are explicitly distinct.",
+    "canon_state": "Already handled. placement_note warns against conflating them and the map authority table carries the same warning; loc_kaelor_s_rift is a separate record.",
+    "status": "CORROBORATED — no change required. The linked-theatre reading is recorded as the source's framing, not asserted as canon.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_kaelor_prime",
+    "claims_examined": 10,
+    "excluded": "The \"Shadows Over Kaelor\" live-scenario setup, approved by a named narrative development team — production metadata about exercising the world, not a fact within it.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_kaelor_prime, 2026-08-27",
+    "recorded": "2026-08-27"
+  }
 }
