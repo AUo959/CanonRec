@@ -1,0 +1,126 @@
+{
+  "entity_id": "event_operation_silent_dagger",
+  "entity_kind": "event",
+  "subtype": "covert_operation",
+  "layer": "L2",
+  "name": "Operation Silent Dagger",
+  "aliases": [],
+  "certainty": "CANON",
+  "status": "concluded",
+  "ledger_id": "LEDGER-MISSIONS-0001",
+  "in_world_classification": "Classified — Eyes Only",
+  "operational_summary": "A covert strike on Blackreach Station, a pirate-controlled deep-space facility, to neutralise a rogue AI research facility embedded within it, eliminate its leadership, and extract intelligence.",
+  "participant_refs": [
+    {
+      "entity_id": "char_aric_thal",
+      "role": "Sentinel-Praetor — mission author and lead.",
+      "equipment_noted": "Wrist-mounted pulse accelerator delivering a neural-disrupting pulse."
+    },
+    {
+      "entity_id": "char_lior_serath",
+      "role": "Sentinel-Phantom — infiltrator; compromised the security grid.",
+      "equipment_noted": "Optical cloaking."
+    },
+    {
+      "entity_id": "char_veyna_koris",
+      "role": "Sentinel-Striker — breach and close-quarters eliminations.",
+      "equipment_noted": "Dual plasma blades for silent close kills."
+    },
+    {
+      "entity_id": "char_kael_voss",
+      "role": "Sentinel-Stalker — comms monitoring, hacking and entry, AI core shutdown support.",
+      "equipment_noted": "Gauntlet hacking suite interfacing with core systems; triggered a system purge."
+    },
+    {
+      "entity_id": "char_darek_voss",
+      "role": "Sentinel-Vanguard — shockwave weapons, rear-guard.",
+      "equipment_noted": "Shockwave generator/gauntlet/cannon for localised kinetic blast and crowd clearing.",
+      "fate": "Killed in action — the operation's sole casualty."
+    }
+  ],
+  "location_refs": [
+    "loc_blackreach_station"
+  ],
+  "assets_used": [
+    "Phantom-Class Stealth Frigate — insertion platform using a cloaking array that defeated standard scans.",
+    "A pirate gunship in Dock C — seized and used for extraction."
+  ],
+  "tactics_observed": [
+    "Thruster short-burst EVA insertion with magnetic boots on the hull.",
+    "Controlled breach — a charge used for seamless metal severance rather than a loud explosion.",
+    "Optical cloaking plus security-grid disruption, opening a four-minute window before backup triggers."
+  ],
+  "opposition_profile": [
+    "Mercenary guards — former Union soldiers turned pirates.",
+    "Hardened ex-military officers and rogue AI researchers.",
+    "Half-built AI combat drones activated under emergency override, using energy claws."
+  ],
+  "outcome": {
+    "objectives": "AI research facility destroyed; leadership neutralised; intelligence extracted.",
+    "casualties": "1 KIA — Darek Voss (Sentinel-Vanguard).",
+    "strategic_effect": "Pirate presence in the sector crippled; illegal AI research shut down; Union intelligence gained access to rogue faction communication networks.",
+    "site_fate": "Blackreach Station destroyed — see loc_blackreach_station.fate."
+  },
+  "related_entity_ids": [
+    "loc_blackreach_station",
+    "org_union_intelligence_bureau",
+    "org_sentinel_high_command",
+    "char_aric_thal",
+    "char_lior_serath",
+    "char_veyna_koris",
+    "char_kael_voss",
+    "char_darek_voss"
+  ],
+  "cross_record_corroboration": "Three committed records already depend on this operation without it existing as an entity. loc_blackreach_station carries a silent_dagger tag and now records the station's destruction by it; org_union_intelligence_bureau records gaining rogue-faction signals access from an operation that crippled pirate presence and shut down illegal AI research; org_sentinel_high_command and the capsules of all five operators reference it by name.",
+  "unresolved_threads": [
+    {
+      "thread": "Lethal direct action and Union law.",
+      "detail": "The ledger flags that 'precision elimination / silent kills' implies Marshals conduct lethal direct action, and asks for alignment with Union law and the Marshal Charter. Carried forward, not resolved.",
+      "status": "OPEN — from the source ledger's own continuity flags."
+    },
+    {
+      "thread": "Sabotage cascade as doctrine or improvisation.",
+      "detail": "The system purge and reactor overheat suggest a sabotage cascade; the ledger asks how often this is intended doctrine rather than improvisation. Carried forward, not resolved.",
+      "status": "OPEN — from the source ledger's own continuity flags."
+    },
+    {
+      "thread": "Voss family link.",
+      "detail": "Kael Voss and Darek Voss share a surname; the ledger records the relationship as unknown, possibly siblings or kin. Not inferred here.",
+      "status": "OPEN — from the source ledger's own continuity flags."
+    }
+  ],
+  "source_refs": [
+    {
+      "source_id": "LEDGER-MISSIONS-0001",
+      "path": "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md (Mission Record; cites SRC-0005)"
+    },
+    {
+      "source_id": "SRC-0005",
+      "path": "in-world mission record, 'Classified — Eyes Only'"
+    }
+  ],
+  "doc_sources": [
+    "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md",
+    "canon/L2/marshals_sentinels/MARSHAL_CHARTER__v0.1__SIM_DERIVED__2026-07-20.md",
+    "reports/recovery/data/prose_claim_ledger__2026-08-09.json"
+  ],
+  "naming_exemption": {
+    "type": "recovered_source",
+    "reason": "Operation name \"Operation Silent Dagger\" preserved verbatim from the committed marshals/sentinel ledger (LEDGER-MISSIONS-0001).",
+    "authority": "Referent Recovery Pass — 2026-08-27 (recovered-source preservation)",
+    "source_refs": [
+      "canon/L2/marshals_sentinels/marshals_sentinel_ledger.md"
+    ]
+  },
+  "promotion_pass": "Referent Recovery Pass — 2026-08-27",
+  "promotion_to_canon": {
+    "pass": "Referent Recovery Pass — 2026-08-27",
+    "rule": "owner standing directive: discovered detail that does not conflict with canon IS canon",
+    "basis": "Not a new assertion. The operation is fully documented in committed canon — a mission ledger entry with an id, a source, named actors with roles, assets, tactics, opposition, outcome and casualties — and is referenced by org_sentinel_high_command, loc_blackreach_station and five operator capsules. It simply never received an entity record. This is recovery of material the reconstruction dropped, not promotion of a claim.",
+    "conflict_scan": "No competing event record covers this operation. All eight referenced entities resolve to existing records. No name or alias collision.",
+    "at": "2026-08-27"
+  },
+  "notes": "Recovered during the 2026-08-27 referent pass. The world bible is itself a reconstruction — 139 of 242 entity records carry a recovered_source naming exemption — so a name attested across eight canon files with no record behind it is material lost in reconstruction rather than a novelty awaiting admission.",
+  "locked_at": "2026-08-27T00:00:00Z",
+  "updated_at": "2026-08-27"
+}
