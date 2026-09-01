@@ -50,9 +50,11 @@
   "command_structure": {
     "leadership": "Led by a Grand Marshal.",
     "reporting": "Advises the Union Chancellor and Military High Command directly.",
-    "significance": "Consistent with char_aric_thal, recorded as Grand Marshal of Sentinel High Command. It also corroborates org_union_military_command as a distinct body: SHC advises Military High Command rather than being it, which is the separation this record's scoped jurisdiction already implies.",
+    "significance": "Consistent with char_aric_thal, recorded as Grand Marshal of Sentinel High Command, and with that record's existing note describing an SHC direct advisory uplink to the Chancellor and Military High Command.",
     "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
-    "pass": "Prose-Claim Ledger Reconciliation — org_sentinel_high_command, 2026-09-01"
+    "pass": "Prose-Claim Ledger Reconciliation — org_sentinel_high_command, 2026-09-01",
+    "referent_caution": "The source names 'Military High Command'. Canon holds org_union_military_command — 'Union Military Command', aliases ['UMC'] — and no source binds the two names to one body. They are NOT identified here. An earlier draft of this block asserted that identification on the strength of the shared words 'Military' and 'Command'; that is the same reasoning rejected for 'Valkyrie Sentinels' on char_eira_valkyrie, and it is withdrawn. 'Military High Command' currently has no entity record and stands as an unbound referent.",
+    "correction": "Corrected 2026-09-01 by an audit of the reconciliation commit that wrote it."
   },
   "prose_ledger_triage": {
     "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",

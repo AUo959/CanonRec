@@ -61,8 +61,10 @@
     "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
     "ledger_key": "char_rhen_kailo",
     "claims_examined": 3,
+    "outcome": "enriched",
     "excluded": "Two production-metadata claims about storing his JSON profile.",
     "pass": "Prose-Claim Ledger Reconciliation — char_rhen_kailo, 2026-09-01",
-    "recorded": "2026-09-01"
+    "recorded": "2026-09-01",
+    "outcome_backfilled": "Added 2026-09-01. This record was written before the outcome vocabulary existed; the value reflects what the record already contains, not a re-triage."
   }
 }

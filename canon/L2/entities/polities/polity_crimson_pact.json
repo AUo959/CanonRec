@@ -70,8 +70,10 @@
     "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
     "ledger_key": "polity_crimson_pact",
     "claims_examined": 3,
+    "outcome": "enriched",
     "excluded": "None — all three claims contribute.",
     "pass": "Prose-Claim Ledger Reconciliation — polity_crimson_pact, 2026-09-01",
-    "recorded": "2026-09-01"
+    "recorded": "2026-09-01",
+    "outcome_backfilled": "Added 2026-09-01. This record was written before the outcome vocabulary existed; the value reflects what the record already contains, not a re-triage."
   }
 }

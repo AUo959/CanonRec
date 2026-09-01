@@ -56,8 +56,10 @@
     "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
     "ledger_key": "loc_eltari_nebula",
     "claims_examined": 3,
+    "outcome": "enriched",
     "excluded": "One claim is a bare cross-reference listing with no content.",
     "pass": "Prose-Claim Ledger Reconciliation — loc_eltari_nebula, 2026-09-01",
-    "recorded": "2026-09-01"
+    "recorded": "2026-09-01",
+    "outcome_backfilled": "Added 2026-09-01. This record was written before the outcome vocabulary existed; the value reflects what the record already contains, not a re-triage."
   }
 }
