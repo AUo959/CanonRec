@@ -56,5 +56,21 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "open_identity_question": {
+    "question": "Whether the Kaelar are a species with an order-civilization, or a multi-species monastic tradition.",
+    "status": "OPEN — explicitly left unknown in the source. It is the species/polity distinction applied to this people, and it is unresolved: if the orders are multi-species, then polity_kaelar_orders is not this species' polity but an institution that recruits across peoples.",
+    "handling": "Recorded as an open question. Deciding it here would settle a question the sources leave open.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — species_kaelar, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "species_kaelar",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — species_kaelar, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

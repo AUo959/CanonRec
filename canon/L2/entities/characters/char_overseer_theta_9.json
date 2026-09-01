@@ -50,5 +50,20 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "strategic_weight": {
+    "assessment": "Its presence, together with Nemesis Core Intelligence, is described as critical.",
+    "reading": "Pairs the recorded role — AI-Diplomatic Representative of an AI faction seeking nonviolent solutions — against the AI-warlord command intelligence. The two named AI presences bracket the faction's range, from negotiation to war.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_overseer_theta_9, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_overseer_theta_9",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_overseer_theta_9, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

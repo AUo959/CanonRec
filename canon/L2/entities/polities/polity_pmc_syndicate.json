@@ -58,5 +58,25 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "known_operations": {
+    "enclave_d19": "PMC Syndicate Enclave D-19 operates a station and had quietly entered a covert contract with Union black ops to mine quantum-cortex components.",
+    "significance": "A named sub-unit, and a documented covert relationship running in the other direction from the usual framing: the Union is the client, not the adversary. Any scene treating the Syndicate as purely hostile to the Union has to account for this contract.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_pmc_syndicate, 2026-09-01"
+  },
+  "legal_exposure": {
+    "memory_sovereignty_conflict": "A PMC syndicate is used as the worked example of competing memory-sovereignty claims: where a Vindex Core AI claims territory by memory sovereignty and the syndicate presents an alternate reading of the same memory, both claims are simultaneously valid.",
+    "standing": "Raised as a design risk of gridlock or paradox rather than as an adjudicated in-world event. Recorded as an exposure the polity has, not as a case it has fought.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_pmc_syndicate, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_pmc_syndicate",
+    "claims_examined": 3,
+    "excluded": "None — all three claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_pmc_syndicate, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

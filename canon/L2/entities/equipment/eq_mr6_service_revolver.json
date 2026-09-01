@@ -25,5 +25,22 @@
     "blunderbuss"
   ],
   "category": "heavy one-handed energy sidearm",
-  "notes": "Dual power cells, alternating discharge with audible metallic clank on cell switch-over; deliberate cadence; close-range concussive knockdown, surprising medium-range accuracy; defeats light armor, stresses heavier plating. Worn opposite the spade. Slang is unofficial by design (\"no sentimental nickname baked into doctrine\")."
+  "notes": "Dual power cells, alternating discharge with audible metallic clank on cell switch-over; deliberate cadence; close-range concussive knockdown, surprising medium-range accuracy; defeats light armor, stresses heavier plating. Worn opposite the spade. Slang is unofficial by design (\"no sentimental nickname baked into doctrine\").",
+  "character_and_slang": {
+    "character": "A duty hand cannon that happens to fire energy instead of lead — the sidearm reads as heavy and conventional despite its energy mechanism.",
+    "informal_names": "Casually referred to as a 'hand cannon' or a 'blunderbuss'.",
+    "standing": "These are in-world slang, not alternate designations — the same distinction already recorded for 'spade' on the Spatha Moderna. Recorded as informal usage rather than promoted to aliases.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — eq_mr6_service_revolver, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "eq_mr6_service_revolver",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — eq_mr6_service_revolver, 2026-09-01",
+    "recorded": "2026-09-01"
+  },
+  "updated_at": "2026-09-01"
 }

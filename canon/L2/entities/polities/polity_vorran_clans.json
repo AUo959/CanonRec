@@ -53,7 +53,7 @@
   },
   "dominant_species_id": "species_vorran",
   "multispecies": false,
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-09-01",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "STAGING Closure Reconciliation — aurora-canon-reconciler — 2026-08-09",
@@ -63,5 +63,20 @@
     "at": "2026-08-09",
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
+  },
+  "cultural_practice": {
+    "resonance_sculpture": "Massive sound-reactive sculptures built into Vorran cities, responding to the movement of passers-by.",
+    "reading": "Civic art that requires inhabitants to complete it — the work is silent without people in the street. A populated city sounds different from an empty one.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_vorran_clans, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_vorran_clans",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_vorran_clans, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

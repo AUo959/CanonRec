@@ -39,5 +39,22 @@
   ],
   "promotion_pass": "Judicator Prime Promotion Pass — Fleet Class Records — 2026-07-21",
   "locked_at": "2026-07-21T00:00:00Z",
-  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21)."
+  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21).",
+  "exemplar": {
+    "ship": "Khar'Thyrix, 'The Star-Eater' — an Outer Colony Leviathan-class dread-raider, named as the class exemplar.",
+    "functions": "Operates simultaneously as mobile fortress, fleet-coordination nexus, refugee habitat and regulated black-market hub.",
+    "modelling_note": "Sources classify vessels of this class as mobile locations — structures that function as places — and state that treating them as static is a known failure mode. That bears on placement: a dread-raider cannot take a fixed position without misrepresenting what it is.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_dreadraider, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "cls_dreadraider",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_dreadraider, 2026-09-01",
+    "recorded": "2026-09-01"
+  },
+  "updated_at": "2026-09-01"
 }

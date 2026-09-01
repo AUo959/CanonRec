@@ -24,7 +24,7 @@
   "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "notes": "Outer Colonies mobile fortress/refugee ship/black-market hub.",
   "placement_rule": "no_fixed_coordinates: mobile asset holds no map placement; position is asserted per-event with a canonical route/drive citation and validated at reconciliation (P2, FABRIC_INVARIANTS v0.1; RULING-FABRIC-SCHEMA 2026-07-21)",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-09-01",
   "class_entity_id": "cls_dreadraider",
   "derived_capabilities": {
     "basis": "Extrapolated from the vessel's canonical class (cls_dreadraider, Leviathan-Class Dread-raider) per the reconciliation principle: a vessel inherits its class's established role, features, and complement unless a vessel-specific source overrides.",
@@ -37,5 +37,20 @@
     ],
     "class_typical_complement": 5000
   },
-  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py)."
+  "identity_key_note": "entity_id added 2026-08-09 (canon-identity-key-unification). mobile_asset records historically keyed identity as canonical_id while the other 166 canon records use entity_id, so any tool indexing only entity_id silently skipped every vessel. Both keys hold the same value; canonical_id is retained for back-compat with readers that depend on it (e.g. tools/character_capsule_adapter.py).",
+  "narrative_standing": {
+    "assessment": "Assessed as structurally coherent and ideologically sharp, and as already behaving like a gravitational object inside L2 — pulling other material into its orbit.",
+    "standing": "Authorial assessment of the ship's weight in the setting, not an in-world fact. Recorded as such. It is consistent with the recorded role — mobile fortress, refugee ship and black-market hub at once — which is why it accumulates plot around it.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — vessel_oc_001, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "vessel_oc_001",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — vessel_oc_001, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

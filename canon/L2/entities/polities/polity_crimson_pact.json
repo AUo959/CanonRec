@@ -57,5 +57,21 @@
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "factional_position": {
+    "opposition": "Crimson Pact extremists are recorded in opposition to a separatist bloc that is itself supported by the separatist civilian populace.",
+    "reading": "The Pact is positioned against a popularly-backed separatist movement rather than against the Union directly — its antagonism runs sideways, into the separatist camp, not only outward.",
+    "agitation": "A Crimson Pact agitator is named as a figure who exploits division within the Velar Imperium storyline.",
+    "internal_variation": "Sources say 'extremists' and 'agitator' rather than naming the Pact wholesale, so a hardline faction within the Pact is attested; nothing here establishes that the whole polity holds that posture.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_crimson_pact, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_crimson_pact",
+    "claims_examined": 3,
+    "excluded": "None — all three claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_crimson_pact, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

@@ -37,14 +37,30 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "Marshals Charter Promotion Pass \u2014 2026-07-20",
+  "promotion_pass": "Marshals Charter Promotion Pass — 2026-07-20",
   "promotion_note": "Created 2026-07-20 at STAGING per owner ruling CL-13a: SHC is a distinct office from the Chief Marshal. This ruling renders the GUMAS_Factions.json anomaly coherent ('Sentinels' listed as GU substructure parallel to Union Marshals).",
   "locked_at": "2026-07-21T03:05:00Z",
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-09-01",
   "leadership_incumbent": {
     "name": "Grand Marshal Aric Thal",
     "source": "Silent Dagger mission lead, Sentinel-Praetor (LEDGER-MISSIONS-0001); deterministic selection rule Charter Art. V",
     "certainty": "CANON"
   },
-  "prev_certainty": "STAGING"
+  "prev_certainty": "STAGING",
+  "command_structure": {
+    "leadership": "Led by a Grand Marshal.",
+    "reporting": "Advises the Union Chancellor and Military High Command directly.",
+    "significance": "Consistent with char_aric_thal, recorded as Grand Marshal of Sentinel High Command. It also corroborates org_union_military_command as a distinct body: SHC advises Military High Command rather than being it, which is the separation this record's scoped jurisdiction already implies.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_sentinel_high_command, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_sentinel_high_command",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_sentinel_high_command, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

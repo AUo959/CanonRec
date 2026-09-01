@@ -53,7 +53,7 @@
   },
   "dominant_species_id": "species_elari",
   "multispecies": false,
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-09-01",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "STAGING Closure Reconciliation — aurora-canon-reconciler — 2026-08-09",
@@ -63,5 +63,20 @@
     "at": "2026-08-09",
     "from": "STAGING",
     "conflict_scan": "CLEAN — no name/alias collision; all structural references resolve; fabric linter clean"
+  },
+  "identity_model": {
+    "note": "Recorded as a species-homogeneous polity.",
+    "significance": "Species and polity are orthogonal dimensions in this corpus — a people is not a state. This is the case where they coincide, and the source marks it explicitly, which is why it is recorded rather than assumed from the shared name.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_elari_ascendancy, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_elari_ascendancy",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_elari_ascendancy, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

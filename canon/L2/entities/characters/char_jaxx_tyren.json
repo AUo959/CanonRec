@@ -47,5 +47,21 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "reputation": {
+    "character": "Chaotic and brutal.",
+    "base_of_support": "Beloved by Outer Colony militarists who reject imperial rule.",
+    "positioning": "Introduced as the stated rival of a Velar Imperium figure, which places the recorded role — Warlord of the Outer Colonies — in direct opposition to imperial authority rather than merely outside it. His support is ideological, not just territorial.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_jaxx_tyren, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_jaxx_tyren",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_jaxx_tyren, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

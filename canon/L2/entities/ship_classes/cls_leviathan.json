@@ -39,5 +39,21 @@
   ],
   "promotion_pass": "Judicator Prime Promotion Pass — Fleet Class Records — 2026-07-21",
   "locked_at": "2026-07-21T00:00:00Z",
-  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21)."
+  "notes": "Ship-class record created from the L2 GUMAS Ship Registry v1.0 (landed in CanonRec by this pass, RULING-SHIP-REGISTRY). typical_complement is the CLASS baseline and is APPROX; individual vessels may differ — where a vessel states its own crew figure, the vessel figure governs (RULING-JUDICATOR-CREW-COUNT, owner 2026-07-21).",
+  "exemplar": {
+    "ship": "Nemesis Prime — an AI-Warlord Leviathan Dreadnought, commanded by Nemesis Core Intelligence; a self-adaptive warship.",
+    "consistency": "Coheres with the recorded class role of primary command vessel and autonomous warfare. 'Self-adaptive' names the mechanism behind the recorded adaptive-evolution systems: the ship changes itself rather than being refitted.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_leviathan, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "cls_leviathan",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "One claim is a schema-conformance listing with a production prompt.",
+    "pass": "Prose-Claim Ledger Reconciliation — cls_leviathan, 2026-09-01",
+    "recorded": "2026-09-01"
+  },
+  "updated_at": "2026-09-01"
 }

@@ -45,5 +45,22 @@
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "terraforming_history": {
+    "transformation": "Once an ice world, now a thriving agricultural hub — a successful terraforming project.",
+    "contested": "Home to native species protests.",
+    "comparative": "Listed against failures and exploitation: Khalrix-3, where terraforming failed and left a toxic wasteland, and Draskor-9, under corporate control.",
+    "open_legal_question": "The protests imply either pre-sapient protection law or a sentient-rights conflict, and the source flags that a rule is needed for who counts as protected or sentient under the Galactic Legal Code. OPEN — no committed record establishes that test.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_velkaris_v, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_velkaris_v",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_velkaris_v, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

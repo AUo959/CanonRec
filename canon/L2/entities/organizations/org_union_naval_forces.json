@@ -28,7 +28,24 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "World Bible; core GU military arm. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "command": {
+    "commander": "Admiral Selene Arcturus commands all Union Naval Forces.",
+    "authority": "Determines fleet composition, readiness and large-scale deployments.",
+    "significance": "Names the powers of the office rather than only its holder. Composition and readiness sit with the naval commander, which makes this a force-generation authority as well as an operational one.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_naval_forces, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_union_naval_forces",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_union_naval_forces, 2026-09-01",
+    "recorded": "2026-09-01"
+  },
+  "updated_at": "2026-09-01"
 }

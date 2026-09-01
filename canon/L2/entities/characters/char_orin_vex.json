@@ -47,5 +47,20 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "political_posture": {
+    "stance": "Secretly opposed but not openly resisting — possibly maintaining neutrality while working behind the scenes.",
+    "significance": "Gives the office real content. A Vice Chancellor of the Galactic Union who is covertly opposed to the sitting administration is a standing internal fault line, and the hedge in the source ('possibly') is preserved rather than hardened into certainty.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_orin_vex, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_orin_vex",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_orin_vex, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

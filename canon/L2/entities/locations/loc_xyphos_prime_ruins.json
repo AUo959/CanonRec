@@ -56,7 +56,7 @@
   "locked_at": "2026-03-20T02:03:35Z",
   "builder_polity_id": "polity_orak_thuun",
   "notes": " Builder attribution (2026-07-21): Orak-Thuun (Celestial Engineers, polity_orak_thuun) precursor site — their technology still functions here.",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-09-01",
   "prev_canonical_position_status": "canon",
   "p1_downgrade": {
     "pass": "FABRIC P1 canon remediation — 2026-08-09",
@@ -69,5 +69,21 @@
     "scope_note": "This downgrades the PLACEMENT CLAIM only. The entity itself remains CANON; its attributes are unaffected. Placement re-promotes when the map-authority / Reconciliation Workflow §4.5 process supplies evidence (precedent: loc_vel_surak was downgraded 2026-07-21, then legitimately re-promoted when its map row was promoted).",
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
+  },
+  "ledger_corroboration": {
+    "attests": "Precursor builders with biomechanical bodies, fusing organic form with planetary-scale constructs, who vanished mysteriously while their technology kept functioning in abandoned systems — including the Hollow Expanse and the Xyphos Prime ruins.",
+    "against_canon": "Matches the existing Orak-Thuun builder attribution on this record and on loc_hollow_expanse. The claim independently pairs the same two sites under the same builders.",
+    "added": "Nothing.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_xyphos_prime_ruins, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_xyphos_prime_ruins",
+    "claims_examined": 1,
+    "outcome": "corroborated",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_xyphos_prime_ruins, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

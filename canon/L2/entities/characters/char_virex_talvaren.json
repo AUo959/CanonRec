@@ -28,7 +28,7 @@
   ],
   "promotion_pass": "Capsule-Only Entity-Record Closure — 2026-08-09",
   "locked_at": "2026-08-09T00:00:00Z",
-  "updated_at": "2026-08-09",
+  "updated_at": "2026-09-01",
   "notes": "Entity record created 2026-08-09 to close a structural gap: this character existed ONLY as a charforge capsule, with no entity record, while being referenced by entity records (e.g. vessel crew_ids / commanding_officer_id). It therefore dangled from the entity graph and was silently omitted by every tool that indexes entity records. Core fields derive from the capsule, which is the authoritative existing canon; nothing was invented.",
   "naming_exemption": {
     "type": "recovered_source",
@@ -39,5 +39,21 @@
     ]
   },
   "capsule_id": "virex_talvaren",
-  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"virex_talvaren\", while the record identity is \"char_virex_talvaren\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it."
+  "capsule_binding_note": "Explicit bridge between the two identifier namespaces. Relational fields across canon (crew_ids, commanding_officer_id, task_group_commander_id) refer to this entity by its CAPSULE id \"virex_talvaren\", while the record identity is \"char_virex_talvaren\". Before this field the two were connected only by stripping a prefix and hoping; tools/canon_reference_integrity.py now checks the bridge instead of guessing it.",
+  "attested_title": {
+    "title": "Lord Marshal Virex TalVaren.",
+    "consistency": "Sits alongside the recorded role, Supreme Military Commander of the Velar Imperium — a Velar style of address for the same office, not a competing appointment.",
+    "standing": "The attestation comes from a configuration file's default memory contexts and a simulation guide listing in-world NPC agents, so it evidences the title's use rather than an in-world event.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_virex_talvaren, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_virex_talvaren",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_virex_talvaren, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

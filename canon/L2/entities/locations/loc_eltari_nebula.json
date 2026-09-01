@@ -37,7 +37,7 @@
     ]
   },
   "anomaly_id": "anomaly_eltari_nexus",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-09-01",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Major Promotion Pass — 2026-07-21",
@@ -45,5 +45,19 @@
     "rule": "owner directive: promote all staged records that do not conflict with canon",
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
+  },
+  "navigational_character": {
+    "reputation": "Long considered a high-energy distortion zone, dangerous for ships.",
+    "why_it_matters": "Establishes that the nebula was avoided before the Nexus was found — the hazard is the reason the discovery came late, and the reason the region was not already claimed.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_eltari_nebula, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_eltari_nebula",
+    "claims_examined": 3,
+    "excluded": "One claim is a bare cross-reference listing with no content.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_eltari_nebula, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

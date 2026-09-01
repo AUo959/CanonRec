@@ -46,7 +46,7 @@
       "canon/L2/timeline/GUMAS_Galactic_Timeline_Detailed_Enhanced.json (First Civilization Expansion era: Velar-Harkon Wars, Nythran Cyber Uprising)"
     ]
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-09-01",
   "dominant_species_id": "species_harkoni",
   "multispecies": false,
   "peoplehood_note": "A STATE (government of the Harkoni), not the Harkoni people themselves. The Harkoni are internally divided (loyalists vs isolationists) and are not reducible to their government.",
@@ -58,5 +58,22 @@
     "rule": "owner directive: promote all staged records that do not conflict with canon",
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
+  },
+  "political_character": {
+    "type": "A martial state and isolationist power.",
+    "values": "Strategic planning, discipline and honour.",
+    "internal_division": "Divided internally over how far to engage with the Union — the isolationism is a contested position, not a settled consensus.",
+    "military_geography": "Maintains militaristic bastions. The sources state this generally; no individual Harkon outpost is named, so none is recorded.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_harkon_sovereignty, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_harkon_sovereignty",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_harkon_sovereignty, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

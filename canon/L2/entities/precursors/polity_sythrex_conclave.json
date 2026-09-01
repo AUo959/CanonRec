@@ -47,5 +47,23 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "precursor_profile": {
+    "epithet": "The Bio-Ascendants.",
+    "era": "5–7 million years ago.",
+    "traits": "Advanced bioengineers and ecosystem designers.",
+    "legacy": "Created seed vaults, uplifted primitive species, and engineered biospheres.",
+    "significance": "Uplift makes this precursor's legacy living rather than architectural — later species may be their work, which is a different kind of inheritance from ruins and derelict technology.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_sythrex_conclave, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_sythrex_conclave",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_sythrex_conclave, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

@@ -49,5 +49,21 @@
   },
   "capsule_id": "char_aric_thal",
   "capsule_binding_note": "Capsule directory and entity record share one identifier (\"char_aric_thal\"): this record is in the entity namespace on both sides. Recorded explicitly because the corpus also contains capsules named WITHOUT the kind prefix (e.g. \"alric_tann\" for char_alric_tann), so \"capsule id equals entity id\" is a fact about this record, not a rule that holds corpus-wide.",
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "ledger_corroboration": {
+    "attests": "Names him Commander Aric Thal, Sentinel-Praetor, and mission author/lead.",
+    "against_canon": "Matches this record as already written: the dual-role career is documented, 'Sentinel-Praetor' is already the sentinel_variant, and both 'Commander Aric Thal' and 'Grand Marshal Aric Thal' are already carried as aliases. The two ranks are career stages, not a contradiction.",
+    "added": "Nothing. Recorded as independent attestation.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_aric_thal, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_aric_thal",
+    "claims_examined": 2,
+    "outcome": "corroborated",
+    "excluded": "None — both claims corroborate.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_aric_thal, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

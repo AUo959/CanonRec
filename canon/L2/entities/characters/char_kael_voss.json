@@ -43,5 +43,21 @@
   },
   "capsule_id": "char_kael_voss",
   "capsule_binding_note": "Capsule directory and entity record share one identifier (\"char_kael_voss\"): this record is in the entity namespace on both sides. Recorded explicitly because the corpus also contains capsules named WITHOUT the kind prefix (e.g. \"alric_tann\" for char_alric_tann), so \"capsule id equals entity id\" is a fact about this record, not a rule that holds corpus-wide.",
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "operational_role": {
+    "variant_title": "Named as a Sentinel-Stalker.",
+    "activity": "Monitoring enemy communications.",
+    "consistency": "Matches the recorded role — Sentinel operative, comms and cyber. 'Sentinel-Stalker' names the variant behind that function, aligning him with the Sentinel variant vocabulary already used elsewhere in canon (Sentinel-Praetor, Sentinel-Vanguard).",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_kael_voss, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_kael_voss",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_kael_voss, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

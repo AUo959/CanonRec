@@ -49,5 +49,22 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "defection_and_end": {
+    "origin": "A former Union officer who betrayed his oath.",
+    "ambition": "Sought to unite the Outer Colony separatist factions under his own banner.",
+    "end": "Operation Phantom Eclipse succeeded completely, eliminating him before that unification could happen.",
+    "significance": "Explains the recorded role, Admiral (Separatist), as an arc rather than an allegiance: Union-trained, self-appointed unifier, killed pre-emptively. The separatist factions' continued disunity is a consequence of this operation.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — char_karn_vos, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "char_karn_vos",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — char_karn_vos, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

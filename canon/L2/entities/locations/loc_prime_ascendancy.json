@@ -43,5 +43,22 @@
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "civic_character": {
+    "status": "The Union capital.",
+    "population": "Hosts urban megacities where millions of species live together.",
+    "infrastructure": "Public infrastructure accommodates varied environmental needs — adjustable gravity, breathable-atmosphere zones, controlled temperature.",
+    "context": "Named among the core worlds alongside Vel-Surak (economic hub), Kaelor Prime (military command), GU-LOG-01 (industrial/fleet hub), ZY-TRADE-01 (Zyphari trade nexus), GU-FRONT-01 (frontier bastion) and VEL-BORDER-01 (Velar border world). The division is functional: capital, economy and military command sit on three different worlds.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_prime_ascendancy, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_prime_ascendancy",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_prime_ascendancy, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

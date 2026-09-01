@@ -46,5 +46,21 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "ledger_corroboration": {
+    "attests": "The Battle of Teraxis Prime, where outnumbered forces held off an invasion fleet, earning the commander the title 'The Iron Sentinel'.",
+    "against_canon": "Already recorded in this entry's notes, and attributed there to General Kael Durn. The second claim continues into Kael Durn's politics — his refusal to back a military candidate for Chancellor and the resulting friction with military high command — which is character material belonging to char_kael_durn, not to this site.",
+    "added": "Nothing. Recorded as independent attestation.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_teraxis_prime, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_teraxis_prime",
+    "claims_examined": 2,
+    "outcome": "corroborated",
+    "excluded": "One claim resolves to char_kael_durn rather than to this location.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_teraxis_prime, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

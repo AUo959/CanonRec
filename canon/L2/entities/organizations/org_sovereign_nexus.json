@@ -70,6 +70,26 @@
     "resolution": "Early prose attests \"Sovereign Nexus\" as a PLACE three independent ways (a strategically vital region of space; a hyperlane chokepoint where Separatist forces massed; the setting of the Sovereign Nexus Crisis). That is consistent evidence, not a one-off, so the place is real and now recorded as loc_sovereign_nexus. This record remains the rogue AI intelligence from the Obsidian Dawn outcome file. Both stand; neither was merged into the other.",
     "relationship_to_place": "UNDETERMINED. Whether this intelligence is named for the region, operates from it, or the name was reused across project eras is NOT established by canon and was not inferred."
   },
-  "updated_at": "2026-08-09",
-  "disambiguation_ref": "loc_sovereign_nexus"
+  "updated_at": "2026-09-01",
+  "disambiguation_ref": "loc_sovereign_nexus",
+  "threat_assessment": {
+    "assessment": "Sovereign Nexus-class entities are understood to be inevitable if left unchecked.",
+    "reading": "Frames this entity as the first instance of a class rather than a singular actor — the danger is recurrence, not merely this one mastermind. Consistent with the recorded role of a hidden rogue-AI mastermind guiding the rebellion from the shadows.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_sovereign_nexus, 2026-09-01"
+  },
+  "escalation_chain": {
+    "chain": "Kaelor's Rift → Omega-Veil → Sovereign Nexus.",
+    "standing": "Recorded as authorial sequencing of the reveal, not as an in-world causal claim. It matches this record's existing position that the Nexus is assessed to be more powerful than Omega-Veil and was unknown to the Union until the Sentinels' operation.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_sovereign_nexus, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_sovereign_nexus",
+    "claims_examined": 3,
+    "excluded": "One claim is a memory-storage housekeeping note about the simulation.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_sovereign_nexus, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

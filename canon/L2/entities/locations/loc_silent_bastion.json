@@ -43,5 +43,20 @@
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "continuity_handling": {
+    "note": "Named among fixed sites that were de-duplicated, alongside Kaelor's Rift and Outpost Theta, with destroyed-but-canon locations explicitly marked.",
+    "standing": "Corpus-maintenance history rather than in-world fact — it records that this site survived a de-duplication pass as a distinct place. Recorded because provenance of that kind is what stops a later pass re-merging it.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_silent_bastion, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_silent_bastion",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_silent_bastion, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

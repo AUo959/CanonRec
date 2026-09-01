@@ -48,7 +48,7 @@
       "archives/unzipped/ZIP_Archives/AU_Archive_330only/GUMAS_Extracted_Simulation_Modules.txt"
     ]
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-09-01",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Old-Prose Reconciliation — aurora-canon-reconciler process — 2026-07-21",
@@ -59,5 +59,20 @@
     "advisor_recommended_tag": "LOCKED_POSITION",
     "at": "2026-07-21"
   },
-  "placement_status_note": "Entity attributes are CANON (non-conflicting discovered detail). Absolute map COORDINATE remains unresolved and is routed to the map-authority / Reconciliation Workflow §4.5 process (no map-authority row yet); canonical_position_status stays 'unplaced' as a placement fact, not a certainty hedge."
+  "placement_status_note": "Entity attributes are CANON (non-conflicting discovered detail). Absolute map COORDINATE remains unresolved and is routed to the map-authority / Reconciliation Workflow §4.5 process (no map-authority row yet); canonical_position_status stays 'unplaced' as a placement fact, not a certainty hedge.",
+  "narrative_use": {
+    "scene": "Setting of 'Intercept at Orbitfall Station', an excerpt from 'Shadows Over Kaelor'.",
+    "consistency": "Coheres with the recorded description — a secure Union orbital facility above Kaelor Prime. A Kaelor-set storyline using the station above Kaelor Prime as an interception site is placement and plot agreeing.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_orbitfall_station, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_orbitfall_station",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_orbitfall_station, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

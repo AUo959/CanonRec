@@ -38,7 +38,7 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-09-01",
   "naming_exemption": {
     "type": "recovered_source",
     "reason": "Name \"Dyson Sphere Frontier\" preserved from cited map/source material (map-derived or salvaged referent).",
@@ -46,5 +46,21 @@
     "source_refs": [
       "canon/L2/map/gumas_l_2_galactic_map_source_of_truth.md"
     ]
+  },
+  "regional_profile": {
+    "features": "Two abandoned Dyson spheres in twin systems, lethal approach conditions, and derelict-choked orbital volumes.",
+    "occupants": "No sovereign state. Scavenger fleets and pirate confederations.",
+    "power_model": "Power in the region is leverage-based rather than territorial — there is no ground to hold, only access to control.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_zone_dyson_sphere_frontier, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_zone_dyson_sphere_frontier",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_zone_dyson_sphere_frontier, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

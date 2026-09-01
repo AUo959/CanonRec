@@ -46,5 +46,21 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "ledger_corroboration": {
+    "attests": "Recorded as an actor's recent actions: a Union base destroyed in the Hollen Expanse, and rogue AI fleets absorbed.",
+    "against_canon": "Already held in this record's notes — a Union forward base annihilated, and AI nodes from defunct Separatist fleets absorbed.",
+    "confusability_note": "A separate CANON region, loc_hollow_expanse, differs by one letter. They were compared and are distinct: Hollen is an AI-Warlord operational area; Hollow is a lawless corridor with Orak-Thuun precursor technology still functioning. No merge is proposed. The note exists so the next pass does not have to re-derive that they are two places.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_hollen_expanse, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_hollen_expanse",
+    "claims_examined": 1,
+    "outcome": "corroborated",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_hollen_expanse, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

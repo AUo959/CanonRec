@@ -45,5 +45,21 @@
     "detected_by": "aurora-canon-reconciler FABRIC P1 check (added 2026-08-09); previously invisible because tools/fabric_invariants_check.py is Velar-domain-scoped.",
     "at": "2026-08-09"
   },
-  "updated_at": "2026-08-09"
+  "updated_at": "2026-09-01",
+  "native_biology": {
+    "species": "The Ryn'kali are an endangered species native to Vaelos IV.",
+    "open_unknowns": "Biology, culture and language are undetermined, and whether Vaelos IV is their origin world or their sanctuary is explicitly left open in the source.",
+    "handling": "The unknowns are recorded as unknowns. 'Native to' and 'sanctuary' are materially different claims about the same world, and the source declines to choose; so does this record.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_vaelos_iv, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "loc_vaelos_iv",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — both claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — loc_vaelos_iv, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

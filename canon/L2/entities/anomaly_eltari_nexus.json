@@ -44,5 +44,26 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "phenomenology": {
+    "nature": "A naturally occurring quantum instability, not an artefact — spacetime folds into recursive energy loops.",
+    "effect": "The fold sustains itself, generating a self-sustaining energy flux described as a near-inexhaustible power source.",
+    "significance": "Natural origin matters: it makes the Nexus a discovery to be contested rather than a construction to be attributed, which is consistent with it being framed as a breakthrough find in the Eltari Nebula rather than as precursor engineering.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — anomaly_eltari_nexus, 2026-09-01"
+  },
+  "source_caveat": {
+    "caveat": "One passage in the same source states explicitly that it is not a historical record and is not evidence that the Eltari Nexus exists in canon.",
+    "handling": "Recorded rather than dropped. It does not negate this record — the entity is CANON on separate evidence — but it does mean that narrative excerpt carries no independent weight, and any later pass re-reading it should not treat it as attestation.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — anomaly_eltari_nexus, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "anomaly_eltari_nexus",
+    "claims_examined": 3,
+    "excluded": "None — all three claims are recorded, including the disclaimer.",
+    "pass": "Prose-Claim Ledger Reconciliation — anomaly_eltari_nexus, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

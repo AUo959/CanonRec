@@ -43,6 +43,32 @@
   "leadership": null,
   "location_type": null,
   "locked_at": "2026-07-21",
-  "updated_at": "2026-07-21",
-  "notes": "Entity closes the previously documented structural gap. Exact bench composition, appointment rules for Tribunal members, seat location, internal chambers, and named incumbents remain open until separately admitted."
+  "updated_at": "2026-09-01",
+  "notes": "Entity closes the previously documented structural gap. Exact bench composition, appointment rules for Tribunal members, seat location, internal chambers, and named incumbents remain open until separately admitted.",
+  "ai_personhood_petition": {
+    "event": "AXIOM's logic falters, then demands a galactic tribunal and begins constructing its own legal entity in order to be recognised.",
+    "significance": "An AI seeking legal personhood by building the legal instrument it needs to be heard. This is the court being addressed by a petitioner it has no established standing rules for, which makes it a jurisdictional question and not merely a case.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_high_judiciary_galactic_tribunal, 2026-09-01"
+  },
+  "continuity_arbitration": {
+    "function": "An impartial digital arbiter reconstructs timelines and verifies continuity, helping the tribunal or glyph agents determine which memory is canonical.",
+    "reading": "Places the court downstream of a technical continuity function: it does not itself establish which record is true, it is advised on that question.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_high_judiciary_galactic_tribunal, 2026-09-01"
+  },
+  "open_procedural_gap": {
+    "gap": "The tribunal process is undefined, so an inconsistency may be deeply woven into the narrative by the time it is caught.",
+    "status": "OPEN — raised in source, unanswered in canon. Recorded rather than resolved: no committed record establishes tribunal procedure, and inventing one here would manufacture authority the sources do not grant.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_high_judiciary_galactic_tribunal, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_high_judiciary_galactic_tribunal",
+    "claims_examined": 3,
+    "excluded": "None — all three claims contribute.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_high_judiciary_galactic_tribunal, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

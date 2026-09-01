@@ -41,7 +41,7 @@
   ],
   "distribution": "Present across the Galactic Union and the Zyphari trade sphere, including wealthy mercantile dynasties. Chancellor Zylox is Xenon and leads the Union — his species and his polity are orthogonal.",
   "identity_model_note": "Species = a people (biology + broad cultural origin). Membership is not bounded by any single polity/faction; see member_polities (non-exhaustive) and distribution.",
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-09-01",
   "prev_certainty": "STAGING",
   "promotion_to_canon": {
     "pass": "Major Promotion Pass — 2026-07-21",
@@ -49,5 +49,20 @@
     "rule": "owner directive: promote all staged records that do not conflict with canon",
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
+  },
+  "notable_member": {
+    "figure": "Zylox — Xenon, trade focus — won the election, though governing is noted as unlikely to be easy.",
+    "significance": "Anchors the species to a named officeholder and an electoral outcome, and matches the recorded species profile of heightened cognition, strategic foresight and commercial standing.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — species_xenon, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "species_xenon",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — species_xenon, 2026-09-01",
+    "recorded": "2026-09-01"
   }
 }

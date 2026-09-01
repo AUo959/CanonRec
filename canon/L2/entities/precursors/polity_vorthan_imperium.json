@@ -47,5 +47,22 @@
     "conflict_scan": "zero name/office collisions; fabric linter clean; position axis unchanged",
     "at": "2026-07-21"
   },
-  "updated_at": "2026-07-21"
+  "updated_at": "2026-09-01",
+  "precursor_profile": {
+    "era": "3–5 million years ago.",
+    "traits": "Cybernetic overlords; brutal imperialism.",
+    "legacy": "Ruled thousands of worlds, enforced through AI subjugation.",
+    "consistency": "Dates the recorded Fallen Conquerors and names the mechanism of control. AI subjugation as imperial method is notable given the setting's later AI conflicts — the precedent is ancient.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_vorthan_imperium, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "polity_vorthan_imperium",
+    "claims_examined": 1,
+    "outcome": "enriched",
+    "excluded": "None — the single claim is recorded.",
+    "pass": "Prose-Claim Ledger Reconciliation — polity_vorthan_imperium, 2026-09-01",
+    "recorded": "2026-09-01"
+  }
 }

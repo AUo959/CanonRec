@@ -26,7 +26,23 @@
   "location_type": null,
   "region_id": null,
   "canonical_position_status": null,
-  "promotion_pass": "L2 Full Promotion Pass \u2014 2026-03-19",
+  "promotion_pass": "L2 Full Promotion Pass — 2026-03-19",
   "promotion_note": "Mission log; named industrial org supporting Sentinel tech. CANON.",
-  "locked_at": "2026-03-20T02:03:35Z"
+  "locked_at": "2026-03-20T02:03:35Z",
+  "reputation": {
+    "in_world_assessment": "Praised in operator dialogue — 'Aegis Cybernetics has outdone themselves on this one' — spoken while briefing a mission against one of the most advanced AI warlords still in play.",
+    "reading": "Establishes it as a supplier whose equipment is fielded on top-tier operations, and whose output is good enough to be remarked on by the people carrying it. The praise is a character line, so it attests reputation rather than specification.",
+    "source": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "pass": "Prose-Claim Ledger Reconciliation — org_aegis_cybernetics, 2026-09-01"
+  },
+  "prose_ledger_triage": {
+    "ledger": "reports/recovery/data/prose_claim_ledger__2026-08-09.json",
+    "ledger_key": "org_aegis_cybernetics",
+    "claims_examined": 2,
+    "outcome": "enriched",
+    "excluded": "None — the two claims are overlapping captures of one passage.",
+    "pass": "Prose-Claim Ledger Reconciliation — org_aegis_cybernetics, 2026-09-01",
+    "recorded": "2026-09-01"
+  },
+  "updated_at": "2026-09-01"
 }
