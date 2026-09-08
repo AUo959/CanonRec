@@ -116,8 +116,15 @@ resolving.
 
 ## 6. Action items
 
-1. **Decide the Picard_Delta_3 / EOS_SEED_ORION merge strategy.** Open since 2026-03-01. Options are
-   defer-to-canon, supersede-canon, synthesize, or hold. Until then both entities stay `STAGING`.
+1. ~~**Decide the Picard_Delta_3 / EOS_SEED_ORION merge strategy.**~~ **No decision required — resolved
+   by existing policy on 2026-09-08.** This item was written as though a judgement call were pending.
+   It was not: `ORION.GOV.CANONPOLICY.0002` (authority ladder + file-cap rule),
+   `ORION.GOV.PRIMACY.L2.0001` (primacy tiers + promotion gate) and `ORION.ARCH.CONTRACT.0001`
+   (stable constants) already determine **defer to canon**, and the candidates fail the promotion
+   gate for naming nothing superseded. Both stay `STAGING`; no merge, promotion or canon edit
+   follows. See `DRIFT_LOG.md`, entry 2026-09-08.
+   *Method note:* the governing rules were in the repository the whole time. Reaching for a fresh
+   analysis before reading them is the error this item records.
 2. **Correct or ratify the Jorenon tag.** Either downgrade the candidate to `STAGING` to match its
    evidence, or record the owner approval that `CANON_PROMOTE` asserts. It should not sit at a tag
    whose definition is unmet.
