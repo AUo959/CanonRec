@@ -1,6 +1,6 @@
 # Canon Reconciliation Report
 **Date:** 2026-03-01T02:13:53.484730Z
-**Input:** /Users/travisstreets/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/echoes_benchmark_thread_meta_narrative_technical_report.md
+**Input:** ~/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Aurora_ORIONCORE_Directory_Main/GUMAS_SIM_2.5/echoes_benchmark_thread_meta_narrative_technical_report.md
 **Layer:** L3 (derived from unstructured technical report)
 **Entities processed:** 3
 
