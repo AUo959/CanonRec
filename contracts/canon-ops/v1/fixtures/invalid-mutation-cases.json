@@ -1,0 +1,38 @@
+{
+  "direct_canon_operation": {
+    "patch": {
+      "/operation": "create_canon"
+    },
+    "error": "/operation"
+  },
+  "direct_canon_state": {
+    "patch": {
+      "/targets/0/requested_state": "CANON"
+    },
+    "error": "/targets/0"
+  },
+  "cross_layer_source": {
+    "patch": {
+      "/sources/0/layer": "L3"
+    },
+    "error": "/sources/0/layer"
+  },
+  "cross_layer_canon_path": {
+    "patch": {
+      "/sources/0/path": "canon/L2/output.json"
+    },
+    "error": "/sources/0/layer"
+  },
+  "wrong_source_digest": {
+    "patch": {
+      "/sources/0/sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "error": "/sources/0/sha256"
+  },
+  "wrong_receipt_id": {
+    "patch": {
+      "/gate_receipts/evidence/receipt_id": "different"
+    },
+    "error": "/gate_receipts/evidence/receipt_id"
+  }
+}

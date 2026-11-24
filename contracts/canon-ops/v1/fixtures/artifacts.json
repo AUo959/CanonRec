@@ -1,0 +1,92 @@
+{
+  "Example/CanonRec": {
+    "canon/L1/station/chronicle/sample.json": {
+      "name": "ORION-EVENT-1"
+    },
+    "canon/L2/entities/mobile_assets/sample.json": {
+      "name": "VESSEL-GU-001"
+    },
+    "receipts/L1/evidence.json": {
+      "gate": "EVIDENCE",
+      "receipt_id": "evidence-l1",
+      "verdict": "PASS"
+    },
+    "receipts/L1/layer_integrity.json": {
+      "gate": "LAYER_INTEGRITY",
+      "receipt_id": "layer-integrity-l1",
+      "verdict": "PASS"
+    },
+    "receipts/L1/schema_validation.json": {
+      "gate": "SCHEMA_VALIDATION",
+      "receipt_id": "schema-validation-l1",
+      "verdict": "PASS"
+    },
+    "receipts/L1/identity_collision.json": {
+      "gate": "IDENTITY_COLLISION",
+      "receipt_id": "identity-collision-l1",
+      "verdict": "PASS"
+    },
+    "receipts/L1/authorization_approval.json": {
+      "gate": "AUTHORIZATION_APPROVAL",
+      "receipt_id": "authorization-approval-l1",
+      "verdict": "PASS"
+    },
+    "receipts/L1/final_reconciliation.json": {
+      "gate": "FINAL_RECONCILIATION",
+      "receipt_id": "final-reconciliation-l1",
+      "verdict": "PASS"
+    },
+    "receipts/L2/evidence.json": {
+      "gate": "EVIDENCE",
+      "receipt_id": "evidence-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/layer_integrity.json": {
+      "gate": "LAYER_INTEGRITY",
+      "receipt_id": "layer-integrity-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/schema_validation.json": {
+      "gate": "SCHEMA_VALIDATION",
+      "receipt_id": "schema-validation-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/identity_collision.json": {
+      "gate": "IDENTITY_COLLISION",
+      "receipt_id": "identity-collision-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/authorization_approval.json": {
+      "gate": "AUTHORIZATION_APPROVAL",
+      "receipt_id": "authorization-approval-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/final_reconciliation.json": {
+      "gate": "FINAL_RECONCILIATION",
+      "receipt_id": "final-reconciliation-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/naming.json": {
+      "gate": "NAMING",
+      "receipt_id": "naming-l2",
+      "verdict": "PASS"
+    },
+    "receipts/L2/deterministic_run.json": {
+      "gate": "DETERMINISTIC_RUN",
+      "receipt_id": "deterministic-run-l2",
+      "verdict": "PASS"
+    }
+  },
+  "Example/QGIA": {
+    "output/forecast-01.json": {
+      "record_id": "FORECAST-01",
+      "state": "STAGING"
+    }
+  },
+  "Example/GUMAS": {
+    "output/scenario-01.json": {
+      "record_id": "SCENARIO-01",
+      "state": "STAGING"
+    }
+  }
+}

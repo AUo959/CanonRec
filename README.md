@@ -37,6 +37,8 @@ as the sole machine-readable staff source of truth.
 - `canon/L3/`: protocols, validation contracts, and higher-layer governance.
 - `aurora-canon-reconciler/`: reconciliation skill, validators, schemas, and
   receipt templates.
+- [`contracts/canon-ops/v1/`](contracts/canon-ops/v1/README.md) contains the
+  bridge's versioned query, staging request, and gate receipt contracts.
 - `reports/`: deterministic reconciliation and governance receipts.
 - `CERTAINTY_TAGS.md`: certainty vocabulary used to distinguish CANON,
   STAGING, DRAFT, and related states.

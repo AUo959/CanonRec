@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aurora:canonrec:canon-ops:v1:gate-receipt-set",
+  "title": "Canon Operations GateReceiptSet",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "evidence": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    },
+    "layer_integrity": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    },
+    "schema_validation": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    },
+    "identity_collision": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    },
+    "authorization_approval": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    },
+    "final_reconciliation": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    },
+    "naming": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "receipt": {
+              "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+            }
+          },
+          "required": [
+            "receipt"
+          ]
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "exemption": {
+              "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+            }
+          },
+          "required": [
+            "exemption"
+          ]
+        }
+      ]
+    },
+    "deterministic_run": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/receipt_reference"
+    }
+  },
+  "required": [
+    "evidence",
+    "layer_integrity",
+    "schema_validation",
+    "identity_collision",
+    "authorization_approval",
+    "final_reconciliation"
+  ]
+}

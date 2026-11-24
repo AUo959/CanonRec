@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "query_id": "query-l2",
+  "layer": "L2",
+  "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "results": {
+    "canonical_facts": [
+      {
+        "kind": "vessel",
+        "record_id": "VESSEL-GU-001",
+        "certainty": "CANON",
+        "source": {
+          "repository": "Example/CanonRec",
+          "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "path": "canon/L2/entities/mobile_assets/sample.json",
+          "layer": "L2",
+          "sha256": "284f3bdfb71e742c8e31ea054fc25b50b4ad9f80bc217bc2a37e1039b3debd3f"
+        },
+        "data": {
+          "name": "VESSEL-GU-001"
+        }
+      }
+    ],
+    "operational_atoms": [],
+    "staging_material": [],
+    "assumptions": [],
+    "unknowns": []
+  },
+  "next_after": null
+}
