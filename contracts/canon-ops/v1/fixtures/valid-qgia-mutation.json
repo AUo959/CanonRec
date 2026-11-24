@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "request_id": "qgia-staging-1",
+  "submitter": {
+    "system": "QGIA",
+    "actor_id": "fixture-operator"
+  },
+  "layer": "L1",
+  "operation": "create_staging_claim",
+  "targets": [
+    {
+      "record_id": "FORECAST-01",
+      "kind": "forecast",
+      "layer": "L1",
+      "expected_state": null
+    }
+  ],
+  "sources": [
+    {
+      "repository": "Example/QGIA",
+      "commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "path": "output/forecast-01.json",
+      "layer": "L1",
+      "sha256": "50f6b114aaf50f90c3a828775628dfca5137971a2a9120e4715b1911e257caee"
+    }
+  ],
+  "approval": {
+    "state": "pending"
+  },
+  "execution_mode": "reference",
+  "gate_receipts": {
+    "evidence": {
+      "receipt_id": "evidence-l1",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L1/evidence.json",
+        "layer": "L1",
+        "sha256": "b213275660f3e225e679def638eacb05e60ad7c6d03a1336d85cab283426190e"
+      }
+    },
+    "layer_integrity": {
+      "receipt_id": "layer-integrity-l1",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L1/layer_integrity.json",
+        "layer": "L1",
+        "sha256": "0746daab0c9c6a1f3345f4ba5d5057c5f68414fcb8469faf066a996067901703"
+      }
+    },
+    "schema_validation": {
+      "receipt_id": "schema-validation-l1",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L1/schema_validation.json",
+        "layer": "L1",
+        "sha256": "9458880db674fbb71cb34a56ce59fb764d51ee9bed99b6f360c1aeb6c5bc00a2"
+      }
+    },
+    "identity_collision": {
+      "receipt_id": "identity-collision-l1",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L1/identity_collision.json",
+        "layer": "L1",
+        "sha256": "acc6c28f592cb7f480e78af30c62d7060747b46b4d60bfffc4110b2f1c2962a1"
+      }
+    },
+    "authorization_approval": {
+      "receipt_id": "authorization-approval-l1",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L1/authorization_approval.json",
+        "layer": "L1",
+        "sha256": "f0933bdeabbd6a27d23a2639186ce5819007e4d627aa2fc0790462431140c5c5"
+      }
+    },
+    "final_reconciliation": {
+      "receipt_id": "final-reconciliation-l1",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L1/final_reconciliation.json",
+        "layer": "L1",
+        "sha256": "67402339fccac2a5e3f61ae9dfdbb2e829377ee3708373c98b4c4fefc40bf708"
+      }
+    }
+  },
+  "content_hash": "feabcceb875fda051fbcecbbb26804e55967811b69ec31e0022255e1928ebe2e"
+}

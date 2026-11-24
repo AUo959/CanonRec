@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aurora:canonrec:canon-ops:v1:query-result",
+  "title": "CanonQueryResult",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "query_id": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+    },
+    "layer": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/layer"
+    },
+    "commit": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/git_oid"
+    },
+    "results": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "canonical_facts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        },
+        "operational_atoms": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        },
+        "staging_material": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/entry"
+          }
+        }
+      },
+      "required": [
+        "canonical_facts",
+        "operational_atoms",
+        "staging_material",
+        "assumptions",
+        "unknowns"
+      ]
+    },
+    "next_after": {
+      "oneOf": [
+        {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/cursor"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "version",
+    "query_id",
+    "layer",
+    "commit",
+    "results",
+    "next_after"
+  ],
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "record_id": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "certainty": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/certainty"
+        },
+        "source": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/artifact"
+        },
+        "data": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "kind",
+        "record_id",
+        "certainty",
+        "source",
+        "data"
+      ]
+    }
+  }
+}

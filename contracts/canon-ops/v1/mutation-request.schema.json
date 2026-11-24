@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aurora:canonrec:canon-ops:v1:mutation-request",
+  "title": "MutationRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "request_id": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+    },
+    "content_hash": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/sha256"
+    },
+    "submitter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "system": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "actor_id": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "relay_id": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        }
+      },
+      "required": [
+        "system",
+        "actor_id"
+      ]
+    },
+    "layer": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/layer"
+    },
+    "operation": {
+      "enum": [
+        "create_staging_claim",
+        "amend_staging_claim",
+        "supersede_staging_record",
+        "request_promotion_review",
+        "attach_outcome"
+      ]
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "record_id": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+          },
+          "kind": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+          },
+          "layer": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/layer"
+          },
+          "expected_state": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "revision": {
+                    "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/sha256"
+                  },
+                  "certainty": {
+                    "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/certainty"
+                  }
+                },
+                "required": [
+                  "revision",
+                  "certainty"
+                ]
+              }
+            ]
+          }
+        },
+        "required": [
+          "record_id",
+          "kind",
+          "layer",
+          "expected_state"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/artifact"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "enum": [
+            "pending",
+            "approved",
+            "rejected"
+          ]
+        },
+        "authority": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        }
+      },
+      "required": [
+        "state"
+      ]
+    },
+    "execution_mode": {
+      "enum": [
+        "reference",
+        "deterministic_simulation"
+      ]
+    },
+    "gate_receipts": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:gate-receipt-set"
+    }
+  },
+  "required": [
+    "version",
+    "request_id",
+    "content_hash",
+    "submitter",
+    "layer",
+    "operation",
+    "targets",
+    "sources",
+    "approval",
+    "execution_mode",
+    "gate_receipts"
+  ]
+}

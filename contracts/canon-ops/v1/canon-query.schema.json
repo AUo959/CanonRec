@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aurora:canonrec:canon-ops:v1:query",
+  "title": "CanonQuery",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "query_id": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+    },
+    "idempotency_key": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+    },
+    "layer": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/layer"
+    },
+    "commit": {
+      "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/git_oid"
+    },
+    "source_paths": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/repo_path"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entity_kinds": {
+          "type": "array",
+          "items": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "entity_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+              },
+              "target_id": {
+                "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+              }
+            },
+            "required": [
+              "kind",
+              "target_id"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "certainty_states": {
+          "type": "array",
+          "items": {
+            "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/certainty"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "since": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/timestamp"
+        },
+        "until": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/timestamp"
+        }
+      },
+      "required": []
+    },
+    "page": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000
+        },
+        "after": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/cursor"
+        }
+      },
+      "required": [
+        "limit"
+      ]
+    }
+  },
+  "required": [
+    "version",
+    "query_id",
+    "idempotency_key",
+    "layer",
+    "commit",
+    "source_paths",
+    "page"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "request_id": "gumas-staging-1",
+  "submitter": {
+    "system": "GUMAS",
+    "actor_id": "fixture-operator"
+  },
+  "layer": "L2",
+  "operation": "create_staging_claim",
+  "targets": [
+    {
+      "record_id": "SCENARIO-01",
+      "kind": "scenario",
+      "layer": "L2",
+      "expected_state": null
+    }
+  ],
+  "sources": [
+    {
+      "repository": "Example/GUMAS",
+      "commit": "cccccccccccccccccccccccccccccccccccccccc",
+      "path": "output/scenario-01.json",
+      "layer": "L2",
+      "sha256": "2b0968a824385c9fb58a3c8fbd9528c3e245267ab617b7ecec5954e5fd891ba6"
+    }
+  ],
+  "approval": {
+    "state": "pending"
+  },
+  "execution_mode": "deterministic_simulation",
+  "gate_receipts": {
+    "evidence": {
+      "receipt_id": "evidence-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/evidence.json",
+        "layer": "L2",
+        "sha256": "4a3185c4af8e34ba9da1f0453931b96b21d48bbcc9e44e2618d44233c1da5275"
+      }
+    },
+    "layer_integrity": {
+      "receipt_id": "layer-integrity-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/layer_integrity.json",
+        "layer": "L2",
+        "sha256": "299742e331ccb214b9b043a56b5a29d6b0bd8aa63022235ee4e9efb60688c879"
+      }
+    },
+    "schema_validation": {
+      "receipt_id": "schema-validation-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/schema_validation.json",
+        "layer": "L2",
+        "sha256": "f0f5f6745bc0e0fe2e3dbd10283aeef4503741f4548ebbb865c2af1ca2709876"
+      }
+    },
+    "identity_collision": {
+      "receipt_id": "identity-collision-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/identity_collision.json",
+        "layer": "L2",
+        "sha256": "5a2d9c92dfd53082e163207a5d2a98487ec64dcb39904660556e6ebec22d50cc"
+      }
+    },
+    "authorization_approval": {
+      "receipt_id": "authorization-approval-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/authorization_approval.json",
+        "layer": "L2",
+        "sha256": "bb2fb857b15052087140280011ce921bc7e051a0925a2d02713780c9ea0564bd"
+      }
+    },
+    "final_reconciliation": {
+      "receipt_id": "final-reconciliation-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/final_reconciliation.json",
+        "layer": "L2",
+        "sha256": "94bda8f03b89fe009f7fd2ce5a6905f050b273669341d61b5eeda19f8265d0c6"
+      }
+    },
+    "naming": {
+      "receipt": {
+        "receipt_id": "naming-l2",
+        "artifact": {
+          "repository": "Example/CanonRec",
+          "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "path": "receipts/L2/naming.json",
+          "layer": "L2",
+          "sha256": "7818ae52658fbd014c221a76439d790614e69fc55c1eb5f9697c143d570cbffb"
+        }
+      }
+    },
+    "deterministic_run": {
+      "receipt_id": "deterministic-run-l2",
+      "artifact": {
+        "repository": "Example/CanonRec",
+        "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "path": "receipts/L2/deterministic_run.json",
+        "layer": "L2",
+        "sha256": "fa7a3f08924920368cdf070079d3495c99f2a0c737d252b7ce1d6db2a8e29ce0"
+      }
+    }
+  },
+  "content_hash": "493ebcdcfc5fb0b4b24116e2727b9937afa4ba36861c3d05d32fd59057165527"
+}

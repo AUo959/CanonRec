@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "query_id": "query-l1",
+  "idempotency_key": "read-l1-1",
+  "layer": "L1",
+  "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "source_paths": [
+    "canon/L1/station/chronicle"
+  ],
+  "filters": {
+    "entity_kinds": [
+      "chronicle_atom"
+    ],
+    "entity_ids": [
+      "ORION-EVENT-1"
+    ]
+  },
+  "page": {
+    "limit": 2
+  }
+}

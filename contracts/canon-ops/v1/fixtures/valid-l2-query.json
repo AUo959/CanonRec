@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "query_id": "query-l2",
+  "idempotency_key": "read-l2-1",
+  "layer": "L2",
+  "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "source_paths": [
+    "canon/L2/entities/mobile_assets"
+  ],
+  "filters": {
+    "entity_kinds": [
+      "vessel"
+    ],
+    "entity_ids": [
+      "VESSEL-GU-001"
+    ]
+  },
+  "page": {
+    "limit": 2
+  }
+}

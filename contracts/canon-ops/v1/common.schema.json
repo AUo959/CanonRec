@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aurora:canonrec:canon-ops:v1:common",
+  "title": "Canon Operations common definitions",
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "layer": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3"
+      ]
+    },
+    "certainty": {
+      "enum": [
+        "CANON",
+        "CANON_PROMOTE",
+        "LOCKED_POSITION",
+        "PLACED",
+        "STAGING",
+        "UNCONFIRMED",
+        "LEGEND_CONTESTED",
+        "APPROX",
+        "SUPERSEDED"
+      ]
+    },
+    "git_oid": {
+      "type": "string",
+      "pattern": "^(?:[a-f0-9]{40}|[a-f0-9]{64})$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "repo_path": {
+      "type": "string",
+      "pattern": "^(?!/|.*(?:^|/)\\.{1,2}(?:/|$))(?:[^/\\\\\\u0000]+/)*[^/\\\\\\u0000]+$"
+    },
+    "repository": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "repository": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/repository"
+        },
+        "commit": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/git_oid"
+        },
+        "path": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/repo_path"
+        },
+        "layer": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/layer"
+        },
+        "sha256": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/sha256"
+        }
+      },
+      "required": [
+        "repository",
+        "commit",
+        "path",
+        "layer",
+        "sha256"
+      ]
+    },
+    "cursor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "collection": {
+          "enum": [
+            "canonical_facts",
+            "operational_atoms",
+            "staging_material",
+            "assumptions",
+            "unknowns"
+          ]
+        },
+        "kind": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "record_id": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "source_path": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/repo_path"
+        }
+      },
+      "required": [
+        "collection",
+        "kind",
+        "record_id",
+        "source_path"
+      ]
+    },
+    "receipt_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "receipt_id": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/identifier"
+        },
+        "artifact": {
+          "$ref": "urn:aurora:canonrec:canon-ops:v1:common#/$defs/artifact"
+        }
+      },
+      "required": [
+        "receipt_id",
+        "artifact"
+      ]
+    }
+  }
+}

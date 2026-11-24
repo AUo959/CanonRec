@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "query_id": "query-l1",
+  "layer": "L1",
+  "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "results": {
+    "canonical_facts": [],
+    "operational_atoms": [
+      {
+        "kind": "chronicle_atom",
+        "record_id": "ORION-EVENT-1",
+        "certainty": "CANON",
+        "source": {
+          "repository": "Example/CanonRec",
+          "commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "path": "canon/L1/station/chronicle/sample.json",
+          "layer": "L1",
+          "sha256": "b2c9cc1d911d24d35c01d15d821fd4a0365d127f6370fda486b8d4ef50558590"
+        },
+        "data": {
+          "name": "ORION-EVENT-1"
+        }
+      }
+    ],
+    "staging_material": [],
+    "assumptions": [],
+    "unknowns": []
+  },
+  "next_after": null
+}
