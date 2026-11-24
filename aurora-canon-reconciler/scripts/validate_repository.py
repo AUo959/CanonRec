@@ -17,6 +17,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 
+from timeline_json import FORMATS, format_timeline
+
 try:
     import yaml
 except ImportError:  # pragma: no cover - exercised through the CLI error path
@@ -62,6 +64,7 @@ def sha256_file(path: Path) -> str:
 
 def parse_data_files(repo_root: Path, files: Iterable[Path]) -> list[Finding]:
     findings: list[Finding] = []
+    parse_errors = (ValueError, yaml.YAMLError) if yaml else (ValueError,)
     for path in files:
         relative = display_path(path, repo_root)
         if not path.is_file():
@@ -73,7 +76,12 @@ def parse_data_files(repo_root: Path, files: Iterable[Path]) -> list[Finding]:
 
         try:
             if path.suffix == ".json":
-                json.loads(path.read_text(encoding="utf-8"))
+                raw = path.read_bytes().decode("utf-8")
+                payload = json.loads(raw)
+                if relative in FORMATS and raw != format_timeline(relative, payload):
+                    findings.append(
+                        Finding("timeline_json_format", relative, "timeline JSON differs from its committed format")
+                    )
             elif path.suffix == ".jsonl":
                 for line_number, line in enumerate(
                     path.read_text(encoding="utf-8").splitlines(), start=1
@@ -86,7 +94,7 @@ def parse_data_files(repo_root: Path, files: Iterable[Path]) -> list[Finding]:
                         "PyYAML is required; install requirements-dev.txt before validation"
                     )
                 list(yaml.safe_load_all(path.read_text(encoding="utf-8")))
-        except (UnicodeDecodeError, json.JSONDecodeError, yaml.YAMLError if yaml else ValueError) as exc:
+        except parse_errors as exc:
             findings.append(
                 Finding("parse_error", relative, f"{type(exc).__name__}: {exc}")
             )
