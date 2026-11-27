@@ -1,0 +1,117 @@
+{
+  "artifact_id": "GUMAS_L2_VISUAL_PROMPT_PACK_GALACTIC_UNION_SHIPS_v0.1",
+  "domain": "GUMAS_L2",
+  "faction": "galactic_union",
+  "version": "v0.1",
+  "date": "2026-07-21",
+  "certainty": "STAGING",
+  "canon_status": "not_promoted",
+  "required_asset_label": "VISUAL STAGING — NOT YET CANON",
+  "design_language_source": "canon/L2/visuals/GUMAS_L2__VISUAL_SYSTEM__GALACTIC_UNION_SHIP_DESIGN_LANGUAGE__v0.1__2026-07-21.md",
+  "shared_style": {
+    "civilization_signal": "mature multi-world institutional engineering",
+    "materials": [
+      "pale desaturated silver-gray low-gloss hull",
+      "graphite armor, sensor, engineering, and thermal-control regions",
+      "subtle replaceable panel variation"
+    ],
+    "markings": [
+      "restrained deep-blue Galactic Union identification bands",
+      "large readable registry identifiers",
+      "functional hazard markings around launch, docking, rescue, and engineering zones"
+    ],
+    "lighting": [
+      "sparse cool-white navigation and maintenance lighting",
+      "amber hazard lighting around active flight and engineering zones",
+      "minimal visible lighting on stealth vessels"
+    ],
+    "engineering_rules": [
+      "protected command spaces",
+      "distributed sensors and defensive nodes",
+      "modular maintainable construction",
+      "redundant mission-critical systems",
+      "readable dorsal and ventral orientation",
+      "mission-driven silhouette differentiation"
+    ],
+    "negative_constraints": [
+      "no recognizable commercial science-fiction franchise styling",
+      "no atmospheric wings",
+      "no exposed glass bridge",
+      "no fantasy ornament",
+      "no excessive spikes or fins",
+      "no continuous neon hull seams",
+      "no arbitrary surface noise obscuring function",
+      "no unrestricted autonomous strategic-weapons implication"
+    ]
+  },
+  "assets": [
+    {
+      "asset_id": "JP_THREE_VIEW_001",
+      "title": "G.U.S. Judicator Prime three-view concept sheet",
+      "vessel_id": "VESSEL-GU-001",
+      "class_id": "CLASS-JUDICATOR-01",
+      "certainty": "STAGING",
+      "source_records": [
+        "canon/L2/entities/mobile_assets/vessel_gu_001.json",
+        "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_FUNCTIONAL_ARCHITECTURE__v1.1__2026-07-21.md",
+        "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_PROPULSION_POWER__v1.0__2026-07-21.md",
+        "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_COMBAT_DEFENSE__v1.0__2026-07-21.md",
+        "canon/L2/operations/GUMAS_L2__SPEC__JUDICATOR_PRIME_CARRIER_EMBARKED_CRAFT__v1.0__2026-07-21.md"
+      ],
+      "prompt": "Create a high-detail professional spacecraft concept-art turnaround sheet for the G.U.S. Judicator Prime, a 2.1-kilometer Galactic Union Judicator-Class supercarrier and active flagship. Show exact orthographic port-side, dorsal, and forward views aligned to the same scale on a clean neutral technical-board background. The vessel has a massive armored axial citadel, two independent longitudinal carrier spines integrated along port and starboard midships, a deep ventral heavy-mission and logistics keel, a protected dorsal-forward command crown, separated aft drive assemblies representing dual FTL cores, modular ablative armor districts, distributed point-defense nodes, layered shield-emitter regions, recessed long-range plasma-lance architecture, multiple protected launch and recovery apertures, external docking collars, and extensive campaign-support infrastructure. The ship must look institutional, maintainable, redundant, human-commanded, and built by a mature multi-world civilization—not mystical, organic, ornamental, or franchise-derived. Pale desaturated silver-gray hull, graphite armor and sensor zones, restrained deep-blue Union identification bands, sparse cool-white navigation lighting, amber hazard lighting around flight operations. Include technical callouts, scale bars, registry VESSEL-GU-001, and a prominent label: VISUAL STAGING — NOT YET CANON. Hard-surface industrial science fiction, coherent engineering, realistic aerospace-carrier logic, no atmospheric wings, no exposed glass bridge, no excessive greebling, no glowing hull seams.",
+      "negative_prompt": "recognizable franchise ship, atmospheric airplane wings, exposed panoramic glass bridge, fantasy ornament, organic alien hull, excessive spikes, random greebling, continuous neon seams, single exposed engine, single giant hangar, tiny implied crew scale, illegible text, perspective view instead of orthographic views",
+      "required_views": [
+        "port-side orthographic",
+        "dorsal orthographic",
+        "forward orthographic"
+      ],
+      "staged_scale": {
+        "length_m": 2100,
+        "beam_m": 760,
+        "depth_m": 340,
+        "principal_decks_approx": 84
+      }
+    },
+    {
+      "asset_id": "GU_LINEUP_001",
+      "title": "Galactic Union five-ship scale lineup",
+      "certainty": "STAGING",
+      "source_records": [
+        "canon/L2/entities/mobile_assets/vessel_gu_001.json",
+        "canon/L2/entities/mobile_assets/vessel_gu_002.json",
+        "canon/L2/entities/mobile_assets/vessel_gu_003.json",
+        "canon/L2/entities/mobile_assets/vessel_gu_004.json",
+        "canon/L2/entities/mobile_assets/vessel_gu_006.json",
+        "canon/L2/entities/ship_classes/cls_sentinel.json",
+        "canon/L2/entities/ship_classes/cls_aegis.json",
+        "canon/L2/entities/ship_classes/cls_palisade.json",
+        "canon/L2/entities/ship_classes/cls_obsidian.json"
+      ],
+      "prompt": "Create a professional orthographic spacecraft scale-lineup sheet showing five Galactic Union vessels in exact side profile on a shared baseline and common scale grid. From largest to smallest: G.U.S. Judicator Prime, a 2.1-kilometer Judicator-Class supercarrier and flagship with a massive armored central citadel, paired longitudinal carrier spines, ventral mission keel, protected dorsal command crown, segmented armor, distributed point defense, recessed plasma-lance architecture, and separated dual-drive structures; G.U.S. Resolute Bastion, a broad Palisade-Class heavy carrier dominated by multiple protected hangars, autonomous repair infrastructure, and dense defensive turrets; G.U.S. Iron Vow, an armored Aegis-Class battlecruiser with strong axial long-range rail-cannon architecture, modular armor, and adaptive shield-emitter bands; G.U.S. Umbra Stalker, a compact Sentinel-Class special-operations ship with stealth surfaces, recessed deployment apertures, electronic-warfare architecture, and rapid-response drives; G.U.S. Specter's Wake, a narrow Obsidian-Class stealth destroyer with continuous faceted dark hull planes, retractable apertures, advanced ECM, heat-signature masking, and shielded propulsion. All vessels share a mature institutional Galactic Union design language: pale desaturated silver-gray hulls, graphite armor and sensor regions, restrained deep-blue identification bands, modular maintainable construction, protected command spaces, distributed systems, sparse cool-white lights, and no franchise-derived shapes. Include vessel names, IDs, class labels, approximate visual-staging lengths, human and small-craft scale references, and a prominent title: VISUAL STAGING — NOT YET CANON. Neutral technical-board background, clean hard-surface concept design, no atmospheric wings, no exposed glass bridges, no neon seams, no fantasy ornament, no excessive greebling.",
+      "negative_prompt": "recognizable franchise silhouettes, identical scaled hulls, atmospheric wings, exposed bridges, fantasy ornament, neon seams, excessive spikes, cinematic perspective distortion, missing scale grid, illegible labels",
+      "staged_lengths_m": {
+        "VESSEL-GU-001": 2100,
+        "VESSEL-GU-004": 1250,
+        "VESSEL-GU-003": 720,
+        "VESSEL-GU-002": 390,
+        "VESSEL-GU-006": 260
+      }
+    },
+    {
+      "asset_id": "GU_FORMATION_001",
+      "title": "Galactic Union five-ship cinematic formation",
+      "certainty": "STAGING",
+      "prompt": "Wide cinematic deep-space formation of five Galactic Union vessels using one coherent fleet design language while keeping each class unmistakably distinct. Center rear: the immense G.U.S. Judicator Prime supercarrier and flagship. Flanking it: the broad G.U.S. Resolute Bastion heavy carrier and the armored forward-firing G.U.S. Iron Vow battlecruiser. Forward screen: the compact covert G.U.S. Umbra Stalker special-operations vessel and the dark narrow G.U.S. Specter's Wake stealth destroyer. Pale silver-gray and graphite institutional hulls with restrained deep-blue Union markings; modular armor, protected command spaces, distributed defense, realistic drive separation, sparse functional lighting. Show meaningful scale differences and mission-driven silhouettes. No recognizable commercial science-fiction franchise styling, no atmospheric wings, no glass bridges, no bright neon hull seams, no ornamental spikes. Hard-surface cinematic realism. Asset remains VISUAL STAGING — NOT YET CANON.",
+      "negative_prompt": "recognizable franchise ships, identical silhouettes, incorrect relative scale, atmospheric aircraft wings, exposed glass bridges, fantasy ornament, neon hull seams, excessive lens flare, unreadable vessel forms"
+    }
+  ],
+  "review_gates": [
+    "silhouette role clarity",
+    "fleet family coherence without silhouette collapse",
+    "canon-anchor preservation",
+    "staging labels present",
+    "no unapproved exact specifications presented as canon",
+    "no franchise resemblance",
+    "functional redundancy and maintainability visible"
+  ]
+}
